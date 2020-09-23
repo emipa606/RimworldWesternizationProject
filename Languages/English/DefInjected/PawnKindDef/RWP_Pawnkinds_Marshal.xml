@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- (Marshal) Gunslinger -->
+
+  <RWP_Marshal_Gunslinger.label>deputy marshal</RWP_Marshal_Gunslinger.label>
+  <RWP_Marshal_Gunslinger.labelPlural>deputy marshals</RWP_Marshal_Gunslinger.labelPlural>
+
+
+  <!-- (Marshal) Rifleman -->
+
+  <RWP_Marshal_Rifleman.label>deputy marshal</RWP_Marshal_Rifleman.label>
+  <RWP_Marshal_Rifleman.labelPlural>deputy marshals</RWP_Marshal_Rifleman.labelPlural>
+
+
+  <!-- (Marshal) Sniper -->
+
+  <RWP_Marshal_Sniper.label>deputy marshal</RWP_Marshal_Sniper.label>
+  <RWP_Marshal_Sniper.labelPlural>deputy marshals</RWP_Marshal_Sniper.labelPlural>
+
+
+  <!-- (Marshal) Chief Marshal -->
+
+  <RWP_Marshal_Boss.label>Chief Marshal</RWP_Marshal_Boss.label>
+  <RWP_Marshal_Boss.labelPlural>Chief Marshals</RWP_Marshal_Boss.labelPlural>
+
+
+</LanguageData>

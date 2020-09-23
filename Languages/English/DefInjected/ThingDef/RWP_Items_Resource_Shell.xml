@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 12-pound Artillery Shell -->
+
+  <RWP_Shell_ExplosiveShell.label>12-pound artillery shell</RWP_Shell_ExplosiveShell.label>
+  <RWP_Shell_ExplosiveShell.description>A shell filled with high explosives. Can be fired from the Napoleon cannon or the Coehorn mortar. Explodes when damaged.</RWP_Shell_ExplosiveShell.description>
+
+  <RWP_Bullet_Shell_ExplosiveShell.label>12-pound artillery shell</RWP_Bullet_Shell_ExplosiveShell.label>
+
+
+</LanguageData>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- (Bandit) Recruit -->
+
+  <RWP_Bandit_Recruit.label>recruit</RWP_Bandit_Recruit.label>
+  <RWP_Bandit_Recruit.labelPlural>recruits</RWP_Bandit_Recruit.labelPlural>
+
+
+  <!-- (Bandit) Ruffian -->
+
+  <RWP_Bandit_Slasher.label>ruffian</RWP_Bandit_Slasher.label>
+  <RWP_Bandit_Slasher.labelPlural>ruffians</RWP_Bandit_Slasher.labelPlural>
+
+
+  <!-- (Bandit) Gunslinger -->
+
+  <RWP_Bandit_Gunslinger.label>gunslinger</RWP_Bandit_Gunslinger.label>
+  <RWP_Bandit_Gunslinger.labelPlural>gunslingers</RWP_Bandit_Gunslinger.labelPlural>
+
+
+  <!-- (Bandit) Rifleman -->
+
+  <RWP_Bandit_Rifleman.label>rifleman</RWP_Bandit_Rifleman.label>
+  <RWP_Bandit_Rifleman.labelPlural>riflemans</RWP_Bandit_Rifleman.labelPlural>
+
+
+  <!-- (Bandit) Sniper -->
+
+  <RWP_Bandit_Sniper.label>sniper</RWP_Bandit_Sniper.label>
+  <RWP_Bandit_Sniper.labelPlural>snipers</RWP_Bandit_Sniper.labelPlural>
+
+
+  <!-- (Bandit) Boss -->
+
+  <RWP_Bandit_Boss.label>gang leader</RWP_Bandit_Boss.label>
+  <RWP_Bandit_Boss.labelPlural>gang leaders</RWP_Bandit_Boss.labelPlural>
+
+
+</LanguageData>

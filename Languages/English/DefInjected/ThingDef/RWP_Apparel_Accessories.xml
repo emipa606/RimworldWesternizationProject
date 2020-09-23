@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pocket Watch -->
+
+  <RWP_Apparel_Pocketwatch.label>Pocketwatch</RWP_Apparel_Pocketwatch.label>
+  <RWP_Apparel_Pocketwatch.description>A charming little watch, useful for keeping time. Watches are difficult to make and hard to come by, so they sell for a good price.</RWP_Apparel_Pocketwatch.description>
+
+
+  <!-- Deputy Sheriff Badge -->
+
+  <RWP_Apparel_DeputySheriffBadge.label>Deputy Sheriff badge</RWP_Apparel_DeputySheriffBadge.label>
+  <RWP_Apparel_DeputySheriffBadge.description>A town deputy sheriff's badge. This law enforcement badge gives the wearer an air of authority, as well as more confidence during gunfights.</RWP_Apparel_DeputySheriffBadge.description>
+
+
+  <!-- Sheriff Badge -->
+
+  <RWP_Apparel_SheriffBadge.label>Sheriff badge</RWP_Apparel_SheriffBadge.label>
+  <RWP_Apparel_SheriffBadge.description>A town sheriff's badge. This law enforcement badge gives the wearer an air of authority, as well as more confidence during gunfights.</RWP_Apparel_SheriffBadge.description>
+
+
+  <!-- Deputy U.S. Marshal Badge -->
+
+  <RWP_Apparel_DeputyMarshalBadge.label>Deputy U.S. Marshal badge</RWP_Apparel_DeputyMarshalBadge.label>
+  <RWP_Apparel_DeputyMarshalBadge.description>A Deputy U.S. Marshal's badge. Only issued to members of the U.S. Marshal Service, this law enforcement badge represents justice itself in the lawless lands of the frontier.</RWP_Apparel_DeputyMarshalBadge.description>
+
+
+  <!-- Chief Marshal Badge -->
+
+  <RWP_Apparel_ChiefMarshalBadge.label>Chief U.S. Marshal badge</RWP_Apparel_ChiefMarshalBadge.label>
+  <RWP_Apparel_ChiefMarshalBadge.description>A Chief U.S. Marshal's badge. Worn only by the Chief U.S. Marshal, the head of the agency, this law enforcement badge represents justice itself in the lawless lands of the frontier.</RWP_Apparel_ChiefMarshalBadge.description>
+
+
+  <!-- Bandolier -->
+
+  <RWP_Apparel_Bandolier.label>bandolier</RWP_Apparel_Bandolier.label>
+  <RWP_Apparel_Bandolier.description>Belt designed for carrying ammunition. Makes reloading firearms faster.</RWP_Apparel_Bandolier.description>
+
+
+  <!-- Holster Belt with Chaps -->
+
+  <RWP_Apparel_Chaps.label>holster belt with chaps</RWP_Apparel_Chaps.label>
+  <RWP_Apparel_Chaps.description>All the fastest shots wear these. Increases draw speed with guns.</RWP_Apparel_Chaps.description>
+
+
+</LanguageData>

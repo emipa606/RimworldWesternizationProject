@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bandit Scarf -->
+
+  <RWP_Apparel_BanditScarf.label>bandit scarf</RWP_Apparel_BanditScarf.label>
+  <RWP_Apparel_BanditScarf.description>A scarf worn over the face to conceal one's identity. Due to it's association with outlaws, this scarf will hinder social impact.</RWP_Apparel_BanditScarf.description>
+
+
+  <!-- Desperado Hat -->
+
+  <RWP_Apparel_DesperadoHat.label>desperado hat</RWP_Apparel_DesperadoHat.label>
+  <RWP_Apparel_DesperadoHat.description>A stylish and elegant hat that is soft to the touch. Especially popular amongst outlaws, card cheats, and otherwise slippery individuals.</RWP_Apparel_DesperadoHat.description>
+
+
+  <!-- Paddy Hat -->
+
+  <RWP_Apparel_PaddyHat.label>paddy hat</RWP_Apparel_PaddyHat.label>
+  <RWP_Apparel_PaddyHat.description>Traveling merchants and rice paddy farmers would often protect themselves from the sun with hats like these. It has very oriental feel to it.</RWP_Apparel_PaddyHat.description>
+
+
+  <!-- Top Hat -->
+
+  <RWP_Apparel_TopHat.label>top hat</RWP_Apparel_TopHat.label>
+  <RWP_Apparel_TopHat.description>An elegant hat which gives the wearer a sophisticated look of importance. Improves social impact.</RWP_Apparel_TopHat.description>
+
+
+  <!-- Feathered Top Hat -->
+
+  <RWP_Apparel_FeatheredTopHat.label>feathered top hat</RWP_Apparel_FeatheredTopHat.label>
+  <RWP_Apparel_FeatheredTopHat.description>A striking feathered hat that has an air of grandeur. Improves social impact.</RWP_Apparel_FeatheredTopHat.description>
+
+
+  <!-- Kepi -->
+
+  <RWP_Apparel_Kepi.label>kepi</RWP_Apparel_Kepi.label>
+  <RWP_Apparel_Kepi.description>The most important piece of many a rebel army uniform. Designed to be worn on hot climates.</RWP_Apparel_Kepi.description>
+
+
+  <!-- Spectacles -->
+
+  <RWP_Apparel_Spectacles.label>spectacles</RWP_Apparel_Spectacles.label>
+  <RWP_Apparel_Spectacles.description>A pair of eyeglasses that make the user look slightly more intelligent. Can also improve vision.</RWP_Apparel_Spectacles.description>
+
+
+  <!-- Sombrero -->
+
+  <RWP_Apparel_Sombrero.label>sombrero</RWP_Apparel_Sombrero.label>
+  <RWP_Apparel_Sombrero.description>Keeps the sun off your eyes during siesta! Ay caramba!</RWP_Apparel_Sombrero.description>
+
+
+  <!-- Wanderer's Hat and Mask -->
+
+  <RWP_Apparel_Zorro.label>wanderer's hat and mask</RWP_Apparel_Zorro.label>
+  <RWP_Apparel_Zorro.description>This apparel is fashioned after the famed hat used by the legendary vigilante El Fox - 'En garde, noble foe! You cannot avoid justice- The vigilante justice!'</RWP_Apparel_Zorro.description>
+
+
+</LanguageData>

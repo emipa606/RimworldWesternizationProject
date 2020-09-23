@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Stablehand Trousers -->
+
+  <RWP_Apparel_StablehandTrousers.label>stablehand trousers</RWP_Apparel_StablehandTrousers.label>
+  <RWP_Apparel_StablehandTrousers.description>A pair of rugged trousers with suspenders. Useful for various types of farm labor.</RWP_Apparel_StablehandTrousers.description>
+
+
+  <!-- Gentleman's Pants -->
+
+  <RWP_Apparel_GentPants.label>gentleman's pants</RWP_Apparel_GentPants.label>
+  <RWP_Apparel_GentPants.description>A very stylish pair of dress pants. Pairs perfectly with a waistcoat.</RWP_Apparel_GentPants.description>
+
+
+  <!-- Patchwork Pants -->
+
+  <RWP_Apparel_PatchworkPants.label>patchwork pants</RWP_Apparel_PatchworkPants.label>
+  <RWP_Apparel_PatchworkPants.description>A very crude and ugly pair of pants.</RWP_Apparel_PatchworkPants.description>
+
+
+  <!-- Jeans -->
+
+  <RWP_Apparel_Jeans.label>jeans</RWP_Apparel_Jeans.label>
+  <RWP_Apparel_Jeans.description>A pair of sturdy pants reinforced with copper rivets. Designed for working in the fields or in the mine.</RWP_Apparel_Jeans.description>
+
+
+  <!-- Prairie Skirt -->
+
+  <RWP_Apparel_PrairieSkirt.label>prairie skirt</RWP_Apparel_PrairieSkirt.label>
+  <RWP_Apparel_PrairieSkirt.description>An American style of skirt popular with pioneer women in the Old West.</RWP_Apparel_PrairieSkirt.description>
+
+
+  <!-- Fringe Pants -->
+
+  <RWP_Apparel_LeatherPants.label>fringe pants</RWP_Apparel_LeatherPants.label>
+  <RWP_Apparel_LeatherPants.description>A pair of leather or hide pants with a fringe trim. Based on clothing worn by Native Americans, this style of pants were popular with frontiersmen for their warmth and durability.</RWP_Apparel_LeatherPants.description>
+
+
+  <!-- Overalls -->
+
+  <RWP_Apparel_Overalls.label>overalls</RWP_Apparel_Overalls.label>
+  <RWP_Apparel_Overalls.description>Plain pocketed overalls designed to make working more convenient. Not particularily stylish.</RWP_Apparel_Overalls.description>
+
+
+</LanguageData>
