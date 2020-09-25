@@ -104,7 +104,8 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>650</damageAmountBase>
       <soundExplode>MortarBomb_Explode</soundExplode>
-      <armorPenetrationBase>1.457</armorPenetrationBase>
+      <armorPenetrationSharp>50</armorPenetrationSharp>
+      <armorPenetrationBlunt>80</armorPenetrationBlunt>
     </projectile>
     <comps>
       <li Class="CombatExtended.CompProperties_ExplosiveCE">
@@ -157,7 +158,8 @@
       <damageAmountBase>39</damageAmountBase>
       <pelletCount>27</pelletCount>
       <spreadMult>71.6</spreadMult>
-      <armorPenetrationBase>0.566</armorPenetrationBase>
+      <armorPenetrationSharp>3.5</armorPenetrationSharp>
+      <armorPenetrationBlunt>20</armorPenetrationBlunt>
     </projectile>
   </ThingDef>
   <!-- ==================== Recipes ========================== -->

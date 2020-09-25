@@ -65,7 +65,8 @@
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <speed>70</speed>
       <damageAmountBase>15</damageAmountBase>
-      <armorPenetrationBase>0.33</armorPenetrationBase>
+      <armorPenetrationSharp>2</armorPenetrationSharp>
+      <armorPenetrationBlunt>11.440</armorPenetrationBlunt>
     </projectile>
   </ThingDef>
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base45LongColtBullet">
@@ -74,7 +75,8 @@
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <speed>85</speed>
       <damageAmountBase>18</damageAmountBase>
-      <armorPenetrationBase>0.388</armorPenetrationBase>
+      <armorPenetrationSharp>4</armorPenetrationSharp>
+      <armorPenetrationBlunt>11.440</armorPenetrationBlunt>
     </projectile>
   </ThingDef>
   <!-- ==================== Recipes ========================== -->

@@ -59,7 +59,8 @@
     <label>.50-70 Government (BP)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>27</damageAmountBase>
-      <armorPenetrationBase>0.523</armorPenetrationBase>
+      <armorPenetrationSharp>4</armorPenetrationSharp>
+      <armorPenetrationBlunt>38.480</armorPenetrationBlunt>
     </projectile>
   </ThingDef>
   <!-- ==================== Recipes ========================== -->
