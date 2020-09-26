@@ -64,6 +64,7 @@
       <TradePriceImprovement>-0.15</TradePriceImprovement>
       <NegotiationAbility>-0.15</NegotiationAbility>
       <ToxicSensitivity>-0.15</ToxicSensitivity>
+      <EquipDelay>0.9</EquipDelay>
     </equippedStatOffsets>
     <generateCommonality>0.005</generateCommonality>
     <apparel>
@@ -118,6 +119,7 @@
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.9</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <NegotiationAbility>0.25</NegotiationAbility>
@@ -176,6 +178,7 @@
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.9</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <PlantWorkSpeed>0.10</PlantWorkSpeed>
@@ -401,6 +404,7 @@
       <WorkToMake>10000</WorkToMake>
       <Mass>0.01</Mass>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <EquipDelay>0.5</EquipDelay>
     </statBases>
     <generateCommonality>0.00001</generateCommonality>
     <equippedStatOffsets>
@@ -517,6 +521,7 @@
       <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.9</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.20</SocialImpact>

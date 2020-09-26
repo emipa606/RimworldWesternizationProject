@@ -30,6 +30,7 @@
       <Steel>15</Steel>
       <Gold>15</Gold>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <EquipDelay>0.7</EquipDelay>
     </costList>
     <thingCategories>
       <li>Apparel</li>
@@ -85,6 +86,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>5000</WorkToMake>
       <Beauty>1</Beauty>
+      <EquipDelay>0.7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.02</AimingDelayFactor>
@@ -130,6 +132,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>6000</WorkToMake>
       <Beauty>2</Beauty>
+      <EquipDelay>0.7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.05</AimingDelayFactor>
@@ -168,6 +171,7 @@
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>25000</WorkToMake>
       <Beauty>1</Beauty>
+      <EquipDelay>0.7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.05</AimingDelayFactor>
@@ -206,6 +210,7 @@
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>25000</WorkToMake>
       <Beauty>3</Beauty>
+      <EquipDelay>0.7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.2</AimingDelayFactor>
@@ -247,6 +252,7 @@
     <statBases>
       <Mass>0.10</Mass>
       <WorkToMake>4000</WorkToMake>
+      <EquipDelay>1.2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.07</AimingDelayFactor>
@@ -296,6 +302,7 @@
       <Mass>0.2</Mass>
       <WorkToMake>8000</WorkToMake>
       <EquipDelay>2</EquipDelay>
+      <EquipDelay>1.2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.02</AimingDelayFactor>

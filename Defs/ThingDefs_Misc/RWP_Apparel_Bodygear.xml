@@ -24,6 +24,7 @@
       <Mass>0.10</Mass>
       <MarketValue>200</MarketValue>
       <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+      <EquipDelay>2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MedicalTendQuality>0.10</MedicalTendQuality>
@@ -80,6 +81,7 @@
       <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
       <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <EquipDelay>2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <GeneralLaborSpeed>0.15</GeneralLaborSpeed>
@@ -128,6 +130,7 @@
       <Mass>0.04</Mass>
       <WorkToMake>4000</WorkToMake>
       <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+      <EquipDelay>2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
@@ -184,6 +187,7 @@
       <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <TradePriceImprovement>0.15</TradePriceImprovement>
@@ -236,6 +240,7 @@
       <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.90</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
     </statBases>
     <generateCommonality>1</generateCommonality>
     <apparel>
@@ -285,6 +290,7 @@
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <NegotiationAbility>0.04</NegotiationAbility>
@@ -337,6 +343,7 @@
       <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.13</SocialImpact>
