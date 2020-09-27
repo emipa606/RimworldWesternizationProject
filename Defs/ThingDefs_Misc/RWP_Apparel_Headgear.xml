@@ -58,13 +58,13 @@
       <Mass>0.05</Mass>
       <WorkToMake>1000</WorkToMake>
       <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <EquipDelay>0.9</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>-0.15</SocialImpact>
       <TradePriceImprovement>-0.15</TradePriceImprovement>
       <NegotiationAbility>-0.15</NegotiationAbility>
       <ToxicSensitivity>-0.15</ToxicSensitivity>
-      <EquipDelay>0.9</EquipDelay>
     </equippedStatOffsets>
     <generateCommonality>0.005</generateCommonality>
     <apparel>

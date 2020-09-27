@@ -30,7 +30,6 @@
       <Steel>15</Steel>
       <Gold>15</Gold>
       <ComponentIndustrial>1</ComponentIndustrial>
-      <EquipDelay>0.7</EquipDelay>
     </costList>
     <thingCategories>
       <li>Apparel</li>
@@ -40,6 +39,7 @@
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>25000</WorkToMake>
       <Beauty>5</Beauty>
+      <EquipDelay>0.7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MentalBreakThreshold>-0.1</MentalBreakThreshold>
@@ -301,7 +301,6 @@
     <statBases>
       <Mass>0.2</Mass>
       <WorkToMake>8000</WorkToMake>
-      <EquipDelay>2</EquipDelay>
       <EquipDelay>1.2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
