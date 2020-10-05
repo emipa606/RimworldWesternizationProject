@@ -68,6 +68,16 @@
     </naturalColonyGoodwill>
     <!-- ====== Faction Groups ====== -->
     <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <RWP_Town_Townsperson>6</RWP_Town_Townsperson>
+          <RWP_Town_Socialite>2</RWP_Town_Socialite>
+          <RWP_Town_Sniper>2</RWP_Town_Sniper>
+          <RWP_Town_Rifleman>4</RWP_Town_Rifleman>
+          <RWP_Town_Gunslinger>4</RWP_Town_Gunslinger>
+        </options>
+      </li>
       <!-- Trading Group -->
       <li>
         <kindDef>Trader</kindDef>

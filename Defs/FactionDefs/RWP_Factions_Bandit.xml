@@ -60,6 +60,16 @@
     </naturalColonyGoodwill>
     <!-- ====== Faction Groups ====== -->
     <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <RWP_Bandit_Recruit>5</RWP_Bandit_Recruit>
+          <RWP_Bandit_Sniper>2</RWP_Bandit_Sniper>
+          <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
+          <RWP_Bandit_Slasher>3</RWP_Bandit_Slasher>
+          <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
+        </options>
+      </li>
       <!-- Small Scale Tier 1 Attack -->
       <li>
         <kindDef>Combat</kindDef>
