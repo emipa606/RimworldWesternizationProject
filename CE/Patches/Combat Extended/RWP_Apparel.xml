@@ -3,7 +3,7 @@
   <!-- ==================== Accessories ================================ -->
   <!-- Bandolier -->
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName = "RWP_Apparel_Bandolier"]/equippedStatOffsets/AimingDelayFactor</xpath>
+    <xpath>Defs/ThingDef[defName = "RWP_Apparel_Bandolier"]/equippedStatOffsets/AimingDelayFactor</xpath>
     <value>
       <CarryBulk>5</CarryBulk>
       <ReloadSpeed>0.05</ReloadSpeed>
@@ -11,7 +11,7 @@
   </Operation>
   <!-- Chaps with Holsters -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="RWP_Apparel_Chaps"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_Chaps"]/statBases</xpath>
     <value>
       <Bulk>3</Bulk>
       <WornBulk>1</WornBulk>
@@ -20,7 +20,7 @@
   <!-- ==================== Bodywear ================================ -->
   <!-- Surgeon's Apron -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="RWP_Apparel_MedicalApron"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_MedicalApron"]/statBases</xpath>
     <value>
       <Bulk>3</Bulk>
       <WornBulk>1</WornBulk>
@@ -28,7 +28,7 @@
   </Operation>
   <!-- Leather Apron -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="RWP_Apparel_LeatherApron"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_LeatherApron"]/statBases</xpath>
     <value>
       <Bulk>3</Bulk>
       <WornBulk>1</WornBulk>
@@ -36,7 +36,7 @@
   </Operation>
   <!-- Cloth Apron -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="RWP_Apparel_ClothApron"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_ClothApron"]/statBases</xpath>
     <value>
       <Bulk>3</Bulk>
       <WornBulk>1</WornBulk>
@@ -44,28 +44,21 @@
   </Operation>
   <!-- Trader coat -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="RWP_Apparel_TraderCoat"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_TraderCoat"]/statBases</xpath>
     <value>
       <Bulk>15</Bulk>
       <WornBulk>3</WornBulk>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "RWP_Apparel_TraderCoat"]/equippedStatOffsets</xpath>
+    <xpath>Defs/ThingDef[defName = "RWP_Apparel_TraderCoat"]/equippedStatOffsets</xpath>
     <value>
       <CarryBulk>50</CarryBulk>
       <ReloadSpeed>0.05</ReloadSpeed>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "RWP_Apparel_TraderCoat"]/apparel/layers</xpath>
-    <value>
-      <li>Belt</li>
-    </value>
-  </Operation>
-  <!-- Poncho -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="RWP_Apparel_Poncho"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_Poncho"]/statBases</xpath>
     <value>
       <Bulk>5</Bulk>
       <WornBulk>1</WornBulk>
@@ -73,7 +66,7 @@
   </Operation>
   <!-- Longcoat -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="RWP_Apparel_Longcoat"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_Longcoat"]/statBases</xpath>
     <value>
       <Bulk>8</Bulk>
       <WornBulk>3</WornBulk>
@@ -81,7 +74,7 @@
   </Operation>
   <!-- Waistcoat -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="RWP_Apparel_Waistcoat"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_Waistcoat"]/statBases</xpath>
     <value>
       <Bulk>3</Bulk>
       <WornBulk>1</WornBulk>
@@ -90,7 +83,7 @@
   <!-- ==================== Pants ================================ -->
   <!-- Prairie Skirt -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="RWP_Apparel_PrairieSkirt"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_PrairieSkirt"]/statBases</xpath>
     <value>
       <Bulk>3</Bulk>
       <WornBulk>1</WornBulk>
@@ -98,7 +91,7 @@
   </Operation>
   <!-- Overalls -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="RWP_Apparel_Overalls"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_Overalls"]/statBases</xpath>
     <value>
       <Bulk>5</Bulk>
       <WornBulk>1</WornBulk>

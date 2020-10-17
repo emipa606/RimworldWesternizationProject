@@ -2,7 +2,7 @@
 <Patch>
   <!-- ========== RWP Vanilla Tags  ========== -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="Apparel_CowboyHat"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_CowboyHat"]/apparel/tags</xpath>
     <value>
       <li>RWPWesternWear</li>
       <li>RWPBanditWear</li>
@@ -12,11 +12,11 @@
   <Operation Class="PatchOperationSequence">
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>*/ThingDef[defName="Apparel_BowlerHat"]/apparel/tags</xpath>
+        <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel/tags</xpath>
         <success>Invert</success>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName="Apparel_BowlerHat"]/apparel</xpath>
+        <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel</xpath>
         <value>
           <tags />
         </value>
@@ -24,7 +24,7 @@
     </operations>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="Apparel_BowlerHat"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel/tags</xpath>
     <value>
       <li>RWPWesternWear</li>
       <li>RWPBanditWear</li>
@@ -32,7 +32,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="Apparel_Pants"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_Pants"]/apparel/tags</xpath>
     <value>
       <li>RWPWesternWear</li>
       <li>RWPBanditWear</li>
@@ -40,14 +40,14 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="Apparel_BasicShirt"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_BasicShirt"]/apparel/tags</xpath>
     <value>
       <li>RWPWesternWear</li>
       <li>RWPBanditWear</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="Apparel_CollarShirt"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_CollarShirt"]/apparel/tags</xpath>
     <value>
       <li>RWPWesternWear</li>
       <li>RWPBanditWear</li>
@@ -56,7 +56,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="Apparel_Duster"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_Duster"]/apparel/tags</xpath>
     <value>
       <li>RWPWesternWear</li>
       <li>RWPBanditWear</li>
@@ -64,7 +64,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="Apparel_Jacket"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_Jacket"]/apparel/tags</xpath>
     <value>
       <li>RWPWesternWear</li>
       <li>RWPBanditWear</li>

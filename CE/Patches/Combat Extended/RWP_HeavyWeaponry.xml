@@ -2,7 +2,7 @@
 <Patch>
   <!-- ========== Model 1881 Gatling Gun ========== -->
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName="TurretGun_M1881Gatling"]/thingClass</xpath>
+    <xpath>Defs/ThingDef[defName="TurretGun_M1881Gatling"]/thingClass</xpath>
     <value>
       <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
     </value>

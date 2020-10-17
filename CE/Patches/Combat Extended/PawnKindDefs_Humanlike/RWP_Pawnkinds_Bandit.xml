@@ -2,7 +2,7 @@
 <Patch>
   <!-- ==== (Bandit) Recruit ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Bandit_Recruit"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Bandit_Recruit"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -14,7 +14,7 @@
   </Operation>
   <!-- ==== (Bandit) Gunslinger ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Bandit_Gunslinger"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Bandit_Gunslinger"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -26,7 +26,7 @@
   </Operation>
   <!-- ==== (Bandit) Rifleman ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Bandit_Rifleman"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Bandit_Rifleman"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -38,7 +38,7 @@
   </Operation>
   <!-- ==== (Bandit) Sniper ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Bandit_Sniper"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Bandit_Sniper"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -50,7 +50,7 @@
   </Operation>
   <!-- ==== (Bandit) Boss ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Bandit_Boss"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Bandit_Boss"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>

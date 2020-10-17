@@ -2,7 +2,7 @@
 <Patch>
   <!-- ========== Pioneer Town Base ========== -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/TraderKindDef[defName="RWP_Base_Town_Standard"]/stockGenerators</xpath>
+    <xpath>Defs/TraderKindDef[defName="RWP_Base_Town_Standard"]/stockGenerators</xpath>
     <value>
       <li Class="StockGenerator_Tag">
         <tradeTag>CE_Ammo</tradeTag>
@@ -27,7 +27,7 @@
   <!-- ========== Pioneer Town Caravan ========== -->
   <!-- General Goods Trader -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/TraderKindDef[defName="RWP_Caravan_BulkGoods"]/stockGenerators</xpath>
+    <xpath>Defs/TraderKindDef[defName="RWP_Caravan_BulkGoods"]/stockGenerators</xpath>
     <value>
       <li Class="StockGenerator_Tag">
         <tradeTag>CE_Ammo</tradeTag>
@@ -51,7 +51,7 @@
   </Operation>
   <!-- Gunsmith Trader -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/TraderKindDef[defName="RWP_Caravan_Combat"]/stockGenerators</xpath>
+    <xpath>Defs/TraderKindDef[defName="RWP_Caravan_Combat"]/stockGenerators</xpath>
     <value>
       <li Class="StockGenerator_Tag">
         <tradeTag>CE_Ammo</tradeTag>

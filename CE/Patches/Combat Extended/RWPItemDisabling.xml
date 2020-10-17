@@ -3,6 +3,6 @@
   <!-- ========== Item Disabling ========== -->
   <!-- 12-pound Artillery Shell -->
   <Operation Class="PatchOperationRemove">
-    <xpath>*/ThingDef[defName="RWP_Shell_ExplosiveShell"]</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Shell_ExplosiveShell"]</xpath>
   </Operation>
 </Patch>

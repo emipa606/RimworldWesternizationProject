@@ -2,7 +2,7 @@
 <Patch>
   <!-- ==== (Town) Townsperson ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Town_Townsperson"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Town_Townsperson"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -14,7 +14,7 @@
   </Operation>
   <!-- ==== (Town) Socialite ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Town_Socialite"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Town_Socialite"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -26,7 +26,7 @@
   </Operation>
   <!-- ==== (Town) Trader ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Town_Trader"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Town_Trader"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -38,7 +38,7 @@
   </Operation>
   <!-- ==== (Town) Caravan Guard ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Town_Guard"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Town_Guard"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -50,7 +50,7 @@
   </Operation>
   <!-- ==== (Town) Gunslinger ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Town_Gunslinger"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Town_Gunslinger"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -62,7 +62,7 @@
   </Operation>
   <!-- ==== (Town) Rifleman ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Town_Rifleman"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Town_Rifleman"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -74,7 +74,7 @@
   </Operation>
   <!-- ==== (Town) Sniper ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Town_Sniper"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Town_Sniper"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -86,7 +86,7 @@
   </Operation>
   <!-- ==== (Town) Town Sheriff ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Town_Boss"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Town_Boss"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>

@@ -2,7 +2,7 @@
 <Patch>
   <!-- ==== (Marshal) Gunslinger ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Marshal_Gunslinger"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Marshal_Gunslinger"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -14,7 +14,7 @@
   </Operation>
   <!-- ==== (Marshal) Rifleman ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Marshal_Rifleman"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Marshal_Rifleman"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -26,7 +26,7 @@
   </Operation>
   <!-- ==== (Marshal) Sniper ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Marshal_Sniper"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Marshal_Sniper"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>
@@ -38,7 +38,7 @@
   </Operation>
   <!-- ==== (Marshal) Chief Marshal ==== -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>*/PawnKindDef[defName="RWP_Marshal_Boss"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="RWP_Marshal_Boss"]</xpath>
     <value>
       <li Class="CombatExtended.LoadoutPropertiesExtension">
         <primaryMagazineCount>

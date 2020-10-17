@@ -3,24 +3,24 @@
   <!-- ========== RWP Artillery Base ========== -->
   <!-- Patch base -->
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[@Name = "RWPArtilleryBuilding"]/thingClass</xpath>
+    <xpath>Defs/ThingDef[@Name = "RWPArtilleryBuilding"]/thingClass</xpath>
     <value>
       <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[@Name = "RWPArtilleryBuilding"]/building/turretBurstCooldownTime</xpath>
+    <xpath>Defs/ThingDef[@Name = "RWPArtilleryBuilding"]/building/turretBurstCooldownTime</xpath>
     <value>
       <turretBurstCooldownTime>2</turretBurstCooldownTime>
     </value>
   </Operation>
   <Operation Class="PatchOperationRemove">
-    <xpath>*/ThingDef[@Name = "RWPArtilleryBuilding"]/inspectorTabs</xpath>
+    <xpath>Defs/ThingDef[@Name = "RWPArtilleryBuilding"]/inspectorTabs</xpath>
   </Operation>
   <!-- ========== Coehorn Mortar Gun ========== -->
   <!-- Patch weapon -->
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "RWP_Gun_CoehornMortar"]</xpath>
+    <xpath>Defs/ThingDef[defName = "RWP_Gun_CoehornMortar"]</xpath>
     <value>
       <statBases>
         <SightsEfficiency>0.5</SightsEfficiency>
@@ -43,13 +43,13 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "RWP_Gun_CoehornMortar"]/weaponTags</xpath>
+    <xpath>Defs/ThingDef[defName = "RWP_Gun_CoehornMortar"]/weaponTags</xpath>
     <value>
       <li>TurretGun</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName = "RWP_Gun_CoehornMortar"]/verbs</xpath>
+    <xpath>Defs/ThingDef[defName = "RWP_Gun_CoehornMortar"]/verbs</xpath>
     <value>
       <verbs>
         <li Class="CombatExtended.VerbPropertiesCE">
@@ -159,18 +159,18 @@
   </Operation>
   <!-- ========== Coehorn Mortar Building ========== -->
   <Operation Class="PatchOperationRemove">
-    <xpath>*/ThingDef[defName="RWP_Building_CoehornMortar"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar"]/comps</xpath>
   </Operation>
   <!-- Add trade tags -->
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>*/ThingDef[defName="RWP_Building_CoehornMortar"]/tradeTags</xpath>
+        <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar"]/tradeTags</xpath>
         <success>Invert</success>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName="RWP_Building_CoehornMortar"]</xpath>
+        <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar"]</xpath>
         <value>
           <tradeTags />
         </value>
@@ -178,7 +178,7 @@
     </operations>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="RWP_Building_CoehornMortar"]/tradeTags</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar"]/tradeTags</xpath>
     <value>
       <li>CE_Turret</li>
     </value>

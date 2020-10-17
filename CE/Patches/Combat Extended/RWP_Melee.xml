@@ -3,7 +3,7 @@
   <!-- ========== Bowie Knife ========== -->
   <!-- Patch stats -->
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName="MeleeWeapon_BowieKnife"]/tools</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife"]/tools</xpath>
     <value>
       <tools>
         <li Class="CombatExtended.ToolCE">
@@ -43,13 +43,13 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="MeleeWeapon_BowieKnife"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife"]/statBases</xpath>
     <value>
       <Bulk>2</Bulk>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="MeleeWeapon_BowieKnife"]</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife"]</xpath>
     <value>
       <equippedStatOffsets>
         <MeleeCritChance>0.35</MeleeCritChance>
@@ -62,11 +62,11 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>*/ThingDef[defName="MeleeWeapon_BowieKnife"]/weaponTags</xpath>
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife"]/weaponTags</xpath>
         <success>Invert</success>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName="MeleeWeapon_BowieKnife"]</xpath>
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife"]</xpath>
         <value>
           <weaponTags />
         </value>
@@ -74,7 +74,7 @@
     </operations>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="MeleeWeapon_BowieKnife"]/weaponTags</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_BowieKnife"]/weaponTags</xpath>
     <value>
       <li>CE_Sidearm_Melee</li>
       <li>CE_OneHandedWeapon</li>
@@ -83,7 +83,7 @@
   <!-- ========== Model 1840 Heavy Cavalry Saber ========== -->
   <!-- Patch stats -->
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName="MeleeWeapon_M1840Saber"]/tools</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_M1840Saber"]/tools</xpath>
     <value>
       <tools>
         <li Class="CombatExtended.ToolCE">
@@ -123,13 +123,13 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="MeleeWeapon_M1840Saber"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_M1840Saber"]/statBases</xpath>
     <value>
       <Bulk>7</Bulk>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="MeleeWeapon_M1840Saber"]</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_M1840Saber"]</xpath>
     <value>
       <equippedStatOffsets>
         <MeleeCritChance>0.85</MeleeCritChance>
@@ -142,11 +142,11 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>*/ThingDef[defName="MeleeWeapon_M1840Saber"]/weaponTags</xpath>
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_M1840Saber"]/weaponTags</xpath>
         <success>Invert</success>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName="MeleeWeapon_M1840Saber"]</xpath>
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_M1840Saber"]</xpath>
         <value>
           <weaponTags />
         </value>
@@ -154,7 +154,7 @@
     </operations>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="MeleeWeapon_M1840Saber"]/weaponTags</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_M1840Saber"]/weaponTags</xpath>
     <value>
       <li>CE_OneHandedWeapon</li>
     </value>
@@ -162,7 +162,7 @@
   <!-- ========== Model 1860 Light Cavalry Saber ========== -->
   <!-- Patch stats -->
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName="MeleeWeapon_M1860Saber"]/tools</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_M1860Saber"]/tools</xpath>
     <value>
       <tools>
         <li Class="CombatExtended.ToolCE">
@@ -202,13 +202,13 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="MeleeWeapon_M1860Saber"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_M1860Saber"]/statBases</xpath>
     <value>
       <Bulk>6</Bulk>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="MeleeWeapon_M1860Saber"]</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_M1860Saber"]</xpath>
     <value>
       <equippedStatOffsets>
         <MeleeCritChance>0.65</MeleeCritChance>
@@ -221,11 +221,11 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>*/ThingDef[defName="MeleeWeapon_M1860Saber"]/weaponTags</xpath>
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_M1860Saber"]/weaponTags</xpath>
         <success>Invert</success>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName="MeleeWeapon_M1860Saber"]</xpath>
+        <xpath>Defs/ThingDef[defName="MeleeWeapon_M1860Saber"]</xpath>
         <value>
           <weaponTags />
         </value>
@@ -233,7 +233,7 @@
     </operations>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName="MeleeWeapon_M1860Saber"]/weaponTags</xpath>
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_M1860Saber"]/weaponTags</xpath>
     <value>
       <li>CE_OneHandedWeapon</li>
     </value>
