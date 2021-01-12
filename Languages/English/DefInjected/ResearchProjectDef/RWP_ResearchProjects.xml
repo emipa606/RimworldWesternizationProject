@@ -1,34 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Firearm Tech -->
-
   <RWP_FallingBlock.label>falling-block mechanism</RWP_FallingBlock.label>
   <RWP_FallingBlock.description>Unlocks the ability to manufacture falling-block action firearms.</RWP_FallingBlock.description>
-
   <RWP_LeverAction.label>lever action mechanism</RWP_LeverAction.label>
   <RWP_LeverAction.description>Unlocks the ability to manufacture lever action firearms.</RWP_LeverAction.description>
-
   <RWP_Artillery.label>Artillery</RWP_Artillery.label>
   <RWP_Artillery.description>Unlocks the ability to manufacture the 12-pounder Napoleon cannon and the 12-pound Coehorn mortar.</RWP_Artillery.description>
-
   <RWP_GatlingGun.label>Gatling Gun</RWP_GatlingGun.label>
   <RWP_GatlingGun.description>Unlocks the ability to manufacture the Model 1881 Gatling gun.</RWP_GatlingGun.description>
-
-
   <!-- Apparel Tech -->
-
   <RWP_WesternApparel.label>Old West apparel</RWP_WesternApparel.label>
   <RWP_WesternApparel.description>Unlocks the ability to manufacture various advanced western apparel.</RWP_WesternApparel.description>
-
   <RWP_Watchmaking.label>watchmaking</RWP_Watchmaking.label>
   <RWP_Watchmaking.description>Unlocks the ability to manufacture pocketwatches.</RWP_Watchmaking.description>
-
   <RWP_LawEnforcement.label>law enforcement</RWP_LawEnforcement.label>
   <RWP_LawEnforcement.description>Unlocks the ability to manufacture and issue town law enforcement badges.</RWP_LawEnforcement.description>
-
   <RWP_Optometry.label>Basic optometry</RWP_Optometry.label>
   <RWP_Optometry.description>Unlocks the ability to manufacture spectacles.</RWP_Optometry.description>
-
-
 </LanguageData>

@@ -1,22 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Cannon -->
-
   <RWP_Building_Cannon.label>12-pounder Napoleon cannon</RWP_Building_Cannon.label>
   <RWP_Building_Cannon.description>The 12-pounder Napoleon, also known as the "Canon de l’Empereur", was a smoothbore cannon developed by France in 1853. Popular with both sides of the American Civil War, the Napoleon was capable of firing ball, shell, and canister shot, thus making it versatile enough to replace nearly all previous field guns of the day.</RWP_Building_Cannon.description>
-
   <RWP_Gun_Cannon.label>12-pounder Napoleon cannon</RWP_Gun_Cannon.label>
   <RWP_Gun_Cannon.description>A 12-pounder Napoleon cannon attached to wagon-wheeled mount.</RWP_Gun_Cannon.description>
-
-
   <!-- Coehorn Mortar -->
-
   <RWP_Building_CoehornMortar.label>12-pound Coehorn mortar</RWP_Building_CoehornMortar.label>
   <RWP_Building_CoehornMortar.description>The Coehorn mortar, named for it's Dutch inventor Baron Menno van Coehorn, was a small muzzle-loading mortar mounted on a block or platform with handles. This particular variant is the 12-pound Coehorn mortar, which was popular with the Confederacy during the American Civil War, and was capable of firing a 12 pound, 121 mm projectile over 1,200 yards.</RWP_Building_CoehornMortar.description>
-
   <RWP_Gun_CoehornMortar.label>12-pound Coehorn mortar</RWP_Gun_CoehornMortar.label>
   <RWP_Gun_CoehornMortar.description>A 12-pound Coehorn mortar mounted on a four-handled mortar bed.</RWP_Gun_CoehornMortar.description>
-
-
 </LanguageData>

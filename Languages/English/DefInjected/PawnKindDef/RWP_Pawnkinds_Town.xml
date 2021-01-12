@@ -1,52 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- (Town) Townsperson -->
-
   <RWP_Town_Townsperson.label>townsperson</RWP_Town_Townsperson.label>
   <RWP_Town_Townsperson.labelPlural>townspersons</RWP_Town_Townsperson.labelPlural>
-
-
   <!-- (Town) Socialite -->
-
   <RWP_Town_Socialite.label>socialite</RWP_Town_Socialite.label>
   <RWP_Town_Socialite.labelPlural>socialites</RWP_Town_Socialite.labelPlural>
-
-
   <!-- (Town) Trader -->
-
   <RWP_Town_Trader.label>caravan merchant</RWP_Town_Trader.label>
   <RWP_Town_Trader.labelPlural>caravan merchants</RWP_Town_Trader.labelPlural>
-
-
   <!-- (Town) Caravan Guard -->
-
   <RWP_Town_Guard.label>caravan guard</RWP_Town_Guard.label>
   <RWP_Town_Guard.labelPlural>caravan guards</RWP_Town_Guard.labelPlural>
-
-
   <!-- (Town) Gunslinger -->
-
   <RWP_Town_Gunslinger.label>deputy sheriff</RWP_Town_Gunslinger.label>
   <RWP_Town_Gunslinger.labelPlural>deputy sheriffs</RWP_Town_Gunslinger.labelPlural>
-
-
   <!-- (Town) Rifleman -->
-
   <RWP_Town_Rifleman.label>deputy sheriff</RWP_Town_Rifleman.label>
   <RWP_Town_Rifleman.labelPlural>deputy sheriffs</RWP_Town_Rifleman.labelPlural>
-
-
   <!-- (Town) Sniper -->
-
   <RWP_Town_Sniper.label>deputy sheriff</RWP_Town_Sniper.label>
   <RWP_Town_Sniper.labelPlural>deputy sheriffs</RWP_Town_Sniper.labelPlural>
-
-
   <!-- (Town) Town Sheriff -->
-
   <RWP_Town_Boss.label>Town Sheriff</RWP_Town_Boss.label>
   <RWP_Town_Boss.labelPlural>Town Sheriffs</RWP_Town_Boss.labelPlural>
-
-
 </LanguageData>

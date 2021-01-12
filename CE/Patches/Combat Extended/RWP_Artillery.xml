@@ -43,7 +43,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName = "RWP_Gun_CoehornMortar"]/weaponTags</xpath>
+    <xpath>Defs/ThingDef[defName = "RWP_Gun_CoehornMortar" or defName = "RWP_Building_Cannon"]/weaponTags</xpath>
     <value>
       <li>TurretGun</li>
     </value>
@@ -107,7 +107,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName = "RWP_Building_Cannon"]</xpath>
+    <xpath>Defs/ThingDef[defName = "RWP_Gun_Cannon"]</xpath>
     <value>
       <!-- ================== Napoleon Cannon Gun ================== -->
       <ThingDef ParentName="BaseTurretGun">
@@ -159,18 +159,18 @@
   </Operation>
   <!-- ========== Coehorn Mortar Building ========== -->
   <Operation Class="PatchOperationRemove">
-    <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar" or defName = "RWP_Building_Cannon"]/comps</xpath>
   </Operation>
   <!-- Add trade tags -->
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar"]/tradeTags</xpath>
+        <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar" or defName = "RWP_Building_Cannon"]/tradeTags</xpath>
         <success>Invert</success>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar"]</xpath>
+        <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar" or defName = "RWP_Building_Cannon"]</xpath>
         <value>
           <tradeTags />
         </value>
@@ -178,7 +178,7 @@
     </operations>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar"]/tradeTags</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Building_CoehornMortar" or defName = "RWP_Building_Cannon"]/tradeTags</xpath>
     <value>
       <li>CE_Turret</li>
     </value>

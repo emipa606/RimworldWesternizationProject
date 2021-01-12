@@ -1,17 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- RWP Town Base Class -->
-
   <RWP_Faction_Town_Core.pawnsPlural>townspeople</RWP_Faction_Town_Core.pawnsPlural>
-
-
   <!-- RWP Town Faction -->
-
   <RWP_Faction_Town.label>Frontier town</RWP_Faction_Town.label>
   <RWP_Faction_Town.description>Frontier towns are settlements on the edge of civilization, and are under constant threat from bandit gangs and hostile native tribes. Law and order in these areas are upheld by the town sheriff, and they are mostly made up of good, honest folk who are just trying to carve out a new life in a new land.</RWP_Faction_Town.description>
   <RWP_Faction_Town.pawnsPlural>townspeople</RWP_Faction_Town.pawnsPlural>
   <RWP_Faction_Town.leaderTitle>Town Sheriff</RWP_Faction_Town.leaderTitle>
-
-
 </LanguageData>
