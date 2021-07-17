@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Rimworld Westernization Project (Continued)</name>
   <packageId>Mlie.RimworldWesternizationProject</packageId>
@@ -86,9 +86,9 @@ Scenarios
 Suggested Load Order:
 
 1. Core
-2. Rimworld Westernization Project
-3. [url=https://steamcommunity.com/workshop/filedetails/?id=960196012]Combat Extended[/url] (Optional, but highly recommended. RWP was originally created with Combat Extended in mind, so you could say it's the way it was meant to be played.)
-4. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1386157873]Rimworld Westernization Project + Combat Extended Compatibility Mod[/url] (Optional: Use if you intend to play with both Rimworld Westernization Project and Combat Extended together.)
+2. [url=https://steamcommunity.com/workshop/filedetails/?id=960196012]Combat Extended[/url] (Optional, but highly recommended. RWP was originally created with Combat Extended in mind, so you could say it&apos;s the way it was meant to be played.)
+3. Rimworld Westernization Project
+[strike]4. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1386157873]Rimworld Westernization Project + Combat Extended Compatibility Mod[/url] (Optional: Use if you intend to play with both Rimworld Westernization Project and Combat Extended together.)[/strike]
 5. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1394392968]Steam World[/url] (Optional: Use if you want to give your game a 19th century setting.)
 
 If you have any feedback or ideas, please feel free to leave us a comment on the Steam Workshop or the Ludeon Forums.
@@ -103,7 +103,20 @@ Mod Logo: Mzxs
 
 Links
 
-[url=https://www.youtube.com/playlist?list=PLkr09O8z61-q1TXrrtc0xQrg_5cLsvZGU]RWP Let's Play Series by Xwynns[/url]
+[url=https://www.youtube.com/playlist?list=PLkr09O8z61-q1TXrrtc0xQrg_5cLsvZGU]RWP Let&apos;s Play Series by Xwynns[/url]
 [url=https://ludeon.com/forums/index.php?topic=41578.0]Ludeon Forums[/url]
-[url=https://www.moddb.com/games/rimworld/downloads/rimworld-westernization-project]ModDB[/url]</description>
+[url=https://www.moddb.com/games/rimworld/downloads/rimworld-westernization-project]ModDB[/url]
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
