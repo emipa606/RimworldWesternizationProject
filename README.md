@@ -80,7 +80,7 @@ Scenarios
 Suggested Load Order:
 
 1. Core
-2. https://steamcommunity.com/workshop/filedetails/?id=960196012]Combat Extended (Optional, but highly recommended. RWP was originally created with Combat Extended in mind, so you could say it&apos;s the way it was meant to be played.)
+2. https://steamcommunity.com/workshop/filedetails/?id=960196012]Combat Extended (Optional, but highly recommended. RWP was originally created with Combat Extended in mind, so you could say it&amp;apos;s the way it was meant to be played.)
 3. Rimworld Westernization Project
 [strike]4. https://steamcommunity.com/sharedfiles/filedetails/?id=1386157873]Rimworld Westernization Project + Combat Extended Compatibility Mod (Optional: Use if you intend to play with both Rimworld Westernization Project and Combat Extended together.)[/strike]
 5. https://steamcommunity.com/sharedfiles/filedetails/?id=1394392968]Steam World (Optional: Use if you want to give your game a 19th century setting.)
@@ -97,7 +97,7 @@ Mod Logo: Mzxs
 
 Links
 
-https://www.youtube.com/playlist?list=PLkr09O8z61-q1TXrrtc0xQrg_5cLsvZGU]RWP Let&apos;s Play Series by Xwynns
+https://www.youtube.com/playlist?list=PLkr09O8z61-q1TXrrtc0xQrg_5cLsvZGU]RWP Let&amp;apos;s Play Series by Xwynns
 https://ludeon.com/forums/index.php?topic=41578.0]Ludeon Forums
 https://www.moddb.com/games/rimworld/downloads/rimworld-westernization-project]ModDB
 
@@ -112,6 +112,7 @@ https://www.moddb.com/games/rimworld/downloads/rimworld-westernization-project]M
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

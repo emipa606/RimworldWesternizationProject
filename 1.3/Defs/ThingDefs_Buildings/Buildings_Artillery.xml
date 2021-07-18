@@ -66,13 +66,13 @@
   <ThingDef Name="RWPArtilleryWeapon" Abstract="True">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <label>artillery error</label>
     <useHitPoints>false</useHitPoints>
     <equipmentType>Primary</equipmentType>
     <tickerType>Never</tickerType>
     <techLevel>Industrial</techLevel>
     <destroyOnDrop>True</destroyOnDrop>
-    <menuHidden>True</menuHidden>
     <tradeability>None</tradeability>
     <weaponTags>
       <li>Artillery</li>

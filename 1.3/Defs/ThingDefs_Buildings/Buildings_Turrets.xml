@@ -82,13 +82,13 @@
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>Gun_M1881Gatling</defName>
     <label>Model 1881 Gatling Gun</label>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
       <texPath>Things/Building/Turrets/GatlingGunTop</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <description>A Model 1881 Gatling gun attached to wagon-wheeled mount.</description>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>

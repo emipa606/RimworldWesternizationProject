@@ -6,6 +6,7 @@
   <url>https://github.com/emipa606/RimworldWesternizationProject</url>
   <supportedVersions>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter>
@@ -86,7 +87,7 @@ Scenarios
 Suggested Load Order:
 
 1. Core
-2. [url=https://steamcommunity.com/workshop/filedetails/?id=960196012]Combat Extended[/url] (Optional, but highly recommended. RWP was originally created with Combat Extended in mind, so you could say it&apos;s the way it was meant to be played.)
+2. [url=https://steamcommunity.com/workshop/filedetails/?id=960196012]Combat Extended[/url] (Optional, but highly recommended. RWP was originally created with Combat Extended in mind, so you could say it&amp;apos;s the way it was meant to be played.)
 3. Rimworld Westernization Project
 [strike]4. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1386157873]Rimworld Westernization Project + Combat Extended Compatibility Mod[/url] (Optional: Use if you intend to play with both Rimworld Westernization Project and Combat Extended together.)[/strike]
 5. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1394392968]Steam World[/url] (Optional: Use if you want to give your game a 19th century setting.)
@@ -103,7 +104,7 @@ Mod Logo: Mzxs
 
 Links
 
-[url=https://www.youtube.com/playlist?list=PLkr09O8z61-q1TXrrtc0xQrg_5cLsvZGU]RWP Let&apos;s Play Series by Xwynns[/url]
+[url=https://www.youtube.com/playlist?list=PLkr09O8z61-q1TXrrtc0xQrg_5cLsvZGU]RWP Let&amp;apos;s Play Series by Xwynns[/url]
 [url=https://ludeon.com/forums/index.php?topic=41578.0]Ludeon Forums[/url]
 [url=https://www.moddb.com/games/rimworld/downloads/rimworld-westernization-project]ModDB[/url]
 
@@ -117,6 +118,6 @@ Links
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
+
 </description>
 </ModMetaData>
-
