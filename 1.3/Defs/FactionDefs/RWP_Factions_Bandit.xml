@@ -9,6 +9,7 @@
       <li>Outlander</li>
     </backstoryCategories>
     <canMakeRandomly>true</canMakeRandomly>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <rescueesCanJoin>true</rescueesCanJoin>
     <canStageAttacks>true</canStageAttacks>
     <canSiege>true</canSiege>

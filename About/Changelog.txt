@@ -1,5 +1,8 @@
 # Changelog for RimworldWesternizationProject
 
+1.0.11.0 - Added confiurable at game-start option
+
+
 1.0.10.0 - Fixed loadFolder- and about-file
 
 
