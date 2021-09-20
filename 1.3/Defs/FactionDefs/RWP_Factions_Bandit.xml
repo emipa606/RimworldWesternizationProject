@@ -33,7 +33,6 @@
 	<!-- RIMWORLD COWBOY BANDITS MUH IMMERSION -->
     <!-- TurtleShroom Productions -->
 	<requiredMemes>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Ideological</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li> 
