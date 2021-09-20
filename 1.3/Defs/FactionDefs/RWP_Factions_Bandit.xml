@@ -56,6 +56,9 @@
 		
 		<!-- Forbidden Mod Memes -->
 		<li MayRequire="Ludeon.Rimworld.Ideology">Altruism</li>
+		<li MayRequire="Ludeon.Rimworld.Ideology">Pacifism</li>
+		<li MayRequire="Ludeon.Rimworld.Ideology">PeaceLove</li>
+		
 	</disallowedMemes>
 	<disallowedPrecepts>
 		<!-- Bandits love slaves -->
