@@ -70,7 +70,8 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
 		
 		<!-- Forbiden Mod Memes -->
-		<li MayRequire="Pacifism"></li>
+		<li MayRequire="Ludeon.Rimworld.Ideology">Pacifism</li>
+		<li MayRequire="Ludeon.Rimworld.Ideology">PeaceLove</li>
 	</disallowedMemes>
 	<disallowedPrecepts>
 		<!-- Bleeding Kansas, plus the Wild West was almost entirely a free territory -->
@@ -108,8 +109,9 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Free</li>
     
-    <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
-    <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
+		<!-- Only prohibited if you have the Mod for it -->
+		<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
 	</disallowedPrecepts>
     <allowedArrivalTemperatureRange>
       <min>-50</min>
@@ -149,8 +151,8 @@
           <Dromedary>4</Dromedary>
         </carriers>
         <guards>
-          <RWP_Marshal_Rifleman>4</RWP_Marshal_Rifleman>
-          <RWP_Marshal_Gunslinger>1</RWP_Marshal_Gunslinger>
+          <RWP_Marshal_Rifleman>6</RWP_Marshal_Rifleman>
+          <RWP_Marshal_Gunslinger>3</RWP_Marshal_Gunslinger>
         </guards>
       </li>      
       <li>
