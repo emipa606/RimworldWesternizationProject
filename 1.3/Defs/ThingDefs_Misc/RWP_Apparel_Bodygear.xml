@@ -13,6 +13,12 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Bodywear/Display/SurgeonApron</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT SUPPORTS STUFF!! -->
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
     <costList>
       <MedicineIndustrial>1</MedicineIndustrial>
       <Cloth>80</Cloth>
@@ -46,6 +52,10 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
+      <tags>
+        <!-- Mod cross-compatibility -->
+        <li>CallOfCthulhu_TownsfolkNurse</li>
+      </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -98,6 +108,7 @@
         <li>Middle</li>
       </layers>
       <tags>
+        <tags>IndustrialBasic</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
       </tags>
@@ -110,8 +121,8 @@
   <!-- Cloth Apron -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_ClothApron</defName>
-    <label>cloth apron</label>
-    <description>Pocketed cloth apron intended for kitchen or tailoring work.</description>
+    <label>fabric apron</label>
+    <description>Pocketed apron intended for kitchen or tailoring work.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -207,6 +218,9 @@
         <li>OutlanderTrader</li>
         <li>RWPWesternWear</li>
         <li>Scrap</li>
+        
+        <!-- Mod cross-compatibility -->
+        <li>CallOfCthulhu_Townsfolk</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -310,6 +324,12 @@
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
         <li>RWPMarshalWear</li>
+        <li>RWPGentlemanWear</li>
+        <li>Royal</li>
+        <li>RoyalTier1</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
+        <li>RoyalTier4</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -362,6 +382,10 @@
         <li>RWPWesternWear</li>
         <li>RWPGentlemanWear</li>
         <li>RWPMarshalWear</li>
+        <li>Royal</li>
+        <li>RoyalTier1</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
