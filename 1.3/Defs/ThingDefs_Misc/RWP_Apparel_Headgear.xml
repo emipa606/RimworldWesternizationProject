@@ -190,6 +190,9 @@
       <TradePriceImprovement>0.20</TradePriceImprovement>
     </equippedStatOffsets>
     <generateCommonality>0.5</generateCommonality>
+	<tradeTags>
+	   <li>OniApparel</li>
+	</tradeTags>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -210,9 +213,6 @@
         <li>OniHeadWear</li>
       </tags>
         <!-- Mod cross-compatibility for custom Caravans -->
-      	<tradeTags>
-		      <li>OniApparel</li>
-	      </tradeTags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>

@@ -48,14 +48,12 @@
       </layers>
       <tags>
         <li>Doctor</li>
+		<li>CallOfCthulhu_TownsfolkNurse</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
+		<li>Soldier</li>
       </defaultOutfitTags>
-      <tags>
-        <!-- Mod cross-compatibility -->
-        <li>CallOfCthulhu_TownsfolkNurse</li>
-      </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -176,7 +174,7 @@
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_TraderCoat</defName>
     <label>trader's coat</label>
-    <description>A thick coat with various pockets and storage areas that is commonly used by travelling merchants and caravanners.</description>
+    <description>A thick coat with various pockets and storage areas that is commonly used by travelling merchants and caravaneers.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
