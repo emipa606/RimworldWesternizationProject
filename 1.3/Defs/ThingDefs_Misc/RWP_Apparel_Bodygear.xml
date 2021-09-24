@@ -4,8 +4,8 @@
   <!--Surgeon's Apron-->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_MedicalApron</defName>
-    <label>Surgeon's apron</label>
-    <description>Pocketed cloth apron intended for medical work.</description>
+    <label>surgeon's apron</label>
+    <description>Pocketed apron intended for sterile medical work.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -18,10 +18,9 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-    <costStuffCount>80</costStuffCount>
+    <costStuffCount>75</costStuffCount>
     <costList>
-      <MedicineIndustrial>1</MedicineIndustrial>
-      <Cloth>80</Cloth>
+      <MedicineIndustrial>3</MedicineIndustrial>
     </costList>
     <thingCategories>
       <li>Apparel</li>
@@ -48,6 +47,8 @@
       </layers>
       <tags>
         <li>Doctor</li>
+	      
+	      <!-- Cross-compatibility with other Mods -->
 		<li>CallOfCthulhu_TownsfolkNurse</li>
       </tags>
       <defaultOutfitTags>
@@ -278,8 +279,8 @@
   <!--Longcoat-->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_Longcoat</defName>
-    <label>longcoat</label>
-    <description>A warm and stylish long coat for keeping the cold at bay.</description>
+    <label>long coat</label>
+    <description>A warm, stylish, and long coat for keeping the cold at bay.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
