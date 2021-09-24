@@ -88,6 +88,7 @@
       <li>NonNeolithicOnlyMelee</li>
       <li>NonNeolithicOnlySimpleMelee</li>
       <li>RWPMelee</li>
+	  <li>MeleePiercer</li>
     </weaponTags>
     <costList>
       <WoodLog>10</WoodLog>
@@ -129,7 +130,7 @@
   <ThingDef ParentName="RWPBaseMeleeWeapon_Sharp">
     <defName>MeleeWeapon_M1840Saber</defName>
     <label>Model 1840 Heavy Cavalry Saber</label>
-    <description>The Model 1840 Cavalry Saber, also known as "Old Wristbreaker" due to its heavy flat-backed blade, was the standard issue sword of the US Cavalry during the Mexican-American War. Although the M1840 was later replaced by the smaller and lighter Model 1860 Cavalry Saber, it still saw extensive use by both sides of the American Civil War. During that conflict, Confederate General Nathan Bedford Forrest was famous for his use of the M1840, and even sharpened both edges of the blade to increase its combat effectiveness.</description>
+    <description>The Model 1840 Cavalry Saber, also known as "Old Wrist Breaker" due to its heavy flat-backed blade, was the standard issue sword of the US Cavalry during the Mexican-American War. Although the M1840 was later replaced by the smaller and lighter Model 1860 Cavalry Saber, it still saw extensive use by both sides of the American Civil War. During that conflict, Confederate General Nathan Bedford Forrest was famous for his use of the M1840, and even sharpened both edges of the blade to increase its combat effectiveness.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/M1860_Saber</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -137,6 +138,12 @@
     <weaponTags>
       <li>NonNeolithicOnlyMelee</li>
       <li>RWPMelee</li>
+	  <li>MeleePiercer</li>
+	  <li>MedievalMeleeDecent</li>
+	  <li>LongSword</li>
+	  <li>Royal</li>
+	  <li>RoyalTier1</li>
+	  <li>RoyalTier2</li>
     </weaponTags>
     <costList>
       <WoodLog>25</WoodLog>
@@ -189,6 +196,11 @@
     <weaponTags>
       <li>NonNeolithicOnlyMelee</li>
       <li>RWPMelee</li>
+	  <li>MeleePiercer</li>
+	  <li>MedievalMeleeDecent</li>
+	  <li>Royal</li>
+	  <li>RoyalTier1</li>
+	  <li>RoyalTier2</li>
     </weaponTags>
     <costList>
       <WoodLog>25</WoodLog>

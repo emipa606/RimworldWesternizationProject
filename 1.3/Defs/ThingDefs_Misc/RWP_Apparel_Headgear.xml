@@ -361,13 +361,13 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/IndSpectacles</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <!-- NOW ACCCEPTS STUFF!! -->
+    <!-- SHUT MY MOUTH AND SLAP MY GRANDMA, IT NOW ACCCEPTS STUFF!! -->
      <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
       <li>Stony</li>
        
-       <!-- Mod Stuff-- >
+       <!-- Mod Stuff -->
         <li>Plastic</li>
         <li>Composite</li>
         <li>AB_Exotic</li>
@@ -412,6 +412,7 @@
       <!-- Mod cross-compatibility -->
        <li>OniWear</li>
        <li>OniHeadWear</li>
+	</tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -532,6 +533,7 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
+	</tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>

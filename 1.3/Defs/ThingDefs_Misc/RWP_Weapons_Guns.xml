@@ -222,6 +222,7 @@
       <li>RWPGun</li>
       <li>RWPLowCapacity</li>
       <li>Gun</li>
+	  <li>SimpleGun</li>
     </weaponTags>
   </ThingDef>
   <!-- ==================== Shotguns ================================ -->
@@ -990,6 +991,10 @@
       <li>RWPGun</li>
       <li>RWPRifle</li>
       <li>Gun</li>
+	  <li>SimpleGun</li>
+
+	  <!-- Mod cross-compatibility -->
+	  <li>CallOfCthulhu_InfantryGun</li>
     </weaponTags>
   </ThingDef>
   <!-- Winchester 1873 -->
@@ -1218,6 +1223,9 @@
       <li>RWPGun</li>
       <li>RWPRifle</li>
       <li>Gun</li>
+	  
+	  <!-- Cross-compatibility with other Mods -->
+	  <li>CallOfCthulhu_InfantryGun</li>
     </weaponTags>
   </ThingDef>
   <!-- Sharps Model 1863 Carbine -->
@@ -1313,7 +1321,7 @@
   <ThingDef ParentName="RWPBaseHumanMakeableGun">
     <defName>Gun_M_OneEightSevenFour_Sharps</defName>
     <label>Sharps Model 1874</label>
-    <description>The Sharps Model 1874, otherwise known as the “buffalo rifle” due to its heavy use by hide hunters, is a falling-block action rifle that was so renowned for its long range accuracy and stopping power that Native American tribes referred to it as the “shoot today, kill tomorrow” gun. At the Second Battle of Adobe Walls in 1874, buffalo hunter Billy Dixon used a Sharps Model 1874 to make his legendary shot that killed a Comanche warrior 1,538-yard away, demoralizing the Comanche warband so badly that they effectively abandoned the siege. Comes equipped with an 8X Malcolm scope.</description>
+    <description>The Sharps Model 1874, otherwise known as the “buffalo rifle” due to its heavy use by hide hunters, is a falling-block action rifle that was so renowned for its long range accuracy and stopping power that Native American tribes referred to it as the “shoot today, kill tomorrow” gun. At the Second Battle of Adobe Walls in 1874, bison hunter Billy Dixon used a Sharps Model 1874 to make his legendary shot that killed a Comanche warrior one thousand, five hundred thirty-eight yards (approx. 1.4 kilometers) away, demoralizing the Comanche warband so badly that they effectively abandoned the siege. Comes equipped with an 8X Malcolm scope.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponsRanged/Sharps1874</texPath>
       <graphicClass>Graphic_Single</graphicClass>
