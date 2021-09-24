@@ -134,6 +134,7 @@
     <factionNameMaker>NamerFactionBandit</factionNameMaker>
     <leaderTitle>Planetary Desparado</leaderTitle>
     <!-- ====== Faction Groups ====== -->
+	<pawnGroupMakers>
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
@@ -142,9 +143,9 @@
           <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
           <RWP_Bandit_Slasher>3</RWP_Bandit_Slasher>
           <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
+		  <TSP_RWP_Bandit_Tradesman>1</TSP_RWP_Bandit_Tradesman>
         </options>
       </li>
-    <pawnGroupMakers>
       <!-- Trading Group -->
       <li>
         <kindDef>Trader</kindDef>
@@ -235,10 +236,11 @@
         <options>
           <RWP_Bandit_Recruit>6</RWP_Bandit_Recruit>
           <RWP_Bandit_Boss>1</RWP_Bandit_Boss>
-          <RWP_Bandit_Sniper>1</RWP_Bandit_Sniper>
+          <RWP_Bandit_Sniper>2</RWP_Bandit_Sniper>
           <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
           <RWP_Bandit_Slasher>2</RWP_Bandit_Slasher>
           <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
+		  <TSP_RWP_Bandit_Tradesman>1</TSP_RWP_Bandit_Tradesman>
         </options>
       </li>
     </pawnGroupMakers>
