@@ -10,13 +10,13 @@
         <categories>
           <li>Outlander</li>
         </categories>
-        <commonality>0.5</commonality>
+        <commonality>0.331</commonality>
       </li>
       <li>
         <categories>
           <li>Pirate</li>
         </categories>
-        <commonality>0.5</commonality>
+        <commonality>0.669</commonality>
       </li>
     </backstoryFilters>
     <canMakeRandomly>true</canMakeRandomly>
@@ -126,13 +126,13 @@
   <FactionDef ParentName="RWP_BanditFactionBase">
     <defName>RWP_Faction_Bandit</defName>
     <label>bandit gang</label>
-    <description>Nearly four thousand years since the Old Earth's western hemisphere pacified its westernmost territories, the threats that plagued those ancient cowboys continue to exist, in an almost completely unaltered form, on the lawless frontiers of the Rim. Just like Old Earth's Wild West, where banditoes and outlaws roamed the colonial settlements, the lack of infrastructure and institutions that Core Worlds have make the frontiers of the Rim identical in danger and adventure. This is the largest and most powerful gang of these Wild West-style bandits. Known for wearing their signature scarves, these outlaws are the bane of life on the frontier, and will stop at nothing to enrich themselves. Do not let their ancient kinetic weapons fool you, they are still an existential threat to any developing colony or base that has not totally fortified itself. Either befriend them or avoid them at all cost if you value your life.</description>
+    <description>Nearly four thousand years since the Old Earth's western hemisphere pacified its westernmost territories, the threats that plagued those ancient cowboys continue to exist, in an almost completely unaltered form, on the lawless frontiers of the Rim. Just like Old Earth's Wild West, where banditoes and outlaws roamed the colonial settlements, the lack of infrastructure and institutions that Core Worlds have make the frontiers of the Rim identical in danger and adventure. This is the largest and most powerful gang of Wild West bandits. Known for wearing their signature scarves, these outlaws are the bane of life on the frontier, and will stop at nothing to enrich themselves. Do not let their ancient kinetic weapons fool you, they are still an existential threat to all but the most advanced colonies. They nominally elect a planet-wide leader, the Planetary Desparado, but his position is ceremonial as an 'ambassador' of the plundering men in communications calls. If you value your life, either befriend them or avoid them at all cost.</description>
     <pawnsPlural>bandits</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <mustStartOneEnemy>true</mustStartOneEnemy>
     <factionNameMaker>NamerFactionBandit</factionNameMaker>
-    <leaderTitle>Gang Leader</leaderTitle>
+    <leaderTitle>Planetary Desparado</leaderTitle>
     <!-- ====== Faction Groups ====== -->
       <li>
         <kindDef>Peaceful</kindDef>
@@ -149,15 +149,17 @@
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <RWP_Bandit_Boss>1</RWP_Bandit_Boss>
+          <TSP_RWP_Bandit_Tradesman>1</TSP_RWP_Bandit_Tradesman>
         </traders>
         <carriers>
-          <Muffalo>2</Muffalo>
-          <Dromedary>2</Dromedary>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+		  <Donkey>5</Donkey>
+		  <Horse>2</Horse>
         </carriers>
         <guards>
           <RWP_Bandit_Gunslinger>6</RWP_Bandit_Gunslinger>
-          <RWP_Bandit_Rifleman>2</RWP_Bandit_Rifleman>
+          <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
         </guards>
       </li>
       <!-- Small Scale Tier 1 Attack -->

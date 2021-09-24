@@ -111,13 +111,13 @@
   <FactionDef ParentName="RWP_TownFactionBase">
     <defName>RWP_Faction_Town</defName>
     <label>Frontier town</label>
-    <description>Frontier towns are settlements on the edge of civilization, and are under constant threat from bandit gangs and hostile native tribes. Law and order in these areas are upheld by the town sheriff, and they are mostly made up of good, honest folk who are just trying to carve out a new life in a new land.</description>
-    <pawnsPlural>townspeople</pawnsPlural>
+    <description>Frontier towns are settlements on the edge of civilization, and are under constant threat from bandit gangs and hostile native tribes. Law and order in these areas are upheld by each individual town's sheriff, though a ceremonial Planetary Chief Sheriff is elected from the lawmen to represent their commercial interests throughout the Rim. Frontier towns are mostly made up of good, honest folk who are just trying to carve out a new life in a new land.</description>
+    <pawnsPlural>frontiersmen</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
-    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <settlementGenerationWeight>1.05</settlementGenerationWeight>
     <mustStartOneEnemy>false</mustStartOneEnemy>
     <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-    <leaderTitle>Town Sheriff</leaderTitle>
+    <leaderTitle>Planetary Chief Sheriff</leaderTitle>
     <!-- ====== Faction Groups ====== -->
     <pawnGroupMakers>
       <li>
@@ -139,9 +139,11 @@
         <carriers>
           <Muffalo>2</Muffalo>
           <Dromedary>2</Dromedary>
+		  <Horse>4</Horse>
         </carriers>
         <guards>
           <RWP_Town_Guard>4</RWP_Town_Guard>
+		  <RWP_Town_Gunslinger>1</RWP_Town_Gunslinger>
         </guards>
       </li>
       <!-- Small Scale Tier 1 Attack -->
