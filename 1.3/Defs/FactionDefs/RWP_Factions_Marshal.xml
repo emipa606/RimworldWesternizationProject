@@ -36,7 +36,7 @@
       <li>RWP_Base_Town_Standard</li>
     </baseTraderKinds>
 	<!--RIMWORLD MARSHALL SERVICE -->
-    <!-- TURTLESHROOM PRODUCTIONS -->
+	<!-- TURTLESHROOM PRODUCTIONS -->
 	<requiredMemes>
 		<!-- Five thousand years and this ancient Faction remains ideological -->
 		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
@@ -145,7 +145,7 @@
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <RWP_Marshal_Sniper>1</RWP_Marshal_Sniper>
+          <TSP_RWP_Marshall_Surplus>1</TSP_RWP_Marshall_Surplus>
         </traders>
         <carriers>
           <Muffalo>2</Muffalo>
