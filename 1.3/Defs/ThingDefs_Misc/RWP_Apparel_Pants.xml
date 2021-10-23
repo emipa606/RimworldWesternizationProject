@@ -46,6 +46,7 @@
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
+        <li>Western</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -241,6 +242,7 @@
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
+      <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
@@ -264,12 +266,13 @@
         <li>Legs</li>
       </bodyPartGroups>
       <layers>
-        <li>Shell</li>
+        <li>OnSkin</li>
       </layers>
       <tags>
         <li>Skirt</li>
         <li>IndustrialBasic</li>
         <li>Outlander</li>
+        <li>Western</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
