@@ -66,6 +66,7 @@
 		<li MayRequire="Ludeon.Rimworld.Ideology">Pacifism</li>
 		<li MayRequire="Ludeon.Rimworld.Ideology">Altruism</li>
 		<li MayRequire="Ludeon.Rimworld.Ideology">PeaceLove</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">VME_Pacifist</li>
 	</disallowedMemes>
 	<disallowedPrecepts>
 		<!-- Bandits love slaves -->
