@@ -44,6 +44,7 @@
 		
 		<!-- Prohibited if you have the Mod -->
 		<li MayRequire="Ludeon.RimWorld.Ideology">Pacifism</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">VME_Pacifist</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">PeaceLove</li>
 	</disallowedMemes>
 	<disallowedPrecepts>
