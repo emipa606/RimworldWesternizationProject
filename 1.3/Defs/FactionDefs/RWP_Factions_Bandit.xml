@@ -135,6 +135,7 @@
     <factionNameMaker>NamerFactionBandit</factionNameMaker>
     <leaderTitle>Gang Leader</leaderTitle>
     <!-- ====== Faction Groups ====== -->
+    <pawnGroupMakers>
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
@@ -145,12 +146,11 @@
           <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
         </options>
       </li>
-    <pawnGroupMakers>
       <!-- Trading Group -->
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <RWP_Bandit_Boss>1</RWP_Bandit_Boss>
+          <TSP_RWP_Bandit_Tradesman>1</TSP_RWP_Bandit_Tradesman>
         </traders>
         <carriers>
           <Muffalo>2</Muffalo>
