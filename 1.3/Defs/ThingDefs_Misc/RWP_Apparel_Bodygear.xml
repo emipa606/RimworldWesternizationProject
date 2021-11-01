@@ -5,7 +5,7 @@
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_MedicalApron</defName>
     <label>Surgeon's apron</label>
-    <description>Pocketed cloth apron intended for medical work.</description>
+    <description>Pocketed apron intended for medical work.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -108,7 +108,7 @@
         <li>Middle</li>
       </layers>
       <tags>
-        <tags>IndustrialBasic</li>
+        <li>IndustrialBasic</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
       </tags>
