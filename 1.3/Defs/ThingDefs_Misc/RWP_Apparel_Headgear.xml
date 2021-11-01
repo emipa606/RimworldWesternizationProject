@@ -400,18 +400,19 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
-    <tags>
-       <li>Outlander</li>
-       <li>IndustrialBasic</li>
-       <li>RWPWesternWear</li>
-       <li>RWPGentlemanWear</li>
-       <li>Royal</li>
-       <li>RoyalTier1</li>
-       <li>RoyalTier2</li>
+	<tags>
+		<li>Outlander</li>
+		<li>IndustrialBasic</li>
+		<li>RWPWesternWear</li>
+		<li>RWPGentlemanWear</li>
+		<li>Royal</li>
+		<li>RoyalTier1</li>
+		<li>RoyalTier2</li>
 
-      <!-- Mod cross-compatibility -->
-       <li>OniWear</li>
-       <li>OniHeadWear</li>
+		<!-- Mod cross-compatibility -->
+		<li>OniWear</li>
+		<li>OniHeadWear</li>
+	</tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
