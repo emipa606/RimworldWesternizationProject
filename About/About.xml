@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Rimworld Westernization Project (Continued)</name>
   <packageId>Mlie.RimworldWesternizationProject</packageId>
@@ -12,7 +12,7 @@
   <loadAfter>
     <li>CETeam.CombatExtended</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Tamias and JackeryFoxs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1119081000
 
@@ -21,7 +21,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1119081000
 
 Load order: Just use the auto-sort and it should be fine
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
@@ -30,7 +30,7 @@ Load order: Just use the auto-sort and it should be fine
 	[/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 Howdy partner! The Rimworld Westernization Project (RWP) is a mod designed to bring a historically accurate taste of the American Old West to the denizens of Rimworld. The mod currently adds:
 
@@ -109,7 +109,7 @@ Links
 [url=https://www.moddb.com/games/rimworld/downloads/rimworld-westernization-project]ModDB[/url]
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -118,6 +118,5 @@ Links
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>

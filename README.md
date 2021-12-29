@@ -1,6 +1,6 @@
 # RimworldWesternizationProject
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Tamias and JackeryFoxs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1119081000
@@ -10,19 +10,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1119081000
 
 Load order: Just use the auto-sort and it should be fine
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/RimworldWesternizationProject]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Howdy partner! The Rimworld Westernization Project (RWP) is a mod designed to bring a historically accurate taste of the American Old West to the denizens of Rimworld. The mod currently adds:
@@ -80,7 +71,7 @@ Scenarios
 Suggested Load Order:
 
 1. Core
-2. https://steamcommunity.com/workshop/filedetails/?id=960196012]Combat Extended (Optional, but highly recommended. RWP was originally created with Combat Extended in mind, so you could say it&amp;apos;s the way it was meant to be played.)
+2. https://steamcommunity.com/workshop/filedetails/?id=960196012]Combat Extended (Optional, but highly recommended. RWP was originally created with Combat Extended in mind, so you could say it&apos;s the way it was meant to be played.)
 3. Rimworld Westernization Project
 [strike]4. https://steamcommunity.com/sharedfiles/filedetails/?id=1386157873]Rimworld Westernization Project + Combat Extended Compatibility Mod (Optional: Use if you intend to play with both Rimworld Westernization Project and Combat Extended together.)[/strike]
 5. https://steamcommunity.com/sharedfiles/filedetails/?id=1394392968]Steam World (Optional: Use if you want to give your game a 19th century setting.)
@@ -97,12 +88,12 @@ Mod Logo: Mzxs
 
 Links
 
-https://www.youtube.com/playlist?list=PLkr09O8z61-q1TXrrtc0xQrg_5cLsvZGU]RWP Let&amp;apos;s Play Series by Xwynns
+https://www.youtube.com/playlist?list=PLkr09O8z61-q1TXrrtc0xQrg_5cLsvZGU]RWP Let&apos;s Play Series by Xwynns
 https://ludeon.com/forums/index.php?topic=41578.0]Ludeon Forums
 https://www.moddb.com/games/rimworld/downloads/rimworld-westernization-project]ModDB
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -112,7 +103,6 @@ https://www.moddb.com/games/rimworld/downloads/rimworld-westernization-project]M
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 
