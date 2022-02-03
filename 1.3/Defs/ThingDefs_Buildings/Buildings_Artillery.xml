@@ -12,6 +12,7 @@
         <cornerTL>Damage/Corner</cornerTL>
       </damageData>
     </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <size>(2,2)</size>
     <minifiedDef>MinifiedThing</minifiedDef>
     <altitudeLayer>Building</altitudeLayer>
@@ -58,6 +59,9 @@
     <rotatable>true</rotatable>
     <placeWorkers>
       <li>PlaceWorker_NotUnderRoof</li>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
     </placeWorkers>
     <researchPrerequisites>
       <li>RWP_Artillery</li>
@@ -117,6 +121,11 @@
         <li>Artillery_BaseDestroyer</li>
       </buildingTags>
     </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
   </ThingDef>
   <ThingDef ParentName="RWPArtilleryWeapon">
     <defName>RWP_Gun_Cannon</defName>
