@@ -70,4 +70,134 @@
       <li>RWPBanditWear</li>
     </value>
   </Operation>
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="RCA_breeches"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="RCA_breeches"]/apparel/tags</xpath>
+			<value>
+				<li>RWPWesternWear</li>
+				<li>RWPMarshalWear</li>
+				<li>Royal</li>
+				<li>RoyalTier1</li>
+				<li>Medieval</li>
+				<li>MedievalBasic</li>
+				<li>MedievalDecent</li>
+				<li>MedievalAdvanced</li>
+				<li>MedievalApparelBasic</li>
+				<li>IndustrialBasic</li>
+				<li>mafia</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="RCA_fancybreeches"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="RCA_fancybreeches"]/apparel/tags</xpath>
+			<value>
+				<li>RWPGentlemanWear</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier1</li>
+				<li>MedievalApparelNoble</li>
+				<li>RoyalTier3</li>
+				<li>King</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="RCA_fancyshirtvest"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="RCA_fancyshirtvest"]/apparel/tags</xpath>
+			<value>
+				<li>Royal</li>
+				<li>RoyalTier1</li>
+				<li>RoyalTier2</li>
+				<li>MedievalApparelNoble</li>
+				<li>RWPGentlemanWear</li>
+				<li>RWPMarshalWear</li>
+				<li>CallOfCthulhu_Detective</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="Apparel_Corset"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel</xpath>
+			<value>
+				<tags>
+					<li>RWPGentlemanWear</li> <!-- Hey, there are esteemed ladies and female socialites too! -->
+					<li>Royal</li>
+					<li>RoyalTier7</li>
+					<li>RoyalTier6</li>
+					<li>RoyalTier5</li>
+					<li>RoyalTier4</li>
+					<li>RoyalTier3</li>
+					<li>RoyalTier2</li>
+					<li>RoyalTier1</li>
+					<li>MedievalApparelNoble</li>
+					<li>King</li> <!-- Queens to be exact -->
+					<li>Dame</li>
+				</tags>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="RCA_fancycoat"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="RCA_fancycoat"]/apparel/tags</xpath>
+			<value>
+				<li>RWPGentlemanWear</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier1</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="ROM_Pitchfork"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="ROM_Pitchfork"]/weaponTags</xpath>
+			<value>
+				<li>RWPMelee</li>
+				<li>Toolagri</li>
+				<li>MedievalMelee</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="ROM_BrandingIron"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="ROM_BrandingIron"]/weaponTags</xpath>
+			<value>
+				<li>RWPMelee</li>
+				<li>IndustrialSimpleMelee</li>
+				<li>MeleePiercer</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
 </Patch>

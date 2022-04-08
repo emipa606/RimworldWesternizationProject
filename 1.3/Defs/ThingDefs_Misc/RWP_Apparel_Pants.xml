@@ -28,9 +28,9 @@
       <EquipDelay>2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <TameAnimalChance>0.06</TameAnimalChance>
+      <TameAnimalChance>0.04</TameAnimalChance>
       <MentalBreakThreshold>-0.02</MentalBreakThreshold>
-      <PlantWorkSpeed>0.03</PlantWorkSpeed>
+      <PlantWorkSpeed>0.06</PlantWorkSpeed>
     </equippedStatOffsets>
     <generateCommonality>0.5</generateCommonality>
     <apparel>
@@ -46,6 +46,16 @@
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
+        <li>Western</li>
+		<li>Medieval</li>
+		<li>MedievalApparelBasic</li>
+		<li>MedievalBasic</li>
+		
+		<!-- Mod Support -->
+		<li>CallOfCthulhu_Rancher</li>
+		<li>ST_GnomeClothing</li>
+		<li>JeubWear</li>
+		<li>SK_Khan_Apparel_Tag</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -58,7 +68,7 @@
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_GentPants</defName>
     <label>gentleman's pants</label>
-    <description>A very stylish pair of dress pants. Pairs perfectly with a waistcoat.</description>
+    <description>A very stylish pair of men's dress pants. Pairs perfectly with a waistcoat.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -87,6 +97,7 @@
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Pants/Pants</wornGraphicPath>
+      <gender>Male</gender>
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
@@ -98,12 +109,27 @@
         <li>RWPWesternWear</li>
         <li>RWPGentlemanWear</li>
         <li>RWPMarshalWear</li>
+        <li>Royal</li>
+        <li>RoyalTier1</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
+        <li>RoyalTier4</li>
+		
+		<!-- Mod Support -->
+		<li>CallOfCthulhu_Detective</li>
+		<li>WeebClothes</li>
+		<li>WeebElite</li>
+		<li>AnimeProtagonist</li>
+		<li>ST_GnomeClothing</li>
+		<li>RichPirateClothing</li>
+		<li>president</li>
+		<li>Usa</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <generateCommonality>0.5</generateCommonality>
+    <generateCommonality>0.65</generateCommonality>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
   <!-- Patchwork Pants -->
@@ -124,10 +150,10 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <Mass>0.5</Mass>
-      <WorkToMake>3000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <Mass>0.1</Mass>
+      <WorkToMake>300</WorkToMake>
+      <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
@@ -146,19 +172,24 @@
         <li>Scrap</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
+		<li>Pirate</li>
+        
+        <!-- Mod cross-compatibility -->
+        <li>PoorPirateClothing</li>
+		<li>SK_Khan_Apparel_Tag</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <generateCommonality>0.2</generateCommonality>
+    <generateCommonality>0.05</generateCommonality>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
   <!-- Jeans -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_Jeans</defName>
     <label>jeans</label>
-    <description>A pair of sturdy pants reinforced with copper rivets. Designed for working in the fields or in the mine.</description>
+    <description>A pair of sturdy pants reinforced with copper rivets. Originally made out of tent leather, they have long been made of fabric, particularly a form of blue cloth called denim. The initial purpose of jeans were to be worn while working in the fields or in the mine. Over the many thousands of years since their inception in the nineteenth century, they have become absolutely universal parts of the commonor's wardrobe in all human civilizations in the galaxy. A century after their invention, it became popular to deliberately tear them for...... for unknown  reasons. Some said it mocked the poor. Thankfully, that trend died off by the latter half of the twenty-first century. \n These jeans are not tight and retain their initial purposes. They are not formal; do not pretend any sort of jeans are formal.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -169,6 +200,9 @@
     <costStuffCount>65</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
+      
+      <!-- When blue jeans were invented during California's Gold Rush, they were made out of tent leather, denim came a few years after -->
+      <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
@@ -176,15 +210,15 @@
     <statBases>
       <Mass>0.5</Mass>
       <WorkToMake>9000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierArmor>0.33</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.7</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.02</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>-0.03</MoveSpeed>
+      <MoveSpeed>0.02</MoveSpeed>
       <PlantHarvestYield>0.05</PlantHarvestYield>
-      <MiningSpeed>0.05</MiningSpeed>
+      <MiningSpeed>0.08</MiningSpeed>
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Darkpants/Pants</wornGraphicPath>
@@ -195,23 +229,42 @@
         <li>OnSkin</li>
       </layers>
       <tags>
+        <li>IndustrialBasic</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
         <li>RWPMarshalWear</li>
+        
+        <!-- Cross-compatibility with Mods -->
+        <li>Pirate</li>
+        <li>PoorPirateClothing</li>
+		<li>NormalPirateClothing</li>
+		<li>RichPirateClothing</li>
+        <li>CallOfCthulhu_Lumberjack</li>
+        <li>CallOfCthulhu_Townsfolk</li>
+		<li>CallOfCthulhu_Rancher</li>
+		<li>SK_Khan_Apparel_Tag</li>
+		<li>JeubWear</li>
+		<li>JeubKing</li>
+		<li>BeetWear</li>
+		<li>BeetElite</li>
+		<li>WeebClothes</li>
+		<li>mafia</li>
+		<li>Usa</li>
+		<li>OniWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <generateCommonality>0.5</generateCommonality>
+    <generateCommonality>0.9</generateCommonality>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
   <!-- Prairie Skirt -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_PrairieSkirt</defName>
-    <label>prairie skirt</label>
-    <description>An American style of skirt popular with pioneer women in the Old West.</description>
+    <label>ankle-length hoop skirt</label>
+    <description>A long, Old Earth style of skirt first popularized by pioneer women whose families settled the western New World almost four thousand years ago. A band at the bottom of the skirt causes it to remain permanently bell-shaped and wide, increasing air flow and keeping the wearer cooler.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -222,6 +275,7 @@
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
+      <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
@@ -230,30 +284,48 @@
       <Mass>0.5</Mass>
       <WorkToMake>9000</WorkToMake>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.86</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>-0.07</MoveSpeed>
-      <SocialImpact>0.03</SocialImpact>
+      <MoveSpeed>-0.03</MoveSpeed>
+      <SocialImpact>0.05</SocialImpact>
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Skirt/Skirt</wornGraphicPath>
+      <gender>Female</gender>
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
       <layers>
-        <li>Shell</li>
+        <li>OnSkin</li>
       </layers>
       <tags>
         <li>Skirt</li>
+		<li>Industrial</li>
+        <li>IndustrialBasic</li>
+		<li>IndustrialDecent</li>
+		<li>IndustrialAdvanced</li>
+        <li>Outlander</li>
+		
+		<!-- Mod Support -->
+		<li>WeebClothes</li>
+		<li>WeebGirl</li>
+		<li>CallOfCthulhu_TownsfolkNurse</li> <!-- Only appears on female nurses -->
+		<li>CallOfCthulhu_Townsfolk</li>
+		<li>OniWear</li>
+		<li>mafia</li>
+		<li>ST_GnomeClothing</li>
+		<li>JeubWear</li>
+		<li>Usa</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
+		<li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <generateCommonality>0.5</generateCommonality>
+    <generateCommonality>0.8</generateCommonality>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
   <!-- Fringe Pants -->
@@ -279,12 +351,12 @@
       <Mass>0.5</Mass>
       <WorkToMake>7000</WorkToMake>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
+	  <!-- It says the stuff is warm, so why was the Heat Multiplier so low? -->
+      <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>-0.03</MoveSpeed>
       <MentalBreakThreshold>-0.04</MentalBreakThreshold>
     </equippedStatOffsets>
     <apparel>
@@ -299,6 +371,16 @@
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
+		<li>Western</li>
+        
+        <!-- Cross-compatibility with Mods -->
+        <li>SK_Khan_Apparel_Tag</li>
+        <li>PoorPirateClothing</li>
+		<li>NormalPirateClothing</li>
+		<li>JeubWear</li>
+		<li>ST_BeetClothing</li>
+		<li>Barbarian</li>
+		<li>BarbarianNoble</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -331,16 +413,17 @@
       <Mass>0.40</Mass>
       <WorkToMake>9000</WorkToMake>
       <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <NegotiationAbility>-0.15</NegotiationAbility>
-      <TradePriceImprovement>-0.15</TradePriceImprovement>
+      <NegotiationAbility>-0.05</NegotiationAbility>
+      <TradePriceImprovement>-0.05</TradePriceImprovement>
       <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
-      <WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
-      <ConstructionSpeed>0.05</ConstructionSpeed>
+      <WorkTableWorkSpeedFactor>0.07</WorkTableWorkSpeedFactor>
+      <ConstructionSpeed>0.06</ConstructionSpeed>
+	  <PlantWorkSpeed>0.03</PlantWorkSpeed>
     </equippedStatOffsets>
     <generateCommonality>0.3</generateCommonality>
     <apparel>
@@ -350,11 +433,18 @@
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Overalls/IndOveralls</wornGraphicPath>
       <layers>
-        <li>Shell</li>
+        <li>Middle</li>
       </layers>
       <tags>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
+		<li>IndustrialBasic</li>
+		<li>Western</li>
+        
+        <!-- Mod cross compatibility -->
+        <li>CallOfCthulhu_Townsfolk</li>
+        <li>CallOfCthulhu_Farmer</li>
+		<li>CallOfCthulhu_Rancher</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

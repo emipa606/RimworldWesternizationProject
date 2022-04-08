@@ -25,10 +25,19 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Accessories/Display/Pocketwatch</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <generateCommonality>0.01</generateCommonality>
+    <generateCommonality>0.05</generateCommonality>
+    <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      
+      <!-- Support for Mod Stuff -->
+      <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
+      <li MayRequire="Dubwise.Rimefeller">Plastic</li>
+      <li MayRequire="Dubwise.Rimefeller">Composite</li>
+    </stuffCategories>
     <costList>
-      <Steel>15</Steel>
-      <Gold>15</Gold>
+      <Gold>1</Gold>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>
@@ -42,11 +51,14 @@
       <EquipDelay>0.7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
-      <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+      <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
       <SocialImpact>0.2</SocialImpact>
     </equippedStatOffsets>
     <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfDamaged>true</careIfDamaged>
+      <ignoredByNonViolent>false</ignoredByNonViolent>
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
@@ -55,8 +67,28 @@
         <li>Belt</li>
       </layers>
       <defaultOutfitTags>
+        <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
+      <tags>
+        <li>IndustrialBasic</li>
+		<li>IndustrialAdvanced</li>
+        <li>Royal</li>
+		<li>RoyalTier1</li>
+		<li>RoyalTier2</li>
+        <li>RWPWesternWear</li>
+        <li>RWPGentlemanWear</li>
+        <li>Outlander</li>
+		
+		<!-- Mod Support -->
+		<li>Outlander</li>
+		<li>CallOfCthulhu_Townsfolk</li>
+		<li>CallOfCthulhu_Detective</li>
+		<li>CallOfCthulhu_Infantry</li>
+		<li>RichPirateClothing</li>
+		<li>Usa</li>
+		<li>ST_GnomeClothing</li>
+      </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
@@ -64,7 +96,7 @@
   <ThingDef ParentName="RWPAccessoryMakeableBase">
     <defName>RWP_Apparel_DeputySheriffBadge</defName>
     <label>Deputy Sheriff badge</label>
-    <description>A town deputy sheriff's badge. This law enforcement badge gives the wearer an air of authority, as well as more confidence during gunfights.</description>
+    <description>A town deputy sheriff's badge. This law enforcement badge gives the wearer an air of authority, as well as more confidence during gun fights.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_LawEnforcement</researchPrerequisite>
     </recipeMaker>
@@ -75,8 +107,7 @@
     <generateCommonality>0.01</generateCommonality>
     <tradeability>Sellable</tradeability>
     <costList>
-      <Steel>15</Steel>
-      <Silver>10</Silver>
+      <Silver>15</Silver>
     </costList>
     <thingCategories>
       <li>Apparel</li>
@@ -94,6 +125,10 @@
       <SocialImpact>0.05</SocialImpact>
     </equippedStatOffsets>
     <apparel>
+      <careIfWornByCorpse>true</careIfWornByCorpse>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>false</ignoredByNonViolent>
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
@@ -104,6 +139,13 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
+      <tags>
+		<li>RWPDeputySheriff</li>
+		<li>BarnieFife</li>
+
+        <!-- Support for custom Mods -->
+        <li>CallOfCthulhu_TownsfolkPolice</li>
+      </tags>
     </apparel>
   </ThingDef>
   <!-- Sheriff Badge -->
@@ -118,11 +160,10 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Accessories/Display/GoldSheriffBadge</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <generateCommonality>0.01</generateCommonality>
+    <generateCommonality>1</generateCommonality>
     <tradeability>Sellable</tradeability>
     <costList>
-      <Steel>15</Steel>
-      <Gold>10</Gold>
+       <Gold>15</Gold>
     </costList>
     <thingCategories>
       <li>Apparel</li>
@@ -140,6 +181,10 @@
       <SocialImpact>0.1</SocialImpact>
     </equippedStatOffsets>
     <apparel>
+      <careIfWornByCorpse>true</careIfWornByCorpse>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>false</ignoredByNonViolent>
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
@@ -150,13 +195,19 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
+      <tags>
+		<li>RWP_Sheriff</li>
+		
+        <!-- Cross-compatibility Mod support -->
+        <li>CallOfCthulhu_TownsfolkPolice</li>
+      </tags>
     </apparel>
   </ThingDef>
   <!-- Deputy U.S. Marshal Badge -->
   <ThingDef ParentName="ApparelBase">
     <defName>RWP_Apparel_DeputyMarshalBadge</defName>
     <label>Deputy U.S. Marshal badge</label>
-    <description>A Deputy U.S. Marshal's badge. Only issued to members of the U.S. Marshal Service, this law enforcement badge represents justice itself in the lawless lands of the frontier.</description>
+    <description>A Deputy Marshall's badge. Only issued to members of the Rimworld Marshal Service, this law enforcement badge represents justice itself in the lawless lands of the frontier.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Accessories/Display/SilverMarshalBadge</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -179,6 +230,10 @@
       <SocialImpact>0.15</SocialImpact>
     </equippedStatOffsets>
     <apparel>
+      <careIfWornByCorpse>true</careIfWornByCorpse>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>false</ignoredByNonViolent>
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
@@ -187,6 +242,7 @@
         <li>Belt</li>
       </layers>
       <defaultOutfitTags>
+		<li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
@@ -194,8 +250,8 @@
   <!-- Chief Marshal Badge -->
   <ThingDef ParentName="ApparelBase">
     <defName>RWP_Apparel_ChiefMarshalBadge</defName>
-    <label>Chief U.S. Marshal badge</label>
-    <description>A Chief U.S. Marshal's badge. Worn only by the Chief U.S. Marshal, the head of the agency, this law enforcement badge represents justice itself in the lawless lands of the frontier.</description>
+    <label>Chief Marshall badge</label>
+    <description>A Chief U.S. Marshal's badge. Worn only by the Chief Rimworld Marshal, the head of the agency, this law enforcement badge represents justice itself in the lawless lands of the frontier.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Accessories/Display/GoldMarshalBadge</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -213,19 +269,25 @@
       <EquipDelay>0.7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <AimingDelayFactor>-0.2</AimingDelayFactor>
-      <MentalBreakThreshold>-0.3</MentalBreakThreshold>
-      <SocialImpact>0.3</SocialImpact>
+      <AimingDelayFactor>-0.25</AimingDelayFactor>
+      <MentalBreakThreshold>-0.35</MentalBreakThreshold>
+      <SocialImpact>0.35</SocialImpact>
     </equippedStatOffsets>
     <apparel>
+      <careIfWornByCorpse>true</careIfWornByCorpse>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>false</ignoredByNonViolent>
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Accessories/GoldMarshalBadge/GoldMarshalBadge</wornGraphicPath>
       <layers>
-        <li>Belt</li>
+		<!-- <li>ApparelUtility</li> -->
+		<li>Belt</li>
       </layers>
       <defaultOutfitTags>
+		<li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
@@ -250,34 +312,42 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <Mass>0.10</Mass>
+      <Mass>0.1</Mass>
       <WorkToMake>4000</WorkToMake>
       <EquipDelay>1.2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <AimingDelayFactor>-0.07</AimingDelayFactor>
+      <AimingDelayFactor>-0.1</AimingDelayFactor>
     </equippedStatOffsets>
     <generateCommonality>0.8</generateCommonality>
     <apparel>
       <careIfWornByCorpse>false</careIfWornByCorpse>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>true</ignoredByNonViolent>
       <bodyPartGroups>
-        <li>Torso</li>
+		<li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Accessories/Belt/Belt</wornGraphicPath>
       <layers>
-        <li>Middle</li>
+		<li>Belt</li>
       </layers>
       <tags>
         <li>Outlander</li>
         <li>Military</li>
         <li>RWPWesternWear</li>
+		<li>IndustrialMilitary</li>
+		<li>IndustrialMilitaryBasic</li>
+		<li>Western</li>
+		
+		<!-- Mod Support -->
+		<li>JeubWear</li>
+		<li>ST_GnomeClothing</li>
       </tags>
       <defaultOutfitTags>
-        <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
   <!-- Holster Belt with Chaps -->
   <ThingDef ParentName="ApparelloVanillaBase">
@@ -304,25 +374,38 @@
       <EquipDelay>1.2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <AimingDelayFactor>-0.02</AimingDelayFactor>
+      <AimingDelayFactor>-0.03</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Accessories/Chaps/Belt</wornGraphicPath>
-      <bodyPartGroups>
-        <li>Waist</li>
-      </bodyPartGroups>
-      <layers>
-        <li>Belt</li>
-      </layers>
-      <tags>
-        <li>Outlander</li>
-        <li>RWPWesternWear</li>
+		<careIfWornByCorpse>false</careIfWornByCorpse>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
+		<careIfDamaged>false</careIfDamaged>
+		<ignoredByNonViolent>true</ignoredByNonViolent>
+		<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Accessories/Chaps/Belt</wornGraphicPath>
+		<bodyPartGroups>
+			<li>Waist</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Belt</li>
+		</layers>
+		<tags>
+			<li>Outlander</li>
+			<li>RWPWesternWear</li>
+			<li>RWPBanditWear</li>
+			<li>RWPMarshalWear</li>
+			<li>IndustrialMilitary</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>Military</li>
+			<li>RWPSheriff</li>
+			<li>Western</li>
+        
+			<!-- Cross-compatibility Mod support -->
+			<li>CallOfCthulhu_TownsfolkPolice</li>
       </tags>
       <defaultOutfitTags>
-        <li>Soldier</li>
+		<li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <generateCommonality>0.5</generateCommonality>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
 </Defs>
