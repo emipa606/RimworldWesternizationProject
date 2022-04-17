@@ -314,7 +314,7 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-		<MarketValue>70</MarketValue> <!-- To prevent an exploit where you can sell these for big bucks because they don't get Tainted -->
+		<MarketValue>12</MarketValue> <!-- To prevent an exploit where you can sell these for big bucks because they don't get Tainted -->
 		<Mass>0.1</Mass>
 		<WorkToMake>4000</WorkToMake>
 		<EquipDelay>1.2</EquipDelay>
@@ -372,7 +372,7 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-		<MarketValue>80</MarketValue> <!-- To prevent an exploit where you can sell these for big bucks because they don't get Tainted -->
+		<MarketValue>12</MarketValue> <!-- To prevent an exploit where you can sell these for big bucks because they don't get Tainted -->
 		<Mass>0.2</Mass>
 		<WorkToMake>8000</WorkToMake>
 		<EquipDelay>1.2</EquipDelay>
