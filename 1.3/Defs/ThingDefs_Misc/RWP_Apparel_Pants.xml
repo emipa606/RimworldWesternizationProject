@@ -87,6 +87,7 @@
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Pants/Pants</wornGraphicPath>
+      <gender>Male</gender>
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
@@ -98,6 +99,11 @@
         <li>RWPWesternWear</li>
         <li>RWPGentlemanWear</li>
         <li>RWPMarshalWear</li>
+        <li>Royal</li>
+        <li>RoyalTier1</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
+        <li>RoyalTier4</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -146,6 +152,9 @@
         <li>Scrap</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
+        
+        <!-- Mod cross-compatibility -->
+        <li>PoorPirateClothing</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -169,6 +178,9 @@
     <costStuffCount>65</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
+      
+      <!-- When blue jeans were invented during California's Gold Rush, they were made out of tent leather, denim came a few years after -->
+      <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
@@ -177,7 +189,7 @@
       <Mass>0.5</Mass>
       <WorkToMake>9000</WorkToMake>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>0.33</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
@@ -195,10 +207,17 @@
         <li>OnSkin</li>
       </layers>
       <tags>
+        <li>IndustrialBasic</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
         <li>RWPMarshalWear</li>
+        
+        <!-- Cross-compatibility with Mods -->
+        <li>Pirate</li>
+        <li>PoorPirateClothing</li>
+        <li>CallOfCthulhu_Lumberjack</li>
+        <li>CallOfCthulhu_Townsfolk</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -240,6 +259,7 @@
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Skirt/Skirt</wornGraphicPath>
+      <gender>Female</gender>
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
@@ -248,6 +268,8 @@
       </layers>
       <tags>
         <li>Skirt</li>
+        <li>IndustrialBasic</li>
+        <li>Outlander</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -299,6 +321,10 @@
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
+        
+        <!-- Cross-compatibility with Mods -->
+        <li>SK_Khan_Apparel_Tag</li>
+        <li>PoorPirateClothing</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -350,11 +376,15 @@
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Overalls/IndOveralls</wornGraphicPath>
       <layers>
-        <li>Shell</li>
+        <li>Middle</li>
       </layers>
       <tags>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
+        
+        <!-- Mod cross compatibility -->
+        <li>CallOfCthulhu_Townsfolk</li>
+        <li>CallOfCthulhu_Farmer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
