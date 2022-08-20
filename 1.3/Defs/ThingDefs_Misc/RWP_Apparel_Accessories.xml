@@ -26,15 +26,15 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality>0.05</generateCommonality>
-    <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! ->
+    <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
     <costStuffCount>15</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
       
       <!-- Support for Mod Stuff -->
-      <li>AB_ExoticMetals</li>
-      <li>Plastic</li>
-      <li>Composite</li>
+      <!-- <li>AB_ExoticMetals</li> -->
+      <!-- <li>Plastic</li> -->
+      <!-- <li>Composite</li> -->
     </stuffCategories>
     <costList>
       <Gold>5</Gold>
@@ -169,7 +169,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <tags_
+      <tags>
         <!-- Cross-compatibility Mod support -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
       </tags>

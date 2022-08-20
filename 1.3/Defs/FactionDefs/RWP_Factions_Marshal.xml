@@ -45,7 +45,7 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
 		
 		<!-- Appears only if you have the Mod for it -->
-		<li MayRequire="Ludeon.Rimworld.Ideology">Altruism</li>
+		<!-- <li MayRequire="Ludeon.Rimworld.Ideology">Altruism</li> -->
 	</requiredMemes>
 	<disallowedMemes>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
@@ -57,8 +57,8 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
 		
 		<!-- Forbiden Mod Memes -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">Pacifism</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">PeaceLove</li>
+		<!-- <li MayRequire="Ludeon.RimWorld.Ideology">Pacifism</li> -->
+		<!-- <li MayRequire="Ludeon.RimWorld.Ideology">PeaceLove</li> -->
 	</disallowedMemes>
 	<disallowedPrecepts>
 		<!-- Bleeding Kansas, plus the Wild West was almost entirely a free territory -->
@@ -101,9 +101,9 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
 
 		<!-- The following Precepts are only forbidden if you have the Mod -->
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Abhorrent</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Horrible</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Disapproved</li>
+		<!-- <li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Abhorrent</li> -->
+		<!-- <li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Horrible</li> -->
+		<!-- <li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Disapproved</li> -->
 	</disallowedPrecepts>
     <allowedArrivalTemperatureRange>
       <min>-50</min>

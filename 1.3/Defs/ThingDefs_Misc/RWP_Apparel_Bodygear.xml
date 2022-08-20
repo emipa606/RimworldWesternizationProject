@@ -48,14 +48,12 @@
       </layers>
       <tags>
         <li>Doctor</li>
+        <!-- Mod cross-compatibility -->
+        <li>CallOfCthulhu_TownsfolkNurse</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
-      <tags>
-        <!-- Mod cross-compatibility -->
-        <li>CallOfCthulhu_TownsfolkNurse</li>
-      </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -108,7 +106,7 @@
         <li>Middle</li>
       </layers>
       <tags>
-        <tags>IndustrialBasic</li>
+        <li>IndustrialBasic</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
       </tags>

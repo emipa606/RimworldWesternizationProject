@@ -50,7 +50,7 @@
 	<!-- RIMWORLD COWBOY BANDITS MUH IMMERSION -->
     <!-- TurtleShroom Productions -->
 	<requiredMemes>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Ideological</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li> 
@@ -145,7 +145,6 @@
           <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
         </options>
       </li>
-    <pawnGroupMakers>
       <!-- Trading Group -->
       <li>
         <kindDef>Trader</kindDef>

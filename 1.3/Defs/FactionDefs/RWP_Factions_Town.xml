@@ -43,8 +43,8 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
 		
 		<!-- Prohibited if you have the Mod -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">Pacifism</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">PeaceLove</li>
+		<!-- <li MayRequire="Ludeon.RimWorld.Ideology">Pacifism</li> -->
+		<!-- <li MayRequire="Ludeon.RimWorld.Ideology">PeaceLove</li> -->
 	</disallowedMemes>
 	<disallowedPrecepts>
 		<!-- Obvious -->
@@ -82,9 +82,9 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
 		
 		<!-- The following Precepts are only forbidden if you have the Mod -->
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Abhorrent</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Horrible</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Disapproved</li>
+		<!-- <li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Abhorrent</li> -->
+		<!-- <li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Horrible</li> -->
+		<!-- <li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Disapproved</li> -->
 	</disallowedPrecepts>
     <caravanTraderKinds>
       <li>RWP_Caravan_BulkGoods</li>

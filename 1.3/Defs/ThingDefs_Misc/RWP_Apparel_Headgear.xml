@@ -190,6 +190,10 @@
       <TradePriceImprovement>0.20</TradePriceImprovement>
     </equippedStatOffsets>
     <generateCommonality>0.5</generateCommonality>
+        <!-- Mod cross-compatibility for custom Caravans -->
+      	<tradeTags>
+		      <li>OniApparel</li>
+	      </tradeTags>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -209,10 +213,6 @@
         <li>HSApparel_EdoClanPeasant</li>
         <li>OniHeadWear</li>
       </tags>
-        <!-- Mod cross-compatibility for custom Caravans -->
-      	<tradeTags>
-		      <li>OniApparel</li>
-	      </tradeTags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
@@ -227,7 +227,65 @@
       </options>
     </colorGenerator>
   </ThingDef>
-    <!-- Top Hats are now in the base game, removing duplicity/bloat -->
+	<ThingDef ParentName="ApparelloVanillaBase">
+    <defName>RWP_Apparel_TopHat</defName>
+    <label>top hat</label>
+    <description>An elegant hat which gives the wearer a sophisticated look of importance. Improves social impact.</description>
+    <recipeMaker>
+      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/IndTophat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.14</Mass>
+      <WorkToMake>3000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.05</SocialImpact>
+      <NegotiationAbility>0.05</NegotiationAbility>
+      <TradePriceImprovement>0.30</TradePriceImprovement>
+    </equippedStatOffsets>
+    <generateCommonality>0.3</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headwear/IndTophat</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+        <li>RWPWesternWear</li>
+        <li>RWPGentlemanWear</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>4</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.9,0.9,0.9,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
   <!-- Feathered Top Hat -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_FeatheredTopHat</defName>
@@ -367,12 +425,12 @@
       <li>Woody</li>
       <li>Stony</li>
        
-       <!-- Mod Stuff-- >
-        <li>Plastic</li>
-        <li>Composite</li>
-        <li>AB_Exotic</li>
-        <li>AB_ExoticWooden</li>
-        <li>AB_ExoticMetals</li>
+       <!-- Mod Stuff -->
+        <!-- <li>Plastic</li> -->
+        <!-- <li>Composite</li> -->
+        <!-- <li>AB_Exotic</li> -->
+        <!-- <li>AB_ExoticWooden</li> -->
+        <!-- <li>AB_ExoticMetals</li> -->
     </stuffCategories>
     <costStuffCount>15</costStuffCount>
     <thingCategories>
@@ -412,6 +470,7 @@
       <!-- Mod cross-compatibility -->
        <li>OniWear</li>
        <li>OniHeadWear</li>
+    </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -532,6 +591,7 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
+		</tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
