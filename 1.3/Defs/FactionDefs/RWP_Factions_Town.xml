@@ -49,7 +49,7 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
 		
 		<!-- Prohibited if you have the Mod -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">PeaceLove</li>
+		<li MayRequire="qux.factionhippie">PeaceLove</li>
 		<li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Corporate</li>
 		<li MayRequire="VanillaExpanded.VMemesE">VME_Pacifist</li>
 		<li MayRequire="VanillaExpanded.VMemesE">VME_Vegan</li>
@@ -66,7 +66,6 @@
 
 		<!-- Take all the rope in Texas, find the tallest tree... -->
 		<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Required</li>
 
 		<!-- This ain't no Ram Ranch! -->
 		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
@@ -90,9 +89,9 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
 		
 		<!-- The following Precepts are only forbidden if you have the Mod -->
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Abhorrent</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Horrible</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Disapproved</li>
+		<li MayRequire="martinbaste.ideo.xenoprecept">XenoDiversity_Abhorrent</li>
+		<li MayRequire="martinbaste.ideo.xenoprecept">XenoDiversity_Horrible</li>
+		<li MayRequire="martinbaste.ideo.xenoprecept">XenoDiversity_Disapproved</li>
 	</disallowedPrecepts>
     <caravanTraderKinds>
       <li>RWP_Caravan_BulkGoods</li>

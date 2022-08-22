@@ -58,7 +58,7 @@
     <statBases>
       <Mass>0.01</Mass>
       <WorkToMake>1000</WorkToMake>
-      <StuffEffectMultiplierInsulation_Cold>0.33</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.9</EquipDelay>
     </statBases>
@@ -92,7 +92,7 @@
 		<li>mafia</li>
 		<li>JeubWear</li>
 		<li>CallOfCthulhu_Thug</li>
-		<li>CartelmanWear</li>
+		  <li>CartelmanWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -207,6 +207,10 @@
       <TradePriceImprovement>0.20</TradePriceImprovement>
     </equippedStatOffsets>
     <generateCommonality>0.5</generateCommonality>
+        <!-- Mod cross-compatibility for custom Caravans -->
+      	<tradeTags>
+		      <li>OniApparel</li>
+	      </tradeTags>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -252,8 +256,10 @@
       </options>
     </colorGenerator>
   </ThingDef>
+
  
     <!-- Top Hats are now in the base game, removing duplicity/bloat -->
+    
   <!-- Feathered Top Hat -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_FeatheredTopHat</defName>
@@ -305,7 +311,6 @@
         <li>RoyalTier3</li>
         
         <!-- Mod cross-compatibility -->
-		<li>OniWear</li>
         <li>OniHeadWear</li>
         <li>CallOfCthulhu_Townsfolk</li>
       </tags>
@@ -401,10 +406,10 @@
       <li>Stony</li>
        
        <!-- Mod Stuff -->
-        <li>Plastic</li>
-        <li>Composite</li>
-        <li>AB_Exotic</li>
-        <li>AB_ExoticMetals</li>
+        <li MayRequire="dubwise.rimefeller">Plastic</li>
+        <li MayRequire="dubwise.rimefeller">Composite</li>
+        <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
+        <li MayRequire="sarg.alphabiomes>AB_ExoticMetals</li>
     </stuffCategories>
     <costStuffCount>15</costStuffCount>
     <thingCategories>
@@ -581,7 +586,7 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
-		<li>WeebClothes</li>
+        <li>WeebClothes</li>
 	</tags>
       <defaultOutfitTags>
 		<li>Worker</li>

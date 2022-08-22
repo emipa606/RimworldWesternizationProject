@@ -37,7 +37,7 @@
       <li MayRequire="Dubwise.Rimefeller">Composite</li>
     </stuffCategories>
     <costList>
-      <Gold>2</Gold>
+      <Gold>1</Gold>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>
@@ -143,7 +143,6 @@
       <tags>
 		<li>RWPDeputySheriff</li>
 		<li>BarnieFife</li>
-
         <!-- Support for custom Mods -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
       </tags>
@@ -199,7 +198,6 @@
       </defaultOutfitTags>
       <tags>
 		<li>RWP_Sheriff</li>
-		
         <!-- Cross-compatibility Mod support -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
       </tags>

@@ -114,9 +114,9 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
 
 		<!-- The following Precepts are only forbidden if you have the Mod -->
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Abhorrent</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Horrible</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Disapproved</li>
+		<li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Abhorrent</li>
+		<li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Horrible</li>
+		<li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Disapproved</li>
 	</disallowedPrecepts>
     <allowedArrivalTemperatureRange>
       <min>-50</min>
@@ -162,13 +162,14 @@
           <TSP_RWP_Marshall_Surplus>1</TSP_RWP_Marshall_Surplus>
         </traders>
         <carriers>
-			<Horse>7</Horse>
+		    	<Horse>7</Horse>
           <Muffalo>2</Muffalo>
           <Dromedary>2</Dromedary>
         </carriers>
         <guards>
           <RWP_Marshal_Rifleman>4</RWP_Marshal_Rifleman>
           <RWP_Marshal_Gunslinger>1</RWP_Marshal_Gunslinger>
+          <RWP_Marshal_Sniper>1</RWP_Marshal_Sniper>
         </guards>
       </li>
       <!-- Small Scale Tier 1 Attack -->
@@ -236,7 +237,7 @@
           <RWP_Marshal_Sniper>4</RWP_Marshal_Sniper>
           <RWP_Marshal_Rifleman>10</RWP_Marshal_Rifleman>
           <RWP_Marshal_Gunslinger>8</RWP_Marshal_Gunslinger>
-		  <TSP_RWP_Marshall_Surplus>1</TSP_RWP_Marshall_Surplus>
+          <TSP_RWP_Marshall_Surplus>0.1</TSP_RWP_Marshall_Surplus>
         </options>
       </li>
     </pawnGroupMakers>

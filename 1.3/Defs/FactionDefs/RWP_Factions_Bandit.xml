@@ -56,7 +56,7 @@
 	<!-- RIMWORLD COWBOY BANDITS MUH IMMERSION -->
     <!-- TurtleShroom Productions -->
 	<requiredMemes>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Ideological</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li> 
@@ -118,10 +118,10 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Extreme</li>
 		
 		<!-- The following Precepts are only forbidden if you have the Mod -->
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Abhorrent</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Horrible</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Disapproved</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Standard</li>
+		<li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Abhorrent</li>
+		<li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Horrible</li>
+		<li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Disapproved</li>
+		<li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Standard</li>
 	</disallowedPrecepts>
     <allowedArrivalTemperatureRange>
       <min>-50</min>
@@ -174,6 +174,7 @@
         <guards>
           <RWP_Bandit_Gunslinger>6</RWP_Bandit_Gunslinger>
           <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
+          <RWP_Bandit_Boss>0.1</RWP_Bandit_Boss>
         </guards>
       </li>
       <!-- Small Scale Tier 1 Attack -->
@@ -253,7 +254,7 @@
           <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
           <RWP_Bandit_Slasher>2</RWP_Bandit_Slasher>
           <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
-		  <TSP_RWP_Bandit_Tradesman>1</TSP_RWP_Bandit_Tradesman>
+		  <TSP_RWP_Bandit_Tradesman>0.1</TSP_RWP_Bandit_Tradesman>
         </options>
       </li>
     </pawnGroupMakers>

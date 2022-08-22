@@ -18,7 +18,7 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-    <costStuffCount>75</costStuffCount>
+    <costStuffCount>80</costStuffCount>
     <costList>
       <MedicineIndustrial>3</MedicineIndustrial>
     </costList>
@@ -46,10 +46,9 @@
         <li>Middle</li>
       </layers>
       <tags>
-        <li>Doctor</li>
-	      
+        <li>Doctor</li>	      
 	      <!-- Cross-compatibility with other Mods -->
-		<li>CallOfCthulhu_TownsfolkNurse</li>
+        <li>CallOfCthulhu_TownsfolkNurse</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -349,6 +348,7 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
+        <li>RoyalTier4</li>
 		
 		<!-- Mod Support -->
 		<li>CallOfCthulhu_Detective</li>
@@ -410,7 +410,6 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
-		
 		<!-- Mod Support -->
 		<li>CallOfCthulhu_Townsfolk</li>
       </tags>
