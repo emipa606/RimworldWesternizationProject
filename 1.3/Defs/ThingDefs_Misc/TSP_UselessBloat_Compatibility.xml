@@ -11,14 +11,10 @@
 		  <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/IndTophat</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<costStuffCount>1</costStuffCount>
 		<thingClass>Apparel</thingClass>
-		<stuffCategories>
-		  <li>Fabric</li>
-		</stuffCategories>
 		<statBases>
 			<MarketValue>0</MarketValue>
-			<Mass>0.14</Mass>
+			<Mass>0.001</Mass>
 			<WorkToMake>1</WorkToMake>
 			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
@@ -26,9 +22,12 @@
 			<EquipDelay>0</EquipDelay>
 		</statBases>
 		<generateCommonality Inherit="False">0</generateCommonality>
-		<apparel>
-		  <bodyPartGroups>
-			<li>UpperHead</li>
+		<generateAllowChance Inherit="False">0</generateAllowChance>
+		<tradeability Inherit="False">None</tradeability>
+		<thingCategories Inherit="False"></thingCategories>
+		<apparel Inherit="False">
+		  <bodyPartGroups Inherit="False">
+			<li Inherit="False">Feet</li>
 		  </bodyPartGroups>
 		  <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headwear/IndTophat</wornGraphicPath>
 		  <layers>
