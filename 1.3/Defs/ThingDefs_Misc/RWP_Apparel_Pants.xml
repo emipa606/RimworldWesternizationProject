@@ -55,7 +55,10 @@
 		<li>CallOfCthulhu_Rancher</li>
 		<li>ST_GnomeClothing</li>
 		<li>JeubWear</li>
+		<li>FrogmanWear</li>
 		<li>SK_Khan_Apparel_Tag</li>
+		<li>Usa</li>
+		<li>Klan_apparel</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -121,6 +124,7 @@
 		<li>WeebElite</li>
 		<li>AnimeProtagonist</li>
 		<li>ST_GnomeClothing</li>
+		<li>FrogmanWear</li>
 		<li>RichPirateClothing</li>
 		<li>president</li>
 		<li>Usa</li>
@@ -145,13 +149,14 @@
     <tradeability>Sellable</tradeability>
     <stuffCategories>
       <li>Fabric</li>
+	  <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
     <statBases>
       <Mass>0.1</Mass>
-      <WorkToMake>300</WorkToMake>
+      <WorkToMake>3</WorkToMake>
       <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
@@ -170,13 +175,12 @@
       </layers>
       <tags>
         <li>Scrap</li>
-        <li>Outlander</li>
-        <li>RWPWesternWear</li>
 		<li>Pirate</li>
         
         <!-- Mod cross-compatibility -->
         <li>PoorPirateClothing</li>
 		<li>SK_Khan_Apparel_Tag</li>
+		<li>Klan_apparel</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -248,16 +252,18 @@
 		<li>JeubKing</li>
 		<li>BeetWear</li>
 		<li>BeetElite</li>
+		<li>FrogmanWear</li>
 		<li>WeebClothes</li>
 		<li>mafia</li>
 		<li>Usa</li>
+		<li>Klan_apparel</li>
 		<li>OniWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <generateCommonality>0.9</generateCommonality>
+    <generateCommonality>1</generateCommonality>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
   <!-- Prairie Skirt -->
@@ -317,12 +323,13 @@
 		<li>OniWear</li>
 		<li>mafia</li>
 		<li>ST_GnomeClothing</li>
+		<li>FrogmanWear</li>
 		<li>JeubWear</li>
 		<li>Usa</li>
+		<li>Klan_apparel</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-		<li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <generateCommonality>0.8</generateCommonality>
@@ -445,6 +452,8 @@
         <li>CallOfCthulhu_Townsfolk</li>
         <li>CallOfCthulhu_Farmer</li>
 		<li>CallOfCthulhu_Rancher</li>
+		<li>Usa</li>
+		<li>Klan_apparel</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
