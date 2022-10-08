@@ -66,7 +66,7 @@
       <SocialImpact>-0.15</SocialImpact>
       <TradePriceImprovement>-0.15</TradePriceImprovement>
       <NegotiationAbility>-0.15</NegotiationAbility>
-      <ToxicSensitivity>-0.33</ToxicSensitivity>
+      <ToxicResistance>0.33</ToxicResistance>
     </equippedStatOffsets>
     <generateCommonality>0.005</generateCommonality>
     <apparel>

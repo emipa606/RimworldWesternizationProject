@@ -188,6 +188,9 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
+    <costList>
+      <Silver>15</Silver>
+    </costList>
     <statBases>
       <Mass>0.05</Mass>
       <MaxHitPoints>200</MaxHitPoints>
@@ -227,6 +230,9 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
+    <costList>
+      <Silver>15</Silver>
+    </costList>
     <statBases>
       <Mass>0.05</Mass>
       <MaxHitPoints>200</MaxHitPoints>
