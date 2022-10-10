@@ -22,76 +22,63 @@
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-	<raidCommonalityFromPointsCurve>
-		<points>
-			<li>(0, 1)</li>
-			<!--Constant 1 at all points levels-->
-		</points>
-	</raidCommonalityFromPointsCurve>
     <earliestRaidDays>30</earliestRaidDays>
     <allowedCultures>
       <li>Rustican</li>
     </allowedCultures>
-    	<!-- RIMWORLD FRONTIERSMEN -->
-		<!-- TURTLESHROOM PRODUCTIONS -->
-	<requiredMemes>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
-	</requiredMemes>
-	<disallowedMemes>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
-		
-		<!-- Prohibited if you have the Mod -->
-		<li MayRequire="qux.factionhippie">PeaceLove</li>
-		<li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Corporate</li>
-		<li MayRequire="VanillaExpanded.VMemesE">VME_Pacifist</li>
-		<li MayRequire="VanillaExpanded.VMemesE">VME_Vegan</li>
-	</disallowedMemes>
-	<disallowedPrecepts>
-		<!-- Obvious -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
-
-		<!-- Vegetarianism? In MY cowboys? -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
-
-		<!-- Take all the rope in Texas, find the tallest tree... -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
-
-		<!-- This ain't no Ram Ranch! -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_NoRules</li>	
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_NoRules</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinDisapproved</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Mild</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Moderate</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Free</li>
-		
-		<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
-		
-		<!-- The following Precepts are only forbidden if you have the Mod -->
-		<li MayRequire="martinbaste.ideo.xenoprecept">XenoDiversity_Abhorrent</li>
-		<li MayRequire="martinbaste.ideo.xenoprecept">XenoDiversity_Horrible</li>
-		<li MayRequire="martinbaste.ideo.xenoprecept">XenoDiversity_Disapproved</li>
-	</disallowedPrecepts>
+    <!-- RIMWORLD FRONTIERSMEN -->
+    <!-- TURTLESHROOM PRODUCTIONS -->
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+    </requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <!-- Prohibited if you have the Mod -->
+      <!-- <li MayRequire="Ludeon.RimWorld.Ideology">Pacifism</li> -->
+      <!-- <li MayRequire="Ludeon.RimWorld.Ideology">PeaceLove</li> -->
+    </disallowedMemes>
+    <disallowedPrecepts>
+      <!-- Obvious -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+      <!-- Vegetarianism? In MY cowboys? -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
+      <!-- Take all the rope in Texas, find the tallest tree... -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Required</li>
+      <!-- This ain't no Ram Ranch! -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_NoRules</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_NoRules</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Mild</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Moderate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Free</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
+      <!-- The following Precepts are only forbidden if you have the Mod -->
+      <!-- <li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Abhorrent</li> -->
+      <!-- <li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Horrible</li> -->
+      <!-- <li MayRequire="Ludeon.Rimworld.Ideology">XenoDiversity_Disapproved</li> -->
+    </disallowedPrecepts>
     <caravanTraderKinds>
       <li>RWP_Caravan_BulkGoods</li>
       <li>RWP_Caravan_Combat</li>
@@ -117,13 +104,13 @@
   <FactionDef ParentName="RWP_TownFactionBase">
     <defName>RWP_Faction_Town</defName>
     <label>Frontier town</label>
-    <description>Frontier towns are settlements on the edge of civilization, and are under constant threat from bandit gangs and hostile native tribes. Law and order in these areas are upheld by each individual town's sheriff, though a ceremonial Planetary Chief Sheriff is elected from the lawmen to represent their commercial interests throughout the Rim. Frontier towns are mostly made up of good, honest folk who are just trying to carve out a new life in a new land.</description>
-    <pawnsPlural>frontiersmen</pawnsPlural>
+    <description>Frontier towns are settlements on the edge of civilization, and are under constant threat from bandit gangs and hostile native tribes. Law and order in these areas are upheld by the town sheriff, and they are mostly made up of good, honest folk who are just trying to carve out a new life in a new land.</description>
+    <pawnsPlural>townspeople</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
-    <settlementGenerationWeight>1.05</settlementGenerationWeight>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
     <mustStartOneEnemy>false</mustStartOneEnemy>
     <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-    <leaderTitle>Planetary Chief Sheriff</leaderTitle>
+    <leaderTitle>Town Sheriff</leaderTitle>
     <!-- ====== Faction Groups ====== -->
     <pawnGroupMakers>
       <li>
@@ -145,11 +132,9 @@
         <carriers>
           <Muffalo>2</Muffalo>
           <Dromedary>2</Dromedary>
-		  <Horse>4</Horse>
         </carriers>
         <guards>
           <RWP_Town_Guard>4</RWP_Town_Guard>
-		  <RWP_Town_Gunslinger>1</RWP_Town_Gunslinger>
         </guards>
       </li>
       <!-- Small Scale Tier 1 Attack -->
