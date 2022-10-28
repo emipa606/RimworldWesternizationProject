@@ -118,16 +118,16 @@
         <li>RoyalTier3</li>
         <li>RoyalTier4</li>
 
-		<!-- Mod Support -->
-		<li>CallOfCthulhu_Detective</li>
-		<li>WeebClothes</li>
-		<li>WeebElite</li>
-		<li>AnimeProtagonist</li>
-		<li>ST_GnomeClothing</li>
-		<li>FrogmanWear</li>
-		<li>RichPirateClothing</li>
-		<li>president</li>
-		<li>Usa</li>
+        <!-- Mod Support -->
+        <li>CallOfCthulhu_Detective</li>
+        <li>WeebClothes</li>
+        <li>WeebElite</li>
+        <li>AnimeProtagonist</li>
+        <li>ST_GnomeClothing</li>
+        <li>FrogmanWear</li>
+        <li>RichPirateClothing</li>
+        <li>president</li>
+        <li>Usa</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -136,6 +136,7 @@
     <generateCommonality>0.65</generateCommonality>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
+  
   <!-- Patchwork Pants -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_PatchworkPants</defName>
@@ -149,7 +150,7 @@
     <tradeability>Sellable</tradeability>
     <stuffCategories>
       <li>Fabric</li>
-	  <li>Leathery</li>
+	    <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
@@ -175,20 +176,23 @@
       </layers>
       <tags>
         <li>Scrap</li>
-		<li>Pirate</li>
-        
+    		<li>Pirate</li>
+        <li>Outlander</li>
+        <li>RWPWesternWear</li>
+
         <!-- Mod cross-compatibility -->
         <li>PoorPirateClothing</li>
-		<li>SK_Khan_Apparel_Tag</li>
-		<li>Klan_apparel</li>
+		    <li>SK_Khan_Apparel_Tag</li>
+		    <li>Klan_apparel</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <generateCommonality>0.05</generateCommonality>
+    <generateCommonality>0.005</generateCommonality>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
+  
   <!-- Jeans -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_Jeans</defName>
@@ -204,7 +208,6 @@
     <costStuffCount>65</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
-      
       <!-- When blue jeans were invented during California's Gold Rush, they were made out of tent leather, denim came a few years after -->
       <li>Leathery</li>
     </stuffCategories>
@@ -242,22 +245,22 @@
         <!-- Cross-compatibility with Mods -->
         <li>Pirate</li>
         <li>PoorPirateClothing</li>
-		<li>NormalPirateClothing</li>
-		<li>RichPirateClothing</li>
+        <li>NormalPirateClothing</li>
+        <li>RichPirateClothing</li>
         <li>CallOfCthulhu_Lumberjack</li>
         <li>CallOfCthulhu_Townsfolk</li>
-		<li>CallOfCthulhu_Rancher</li>
-		<li>SK_Khan_Apparel_Tag</li>
-		<li>JeubWear</li>
-		<li>JeubKing</li>
-		<li>BeetWear</li>
-		<li>BeetElite</li>
-		<li>FrogmanWear</li>
-		<li>WeebClothes</li>
-		<li>mafia</li>
-		<li>Usa</li>
-		<li>Klan_apparel</li>
-		<li>OniWear</li>
+        <li>CallOfCthulhu_Rancher</li>
+        <li>SK_Khan_Apparel_Tag</li>
+        <li>JeubWear</li>
+        <li>JeubKing</li>
+        <li>BeetWear</li>
+        <li>BeetElite</li>
+        <li>FrogmanWear</li>
+        <li>WeebClothes</li>
+        <li>mafia</li>
+        <li>Usa</li>
+        <li>Klan_apparel</li>
+        <li>OniWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -266,6 +269,7 @@
     <generateCommonality>1</generateCommonality>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
+  
   <!-- Prairie Skirt -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_PrairieSkirt</defName>
@@ -309,24 +313,24 @@
       </layers>
       <tags>
         <li>Skirt</li>
-		<li>Industrial</li>
+	    	<li>Industrial</li>
         <li>IndustrialBasic</li>
-		<li>IndustrialDecent</li>
-		<li>IndustrialAdvanced</li>
+    		<li>IndustrialDecent</li>
+	    	<li>IndustrialAdvanced</li>
         <li>Outlander</li>
 		
-		<!-- Mod Support -->
-		<li>WeebClothes</li>
-		<li>WeebGirl</li>
-		<li>CallOfCthulhu_TownsfolkNurse</li> <!-- Only appears on female nurses -->
-		<li>CallOfCthulhu_Townsfolk</li>
-		<li>OniWear</li>
-		<li>mafia</li>
-		<li>ST_GnomeClothing</li>
-		<li>FrogmanWear</li>
-		<li>JeubWear</li>
-		<li>Usa</li>
-		<li>Klan_apparel</li>
+        <!-- Mod Support -->
+        <li>WeebClothes</li>
+        <li>WeebGirl</li>
+        <li>CallOfCthulhu_TownsfolkNurse</li> <!-- Only appears on female nurses -->
+        <li>CallOfCthulhu_Townsfolk</li>
+        <li>OniWear</li>
+        <li>mafia</li>
+        <li>ST_GnomeClothing</li>
+        <li>FrogmanWear</li>
+        <li>JeubWear</li>
+        <li>Usa</li>
+        <li>Klan_apparel</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -335,6 +339,7 @@
     <generateCommonality>0.8</generateCommonality>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
+  
   <!-- Fringe Pants -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_LeatherPants</defName>
@@ -358,7 +363,7 @@
       <Mass>0.5</Mass>
       <WorkToMake>7000</WorkToMake>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-	  <!-- It says the stuff is warm, so why was the Heat Multiplier so low? -->
+	    <!-- It says the stuff is warm, so why was the Heat Multiplier so low? -->
       <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
@@ -378,16 +383,16 @@
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
-		<li>Western</li>
-        
+
         <!-- Cross-compatibility with Mods -->
         <li>SK_Khan_Apparel_Tag</li>
         <li>PoorPirateClothing</li>
-		<li>NormalPirateClothing</li>
-		<li>JeubWear</li>
-		<li>ST_BeetClothing</li>
-		<li>Barbarian</li>
-		<li>BarbarianNoble</li>
+        <li>NormalPirateClothing</li>
+        <li>JeubWear</li>
+        <li>ST_BeetClothing</li>
+        <li>Barbarian</li>
+        <li>BarbarianNoble</li>
+        <li>Skirt</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -396,6 +401,7 @@
     <generateCommonality>0.5</generateCommonality>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
+  
   <!-- Overalls -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_Overalls</defName>
@@ -430,7 +436,7 @@
       <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
       <WorkTableWorkSpeedFactor>0.07</WorkTableWorkSpeedFactor>
       <ConstructionSpeed>0.06</ConstructionSpeed>
-	  <PlantWorkSpeed>0.03</PlantWorkSpeed>
+	    <PlantWorkSpeed>0.03</PlantWorkSpeed>
     </equippedStatOffsets>
     <generateCommonality>0.3</generateCommonality>
     <apparel>
@@ -445,15 +451,16 @@
       <tags>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
-		<li>IndustrialBasic</li>
-		<li>Western</li>
+    		<li>IndustrialBasic</li>
+    		<li>Western</li>
         
         <!-- Mod cross compatibility -->
         <li>CallOfCthulhu_Townsfolk</li>
         <li>CallOfCthulhu_Farmer</li>
-		<li>CallOfCthulhu_Rancher</li>
-		<li>Usa</li>
-		<li>Klan_apparel</li>
+		    <li>CallOfCthulhu_Rancher</li>
+		    <li>Usa</li>
+		    <li>Klan_apparel</li>
+        <li>FrogmanWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

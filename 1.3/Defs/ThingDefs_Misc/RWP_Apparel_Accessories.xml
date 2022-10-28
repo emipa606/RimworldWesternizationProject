@@ -30,7 +30,6 @@
     <costStuffCount>15</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
-      
       <!-- Support for Mod Stuff -->
       <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
       <li MayRequire="Dubwise.Rimefeller">Plastic</li>
@@ -163,7 +162,7 @@
     <generateCommonality>1</generateCommonality>
     <tradeability>Sellable</tradeability>
     <costList>
-       <Gold>15</Gold>
+      <Gold>15</Gold>
     </costList>
     <thingCategories>
       <li>Apparel</li>
@@ -391,18 +390,18 @@
 			<li>Belt</li>
 		</layers>
 		<tags>
-			<li>Outlander</li>
-			<li>RWPWesternWear</li>
-			<li>RWPBanditWear</li>
-			<li>RWPMarshalWear</li>
-			<li>IndustrialMilitary</li>
-			<li>IndustrialMilitaryBasic</li>
-			<li>Military</li>
-			<li>RWPSheriff</li>
-			<li>Western</li>
-        
-			<!-- Cross-compatibility Mod support -->
-			<li>CallOfCthulhu_TownsfolkPolice</li>
+        <li>Outlander</li>
+        <li>RWPWesternWear</li>
+        <li>RWPBanditWear</li>
+        <li>RWPMarshalWear</li>
+        <li>IndustrialMilitary</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>Military</li>
+        <li>RWPSheriff</li>
+        <li>Western</li>
+
+        <!-- Cross-compatibility Mod support -->
+        <li>CallOfCthulhu_TownsfolkPolice</li>
       </tags>
       <defaultOutfitTags>
 		<li>Soldier</li>

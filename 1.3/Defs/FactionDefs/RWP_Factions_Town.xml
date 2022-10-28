@@ -34,7 +34,6 @@
     </allowedCultures>
     	<!-- RIMWORLD FRONTIERSMEN -->
 		<!-- TURTLESHROOM PRODUCTIONS -->
-	
 	<requiredMemes>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
@@ -239,7 +238,7 @@
       <li>(0.3, 0.75, 0)</li>
       <li>(0.2, 0.5, 0)</li>
     </colorSpectrum>
-	<leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+    <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
     <fixedLeaderKinds>
       <li>RWP_Town_Boss</li>
     </fixedLeaderKinds>

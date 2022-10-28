@@ -43,97 +43,97 @@
     <allowedCultures>
       <li>Kriminul</li>
     </allowedCultures>
-	<visitorTraderKinds>
+    <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
-	<baseTraderKinds>
+    <baseTraderKinds>
       <li>RWP_Base_Town_Standard</li>
     </baseTraderKinds>
     <caravanTraderKinds>
-        <li>Caravan_Outlander_PirateMerchant</li>
-        <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
     </caravanTraderKinds>
-	<!-- RIMWORLD COWBOY BANDITS MUH IMMERSION -->
+    <!-- RIMWORLD COWBOY BANDITS MUH IMMERSION -->
     <!-- TurtleShroom Productions -->
-	<requiredMemes>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li> 
-	</requiredMemes>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li> 
+    </requiredMemes>
 
-	<disallowedMemes>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
-		
-		<!-- Forbidden Mod Memes -->
-		<li MayRequire="VanillaExpanded.VMemesE">VME_Vegan</li>
-		<li MayRequire="llunak.MorePrecepts">Pacifism</li>
-		<li MayRequire="Qux.factionhippie">PeaceLove</li>
-		<li MayRequire="Zezz.Altrumeme">Altruism</li>
-		<li MayRequire="VanillaExpanded.VMemesE">VME_Pacifist</li>
-		<li MayRequire="FalloutRedScare.FalloutRedScare">FRS_Structure_Socialist</li>
-		<li MayRequire="SZ.TW.New.GuoHun">SZ_Structure_CultureQiYuan</li>
-		<li MayRequire="Qux.factionhippie">PeaceLove</li>
-		<li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Corporate</li>
-	</disallowedMemes>
-	<disallowedPrecepts>
-		<!-- Bandits love slaves -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
-		
-		<!-- Obvious -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
 
-		<!-- Vegetarianism? In MY cowboys? -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
+      <!-- Forbidden Mod Memes -->
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Vegan</li>
+      <li MayRequire="llunak.MorePrecepts">Pacifism</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="Zezz.Altrumeme">Altruism</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Pacifist</li>
+      <li MayRequire="FalloutRedScare.FalloutRedScare">FRS_Structure_Socialist</li>
+      <li MayRequire="SZ.TW.New.GuoHun">SZ_Structure_CultureQiYuan</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Corporate</li>
+    </disallowedMemes>
+    <disallowedPrecepts>
+      <!-- Bandits love slaves -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
 
-		<!-- Take all the rope in Texas, find the tallest tree... -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
-		<li MayRequire="Ludeon.Rimworld.Ideology">Execution_HorribleIfInnocent</li>
+      <!-- Obvious -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
 
-		<!-- This ain't no Ram Ranch! -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_NoRules</li>	
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_NoRules</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinDisapproved</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
-		
-		<!-- DO YOU THINK THAT'LL HURT ME? ALL YOU HAVE DONE IS MAKE MY FACE LOOK COOLER! -->
-		<li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Horrible</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Extreme</li>
-		
-		<!-- The following Precepts are only forbidden if you have the Mod -->
-		<li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Abhorrent</li>
-		<li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Horrible</li>
-		<li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Disapproved</li>
-		<li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Standard</li>
-	</disallowedPrecepts>
-    <allowedArrivalTemperatureRange>
-      <min>-50</min>
-      <max>50</max>
-    </allowedArrivalTemperatureRange>
-	<leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
-    <fixedLeaderKinds>
-      <li>RWP_Bandit_Boss</li>
-    </fixedLeaderKinds>
-    <settlementNameMaker>NamerFactionPirate</settlementNameMaker>
-    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-  </FactionDef>
+      <!-- Vegetarianism? In MY cowboys? -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
+
+      <!-- Take all the rope in Texas, find the tallest tree... -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
+      <li MayRequire="Ludeon.Rimworld.Ideology">Execution_HorribleIfInnocent</li>
+
+      <!-- This ain't no Ram Ranch! -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_NoRules</li>	
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_NoRules</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
+
+      <!-- DO YOU THINK THAT'LL HURT ME? ALL YOU HAVE DONE IS MAKE MY FACE LOOK COOLER! -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Extreme</li>
+
+      <!-- The following Precepts are only forbidden if you have the Mod -->
+      <li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Abhorrent</li>
+      <li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Horrible</li>
+      <li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Disapproved</li>
+      <li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Standard</li>
+    </disallowedPrecepts>
+      <allowedArrivalTemperatureRange>
+        <min>-50</min>
+        <max>50</max>
+      </allowedArrivalTemperatureRange>
+      <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+      <fixedLeaderKinds>
+        <li>RWP_Bandit_Boss</li>
+      </fixedLeaderKinds>
+      <settlementNameMaker>NamerFactionPirate</settlementNameMaker>
+      <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    </FactionDef>
   <!-- ==================== RWP Bandit Faction ================= -->
   <FactionDef ParentName="RWP_BanditFactionBase">
     <defName>RWP_Faction_Bandit</defName>
@@ -268,7 +268,7 @@
       <min>-50</min>
       <max>50</max>
     </allowedArrivalTemperatureRange>
-	<leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+    <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
     <fixedLeaderKinds>
       <li>RWP_Bandit_Boss</li>
     </fixedLeaderKinds>

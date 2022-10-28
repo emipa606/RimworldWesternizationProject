@@ -80,7 +80,6 @@
       </layers>
       <tags>
         <li>RWPBanditWear</li>
-        
         <!-- Mod cross-compatibility -->
 		<li>WeebClothes</li>
 		<li>WeebHat</li>
@@ -207,10 +206,10 @@
       <TradePriceImprovement>0.20</TradePriceImprovement>
     </equippedStatOffsets>
     <generateCommonality>0.5</generateCommonality>
-        <!-- Mod cross-compatibility for custom Caravans -->
-      	<tradeTags>
-		      <li>OniApparel</li>
-	      </tradeTags>
+    <!-- Mod cross-compatibility for custom Caravans -->
+    <tradeTags>
+      <li>OniApparel</li>
+    </tradeTags>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -223,7 +222,6 @@
         <li>Outlander</li>
         <li>OutlanderTrader</li>
         <li>RWPWesternWear</li>
-        
         <!-- Mod cross-compatiblity -->
         <li>Apparel_SamuraiPeasant</li>
         <li>Apparel_SamuraiStraw</li>
@@ -256,9 +254,8 @@
       </options>
     </colorGenerator>
   </ThingDef>
-
  
-    <!-- Top Hats are now in the base game, removing duplicity/bloat -->
+    <!-- Top Hats are now in the base game, removing duplicity/bloat to other file for disabling -->
     
   <!-- Feathered Top Hat -->
   <ThingDef ParentName="ApparelloVanillaBase">
@@ -309,7 +306,6 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
-        
         <!-- Mod cross-compatibility -->
         <li>OniHeadWear</li>
         <li>CallOfCthulhu_Townsfolk</li>
@@ -402,10 +398,9 @@
     </graphicData>
     <!-- SHUT MY MOUTH AND SLAP MY GRANDMA, IT NOW ACCCEPTS STUFF!! -->
      <stuffCategories>
-      <li>Metallic</li>
-      <li>Stony</li>
-       
-       <!-- Mod Stuff -->
+        <li>Metallic</li>
+        <li>Stony</li>
+        <!-- Mod Stuff -->
         <li MayRequire="dubwise.rimefeller">Plastic</li>
         <li MayRequire="dubwise.rimefeller">Composite</li>
         <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
@@ -437,29 +432,31 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
-    <tags>
-		<li>Glasses</li>
-		<li>Outlander</li>
-		<li>IndustrialBasic</li>
-		<li>IndustrialAdvanced</li>
-		<li>RWPWesternWear</li>
-		<li>RWPGentlemanWear</li>
-		<li>Royal</li>
-		<li>RoyalTier1</li>
-		<li>RoyalTier2</li>
-		<li>OniWear</li>
-		<li>OniHeadWear</li>
-		<li>CallOfCthulhu_Townsfolk</li>
-		<li>JeubWear</li>
+      
+      <tags>
+          <li>Glasses</li>
+          <li>Outlander</li>
+          <li>IndustrialBasic</li>
+          <li>IndustrialAdvanced</li>
+          <li>RWPWesternWear</li>
+          <li>RWPGentlemanWear</li>
+          <li>Royal</li>
+          <li>RoyalTier1</li>
+          <li>RoyalTier2</li>
+          <li>OniWear</li>
+          <li>OniHeadWear</li>
+          <li>CallOfCthulhu_Townsfolk</li>
+          <li>JeubWear</li>
 
-		<!-- Mod cross-compatibility -->
-		<li>OniWear</li>
-		<li>OniHeadWear</li> <!-- Onis look cute with glasses, simple as -->
-		<li>CallOfCthulhu_Townsfolk</li>
-		<li>JeubWear</li>
-		<li>WeebClothes</li>
-		<li>WeebHat</li>
-	</tags>
+          <!-- Mod cross-compatibility -->
+          <li>OniWear</li>
+          <li>OniHeadWear</li> <!-- Onis look cute with glasses, simple as -->
+          <li>CallOfCthulhu_Townsfolk</li>
+          <li>JeubWear</li>
+          <li>FrogmanWear</li>
+          <li>WeebClothes</li>
+          <li>WeebHat</li>
+      </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -470,6 +467,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
+  
   <!-- Sombrero -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_Sombrero</defName>
@@ -542,6 +540,8 @@
       </options>
     </colorGenerator>
   </ThingDef>
+  
+  
   <!-- UNIQUE -->
   <!-- Wanderer's Hat and Mask -->
   <ThingDef ParentName="ApparelloRareBase">
@@ -587,9 +587,9 @@
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
         <li>WeebClothes</li>
-	</tags>
+    	</tags>
       <defaultOutfitTags>
-		<li>Worker</li>
+		  <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
