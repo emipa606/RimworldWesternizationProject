@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraderKindDef>
+    <defName>RWP_Caravan_BulkGoods</defName>
+    <label>general goods trader</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>2400</min>
+          <max>3000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>WoodLog</thingDef>
+        <price>Cheap</price>
+        <countRange>
+          <min>500</min>
+          <max>850</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>RWP_Gear</tradeTag>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Hay</thingDef>
+        <price>Cheap</price>
+        <countRange>
+          <min>300</min>
+          <max>550</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+        <price>Cheap</price>
+        <countRange>
+          <min>300</min>
+          <max>550</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>2</max>
+        </thingDefCountRange>
+        <price>Cheap</price>
+        <totalPriceRange>
+          <min>300</min>
+          <max>400</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Pemmican</thingDef>
+        <countRange>
+          <min>100</min>
+          <max>200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <price>Normal</price>
+        <countRange>
+          <min>30</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Animals">
+        <checkTemperature>true</checkTemperature>
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalCommon</li>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>
+          <min>4</min>
+          <max>5</max>
+        </kindCountRange>
+        <countRange>
+          <min>3</min>
+          <max>5</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+    </stockGenerators>
+  </TraderKindDef>
+  <TraderKindDef>
+    <defName>RWP_Caravan_Combat</defName>
+    <label>gunsmith trader</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>2400</min>
+          <max>3000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>RWP_Gear</tradeTag>
+        <thingDefCountRange>
+          <min>10</min>
+          <max>15</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <price>Normal</price>
+        <countRange>
+          <min>50</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Animals">
+        <checkTemperature>true</checkTemperature>
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>AnimalFighter</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalCommon</li>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>
+          <min>2</min>
+          <max>4</max>
+        </kindCountRange>
+        <countRange>
+          <min>2</min>
+          <max>6</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+    </stockGenerators>
+  </TraderKindDef>
+  <!-- End of TraderKindDefs -->
+</Defs>
