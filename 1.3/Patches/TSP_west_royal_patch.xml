@@ -16,6 +16,7 @@
           <li>RoyalTier2</li>
         </value>
       </li>
+	  <!--
       <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="RWP_Apparel_TopHat"]/apparel/tags</xpath>
         <value>
@@ -23,6 +24,7 @@
           <li>RoyalTier2</li>
         </value>
       </li>
+	  -->
       <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="RWP_Apparel_Waistcoat"]/apparel/tags</xpath>
         <value>
@@ -61,6 +63,23 @@
           <li>RoyalTier2</li>
           <li>RoyalTier3</li>
           <li>RoyalTier4</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="RWP_Apparel_GentPants"]/apparel/tags</xpath>
+        <value>
+          <li>Royal</li>
+          <li>RoyalTier2</li>
+          <li>RoyalTier3</li>
+          <li>RoyalTier4</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Apparel_HatTop"]/apparel/tags</xpath>
+        <value>
+          <li>Royal</li>
+          <li>RoyalTier2</li>
+          <li>RWPGentlemanWear</li>
         </value>
       </li>
       <!-- <li Class="PatchOperationAdd"> -->

@@ -404,7 +404,7 @@
         <li MayRequire="dubwise.rimefeller">Plastic</li>
         <li MayRequire="dubwise.rimefeller">Composite</li>
         <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
-        <li MayRequire="sarg.alphabiomes>AB_ExoticMetals</li>
+        <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
     </stuffCategories>
     <costStuffCount>15</costStuffCount>
     <thingCategories>
