@@ -36,7 +36,6 @@
       <li MayRequire="Dubwise.Rimefeller">Composite</li>
     </stuffCategories>
     <costList>
-      <Gold>1</Gold>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>
