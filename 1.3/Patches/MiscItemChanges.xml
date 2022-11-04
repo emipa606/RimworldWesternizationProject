@@ -88,6 +88,24 @@
 				<li>MedievalApparelBasic</li>
 				<li>IndustrialBasic</li>
 				<li>mafia</li>
+				<li>PoorPirateClothing</li>
+				<li>NormalPirateClothing</li>
+				<li>Medieval</li>
+				<li>MedievalBasic</li>
+				<li>MedievalApparelBasic</li>
+				<li>SK_Khan_Apparel_Tag</li>
+				<li>Klan_apparel</li> <!-- We Dixies call them "britches", breeches is from where the word comes -->
+				<li>JeubWear</li>
+				<li>ST_GnomeClothing</li>
+				<li>FrenchInfantryApparelBP</li>
+				<li>FrenchLightInfantryApparel</li>
+				<li>FrenchGreandierApparel</li>
+				<li>FrenchCuirassApparel</li>
+				<li>BritishInfantryApparel</li>
+				<li>PrussianLandwehrApparel</li>
+				<li>PrussianLineApparel</li>
+				<li>PrussiaCuirassierApparel</li>
+				<li>FrogmanWear</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
@@ -110,13 +128,21 @@
 				<li>RoyalTier5</li>
 				<li>RoyalTier6</li>
 				<li>RoyalTier7</li>
+				<li>RichPirateClothing</li>
+				<li>Medieval</li>
+				<li>MedievalAdvanced</li>
+				<li>King</li>
+				<li>Klan_apparel</li> <!-- We Dixies call them "britches", breeches is from where the word comes -->
+				<li>JeubWear</li>
+				<li>ST_GnomeClothing</li>
+				<li>FrogmanWear</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
 	</Operation>
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="RCA_fancyshirtvest"]</xpath>
+		<xpath>/Defs/ThingDef[defName="RCA_fancyshirtvest"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName="RCA_fancyshirtvest"]/apparel/tags</xpath>
@@ -130,13 +156,48 @@
 				<li>CallOfCthulhu_Detective</li>
 			</value>
 		</match>
+		<!-- If it DOES NOT, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="RCA_fancyshirtvest"]</xpath>
+			<value>
+				<apparel>
+					<tags>
+						<li>Royal</li>
+						<li>RoyalTier1</li>
+						<li>RoyalTier2</li>
+						<li>MedievalApparelNoble</li>
+						<li>RWPGentlemanWear</li>
+						<li>RWPMarshalWear</li>
+						<li>CallOfCthulhu_Detective</li>
+					</tags>
+				</apparel>
+			</value>
+		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
 	</Operation>
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Apparel_Corset"]</xpath>
+		<xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
+			<value>
+				<li>RWPGentlemanWear</li> <!-- Hey, there are esteemed ladies and female socialites too! -->
+				<li>Royal</li>
+				<li>RoyalTier7</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier1</li>
+				<li>MedievalApparelNoble</li>
+				<li>King</li> <!-- Queens to be exact -->
+				<li>Dame</li>
+			</value>
+		</match>
+		<!-- If it does, add this. -->
+		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel</xpath>
 			<value>
 				<tags>
@@ -154,7 +215,7 @@
 					<li>Dame</li>
 				</tags>
 			</value>
-		</match>
+		</nomatch>
 		<!-- If the first XPATH does not exist, the original code stands. -->
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -196,6 +257,20 @@
 				<li>RWPMelee</li>
 				<li>IndustrialSimpleMelee</li>
 				<li>MeleePiercer</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]</xpath>
+			<value>
+				<TradeTags>
+					<li>RWP_Gear</li>
+				</TradeTags>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
