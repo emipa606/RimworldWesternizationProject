@@ -142,7 +142,7 @@
 	</Operation>
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="RCA_fancyshirtvest"]/apparel/tags</xpath>
+		<xpath>/Defs/ThingDef[defName="RCA_fancyshirtvest"]</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName="RCA_fancyshirtvest"]/apparel/tags</xpath>
@@ -154,23 +154,6 @@
 				<li>RWPGentlemanWear</li>
 				<li>RWPMarshalWear</li>
 				<li>CallOfCthulhu_Detective</li>
-			</value>
-		</match>
-		<!-- If it DOES NOT, add this. -->
-		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="RCA_fancyshirtvest"]</xpath>
-			<value>
-				<apparel>
-					<tags>
-						<li>Royal</li>
-						<li>RoyalTier1</li>
-						<li>RoyalTier2</li>
-						<li>MedievalApparelNoble</li>
-						<li>RWPGentlemanWear</li>
-						<li>RWPMarshalWear</li>
-						<li>CallOfCthulhu_Detective</li>
-					</tags>
-				</apparel>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
@@ -196,7 +179,7 @@
 				<li>Dame</li>
 			</value>
 		</match>
-		<!-- If it does, add this. -->
+		<!-- If it DOES NOT, add this. -->
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel</xpath>
 			<value>
