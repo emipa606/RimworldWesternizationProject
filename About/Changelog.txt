@@ -1,5 +1,8 @@
 # Changelog for RimworldWesternizationProject
 
+1.4.2 - Cloned the 1.3 CE patches to 1.4, no idea if its works
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
