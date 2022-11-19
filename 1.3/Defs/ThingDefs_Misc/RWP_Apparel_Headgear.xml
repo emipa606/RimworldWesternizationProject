@@ -207,9 +207,11 @@
     </equippedStatOffsets>
     <generateCommonality>0.5</generateCommonality>
     <!-- Mod cross-compatibility for custom Caravans -->
+	<!--
     <tradeTags>
       <li>OniApparel</li>
     </tradeTags>
+	-->
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -222,12 +224,14 @@
         <li>Outlander</li>
         <li>OutlanderTrader</li>
         <li>RWPWesternWear</li>
+		
         <!-- Mod cross-compatiblity -->
         <li>Apparel_SamuraiPeasant</li>
         <li>Apparel_SamuraiStraw</li>
         <li>HSApparel_EdoClanPeasant</li>
 		<li>OniWear</li>
         <li>OniHeadWear</li>
+		<li>OniApparel</li>
 		<li>WeebClothes</li>
 		<li>TW_Qin_PingMin</li>
 		<li>TW_Tang_PingMin</li>
