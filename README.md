@@ -107,3 +107,4 @@ https://www.moddb.com/games/rimworld/downloads/rimworld-westernization-project]M
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2237100861]Last updated 2023-01-26
