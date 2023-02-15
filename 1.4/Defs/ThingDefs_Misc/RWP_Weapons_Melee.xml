@@ -4,7 +4,7 @@
     <techLevel>Industrial</techLevel>
     <smeltable>true</smeltable>
     <tradeTags>
-      <li>RWP_Gear</li>
+		<li>RWP_Gear</li>
     </tradeTags>
     <thingCategories>
       <li>WeaponsMelee</li>
@@ -56,9 +56,19 @@
       <texPath>Things/Item/Equipment/WeaponMelee/SpikeBayonet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costList>
-      <Steel>20</Steel>
-    </costList>
+	<weaponTags>
+		<li>Bayonet</li>
+	</weaponTags>
+    <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      
+      <!-- Support for Mod Stuff -->
+	  <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
+      <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
+      <li MayRequire="Dubwise.Rimefeller">Composite</li>
+    </stuffCategories>
     <statBases>
       <WorkToMake>1000</WorkToMake>
       <Mass>0.5</Mass>
@@ -85,14 +95,24 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NonNeolithicOnlySimpleMelee</li>
-      <li>RWPMelee</li>
+		<li>NonNeolithicOnlyMelee</li>
+		<li>NonNeolithicOnlySimpleMelee</li>
+		<li>RWPMelee</li>
+		<li>MeleePiercer</li>
+		<li>IndustrialMelee</li>
+		<li>IndustrialMeleeBasic</li>
+		<li>IndustrialMeleeDecent</li>
     </weaponTags>
-    <costList>
-      <WoodLog>10</WoodLog>
-      <Steel>35</Steel>
-    </costList>
+    <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      
+      <!-- Support for Mod Stuff -->
+	  <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
+      <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
+      <li MayRequire="Dubwise.Rimefeller">Composite</li>
+    </stuffCategories>
     <statBases>
       <WorkToMake>6000</WorkToMake>
       <Mass>0.6</Mass>
@@ -129,7 +149,7 @@
   <ThingDef ParentName="RWPBaseMeleeWeapon_Sharp">
     <defName>MeleeWeapon_M1840Saber</defName>
     <label>Model 1840 Heavy Cavalry Saber</label>
-    <description>The Model 1840 Cavalry Saber, also known as "Old Wristbreaker" due to its heavy flat-backed blade, was the standard issue sword of the US Cavalry during the Mexican-American War. Although the M1840 was later replaced by the smaller and lighter Model 1860 Cavalry Saber, it still saw extensive use by both sides of the American Civil War. During that conflict, Confederate General Nathan Bedford Forrest was famous for his use of the M1840, and even sharpened both edges of the blade to increase its combat effectiveness.</description>
+    <description>The Model 1840 Cavalry Saber, also known as "Old Wrist Breaker" due to its heavy flat-backed blade, was the standard issue sword of the US Cavalry during the Mexican-American War. Although the M1840 was later replaced by the smaller and lighter Model 1860 Cavalry Saber, it still saw extensive use by both sides of the American Civil War. During that conflict, Confederate General Nathan Bedford Forrest was famous for his use of the M1840, and even sharpened both edges of the blade to increase its combat effectiveness.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/M1860_Saber</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -137,14 +157,26 @@
     <weaponTags>
       <li>NonNeolithicOnlyMelee</li>
       <li>RWPMelee</li>
+	  <li>MeleePiercer</li>
+	  <li>MedievalMeleeDecent</li>
+	  <li>LongSword</li>
+	  <li>Royal</li>
+	  <li>RoyalTier1</li>
+	  <li>RoyalTier2</li>
     </weaponTags>
-    <costList>
-      <WoodLog>25</WoodLog>
-      <Steel>100</Steel>
-    </costList>
+    <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
+    <costStuffCount>130</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      
+      <!-- Support for Mod Stuff -->
+	  <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
+      <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
+      <li MayRequire="Dubwise.Rimefeller">Composite</li>
+    </stuffCategories>
     <statBases>
       <WorkToMake>22000</WorkToMake>
-      <Mass>1.6</Mass>
+      <Mass>1.9</Mass>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <tools>
@@ -153,8 +185,9 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
-        <cooldownTime>2.4</cooldownTime>
+        <power>1</power>
+        <cooldownTime>0.4</cooldownTime>
+		<chanceFactor>0.1</chanceFactor>
       </li>
       <li>
         <label>point</label>
@@ -163,6 +196,7 @@
         </capacities>
         <power>12</power>
         <cooldownTime>2.4</cooldownTime>
+		<chanceFactor>0.98</chanceFactor>
       </li>
       <li>
         <label>edge</label>
@@ -171,6 +205,7 @@
         </capacities>
         <power>24</power>
         <cooldownTime>2.4</cooldownTime>
+		<chanceFactor>1</chanceFactor>
       </li>
     </tools>
     <recipeMaker>
@@ -187,13 +222,25 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>RWPMelee</li>
+		<li>NonNeolithicOnlyMelee</li>
+		<li>RWPMelee</li>
+		<li>MeleePiercer</li>
+		<li>MedievalMeleeDecent</li>
+		<li>LongSword</li>
+		<li>Royal</li>
+		<li>RoyalTier1</li>
+		<li>RoyalTier2</li>
     </weaponTags>
-    <costList>
-      <WoodLog>25</WoodLog>
-      <Steel>90</Steel>
-    </costList>
+    <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      
+      <!-- Support for Mod Stuff -->
+	  <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
+      <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
+      <li MayRequire="Dubwise.Rimefeller">Composite</li>
+    </stuffCategories>
     <statBases>
       <WorkToMake>20000</WorkToMake>
       <Mass>1.4</Mass>
@@ -205,8 +252,9 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
-        <cooldownTime>2.1</cooldownTime>
+        <power>1</power>
+        <cooldownTime>0.3</cooldownTime>
+		<chanceFactor>0.1</chanceFactor>
       </li>
       <li>
         <label>point</label>
@@ -215,6 +263,7 @@
         </capacities>
         <power>12</power>
         <cooldownTime>2.1</cooldownTime>
+		<chanceFactor>1</chanceFactor>
       </li>
       <li>
         <label>edge</label>
@@ -223,6 +272,7 @@
         </capacities>
         <power>20</power>
         <cooldownTime>2.1</cooldownTime>
+		<chanceFactor>1</chanceFactor>
       </li>
     </tools>
     <recipeMaker>
