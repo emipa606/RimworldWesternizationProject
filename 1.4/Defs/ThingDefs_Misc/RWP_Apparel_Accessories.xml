@@ -141,10 +141,14 @@
       <tags>
 		<li>RWPDeputySheriff</li>
 		<li>BarnieFife</li>
+		
         <!-- Support for custom Mods -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
       </tags>
     </apparel>
+	<smeltProducts>
+		<Silver>5</Silver>
+	</smeltProducts>
   </ThingDef>
   <!-- Sheriff Badge -->
   <ThingDef ParentName="RWPAccessoryMakeableBase">
@@ -196,9 +200,13 @@
       </defaultOutfitTags>
       <tags>
 		<li>RWP_Sheriff</li>
+
         <!-- Cross-compatibility Mod support -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
       </tags>
+	  <smeltProducts>
+		<Gold>15</Gold>
+	  </smeltProducts>
     </apparel>
   </ThingDef>
   <!-- Deputy U.S. Marshal Badge -->
@@ -216,7 +224,7 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <Mass>0.05</Mass>
+      <Mass>0.001</Mass>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>25000</WorkToMake>
       <Beauty>1</Beauty>
@@ -244,6 +252,9 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+	<smeltProducts>
+		<Silver>25</Silver>
+	</smeltProducts>
   </ThingDef>
   <!-- Chief Marshal Badge -->
   <ThingDef ParentName="ApparelBase">
@@ -260,7 +271,7 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <Mass>0.05</Mass>
+      <Mass>0.001</Mass>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>25000</WorkToMake>
       <Beauty>3</Beauty>
@@ -289,6 +300,9 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+	<smeltProducts>
+		<Gold>35</Gold>
+	</smeltProducts>
   </ThingDef>
   <!-- Bandolier -->
   <ThingDef ParentName="ApparelloVanillaBase">
