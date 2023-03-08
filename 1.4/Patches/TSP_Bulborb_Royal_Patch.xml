@@ -8,7 +8,6 @@
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
 			<xpath>/Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
-			<success>Always</success>
 			<value>
 				<!-- <li>RWP_Faction_Marshal_Core</li> -->
 				<li>RWP_Faction_Marshal</li>
