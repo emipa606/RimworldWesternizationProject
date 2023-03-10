@@ -207,11 +207,9 @@
     </equippedStatOffsets>
     <generateCommonality>0.5</generateCommonality>
     <!-- Mod cross-compatibility for custom Caravans -->
-	<!--
     <tradeTags>
       <li>OniApparel</li>
     </tradeTags>
-	-->
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -239,11 +237,8 @@
 		<li>Apparel_SamuraiBasic</li>
 		<li>samurai</li>
 		<li>HSApparel_RoyaltyClothes</li>
+		<li>Samuraihead</li>
       </tags>
-        <!-- Mod cross-compatibility for custom Caravans -->
-      	<tradeTags>
-			<li>OniApparel</li>
-	    </tradeTags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
