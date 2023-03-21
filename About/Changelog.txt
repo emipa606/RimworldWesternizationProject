@@ -1,5 +1,11 @@
 # Changelog for RimworldWesternizationProject
 
+1.4.4 - Added natural enemy to the bandit gang
+
+
+1.4.3 - Apparel should now inherit vanilla base-classes, fixes burnable
+
+
 1.4.2 - Cloned the 1.3 CE patches to 1.4, no idea if its works
 
 

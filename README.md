@@ -105,5 +105,4 @@ https://www.moddb.com/games/rimworld/downloads/rimworld-westernization-project]M
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-
-
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2237100861]Last updated 2023-03-10
