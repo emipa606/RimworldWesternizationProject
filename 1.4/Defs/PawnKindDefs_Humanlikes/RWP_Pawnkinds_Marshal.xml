@@ -89,7 +89,8 @@
 	<trader>true</trader>
     <initialWillRange>2~5</initialWillRange>
     <initialResistanceRange>14~46</initialResistanceRange>
-    <minGenerationAge>45</minGenerationAge>
+	<minGenerationAge>23</minGenerationAge>
+    <maxGenerationAge>45</maxGenerationAge>
     <combatPower>30</combatPower>
 	<itemQuality>Excellent</itemQuality>
 	<gearHealthRange>
