@@ -5,6 +5,7 @@
     <defName>RWP_Faction_Bandit_Core</defName>
     <pawnsPlural>bandits</pawnsPlural>
     <techLevel>Industrial</techLevel>
+	<naturalEnemy>true</naturalEnemy>
     <backstoryFilters>
       <li>
         <categories>
