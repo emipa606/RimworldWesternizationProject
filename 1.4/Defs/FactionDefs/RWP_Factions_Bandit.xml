@@ -24,7 +24,6 @@
     <rescueesCanJoin>true</rescueesCanJoin>
     <canStageAttacks>true</canStageAttacks>
     <canSiege>true</canSiege>
-    <naturalEnemy>true</naturalEnemy>
     <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,35)</li>
