@@ -471,6 +471,7 @@
           <li>WeebClothes</li>
           <li>WeebHat</li>
       </tags>
+	  <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -543,6 +544,7 @@
 		<li>Soldier</li>
 		<li>Slave</li>
       </defaultOutfitTags>
+	  <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -617,6 +619,7 @@
 		  <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
+	  <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
