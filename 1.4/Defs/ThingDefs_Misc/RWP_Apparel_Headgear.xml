@@ -65,11 +65,16 @@
     <equippedStatOffsets>
       <SocialImpact>-0.05</SocialImpact>
       <NegotiationAbility>-0.05</NegotiationAbility>
-      <ToxicResistance>0.33</ToxicResistance>
+      <ToxicResistance>0.13</ToxicResistance>
+	  <ToxicEnvrionmentResistance MayRequire="ludeon.rimworld.biotech">0.4</ToxicEnvrionmentResistance>
     </equippedStatOffsets>
     <generateCommonality>0.05</generateCommonality>
     <apparel>
       <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		<forceRenderUnderHair>true</forceRenderUnderHair>
+		<blocksVision>false</blocksVision>
+		<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>Teeth</li>
       </bodyPartGroups>
@@ -94,6 +99,7 @@
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
+		<li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -271,6 +277,7 @@
     <costStuffCount>25</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
+	  <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
@@ -406,6 +413,7 @@
         <li MayRequire="dubwise.rimefeller">Composite</li>
         <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
         <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
+		<li MayRequire="biomesteam.biomescore">BMT_ChitinStuff</li>
     </stuffCategories>
     <costStuffCount>15</costStuffCount>
     <thingCategories>
@@ -423,6 +431,11 @@
       <GlobalLearningFactor>0.05</GlobalLearningFactor>
     </equippedStatOffsets>
     <apparel>
+		<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		<forceRenderUnderHair>true</forceRenderUnderHair>
+		<blocksVision>false</blocksVision>
+		<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>Eyes</li>
       </bodyPartGroups>
@@ -432,6 +445,7 @@
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>
+		<li>Soldier</li>
       </defaultOutfitTags>
       <tags>
           <li>Outlander</li>
@@ -493,11 +507,12 @@
       <WorkToMake>3000</WorkToMake>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.03</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.70</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+	  <RestRateMultiplier>0.1</RestRateMultiplier>
     </equippedStatOffsets>
     <generateCommonality>1</generateCommonality>
     <apparel>
@@ -520,10 +535,13 @@
 		<li>JeubWear</li>
 		<li>CallOfCthulhu_Rancher</li>
 		<li>CallOfCthulhu_Farmer</li>
-		<li>FrogmanWear</li>		
+		<li>FrogmanWear</li>
+		<li>ST_GnomeClothing</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
+		<li>Soldier</li>
+		<li>Slave</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -558,6 +576,9 @@
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
+	  
+	  <!-- Mod support -->
+	  <li MayRequire="biomesteam.biomescore">BMT_ChitinStuff</li>
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
@@ -567,8 +588,8 @@
       <MarketValue>500</MarketValue>
       <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.9</EquipDelay>
+      <StuffEffectMultiplierInsulation_Heat>0.9</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.49</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.20</SocialImpact>
@@ -589,6 +610,7 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
+		<li>RoyalTier4</li>
         <li>WeebClothes</li>
     	</tags>
       <defaultOutfitTags>
