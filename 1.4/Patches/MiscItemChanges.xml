@@ -9,28 +9,32 @@
       <li>RWPMarshalWear</li>
     </value>
   </Operation>
-  <Operation Class="PatchOperationSequence">
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel/tags</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel</xpath>
-        <value>
-          <tags />
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel/tags</xpath>
-    <value>
-      <li>RWPWesternWear</li>
-      <li>RWPBanditWear</li>
-      <li>RWPMarshalWear</li>
-    </value>
-  </Operation>
+	<Operation Class="PatchOperationConditional">
+		<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="Apparel_BowlerHat"]/tags</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="Apparel_BowlerHat"]/tags</xpath>
+			<value>
+				<li>RWPWesternWear</li>
+				<li>RWPBanditWear</li>
+				<li>RWPMarshalWear</li>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="Apparel_BowlerHat"]</xpath>
+			<value>
+				<tags>
+					<li>RWPWesternWear</li>
+					<li>RWPBanditWear</li>
+					<li>RWPMarshalWear</li>
+				</tags>
+			</value>
+		</nomatch>
+	</Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Apparel_Pants"]/apparel/tags</xpath>
     <value>

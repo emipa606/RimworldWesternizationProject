@@ -4,8 +4,8 @@
   <!--Surgeon's Apron-->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_MedicalApron</defName>
-    <label>Surgeon's apron</label>
-    <description>Pocketed cloth apron intended for medical work.</description>
+    <label>surgeon's apron</label>
+    <description>Pocketed apron intended for sterile medical work.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -20,8 +20,7 @@
     </stuffCategories>
     <costStuffCount>80</costStuffCount>
     <costList>
-      <MedicineIndustrial>1</MedicineIndustrial>
-      <Cloth>80</Cloth>
+      <MedicineIndustrial>3</MedicineIndustrial>
     </costList>
     <thingCategories>
       <li>Apparel</li>
@@ -47,12 +46,13 @@
         <li>Middle</li>
       </layers>
       <tags>
-        <li>Doctor</li>
-        <!-- Mod cross-compatibility -->
+        <li>Doctor</li>	      
+	      <!-- Cross-compatibility with other Mods -->
         <li>CallOfCthulhu_TownsfolkNurse</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
+		<li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -109,6 +109,10 @@
         <li>IndustrialBasic</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
+		
+		<!-- Mod Support -->
+		<li>CallOfCthulhu_Rancher</li>
+		<li>ST_GnomeClothing</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -160,8 +164,12 @@
         <li>Middle</li>
       </layers>
       <tags>
+		<li>IndustrialBasic</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
+		
+		<!-- Mod Support -->
+		<li>ST_GnomeClothing</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -170,11 +178,11 @@
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
   <!-- COATS, SHELL LAYER -->
-  <!--Trader's Coat-->
+  <!--Tradesman's Coat-->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_TraderCoat</defName>
-    <label>trader's coat</label>
-    <description>A thick coat with various pockets and storage areas that is commonly used by travelling merchants and caravanners.</description>
+    <label>tradesman's coat</label>
+    <description>A thick coat with various pockets and storage areas that is commonly used by travelling merchants and caravaneers.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -213,8 +221,10 @@
         <li>Shell</li>
       </layers>
       <tags>
+		<li>IndustrialAdvanced</li>
         <li>OutlanderTrader</li>
         <li>RWPWesternWear</li>
+		<li>RWPGentlemanWear</li>
         <li>Scrap</li>
         <!-- Mod cross-compatibility -->
         <li>CallOfCthulhu_Townsfolk</li>
@@ -245,15 +255,15 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <Mass>0.40</Mass>
+      <Mass>0.60</Mass>
       <MaxHitPoints>250</MaxHitPoints>
       <WorkToMake>24000</WorkToMake>
       <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.90</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
-    <generateCommonality>1</generateCommonality>
+    <generateCommonality>0.9</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -267,6 +277,16 @@
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
+		
+		<!-- Mod Support -->
+		<li>PoorPirate</li>
+		<li>PoorPirateClothing</li>
+		<li>NormalPirate</li>
+		<li>NormalPirateClothing</li>
+		<li>CallOfCthulhu_Rancher</li>
+		<li>CallOfCthulhu_Farmer</li>
+		<li>CartelmanWear</li>
+		<li>ST_GnomeClothing</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -277,8 +297,8 @@
   <!--Longcoat-->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_Longcoat</defName>
-    <label>longcoat</label>
-    <description>A warm and stylish long coat for keeping the cold at bay.</description>
+    <label>long coat</label>
+    <description>A warm, stylish, and long coat for keeping the cold at bay.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -299,14 +319,14 @@
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>22000</WorkToMake>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>1.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <NegotiationAbility>0.04</NegotiationAbility>
     </equippedStatOffsets>
-    <generateCommonality>1</generateCommonality>
+    <generateCommonality>0.5</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -317,6 +337,7 @@
         <li>Shell</li>
       </layers>
       <tags>
+		<li>IndustrialBasic</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
@@ -327,6 +348,11 @@
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
         <li>RoyalTier4</li>
+		
+		<!-- Mod Support -->
+		<li>CallOfCthulhu_Detective</li>
+		<li>CallOfCthulhu_JuniorDetective</li>
+		<li>CallOfCthulhu_Townsfolk</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -365,7 +391,7 @@
     <equippedStatOffsets>
       <SocialImpact>0.13</SocialImpact>
     </equippedStatOffsets>
-    <generateCommonality>1</generateCommonality>
+    <generateCommonality>0.9</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -383,6 +409,8 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
+		<!-- Mod Support -->
+		<li>CallOfCthulhu_Townsfolk</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

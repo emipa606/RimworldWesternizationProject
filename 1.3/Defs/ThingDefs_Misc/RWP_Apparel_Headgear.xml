@@ -58,8 +58,8 @@
     <statBases>
       <Mass>0.01</Mass>
       <WorkToMake>1000</WorkToMake>
-      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.33</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.9</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -68,7 +68,7 @@
       <NegotiationAbility>-0.15</NegotiationAbility>
       <ToxicSensitivity>-0.33</ToxicSensitivity>
     </equippedStatOffsets>
-    <generateCommonality>0.005</generateCommonality>
+    <generateCommonality>0.05</generateCommonality>
     <apparel>
       <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
       <bodyPartGroups>
@@ -76,12 +76,22 @@
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headwear/Bandit</wornGraphicPath>
       <layers>
-        <li>Overhead</li>
+        <li>EyeCover</li>
       </layers>
       <tags>
         <li>RWPBanditWear</li>
         <!-- Mod cross-compatibility -->
+		<li>WeebClothes</li>
+		<li>WeebHat</li>
+		<li>BeetWear</li>
+		<li>anarchiste</li>
+		<li>Pirate</li>
+		<li>PoorPirate</li>
         <li>PoorPirateClothing</li>
+		<li>mafia</li>
+		<li>JeubWear</li>
+		<li>CallOfCthulhu_Thug</li>
+		  <li>CartelmanWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -142,6 +152,13 @@
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
         <li>RWPMarshalWear</li>
+		<li>Western</li>
+		
+		<!-- Mod Support -->
+		<li>AnimeProtagonist</li>
+		<li>CallOfCthulhu_Rancher</li>
+		<li>CallOfCthulhu_Thug</li>
+		<li>JeubWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -190,9 +207,11 @@
     </equippedStatOffsets>
     <generateCommonality>0.5</generateCommonality>
     <!-- Mod cross-compatibility for custom Caravans -->
+	<!--
     <tradeTags>
       <li>OniApparel</li>
     </tradeTags>
+	-->
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -205,12 +224,26 @@
         <li>Outlander</li>
         <li>OutlanderTrader</li>
         <li>RWPWesternWear</li>
+		
         <!-- Mod cross-compatiblity -->
         <li>Apparel_SamuraiPeasant</li>
         <li>Apparel_SamuraiStraw</li>
         <li>HSApparel_EdoClanPeasant</li>
+		<li>OniWear</li>
         <li>OniHeadWear</li>
+		<li>OniApparel</li>
+		<li>WeebClothes</li>
+		<li>TW_Qin_PingMin</li>
+		<li>TW_Tang_PingMin</li>
+		<li>HSApparel_EdoClanBase</li>
+		<li>Apparel_SamuraiBasic</li>
+		<li>samurai</li>
+		<li>HSApparel_RoyaltyClothes</li>
       </tags>
+        <!-- Mod cross-compatibility for custom Caravans -->
+      	<tradeTags>
+			<li>OniApparel</li>
+	    </tradeTags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
@@ -225,65 +258,9 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  <ThingDef ParentName="ApparelloVanillaBase">
-    <defName>RWP_Apparel_TopHat</defName>
-    <label>top hat</label>
-    <description>An elegant hat which gives the wearer a sophisticated look of importance. Improves social impact.</description>
-    <recipeMaker>
-      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/IndTophat</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costStuffCount>25</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-    </stuffCategories>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-    <statBases>
-      <Mass>0.14</Mass>
-      <WorkToMake>3000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.8</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <SocialImpact>0.05</SocialImpact>
-      <NegotiationAbility>0.05</NegotiationAbility>
-      <TradePriceImprovement>0.30</TradePriceImprovement>
-    </equippedStatOffsets>
-    <generateCommonality>0.3</generateCommonality>
-    <apparel>
-      <bodyPartGroups>
-        <li>UpperHead</li>
-      </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headwear/IndTophat</wornGraphicPath>
-      <layers>
-        <li>Overhead</li>
-      </layers>
-      <tags>
-        <li>Outlander</li>
-        <li>RWPWesternWear</li>
-        <li>RWPGentlemanWear</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Worker</li>
-      </defaultOutfitTags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>4</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.9,0.9,0.9,1)</max>
-        </li>
-      </options>
-    </colorGenerator>
-  </ThingDef>
+ 
+    <!-- Top Hats are now in the base game, removing duplicity/bloat to other file for disabling -->
+    
   <!-- Feathered Top Hat -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_FeatheredTopHat</defName>
@@ -341,6 +318,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+	<!--
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
@@ -350,7 +328,9 @@
         </li>
       </options>
     </colorGenerator>
+	-->
   </ThingDef>
+
   <!-- Kepi -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_Kepi</defName>
@@ -376,7 +356,7 @@
       <WorkToMake>3000</WorkToMake>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.33</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0.8</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -396,6 +376,10 @@
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
+		
+		<!-- Mod Support -->
+		<li>JeubWear</li>
+		<li>Usa</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -416,29 +400,27 @@
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/IndSpectacles</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <!-- NOW ACCCEPTS STUFF!! -->
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-      <!-- Mod Stuff -->
-      <!-- <li>Plastic</li> -->
-      <!-- <li>Composite</li> -->
-      <!-- <li>AB_Exotic</li> -->
-      <!-- <li>AB_ExoticWooden</li> -->
-      <!-- <li>AB_ExoticMetals</li> -->
+    <!-- SHUT MY MOUTH AND SLAP MY GRANDMA, IT NOW ACCCEPTS STUFF!! -->
+     <stuffCategories>
+        <li>Metallic</li>
+        <li>Stony</li>
+        <!-- Mod Stuff -->
+        <li MayRequire="dubwise.rimefeller">Plastic</li>
+        <li MayRequire="dubwise.rimefeller">Composite</li>
+        <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
+        <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
     </stuffCategories>
     <costStuffCount>15</costStuffCount>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <WorkToMake>7500</WorkToMake>
-      <Mass>0.005</Mass>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>0.001</Mass>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <EquipDelay>0.05</EquipDelay>
     </statBases>
-    <generateCommonality>0.2</generateCommonality>
+    <generateCommonality>0.4</generateCommonality>
     <equippedStatOffsets>
       <ResearchSpeed>0.1</ResearchSpeed>
       <GlobalLearningFactor>0.05</GlobalLearningFactor>
@@ -449,22 +431,35 @@
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headwear/IndSpectacles</wornGraphicPath>
       <layers>
-        <li>Overhead</li>
+        <li>EyeCover</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
+      
       <tags>
-        <li>Outlander</li>
-        <li>IndustrialBasic</li>
-        <li>RWPWesternWear</li>
-        <li>RWPGentlemanWear</li>
-        <li>Royal</li>
-        <li>RoyalTier1</li>
-        <li>RoyalTier2</li>
-        <!-- Mod cross-compatibility -->
-        <li>OniWear</li>
-        <li>OniHeadWear</li>
+          <li>Glasses</li>
+          <li>Outlander</li>
+          <li>IndustrialBasic</li>
+          <li>IndustrialAdvanced</li>
+          <li>RWPWesternWear</li>
+          <li>RWPGentlemanWear</li>
+          <li>Royal</li>
+          <li>RoyalTier1</li>
+          <li>RoyalTier2</li>
+          <li>OniWear</li>
+          <li>OniHeadWear</li>
+          <li>CallOfCthulhu_Townsfolk</li>
+          <li>JeubWear</li>
+
+          <!-- Mod cross-compatibility -->
+          <li>OniWear</li>
+          <li>OniHeadWear</li> <!-- Onis look cute with glasses, simple as -->
+          <li>CallOfCthulhu_Townsfolk</li>
+          <li>JeubWear</li>
+          <li>FrogmanWear</li>
+          <li>WeebClothes</li>
+          <li>WeebHat</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -476,6 +471,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
+  
   <!-- Sombrero -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_Sombrero</defName>
@@ -520,6 +516,12 @@
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
+		<li>Western</li>
+		
+		<!-- Mod Support -->
+		<li>CartelmanWear</li>
+		<li>BeetWear</li>
+		<li>JeubWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -542,6 +544,8 @@
       </options>
     </colorGenerator>
   </ThingDef>
+  
+  
   <!-- UNIQUE -->
   <!-- Wanderer's Hat and Mask -->
   <ThingDef ParentName="ApparelloRareBase">
@@ -586,8 +590,10 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
-      </tags>
+        <li>WeebClothes</li>
+    	</tags>
       <defaultOutfitTags>
+		  <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>

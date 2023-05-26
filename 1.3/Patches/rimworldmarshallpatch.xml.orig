@@ -1,0 +1,79 @@
+﻿	<!--RIMWORLD MARSHALL SERVICE -->
+	<requiredMemes>
+		<!-- Five thousand years and this ancient Faction remains ideological -->
+		<li MayRequire="Ludeon.RimWorld.Ideology">Ideological</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+		
+		<!-- Appears only if you have the Mod for it -->
+		<li MayRequire="Ludeon.Rimworld.Ideology">Altruism</li>
+	</requiredMemes>
+	<!--
+		<requiredPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Strict</li>
+
+			!-- Police duties! --
+			<li MayRequire="Ludeon.RimWorld.Ideology">Trial</li>
+			
+
+			!-- WHISKEY FOR MY MEN, BEER FOR MY HORSES! --
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution</li>
+
+			!-- Honoring fallen officers --
+			<li MayRequire="Ludeon.RimWorld.Ideology">Funeral</li>
+		</requiredPrecepts>
+	-->
+	<disallowedMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+		
+		<!-- Forbiden Mod Memes -->
+		<li MayRequire="Pacifism"></li>
+	</disallowedMemes>
+	<disallowedPrecepts>
+		<!-- Bleeding Kansas, plus the Wild West was almost entirely a free territory -->
+		<!-- The Marshall Service enforced the law without approving abolitionism or slavery -->
+		<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
+		
+		<!-- Obvious -->
+		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+
+		<!-- Vegetarianism? In MY cowboys? -->
+		<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
+
+		<!-- Take all the rope in Texas, find the tallest tree... -->
+		<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Required</li>
+
+		<!-- Enforcers of the law do not run naked -->
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_NoRules</li>	
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_NoRules</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Mild</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Moderate</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Free</li>
+	</disallowedPrecepts>
+	<structureMemeWeights>
+		
+		<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+	</structureMemeWeights>
