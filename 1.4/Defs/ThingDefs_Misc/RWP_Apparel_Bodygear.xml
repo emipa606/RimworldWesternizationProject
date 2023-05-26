@@ -46,13 +46,12 @@
       </layers>
       <tags>
         <li>Doctor</li>
-		
-	    <!-- Cross-compatibility with other Mods -->
+        <!-- Cross-compatibility with other Mods -->
         <li>CallOfCthulhu_TownsfolkNurse</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-		<li>Soldier</li>
+        <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -109,16 +108,15 @@
         <li>IndustrialBasic</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
-		
-		<!-- Mod Support -->
-		<li>Medieval</li>
-		<li>CallOfCthulhu_Rancher</li>
-		<li>ST_GnomeClothing</li>
-		<li>GoblinWear</li>
+        <!-- Mod Support -->
+        <li>Medieval</li>
+        <li>CallOfCthulhu_Rancher</li>
+        <li>ST_GnomeClothing</li>
+        <li>GoblinWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-		<li>Slave</li>
+        <li>Slave</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -167,17 +165,16 @@
         <li>Middle</li>
       </layers>
       <tags>
-		<li>IndustrialBasic</li>
+        <li>IndustrialBasic</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
-		
-		<!-- Mod Support -->
-		<li>ST_GnomeClothing</li>
-		<li>GoblinWear</li>
+        <!-- Mod Support -->
+        <li>ST_GnomeClothing</li>
+        <li>GoblinWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-		<li>Slave</li>
+        <li>Slave</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -226,12 +223,11 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>IndustrialAdvanced</li>
+        <li>IndustrialAdvanced</li>
         <li>OutlanderTrader</li>
         <li>RWPWesternWear</li>
-		<li>RWPGentlemanWear</li>
+        <li>RWPGentlemanWear</li>
         <li>Scrap</li>
-		
         <!-- Mod cross-compatibility -->
         <li>CallOfCthulhu_Townsfolk</li>
       </tags>
@@ -283,31 +279,30 @@
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
-		<li>Western</li>
-		
-		<!-- Mod Support -->
-		<li>PoorPirate</li>
-		<li>PoorPirateClothing</li>
-		<li>NormalPirate</li>
-		<li>NormalPirateClothing</li>
-		<li>CallOfCthulhu_Rancher</li>
-		<li>CallOfCthulhu_Farmer</li>
-		<li>CartelmanWear</li>
-		<li>ST_GnomeClothing</li>
-		<li>BeetWear</li>
-		<li>ST_BeetClothing</li>
-		<li>JeubWear</li>
-		<li>FrogmanWear</li>
-		<li>GoblinWear</li>
-		<li>Medieval</li>
-		<li>MedievalApparelBasic</li>
-		<li>MedievalBasic</li>
-		<li>Tribal</li>
-		<li>Neolithic</li>
+        <li>Western</li>
+        <!-- Mod Support -->
+        <li>PoorPirate</li>
+        <li>PoorPirateClothing</li>
+        <li>NormalPirate</li>
+        <li>NormalPirateClothing</li>
+        <li>CallOfCthulhu_Rancher</li>
+        <li>CallOfCthulhu_Farmer</li>
+        <li>CartelmanWear</li>
+        <li>ST_GnomeClothing</li>
+        <li>BeetWear</li>
+        <li>ST_BeetClothing</li>
+        <li>JeubWear</li>
+        <li>FrogmanWear</li>
+        <li>GoblinWear</li>
+        <li>Medieval</li>
+        <li>MedievalApparelBasic</li>
+        <li>MedievalBasic</li>
+        <li>Tribal</li>
+        <li>Neolithic</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-		<li>Slave</li>
+        <li>Slave</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -355,10 +350,10 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>IndustrialBasic</li>
-		<li>IndustrialAdvanced</li>
-		<li>MedievalNoble</li>
-		<li>MedievalDecent</li>
+        <li>IndustrialBasic</li>
+        <li>IndustrialAdvanced</li>
+        <li>MedievalNoble</li>
+        <li>MedievalDecent</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
@@ -369,14 +364,13 @@
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
         <li>RoyalTier4</li>
-		
-		<!-- Mod Support -->
-		<li>CallOfCthulhu_Detective</li>
-		<li>CallOfCthulhu_JuniorDetective</li>
-		<li>CallOfCthulhu_Townsfolk</li>
-		<li>GoblinWear</li>
-		<li>ST_GnomeClothing</li>
-		<li>Gnoble</li>
+        <!-- Mod Support -->
+        <li>CallOfCthulhu_Detective</li>
+        <li>CallOfCthulhu_JuniorDetective</li>
+        <li>CallOfCthulhu_Townsfolk</li>
+        <li>GoblinWear</li>
+        <li>ST_GnomeClothing</li>
+        <li>Gnoble</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -433,12 +427,11 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
-		
-		<!-- Mod Support -->
-		<li>CallOfCthulhu_Townsfolk</li>'
-		<li>OniWear</li>
-		<li>Gnoble</li>
-		<li>ST_GnomeClothing</li>
+        <!-- Mod Support -->
+        <li>CallOfCthulhu_Townsfolk</li>
+        <li>OniWear</li>
+        <li>Gnoble</li>
+        <li>ST_GnomeClothing</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

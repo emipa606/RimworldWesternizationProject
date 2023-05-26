@@ -54,7 +54,7 @@
     </equippedStatOffsets>
     <apparel>
       <careIfWornByCorpse>false</careIfWornByCorpse>
-	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfDamaged>true</careIfDamaged>
       <ignoredByNonViolent>false</ignoredByNonViolent>
       <bodyPartGroups>
@@ -70,22 +70,21 @@
       </defaultOutfitTags>
       <tags>
         <li>IndustrialBasic</li>
-		<li>IndustrialAdvanced</li>
+        <li>IndustrialAdvanced</li>
         <li>Royal</li>
-		<li>RoyalTier1</li>
-		<li>RoyalTier2</li>
+        <li>RoyalTier1</li>
+        <li>RoyalTier2</li>
         <li>RWPWesternWear</li>
         <li>RWPGentlemanWear</li>
         <li>Outlander</li>
-		
-		<!-- Mod Support -->
-		<li>Outlander</li>
-		<li>CallOfCthulhu_Townsfolk</li>
-		<li>CallOfCthulhu_Detective</li>
-		<li>CallOfCthulhu_Infantry</li>
-		<li>RichPirateClothing</li>
-		<li>Usa</li>
-		<li>ST_GnomeClothing</li>
+        <!-- Mod Support -->
+        <li>Outlander</li>
+        <li>CallOfCthulhu_Townsfolk</li>
+        <li>CallOfCthulhu_Detective</li>
+        <li>CallOfCthulhu_Infantry</li>
+        <li>RichPirateClothing</li>
+        <li>Usa</li>
+        <li>ST_GnomeClothing</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -124,7 +123,7 @@
     </equippedStatOffsets>
     <apparel>
       <careIfWornByCorpse>true</careIfWornByCorpse>
-	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfDamaged>false</careIfDamaged>
       <ignoredByNonViolent>false</ignoredByNonViolent>
       <bodyPartGroups>
@@ -135,20 +134,19 @@
         <li>Belt</li>
       </layers>
       <defaultOutfitTags>
-		<li>Worker</li>
-		<li>Soldier</li>
+        <li>Worker</li>
+        <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-		<li>RWPDeputySheriff</li>
-		<li>BarnieFife</li>
-		
+        <li>RWPDeputySheriff</li>
+        <li>BarnieFife</li>
         <!-- Support for custom Mods -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
       </tags>
     </apparel>
-	<smeltProducts>
-		<Silver>5</Silver>
-	</smeltProducts>
+    <smeltProducts>
+      <Silver>5</Silver>
+    </smeltProducts>
   </ThingDef>
   <!-- Sheriff Badge -->
   <ThingDef ParentName="RWPAccessoryMakeableBase">
@@ -184,7 +182,7 @@
     </equippedStatOffsets>
     <apparel>
       <careIfWornByCorpse>true</careIfWornByCorpse>
-	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfDamaged>false</careIfDamaged>
       <ignoredByNonViolent>false</ignoredByNonViolent>
       <bodyPartGroups>
@@ -195,19 +193,18 @@
         <li>Belt</li>
       </layers>
       <defaultOutfitTags>
-		<li>Worker</li>
-		<li>Soldier</li>
+        <li>Worker</li>
+        <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-		<li>RWP_Sheriff</li>
-
+        <li>RWP_Sheriff</li>
         <!-- Cross-compatibility Mod support -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
       </tags>
-	  <smeltProducts>
-		<Gold>15</Gold>
-	  </smeltProducts>
     </apparel>
+    <smeltProducts>
+      <Gold>15</Gold>
+    </smeltProducts>
   </ThingDef>
   <!-- Deputy U.S. Marshal Badge -->
   <ThingDef ParentName="ApparelBase">
@@ -237,7 +234,7 @@
     </equippedStatOffsets>
     <apparel>
       <careIfWornByCorpse>true</careIfWornByCorpse>
-	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfDamaged>false</careIfDamaged>
       <ignoredByNonViolent>false</ignoredByNonViolent>
       <bodyPartGroups>
@@ -248,13 +245,13 @@
         <li>Belt</li>
       </layers>
       <defaultOutfitTags>
-		<li>Worker</li>
+        <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-	<smeltProducts>
-		<Silver>25</Silver>
-	</smeltProducts>
+    <smeltProducts>
+      <Silver>25</Silver>
+    </smeltProducts>
   </ThingDef>
   <!-- Chief Marshal Badge -->
   <ThingDef ParentName="ApparelBase">
@@ -284,7 +281,7 @@
     </equippedStatOffsets>
     <apparel>
       <careIfWornByCorpse>true</careIfWornByCorpse>
-	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfDamaged>false</careIfDamaged>
       <ignoredByNonViolent>false</ignoredByNonViolent>
       <bodyPartGroups>
@@ -292,17 +289,17 @@
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Accessories/GoldMarshalBadge/GoldMarshalBadge</wornGraphicPath>
       <layers>
-		<!-- <li>ApparelUtility</li> -->
-		<li>Belt</li>
+        <!-- <li>ApparelUtility</li> -->
+        <li>Belt</li>
       </layers>
       <defaultOutfitTags>
-		<li>Worker</li>
+        <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-	<smeltProducts>
-		<Gold>35</Gold>
-	</smeltProducts>
+    <smeltProducts>
+      <Gold>35</Gold>
+    </smeltProducts>
   </ThingDef>
   <!-- Bandolier -->
   <ThingDef ParentName="ApparelloVanillaBase">
@@ -324,10 +321,11 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-		<MarketValue>12</MarketValue> <!-- To prevent an exploit where you can sell these for big bucks because they don't get Tainted -->
-		<Mass>0.1</Mass>
-		<WorkToMake>4000</WorkToMake>
-		<EquipDelay>1.2</EquipDelay>
+      <MarketValue>12</MarketValue>
+      <!-- To prevent an exploit where you can sell these for big bucks because they don't get Tainted -->
+      <Mass>0.1</Mass>
+      <WorkToMake>4000</WorkToMake>
+      <EquipDelay>1.2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.07</AimingDelayFactor>
@@ -335,27 +333,26 @@
     <generateCommonality>0.8</generateCommonality>
     <apparel>
       <careIfWornByCorpse>false</careIfWornByCorpse>
-	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfDamaged>false</careIfDamaged>
       <ignoredByNonViolent>true</ignoredByNonViolent>
       <bodyPartGroups>
-		<li>Waist</li>
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Accessories/Belt/Belt</wornGraphicPath>
       <layers>
-		<li>Belt</li>
+        <li>Belt</li>
       </layers>
       <tags>
         <li>Outlander</li>
         <li>Military</li>
         <li>RWPWesternWear</li>
-		<li>IndustrialMilitary</li>
-		<li>IndustrialMilitaryBasic</li>
-		<li>Western</li>
-		
-		<!-- Mod Support -->
-		<li>JeubWear</li>
-		<!-- <li>ST_GnomeClothing</li> -->
+        <li>IndustrialMilitary</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>Western</li>
+        <!-- Mod Support -->
+        <li>JeubWear</li>
+        <!-- <li>ST_GnomeClothing</li> -->
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -382,27 +379,28 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-		<MarketValue>12</MarketValue> <!-- To prevent an exploit where you can sell these for big bucks because they don't get Tainted -->
-		<Mass>0.2</Mass>
-		<WorkToMake>8000</WorkToMake>
-		<EquipDelay>1.2</EquipDelay>
+      <MarketValue>12</MarketValue>
+      <!-- To prevent an exploit where you can sell these for big bucks because they don't get Tainted -->
+      <Mass>0.2</Mass>
+      <WorkToMake>8000</WorkToMake>
+      <EquipDelay>1.2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.07</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
-		<careIfWornByCorpse>false</careIfWornByCorpse>
-		<countsAsClothingForNudity>false</countsAsClothingForNudity>
-		<careIfDamaged>false</careIfDamaged>
-		<ignoredByNonViolent>true</ignoredByNonViolent>
-		<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Accessories/Chaps/Belt</wornGraphicPath>
-		<bodyPartGroups>
-			<li>Waist</li>
-		</bodyPartGroups>
-		<layers>
-			<li>Belt</li>
-		</layers>
-		<tags>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>true</ignoredByNonViolent>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Accessories/Chaps/Belt</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
@@ -412,12 +410,11 @@
         <li>Military</li>
         <li>RWPSheriff</li>
         <li>Western</li>
-
         <!-- Cross-compatibility Mod support -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
       </tags>
       <defaultOutfitTags>
-		<li>Soldier</li>
+        <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <generateCommonality>0.5</generateCommonality>

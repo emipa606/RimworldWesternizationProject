@@ -33,12 +33,12 @@
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-	<raidCommonalityFromPointsCurve>
-		<points>
-			<li>(0, 1)</li>
-			<!--Constant 1 at all points levels-->
-		</points>
-	</raidCommonalityFromPointsCurve>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li>
+        <!--Constant 1 at all points levels-->
+      </points>
+    </raidCommonalityFromPointsCurve>
     <earliestRaidDays>1</earliestRaidDays>
     <allowedCultures>
       <li>Kriminul</li>
@@ -59,15 +59,13 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li> 
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
     </requiredMemes>
-
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
-
       <!-- Forbidden Mod Memes -->
       <li MayRequire="VanillaExpanded.VMemesE">VME_Vegan</li>
       <li MayRequire="llunak.MorePrecepts">Pacifism</li>
@@ -84,27 +82,23 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
-
       <!-- Obvious -->
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
-
       <!-- Vegetarianism? In MY cowboys? -->
       <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
-
       <!-- Take all the rope in Texas, find the tallest tree... -->
       <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
       <li MayRequire="Ludeon.Rimworld.Ideology">Execution_HorribleIfInnocent</li>
-
       <!-- This ain't no Ram Ranch! -->
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_NoRules</li>	
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_NoRules</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_NoRules</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinDisapproved</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
@@ -112,28 +106,26 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
-
       <!-- DO YOU THINK THAT'LL HURT ME? ALL YOU HAVE DONE IS MAKE MY FACE LOOK COOLER! -->
       <li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Horrible</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Extreme</li>
-
       <!-- The following Precepts are only forbidden if you have the Mod -->
       <li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Abhorrent</li>
       <li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Horrible</li>
       <li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Disapproved</li>
       <li MayRequire="martinbaste.Ideo.XenoPrecept">XenoDiversity_Standard</li>
     </disallowedPrecepts>
-      <allowedArrivalTemperatureRange>
-        <min>-50</min>
-        <max>50</max>
-      </allowedArrivalTemperatureRange>
-      <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
-      <fixedLeaderKinds>
-        <li>RWP_Bandit_Boss</li>
-      </fixedLeaderKinds>
-      <settlementNameMaker>NamerFactionPirate</settlementNameMaker>
-      <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-    </FactionDef>
+    <allowedArrivalTemperatureRange>
+      <min>-50</min>
+      <max>50</max>
+    </allowedArrivalTemperatureRange>
+    <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+    <fixedLeaderKinds>
+      <li>RWP_Bandit_Boss</li>
+    </fixedLeaderKinds>
+    <settlementNameMaker>NamerFactionPirate</settlementNameMaker>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
   <!-- ==================== RWP Bandit Faction ================= -->
   <FactionDef ParentName="RWP_BanditFactionBase">
     <defName>RWP_Faction_Bandit</defName>
@@ -145,9 +137,9 @@
     <mustStartOneEnemy>true</mustStartOneEnemy>
     <factionNameMaker>NamerFactionBandit</factionNameMaker>
     <leaderTitle>Planetary Desparado</leaderTitle>
-	<naturalEnemy>true</naturalEnemy>
+    <naturalEnemy>true</naturalEnemy>
     <!-- ====== Faction Groups ====== -->
-	<pawnGroupMakers>
+    <pawnGroupMakers>
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
@@ -156,7 +148,7 @@
           <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
           <RWP_Bandit_Slasher>3</RWP_Bandit_Slasher>
           <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
-		  <TSP_RWP_Bandit_Tradesman>1</TSP_RWP_Bandit_Tradesman>
+          <TSP_RWP_Bandit_Tradesman>1</TSP_RWP_Bandit_Tradesman>
         </options>
       </li>
       <!-- Trading Group -->
@@ -168,8 +160,8 @@
         <carriers>
           <Muffalo>1</Muffalo>
           <Dromedary>1</Dromedary>
-		  <Donkey>5</Donkey>
-		  <Horse>2</Horse>
+          <Donkey>5</Donkey>
+          <Horse>2</Horse>
         </carriers>
         <guards>
           <RWP_Bandit_Gunslinger>6</RWP_Bandit_Gunslinger>
@@ -254,7 +246,7 @@
           <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
           <RWP_Bandit_Slasher>2</RWP_Bandit_Slasher>
           <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
-		  <TSP_RWP_Bandit_Tradesman>0.1</TSP_RWP_Bandit_Tradesman>
+          <TSP_RWP_Bandit_Tradesman>0.1</TSP_RWP_Bandit_Tradesman>
         </options>
       </li>
     </pawnGroupMakers>

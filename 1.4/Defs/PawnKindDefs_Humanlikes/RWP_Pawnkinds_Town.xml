@@ -64,7 +64,7 @@
   <PawnKindDef Name="RWP_Class_Town_Townsperson" ParentName="RWP_Class_TownCore">
     <defName>RWP_Town_Townsperson</defName>
     <label>townsman</label>
-	<!-- <labelPlural>townsmen</labelPlural> -->
+    <!-- <labelPlural>townsmen</labelPlural> -->
     <initialWillRange>2~5</initialWillRange>
     <initialResistanceRange>40~46</initialResistanceRange>
     <combatPower>40</combatPower>
@@ -81,7 +81,7 @@
     </weaponTags>
     <apparelTags>
       <li>RWPWesternWear</li>
-	  <li>Western</li>
+      <li>Western</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Socialite ==== -->
@@ -144,7 +144,7 @@
     </weaponTags>
     <apparelTags>
       <li>RWPWesternWear</li>
-	  <li>Western</li>
+      <li>Western</li>
     </apparelTags>
     <inventoryOptions>
       <skipChance>0.00</skipChance>
@@ -183,7 +183,7 @@
     </weaponTags>
     <apparelTags>
       <li>RWPMarshalWear</li>
-	  <li>Western</li>
+      <li>Western</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Gunslinger ==== -->
@@ -212,7 +212,7 @@
     </weaponTags>
     <apparelTags>
       <li>RWPMarshalWear</li>
-	  <li>Western</li>
+      <li>Western</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Rifleman ==== -->
@@ -242,7 +242,7 @@
     </weaponTags>
     <apparelTags>
       <li>RWPMarshalWear</li>
-	  <li>Western</li>
+      <li>Western</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Sniper ==== -->
@@ -276,7 +276,7 @@
     </weaponTags>
     <apparelTags>
       <li>RWPMarshalWear</li>
-	  <li>Western</li>
+      <li>Western</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Town Sheriff ==== -->
@@ -310,7 +310,7 @@
     </weaponTags>
     <apparelTags>
       <li>RWPMarshalWear</li>
-	  <li>RWPGentlemanWear</li>
+      <li>RWPGentlemanWear</li>
     </apparelTags>
   </PawnKindDef>
 </Defs>

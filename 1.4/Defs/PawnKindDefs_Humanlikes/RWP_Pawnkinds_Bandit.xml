@@ -11,7 +11,7 @@
     <maxGenerationAge>35</maxGenerationAge>
     <backstoryCategories>
       <li>Outsider</li>
-	  <li>Pirate</li>
+      <li>Pirate</li>
     </backstoryCategories>
     <backstoryCryptosleepCommonality>0.01</backstoryCryptosleepCommonality>
     <chemicalAddictionChance>0.2</chemicalAddictionChance>
@@ -206,7 +206,7 @@
     <factionLeader>true</factionLeader>
     <initialWillRange>8~14</initialWillRange>
     <initialResistanceRange>60~80</initialResistanceRange>
-	<minGenerationAge>23</minGenerationAge>
+    <minGenerationAge>23</minGenerationAge>
     <maxGenerationAge>40</maxGenerationAge>
     <combatPower>100</combatPower>
     <apparelAllowHeadgearChance>2</apparelAllowHeadgearChance>
@@ -233,7 +233,7 @@
       <li>RWPBanditWear</li>
     </apparelTags>
   </PawnKindDef>
-    <!-- ==== Bandit Slaver ==== -->
+  <!-- ==== Bandit Slaver ==== -->
   <PawnKindDef Name="RWP_Class_TSP_Bandit_Tradesman" ParentName="RWP_Class_BanditCore">
     <defName>TSP_RWP_Bandit_Tradesman</defName>
     <label>outlaw profiteer</label>
@@ -243,7 +243,7 @@
     <initialResistanceRange>50~76</initialResistanceRange>
     <minGenerationAge>40</minGenerationAge>
     <maxGenerationAge>60</maxGenerationAge>
-	<gearHealthRange>
+    <gearHealthRange>
       <min>0.99</min>
       <max>1</max>
     </gearHealthRange>
@@ -257,7 +257,7 @@
       <max>10000</max>
     </weaponMoney>
     <apparelRequired>
-	  <li>RWP_Apparel_BanditScarf</li>
+      <li>RWP_Apparel_BanditScarf</li>
       <li>RWP_Apparel_TraderCoat</li>
     </apparelRequired>
     <weaponTags>

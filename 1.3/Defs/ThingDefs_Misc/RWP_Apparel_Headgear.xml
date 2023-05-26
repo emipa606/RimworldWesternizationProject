@@ -81,17 +81,17 @@
       <tags>
         <li>RWPBanditWear</li>
         <!-- Mod cross-compatibility -->
-		<li>WeebClothes</li>
-		<li>WeebHat</li>
-		<li>BeetWear</li>
-		<li>anarchiste</li>
-		<li>Pirate</li>
-		<li>PoorPirate</li>
+        <li>WeebClothes</li>
+        <li>WeebHat</li>
+        <li>BeetWear</li>
+        <li>anarchiste</li>
+        <li>Pirate</li>
+        <li>PoorPirate</li>
         <li>PoorPirateClothing</li>
-		<li>mafia</li>
-		<li>JeubWear</li>
-		<li>CallOfCthulhu_Thug</li>
-		  <li>CartelmanWear</li>
+        <li>mafia</li>
+        <li>JeubWear</li>
+        <li>CallOfCthulhu_Thug</li>
+        <li>CartelmanWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -152,13 +152,12 @@
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
         <li>RWPMarshalWear</li>
-		<li>Western</li>
-		
-		<!-- Mod Support -->
-		<li>AnimeProtagonist</li>
-		<li>CallOfCthulhu_Rancher</li>
-		<li>CallOfCthulhu_Thug</li>
-		<li>JeubWear</li>
+        <li>Western</li>
+        <!-- Mod Support -->
+        <li>AnimeProtagonist</li>
+        <li>CallOfCthulhu_Rancher</li>
+        <li>CallOfCthulhu_Thug</li>
+        <li>JeubWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -207,11 +206,9 @@
     </equippedStatOffsets>
     <generateCommonality>0.5</generateCommonality>
     <!-- Mod cross-compatibility for custom Caravans -->
-	<!--
     <tradeTags>
       <li>OniApparel</li>
     </tradeTags>
-	-->
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -224,26 +221,21 @@
         <li>Outlander</li>
         <li>OutlanderTrader</li>
         <li>RWPWesternWear</li>
-		
         <!-- Mod cross-compatiblity -->
         <li>Apparel_SamuraiPeasant</li>
         <li>Apparel_SamuraiStraw</li>
         <li>HSApparel_EdoClanPeasant</li>
-		<li>OniWear</li>
+        <li>OniWear</li>
         <li>OniHeadWear</li>
-		<li>OniApparel</li>
-		<li>WeebClothes</li>
-		<li>TW_Qin_PingMin</li>
-		<li>TW_Tang_PingMin</li>
-		<li>HSApparel_EdoClanBase</li>
-		<li>Apparel_SamuraiBasic</li>
-		<li>samurai</li>
-		<li>HSApparel_RoyaltyClothes</li>
+        <li>OniApparel</li>
+        <li>WeebClothes</li>
+        <li>TW_Qin_PingMin</li>
+        <li>TW_Tang_PingMin</li>
+        <li>HSApparel_EdoClanBase</li>
+        <li>Apparel_SamuraiBasic</li>
+        <li>samurai</li>
+        <li>HSApparel_RoyaltyClothes</li>
       </tags>
-        <!-- Mod cross-compatibility for custom Caravans -->
-      	<tradeTags>
-			<li>OniApparel</li>
-	    </tradeTags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
@@ -258,9 +250,7 @@
       </options>
     </colorGenerator>
   </ThingDef>
- 
-    <!-- Top Hats are now in the base game, removing duplicity/bloat to other file for disabling -->
-    
+  <!-- Top Hats are now in the base game, removing duplicity/bloat to other file for disabling -->
   <!-- Feathered Top Hat -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_FeatheredTopHat</defName>
@@ -318,7 +308,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-	<!--
+    <!--
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
@@ -330,7 +320,6 @@
     </colorGenerator>
 	-->
   </ThingDef>
-
   <!-- Kepi -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_Kepi</defName>
@@ -376,10 +365,9 @@
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
-		
-		<!-- Mod Support -->
-		<li>JeubWear</li>
-		<li>Usa</li>
+        <!-- Mod Support -->
+        <li>JeubWear</li>
+        <li>Usa</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -401,14 +389,14 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <!-- SHUT MY MOUTH AND SLAP MY GRANDMA, IT NOW ACCCEPTS STUFF!! -->
-     <stuffCategories>
-        <li>Metallic</li>
-        <li>Stony</li>
-        <!-- Mod Stuff -->
-        <li MayRequire="dubwise.rimefeller">Plastic</li>
-        <li MayRequire="dubwise.rimefeller">Composite</li>
-        <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
-        <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <!-- Mod Stuff -->
+      <li MayRequire="dubwise.rimefeller">Plastic</li>
+      <li MayRequire="dubwise.rimefeller">Composite</li>
+      <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
+      <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
     </stuffCategories>
     <costStuffCount>15</costStuffCount>
     <thingCategories>
@@ -436,30 +424,29 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
-      
       <tags>
-          <li>Glasses</li>
-          <li>Outlander</li>
-          <li>IndustrialBasic</li>
-          <li>IndustrialAdvanced</li>
-          <li>RWPWesternWear</li>
-          <li>RWPGentlemanWear</li>
-          <li>Royal</li>
-          <li>RoyalTier1</li>
-          <li>RoyalTier2</li>
-          <li>OniWear</li>
-          <li>OniHeadWear</li>
-          <li>CallOfCthulhu_Townsfolk</li>
-          <li>JeubWear</li>
-
-          <!-- Mod cross-compatibility -->
-          <li>OniWear</li>
-          <li>OniHeadWear</li> <!-- Onis look cute with glasses, simple as -->
-          <li>CallOfCthulhu_Townsfolk</li>
-          <li>JeubWear</li>
-          <li>FrogmanWear</li>
-          <li>WeebClothes</li>
-          <li>WeebHat</li>
+        <li>Glasses</li>
+        <li>Outlander</li>
+        <li>IndustrialBasic</li>
+        <li>IndustrialAdvanced</li>
+        <li>RWPWesternWear</li>
+        <li>RWPGentlemanWear</li>
+        <li>Royal</li>
+        <li>RoyalTier1</li>
+        <li>RoyalTier2</li>
+        <li>OniWear</li>
+        <li>OniHeadWear</li>
+        <li>CallOfCthulhu_Townsfolk</li>
+        <li>JeubWear</li>
+        <!-- Mod cross-compatibility -->
+        <li>OniWear</li>
+        <li>OniHeadWear</li>
+        <!-- Onis look cute with glasses, simple as -->
+        <li>CallOfCthulhu_Townsfolk</li>
+        <li>JeubWear</li>
+        <li>FrogmanWear</li>
+        <li>WeebClothes</li>
+        <li>WeebHat</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -471,7 +458,6 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  
   <!-- Sombrero -->
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_Sombrero</defName>
@@ -516,12 +502,11 @@
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
-		<li>Western</li>
-		
-		<!-- Mod Support -->
-		<li>CartelmanWear</li>
-		<li>BeetWear</li>
-		<li>JeubWear</li>
+        <li>Western</li>
+        <!-- Mod Support -->
+        <li>CartelmanWear</li>
+        <li>BeetWear</li>
+        <li>JeubWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -544,8 +529,6 @@
       </options>
     </colorGenerator>
   </ThingDef>
-  
-  
   <!-- UNIQUE -->
   <!-- Wanderer's Hat and Mask -->
   <ThingDef ParentName="ApparelloRareBase">
@@ -591,9 +574,9 @@
         <li>RoyalTier2</li>
         <li>RoyalTier3</li>
         <li>WeebClothes</li>
-    	</tags>
+      </tags>
       <defaultOutfitTags>
-		  <li>Worker</li>
+        <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>

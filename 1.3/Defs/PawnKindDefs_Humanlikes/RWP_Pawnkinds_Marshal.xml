@@ -62,7 +62,7 @@
     <minGenerationAge>20</minGenerationAge>
     <maxGenerationAge>35</maxGenerationAge>
     <combatPower>50</combatPower>
-	<itemQuality>Good</itemQuality>
+    <itemQuality>Good</itemQuality>
     <apparelMoney>
       <min>1000</min>
       <max>3000</max>
@@ -77,7 +77,7 @@
     </apparelRequired>
     <weaponTags>
       <li>RWPRevolver</li>
-	  <li>Revolver</li>
+      <li>Revolver</li>
     </weaponTags>
     <apparelTags>
       <li>RWPMarshalWear</li>
@@ -86,14 +86,14 @@
   <PawnKindDef Name="RWP_Class_TSP_Marshall_Tradesman" ParentName="RWP_Class_MarshalCore">
     <defName>TSP_RWP_Marshall_Surplus</defName>
     <label>marshall arms surplus salesman</label>
-	<trader>true</trader>
+    <trader>true</trader>
     <initialWillRange>2~5</initialWillRange>
     <initialResistanceRange>40~46</initialResistanceRange>
     <minGenerationAge>20</minGenerationAge>
     <maxGenerationAge>40</maxGenerationAge>
     <combatPower>30</combatPower>
-	<itemQuality>Normal</itemQuality>
-	<gearHealthRange>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>
       <min>0.99</min>
       <max>1</max>
     </gearHealthRange>
@@ -111,7 +111,7 @@
     </apparelRequired>
     <weaponTags>
       <li>RWPRifle</li>
-	  <li>SimpleGun</li>
+      <li>SimpleGun</li>
     </weaponTags>
     <apparelTags>
       <li>RWPMarshalWear</li>
@@ -179,7 +179,6 @@
       <li>RWPMarshalWear</li>
     </apparelTags>
   </PawnKindDef>
-
   <!-- ==== (Marshal) Chief Marshal ==== -->
   <PawnKindDef Name="RWP_Class_Marshal_Boss" ParentName="RWP_Class_MarshalCore">
     <defName>RWP_Marshal_Boss</defName>
@@ -208,11 +207,11 @@
     </apparelRequired>
     <weaponTags>
       <li>RWPRifle</li>
-	  <li>Gun</li>
+      <li>Gun</li>
     </weaponTags>
     <apparelTags>
       <li>RWPMarshalWear</li>
-	  <li>RWPGentlemanWear</li>
+      <li>RWPGentlemanWear</li>
     </apparelTags>
   </PawnKindDef>
 </Defs>

@@ -4,7 +4,7 @@
     <techLevel>Industrial</techLevel>
     <smeltable>true</smeltable>
     <tradeTags>
-		<li>RWP_Gear</li>
+      <li>RWP_Gear</li>
     </tradeTags>
     <thingCategories>
       <li>WeaponsMelee</li>
@@ -56,16 +56,15 @@
       <texPath>Things/Item/Equipment/WeaponMelee/SpikeBayonet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	<weaponTags>
-		<li>Bayonet</li>
-	</weaponTags>
+    <weaponTags>
+      <li>Bayonet</li>
+    </weaponTags>
     <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
     <costStuffCount>25</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
-      
       <!-- Support for Mod Stuff -->
-	  <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
+      <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
       <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
       <li MayRequire="Dubwise.Rimefeller">Composite</li>
     </stuffCategories>
@@ -95,21 +94,20 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <weaponTags>
-		<li>NonNeolithicOnlyMelee</li>
-		<li>NonNeolithicOnlySimpleMelee</li>
-		<li>RWPMelee</li>
-		<li>MeleePiercer</li>
-		<li>IndustrialMelee</li>
-		<li>IndustrialMeleeBasic</li>
-		<li>IndustrialMeleeDecent</li>
+      <li>NonNeolithicOnlyMelee</li>
+      <li>NonNeolithicOnlySimpleMelee</li>
+      <li>RWPMelee</li>
+      <li>MeleePiercer</li>
+      <li>IndustrialMelee</li>
+      <li>IndustrialMeleeBasic</li>
+      <li>IndustrialMeleeDecent</li>
     </weaponTags>
     <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
-      
       <!-- Support for Mod Stuff -->
-	  <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
+      <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
       <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
       <li MayRequire="Dubwise.Rimefeller">Composite</li>
     </stuffCategories>
@@ -157,20 +155,19 @@
     <weaponTags>
       <li>NonNeolithicOnlyMelee</li>
       <li>RWPMelee</li>
-	  <li>MeleePiercer</li>
-	  <li>MedievalMeleeDecent</li>
-	  <li>LongSword</li>
-	  <li>Royal</li>
-	  <li>RoyalTier1</li>
-	  <li>RoyalTier2</li>
+      <li>MeleePiercer</li>
+      <li>MedievalMeleeDecent</li>
+      <li>LongSword</li>
+      <li>Royal</li>
+      <li>RoyalTier1</li>
+      <li>RoyalTier2</li>
     </weaponTags>
     <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
     <costStuffCount>130</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
-      
       <!-- Support for Mod Stuff -->
-	  <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
+      <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
       <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
       <li MayRequire="Dubwise.Rimefeller">Composite</li>
     </stuffCategories>
@@ -187,7 +184,7 @@
         </capacities>
         <power>1</power>
         <cooldownTime>0.4</cooldownTime>
-		<chanceFactor>0.1</chanceFactor>
+        <chanceFactor>0.1</chanceFactor>
       </li>
       <li>
         <label>point</label>
@@ -196,7 +193,7 @@
         </capacities>
         <power>12</power>
         <cooldownTime>2.4</cooldownTime>
-		<chanceFactor>0.98</chanceFactor>
+        <chanceFactor>0.98</chanceFactor>
       </li>
       <li>
         <label>edge</label>
@@ -205,7 +202,7 @@
         </capacities>
         <power>24</power>
         <cooldownTime>2.4</cooldownTime>
-		<chanceFactor>1</chanceFactor>
+        <chanceFactor>1</chanceFactor>
       </li>
     </tools>
     <recipeMaker>
@@ -222,22 +219,21 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <weaponTags>
-		<li>NonNeolithicOnlyMelee</li>
-		<li>RWPMelee</li>
-		<li>MeleePiercer</li>
-		<li>MedievalMeleeDecent</li>
-		<li>LongSword</li>
-		<li>Royal</li>
-		<li>RoyalTier1</li>
-		<li>RoyalTier2</li>
+      <li>NonNeolithicOnlyMelee</li>
+      <li>RWPMelee</li>
+      <li>MeleePiercer</li>
+      <li>MedievalMeleeDecent</li>
+      <li>LongSword</li>
+      <li>Royal</li>
+      <li>RoyalTier1</li>
+      <li>RoyalTier2</li>
     </weaponTags>
     <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
     <costStuffCount>100</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
-      
       <!-- Support for Mod Stuff -->
-	  <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
+      <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
       <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
       <li MayRequire="Dubwise.Rimefeller">Composite</li>
     </stuffCategories>
@@ -254,7 +250,7 @@
         </capacities>
         <power>1</power>
         <cooldownTime>0.3</cooldownTime>
-		<chanceFactor>0.1</chanceFactor>
+        <chanceFactor>0.1</chanceFactor>
       </li>
       <li>
         <label>point</label>
@@ -263,7 +259,7 @@
         </capacities>
         <power>12</power>
         <cooldownTime>2.1</cooldownTime>
-		<chanceFactor>1</chanceFactor>
+        <chanceFactor>1</chanceFactor>
       </li>
       <li>
         <label>edge</label>
@@ -272,7 +268,7 @@
         </capacities>
         <power>20</power>
         <cooldownTime>2.1</cooldownTime>
-		<chanceFactor>1</chanceFactor>
+        <chanceFactor>1</chanceFactor>
       </li>
     </tools>
     <recipeMaker>
