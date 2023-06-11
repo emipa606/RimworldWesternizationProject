@@ -130,7 +130,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>Headgear</li>
     </thingCategories>
     <statBases>
       <Mass>0.14</Mass>
@@ -194,9 +194,15 @@
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Leathery</li>
+	  
+	  <!-- Mod support -->
+	  <li MayRequire="sarg.rimbees">RB_Waxy</li>
+	  <li MayRequire="biomesteam.biomescore">BMT_ChitinStuff</li>
+      <li MayRequire="Dubwise.Rimefeller">Plastic</li>
+      <li MayRequire="Dubwise.Rimefeller">Composite</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>Headgear</li>
     </thingCategories>
     <statBases>
       <Mass>0.2</Mass>
@@ -259,7 +265,7 @@
   </ThingDef>
   <!-- Top Hats are now in the base game, removing duplicity/bloat to other file for disabling -->
   <!-- Feathered Top Hat -->
-  <ThingDef ParentName="ApparelloVanillaBase">
+  <ThingDef ParentName="ApparelloRareBase">
     <defName>RWP_Apparel_FeatheredTopHat</defName>
     <label>feathered top hat</label>
     <description>A striking feathered hat that has an air of grandeur. Improves social impact.</description>
@@ -276,7 +282,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>Headgear</li>
     </thingCategories>
     <statBases>
       <Mass>0.14</Mass>
@@ -457,8 +463,7 @@
         <li>CallOfCthulhu_Townsfolk</li>
         <li>JeubWear</li>
         <li>OniWear</li>
-        <li>OniHeadWear</li>
-        <!-- Onis look cute with glasses, simple as -->
+        <li>OniHeadWear</li> <!-- Onis look cute with glasses, simple as -->
         <li>CallOfCthulhu_Townsfolk</li>
         <li>JeubWear</li>
         <li>FrogmanWear</li>
@@ -572,7 +577,7 @@
       <li MayRequire="biomesteam.biomescore">BMT_ChitinStuff</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>Headgear</li>
     </thingCategories>
     <statBases>
       <Mass>0.16</Mass>

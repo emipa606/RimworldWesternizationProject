@@ -6,12 +6,12 @@
     <race>Human</race>
     <defaultFactionType>RWP_Faction_Town</defaultFactionType>
     <combatPower>35</combatPower>
-    <initialWillRange>1~3</initialWillRange>
+    <initialWillRange>1~2</initialWillRange>
     <initialResistanceRange>4~8</initialResistanceRange>
     <backstoryCategories>
       <li>Outlander</li>
     </backstoryCategories>
-    <backstoryCryptosleepCommonality>0.01</backstoryCryptosleepCommonality>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <invNutrition>1</invNutrition>
     <invFoodDef>Pemmican</invFoodDef>
@@ -65,8 +65,8 @@
     <defName>RWP_Town_Townsperson</defName>
     <label>townsman</label>
     <!-- <labelPlural>townsmen</labelPlural> -->
-    <initialWillRange>2~5</initialWillRange>
-    <initialResistanceRange>40~46</initialResistanceRange>
+    <initialWillRange>2~3</initialWillRange>
+    <initialResistanceRange>3~7</initialResistanceRange>
     <combatPower>40</combatPower>
     <apparelMoney>
       <min>800</min>
@@ -88,12 +88,13 @@
   <PawnKindDef Name="RWP_Class_Town_Socialite" ParentName="RWP_Class_TownCore">
     <defName>RWP_Town_Socialite</defName>
     <label>socialite</label>
-    <initialWillRange>2~5</initialWillRange>
-    <initialResistanceRange>40~46</initialResistanceRange>
+    <initialWillRange>0.5~1</initialWillRange>
+    <initialResistanceRange>9~12</initialResistanceRange>
     <minGenerationAge>21</minGenerationAge>
     <maxGenerationAge>50</maxGenerationAge>
     <combatPower>30</combatPower>
-    <apparelAllowHeadgearChance>2</apparelAllowHeadgearChance>
+    <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+	<backstoryCryptosleepCommonality>0.001</backstoryCryptosleepCommonality>
     <itemQuality>Good</itemQuality>
     <gearHealthRange>
       <min>0.9</min>
@@ -124,7 +125,7 @@
     <combatPower>42</combatPower>
     <trader>true</trader>
     <initialWillRange>2~6</initialWillRange>
-    <initialResistanceRange>40~66</initialResistanceRange>
+    <initialResistanceRange>10~14</initialResistanceRange>
     <isFighter>false</isFighter>
     <minGenerationAge>20</minGenerationAge>
     <apparelAllowHeadgearChance>0.25</apparelAllowHeadgearChance>
@@ -158,9 +159,9 @@
   <!-- ==== (Town) Caravan Guard ==== -->
   <PawnKindDef Name="RWP_Class_Town_Guard" ParentName="RWP_Class_TownCore">
     <defName>RWP_Town_Guard</defName>
-    <label>caravan guard</label>
-    <initialWillRange>5~9</initialWillRange>
-    <initialResistanceRange>50~76</initialResistanceRange>
+    <label>caravan guardsman</label>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>7~9</initialResistanceRange>
     <minGenerationAge>30</minGenerationAge>
     <maxGenerationAge>50</maxGenerationAge>
     <combatPower>65</combatPower>
@@ -191,7 +192,7 @@
     <defName>RWP_Town_Gunslinger</defName>
     <label>deputy sheriff</label>
     <initialWillRange>2~5</initialWillRange>
-    <initialResistanceRange>40~46</initialResistanceRange>
+    <initialResistanceRange>14~16</initialResistanceRange>
     <minGenerationAge>20</minGenerationAge>
     <maxGenerationAge>35</maxGenerationAge>
     <combatPower>50</combatPower>
@@ -220,7 +221,7 @@
     <defName>RWP_Town_Rifleman</defName>
     <label>deputy sheriff</label>
     <initialWillRange>5~9</initialWillRange>
-    <initialResistanceRange>50~76</initialResistanceRange>
+    <initialResistanceRange>15~20</initialResistanceRange>
     <minGenerationAge>25</minGenerationAge>
     <maxGenerationAge>45</maxGenerationAge>
     <combatPower>55</combatPower>
@@ -242,6 +243,7 @@
     </weaponTags>
     <apparelTags>
       <li>RWPMarshalWear</li>
+	  <li>RWPDeputySheriffWear</li>
       <li>Western</li>
     </apparelTags>
   </PawnKindDef>
@@ -250,7 +252,7 @@
     <defName>RWP_Town_Sniper</defName>
     <label>deputy sheriff</label>
     <initialWillRange>5~9</initialWillRange>
-    <initialResistanceRange>50~76</initialResistanceRange>
+    <initialResistanceRange>15~20</initialResistanceRange>
     <minGenerationAge>30</minGenerationAge>
     <maxGenerationAge>50</maxGenerationAge>
     <combatPower>60</combatPower>
@@ -275,8 +277,10 @@
       <li>RWPSniper</li>
     </weaponTags>
     <apparelTags>
-      <li>RWPMarshalWear</li>
-      <li>Western</li>
+		<li>RWPDeputySheriffWear</li>
+		<li>BarneyFife</li>
+		<li>RWPMarshalWear</li>
+		<li>Western</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Town Sheriff ==== -->
@@ -289,13 +293,14 @@
     <maxGenerationAge>55</maxGenerationAge>
     <combatPower>75</combatPower>
     <apparelAllowHeadgearChance>2</apparelAllowHeadgearChance>
-    <itemQuality>Superior</itemQuality>
+	<backstoryCryptosleepCommonality>0.01</backstoryCryptosleepCommonality>
+    <itemQuality>Excellent</itemQuality>
     <gearHealthRange>
-      <min>0.9</min>
+      <min>1</min>
       <max>1.1</max>
     </gearHealthRange>
     <apparelMoney>
-      <min>5000</min>
+      <min>2500</min>
       <max>36000</max>
     </apparelMoney>
     <weaponMoney>
@@ -304,13 +309,15 @@
     </weaponMoney>
     <apparelRequired>
       <li>RWP_Apparel_SheriffBadge</li>
+	  <li>CowboyHat</li>
     </apparelRequired>
     <weaponTags>
       <li>RWPRifle</li>
     </weaponTags>
     <apparelTags>
-      <li>RWPMarshalWear</li>
-      <li>RWPGentlemanWear</li>
+		<li>RWPSheriff</li>
+		<li>RWPMarshalWear</li>
+		<li>RWPGentlemanWear</li>
     </apparelTags>
   </PawnKindDef>
 </Defs>

@@ -41,9 +41,12 @@
       <li Class="CompProperties_Art">
         <nameMaker>NamerArtWeaponGun</nameMaker>
         <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
+        <minQualityForArtistic>Good</minQualityForArtistic>
       </li>
     </comps>
+	<recipeMaker>
+		<researchPrerequisite>Gunsmithing</researchPrerequisite>
+	</recipeMaker>
     <smeltProducts>
       <Steel>20</Steel>
     </smeltProducts>
@@ -57,6 +60,7 @@
       <soundWorking>Recipe_Smith</soundWorking>
       <recipeUsers>
         <li>TableMachining</li>
+		<li MayRequire="oskarpotocki.vfe.classical">VFEC_CraftingBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
@@ -64,13 +68,13 @@
   <ThingDef Name="RWPBaseHumanGun" ParentName="RWPBaseGun" Abstract="True">
     <weaponTags>
       <li>RWPGun</li>
-      <li>Gun</li>
+      <li>SimpleGun</li>
     </weaponTags>
   </ThingDef>
   <ThingDef Name="RWPBaseHumanMakeableGun" ParentName="RWPBaseMakeableGun" Abstract="True">
     <weaponTags>
       <li>RWPGun</li>
-      <li>Gun</li>
+      <li>SimpleGun</li>
     </weaponTags>
   </ThingDef>
   <!-- ==================== Muskets ================================ -->
@@ -151,9 +155,13 @@
       </li>
     </tools>
     <weaponTags>
-      <li>RWPGun</li>
-      <li>RWPLowCapacity</li>
-      <li>Gun</li>
+		<li>RWPGun</li>
+		<li>RWPLowCapacity</li>
+		<li>SimpleGun</li>
+		
+		<!-- Mod support -->
+		<li>PoorPirate</li>
+		<li>GoblinBow</li>
     </weaponTags>
   </ThingDef>
   <!-- Springfield Model 1822 Musket (Bayoneted) -->
@@ -202,6 +210,7 @@
       </li>
     </verbs>
     <tools>
+		<!--
       <li>
         <label>stock</label>
         <capacities>
@@ -210,6 +219,7 @@
         <power>9</power>
         <cooldownTime>1.8</cooldownTime>
       </li>
+		-->
       <li>
         <label>bayonet</label>
         <capacities>
@@ -220,9 +230,13 @@
       </li>
     </tools>
     <weaponTags>
-      <li>RWPGun</li>
-      <li>RWPLowCapacity</li>
-      <li>Gun</li>
+		<li>RWPGun</li>
+		<li>RWPLowCapacity</li>
+		<li>SimpleGun</li>
+		
+		<!-- Mod support -->
+		<li>PoorPirate</li>
+		<li>GoblinBow</li>
     </weaponTags>
   </ThingDef>
   <!-- ==================== Shotguns ================================ -->
@@ -373,9 +387,15 @@
       </li>
     </tools>
     <weaponTags>
-      <li>RWPGun</li>
-      <li>RWPLowCapacity</li>
-      <li>Gun</li>
+		<li>RWPGun</li>
+		<li>RWPLowCapacity</li>
+		<li>Gun</li>
+		<li>SimpleGun</li>
+		
+		<!-- Mod support -->
+		<li>PoorPirate</li>
+		<li>NormalPirate</li>
+		<li>GoblinTech</li>
     </weaponTags>
   </ThingDef>
   <!-- Three Crown Coach Gun -->
@@ -529,7 +549,8 @@
     <weaponTags>
       <li>RWPGun</li>
       <li>RWPRevolver</li>
-      <li>Gun</li>
+	  <li>Revolver</li>
+      <li>SimpleGun</li>
     </weaponTags>
   </ThingDef>
   <!-- Colt Buntline Special -->
@@ -606,7 +627,8 @@
     <weaponTags>
       <li>RWPGun</li>
       <li>RWPRevolver</li>
-      <li>Gun</li>
+      <li>SimpleGun</li>
+	  <li>Revolver</li>
     </weaponTags>
   </ThingDef>
   <!-- Colt Frontier Six-Shooter -->
@@ -683,7 +705,8 @@
     <weaponTags>
       <li>RWPGun</li>
       <li>RWPRevolver</li>
-      <li>Gun</li>
+      <li>SimpleGun</li>
+	  <li>Revolver</li>
     </weaponTags>
   </ThingDef>
   <!-- Colt Open Top -->
@@ -760,7 +783,8 @@
     <weaponTags>
       <li>RWPGun</li>
       <li>RWPRevolver</li>
-      <li>Gun</li>
+      <li>SimpleGun</li>
+	  <li>Revolver</li>
     </weaponTags>
   </ThingDef>
   <!-- Colt M1878 Revolver -->
@@ -837,7 +861,8 @@
     <weaponTags>
       <li>RWPGun</li>
       <li>RWPRevolver</li>
-      <li>Gun</li>
+	  <li>Revolver</li>
+      <li>SimpleGun</li>
     </weaponTags>
   </ThingDef>
   <!-- ==================== Rifles ================================ -->
@@ -915,6 +940,7 @@
       <li>RWPGun</li>
       <li>RWPRifle</li>
       <li>Gun</li>
+	  <li>SimpleGun</li>
     </weaponTags>
   </ThingDef>
   <!-- Henry Rifle -->
@@ -954,7 +980,7 @@
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>RWP_LeverAction</researchPrerequisite>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -990,7 +1016,11 @@
     <weaponTags>
       <li>RWPGun</li>
       <li>RWPRifle</li>
-      <li>Gun</li>
+      <li>SimpleGun</li>
+	  <li>Gun</li>
+	  
+	  <!-- Mod support -->
+	  <li>GoblinTech</li>
     </weaponTags>
   </ThingDef>
   <!-- Winchester 1873 -->
@@ -1030,7 +1060,7 @@
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>RWP_LeverAction</researchPrerequisite>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -1067,6 +1097,10 @@
       <li>RWPGun</li>
       <li>RWPRifle</li>
       <li>Gun</li>
+	  <li>SimpleGun</li>
+	  
+	  <!-- Mod support -->
+	  <li>GoblinTech</li>
     </weaponTags>
   </ThingDef>
   <!-- Winchester 1886 -->
@@ -1106,7 +1140,7 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>RWP_LeverAction</researchPrerequisite>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -1143,12 +1177,13 @@
       <li>RWPGun</li>
       <li>RWPRifle</li>
       <li>Gun</li>
+	  <li>SimpleGun</li>
     </weaponTags>
   </ThingDef>
   <!-- Marlin Model 1894 -->
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_MarlinRifle</defName>
-    <label>marlin rifle bullet</label>
+    <label>Marlin rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>16</damageAmountBase>
@@ -1182,7 +1217,7 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>RWP_LeverAction</researchPrerequisite>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -1219,6 +1254,7 @@
       <li>RWPGun</li>
       <li>RWPRifle</li>
       <li>Gun</li>
+	  <li>SimpleGun</li>
     </weaponTags>
   </ThingDef>
   <!-- Sharps Model 1863 Carbine -->
@@ -1258,7 +1294,7 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>RWP_FallingBlock</researchPrerequisite>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -1334,7 +1370,7 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>RWP_FallingBlock</researchPrerequisite>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -1371,6 +1407,9 @@
       <li>RWPGun</li>
       <li>RWPSniper</li>
       <li>Gun</li>
+	  
+	  <!-- Mod support -->
+	  <li>GoblinTech</li>
     </weaponTags>
   </ThingDef>
 </Defs>

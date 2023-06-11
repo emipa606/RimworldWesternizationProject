@@ -19,6 +19,7 @@
     <thingCategories>
       <li>BuildingsSecurity</li>
     </thingCategories>
+	<techLevel>Medieval</techLevel>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <stealable>false</stealable>
@@ -75,7 +76,7 @@
     <useHitPoints>false</useHitPoints>
     <equipmentType>Primary</equipmentType>
     <tickerType>Never</tickerType>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Medieval</techLevel>
     <destroyOnDrop>True</destroyOnDrop>
     <tradeability>None</tradeability>
     <weaponTags>
