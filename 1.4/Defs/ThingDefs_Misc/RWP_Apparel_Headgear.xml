@@ -75,6 +75,7 @@
       <blocksVision>false</blocksVision>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
+	  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
       <bodyPartGroups>
         <li>Teeth</li>
       </bodyPartGroups>
