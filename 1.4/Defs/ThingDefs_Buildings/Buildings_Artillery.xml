@@ -30,8 +30,15 @@
     <tickerType>Normal</tickerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
+    <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
+    <costStuffCount>300</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <!-- Support for Mod Stuff -->
+      <li MayRequire="Dubwise.Rimefeller">Composite</li>
+      <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>
+    </stuffCategories>
     <costList>
-      <Steel>200</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <inspectorTabs>
@@ -81,6 +88,7 @@
     <tradeability>None</tradeability>
     <weaponTags>
       <li>Artillery</li>
+	  <li>VFEP_Artillery_Cabbin</li>
     </weaponTags>
     <comps>
       <li>
@@ -157,6 +165,9 @@
         </targetParams>
       </li>
     </verbs>
+    <researchPrerequisites>
+      <li MayRequire="george.napoleonicrim">FrenchEarlyTechnology</li> <!-- Inherits the RWP Artillery from the Base -->
+    </researchPrerequisites>
   </ThingDef>
   <!--=============== Coehorn Mortar ===============-->
   <ThingDef ParentName="RWPArtilleryBuilding">
@@ -207,5 +218,8 @@
         </targetParams>
       </li>
     </verbs>
+    <researchPrerequisites>
+      <li MayRequire="george.napoleonicrim">PrussianEarlyTechnology</li> <!-- Inherits the RWP Artillery from the Base -->
+    </researchPrerequisites>
   </ThingDef>
 </Defs>

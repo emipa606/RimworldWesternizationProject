@@ -133,31 +133,33 @@
 		<!-- If the first XPATH does not exist, the original code stands. -->
 	</Operation>
 	
+	<!--
 	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
+	Does this exist?
 		<xpath>/Defs/ThingDef[defName="VFEP_Turret_Cannon"]</xpath>
-		<!-- If it does, add this as an Abstract Parent Name to call a Base elsewhere. -->
+		If it does, add this as an Abstract Parent Name to call a Base elsewhere.
 		<match Class="PatchOperationAttributeSet">
 			<success>Always</success>
 			<xpath>/Defs/ThingDef[defName="VFEP_Turret_Cannon"]</xpath>
 			<attribute>ParentName</attribute>
 			<value>RWPArtilleryBuilding</value>
 		</match>
-		<!-- If the first XPATH does not exist, the original code stands. -->
+		If the first XPATH does not exist, the original code stands.
 	</Operation>
 	
 	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
+	Does this exist?
 		<xpath>/Defs/ThingDef[defName="VFEP_Turret_Cannon"]</xpath>
-		<!-- If it does, add this as an Abstract Parent Name to call a Base elsewhere. -->
+		If it does, add this as an Abstract Parent Name to call a Base elsewhere.
 		<match Class="PatchOperationAttributeSet">
 			<success>Always</success>
 			<xpath>/Defs/ThingDef[defName="VFEP_Turret_Cannon"]</xpath>
 			<attribute>ParentName</attribute>
 			<value>RWPArtilleryBuilding</value>
 		</match>
-		<!-- If the first XPATH does not exist, the original code stands. -->
+		If the first XPATH does not exist, the original code stands.
 	</Operation>
+	-->
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
@@ -165,11 +167,25 @@
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="VFEP_Turret_Cannon"]</xpath>
+			<xpath>/Defs/ThingDef[@Name="VFEP_BaseCannonBuilding"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
 					<li>RWP_Artillery</li>
 				</researchPrerequisites>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="FrenchEarlyTechnology"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName = "FrenchEarlyTechnology" or defName = "BritishEarlyTechnology" or defName = "PrussianEarlyTechnology"]/tab</xpath>
+			<value>
+				<tab>RWP_ResearchTab</tab>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
