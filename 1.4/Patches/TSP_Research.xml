@@ -81,7 +81,7 @@
 			<xpath>/Defs/ResearchProjectDef[defName="GasOperation"]/prerequisites</xpath>
 			<value>
 				<li>RWP_GatlingGun</li>
-				<!-- <li>Electricity</li> -->
+				<li>Electricity</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
@@ -102,6 +102,48 @@
 		<!-- If the first XPATH does not exist, the original code stands. -->
 	</Operation>
 	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/prerequisites</xpath>
+			<value>
+				<li>Electricity</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/prerequisites</xpath>
+			<value>
+				<li>Electricity</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ResearchProjectDef[defName="Prosthetics"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="Prosthetics"]/prerequisites</xpath>
+			<value>
+				<li>Electricity</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
 	<!-- To allow for Gunsmithing to be made without Electricity -->
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
@@ -113,6 +155,7 @@
 			<value>
 				<prerequisites Inherit="False">
 					<li>Smithing</li>
+					<li MayRequire="mlie.ancientrimcore">AR_Project_Metal_II</li>
 				</prerequisites>
 			</value>
 		</match>
