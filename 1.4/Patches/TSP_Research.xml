@@ -118,20 +118,6 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
-		<!-- If it does, add this. -->
-		<match Class="PatchOperationAdd">
-			<success>Always</success>
-			<xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/prerequisites</xpath>
-			<value>
-				<li>Electricity</li>
-			</value>
-		</match>
-		<!-- If the first XPATH does not exist, the original code stands. -->
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
 		<xpath>/Defs/ResearchProjectDef[defName="Prosthetics"]</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
@@ -229,6 +215,20 @@
 			<xpath>/Defs/ThingDef[defName = "FrenchEarlyTechnology" or defName = "BritishEarlyTechnology" or defName = "PrussianEarlyTechnology"]/tab</xpath>
 			<value>
 				<tab>RWP_ResearchTab</tab>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ResearchProjectDef[defName="VFEP_Warcaskets"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="VFEP_Warcaskets"]/prerequisites</xpath>
+			<value>
+				<li>Electricity</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
