@@ -43,7 +43,7 @@
     <cookOffProjectile>Bullet_50-70Government_BP</cookOffProjectile>
   </ThingDef>
   <!-- ================== Projectiles ================== -->
-  <ThingDef Class="CombatExtended.AmmoDef" Name="Base50-70GovernmentBullet" ParentName="BaseBullet" Abstract="true">
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Base50-70GovernmentBullet" ParentName="BaseBulletCE" Abstract="true">
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>

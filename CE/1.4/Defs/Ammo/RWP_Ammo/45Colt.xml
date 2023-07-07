@@ -50,7 +50,7 @@
     <cookOffProjectile>Bullet_45Colt_Revolver</cookOffProjectile>
   </ThingDef>
   <!-- ================== Projectiles ================== -->
-  <ThingDef Class="CombatExtended.AmmoDef" Name="Base45LongColtBullet" ParentName="BaseBullet" Abstract="true">
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Base45LongColtBullet" ParentName="BaseBulletCE" Abstract="true">
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
