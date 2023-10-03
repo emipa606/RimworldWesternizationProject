@@ -249,6 +249,7 @@
         <li>samurai</li>
         <li>HSApparel_RoyaltyClothes</li>
         <li>Samuraihead</li>
+		<li>FrogmanWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -317,6 +318,8 @@
         <li>RoyalTier3</li>
         <!-- Mod cross-compatibility -->
         <li>OniHeadWear</li>
+		<li>OniWear</li>
+		<li>OniApparel</li>
         <li>CallOfCthulhu_Townsfolk</li>
       </tags>
       <defaultOutfitTags>
@@ -470,6 +473,7 @@
         <li>FrogmanWear</li>
         <li>WeebClothes</li>
         <li>WeebHat</li>
+		<li>Usa</li>
       </tags>
       <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
     </apparel>
