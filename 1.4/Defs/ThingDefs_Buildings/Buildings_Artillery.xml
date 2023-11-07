@@ -22,7 +22,7 @@
 	<techLevel>Medieval</techLevel>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <stealable>false</stealable>
+    <stealable>true</stealable>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <fillPercent>1</fillPercent>
@@ -120,8 +120,8 @@
   <!--=============== Cannon ===============-->
   <ThingDef ParentName="RWPArtilleryBuilding">
     <defName>RWP_Building_Cannon</defName>
-    <label>12-pounder Napoleon cannon</label>
-    <description>The 12-pounder Napoleon, also known as the "Canon de l’Empereur", was a smoothbore cannon developed by France in 1853. Popular with both sides of the American Civil War, the Napoleon was capable of firing ball, shell, and canister shot, thus making it versatile enough to replace nearly all previous field guns of the day.</description>
+    <label>twelve-pounder Napoleon cannon</label>
+    <description>The twelve-pounder Napoleon, also known as the "Canon de L’Empereur", was a smooth-bore cannon developed by France in 1853. Popular with both sides of the American Civil War, the Napoleon was capable of firing ball, shell, and canister shot, thus making it versatile enough to replace nearly all previous field guns of the day. Compared to more modern, industrial mortars, these vintage cannons shoot farther distances but are more inaccurate due to the absence of computers, precision weights, or modern measures.</description>
     <designationHotKey>Misc3</designationHotKey>
     <uiIconPath>Things/Building/Turrets/CannonIcon</uiIconPath>
     <building>
@@ -138,8 +138,8 @@
   </ThingDef>
   <ThingDef ParentName="RWPArtilleryWeapon">
     <defName>RWP_Gun_Cannon</defName>
-    <label>12-pounder Napoleon cannon</label>
-    <description>A 12-pounder Napoleon cannon attached to wagon-wheeled mount.</description>
+    <label>twelve-pounder Napoleon cannon</label>
+    <description>A twelve-pounder Napoleon cannon attached to wagon-wheeled mount.</description>
     <graphicData>
       <texPath>Things/Building/Turrets/CPCanontest2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -152,11 +152,12 @@
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
+		<isMortar>true</isMortar>
         <warmupTime>4.8</warmupTime>
-        <forcedMissRadius>4</forcedMissRadius>
+        <forcedMissRadius>14</forcedMissRadius> <!-- The maximum for Vanilla rendition Mortars is thirteen, and thus this cannon will never be more accurate than the Industrial level ones -->
         <requireLineOfSight>true</requireLineOfSight>
         <minRange>4</minRange>
-        <range>140</range>
+        <range>600</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>Mortar_LaunchA</soundCast>
         <muzzleFlashScale>16</muzzleFlashScale>
@@ -172,8 +173,8 @@
   <!--=============== Coehorn Mortar ===============-->
   <ThingDef ParentName="RWPArtilleryBuilding">
     <defName>RWP_Building_CoehornMortar</defName>
-    <label>12-pound Coehorn mortar</label>
-    <description>The Coehorn mortar, named for it's Dutch inventor Baron Menno van Coehorn, was a small muzzle-loading mortar mounted on a block or platform with handles. This particular variant is the 12-pound Coehorn mortar, which was popular with the Confederacy during the American Civil War, and was capable of firing a 12 pound, 121 mm projectile over 1,200 yards.</description>
+    <label>twelve-pound Coehorn mortar</label>
+    <description>The Coehorn mortar, named for its Dutch inventor, Baron Menno van Coehorn, was a small muzzle-loading mortar mounted on a block or platform with handles. This particular variant is the twelve-pound Coehorn mortar, which was popular with the Confederacy during the American Civil War, and was capable of firing a twelve pound, one hundred twenty-one millimeter projectile over one thousand two hundred yards. Compared to more modern, industrial mortars, these vintage cannons shoot farther distances but are more inaccurate due to the absence of computers, precision weights, or modern measures.</description>
     <comps>
       <li Class="CompProperties_Explosive">
         <explosiveRadius>4.9</explosiveRadius>
@@ -189,6 +190,7 @@
       </buildingTags>
     </building>
   </ThingDef>
+  
   <ThingDef ParentName="RWPArtilleryWeapon">
     <defName>RWP_Gun_CoehornMortar</defName>
     <label>12-pound Coehorn mortar</label>
@@ -205,11 +207,12 @@
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
+		<isMortar>true</isMortar>
         <warmupTime>5.8</warmupTime>
-        <forcedMissRadius>11</forcedMissRadius>
+        <forcedMissRadius>14</forcedMissRadius> <!-- The maximum for Vanilla rendition Mortars is thirteen, and thus this cannon will never be more accurate than the Industrial level ones -->
         <requireLineOfSight>false</requireLineOfSight>
         <minRange>30</minRange>
-        <range>400</range>
+        <range>600</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>Mortar_LaunchA</soundCast>
         <muzzleFlashScale>16</muzzleFlashScale>
