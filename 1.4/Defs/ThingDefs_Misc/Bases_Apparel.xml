@@ -29,10 +29,10 @@
         <compClass>CompQuality</compClass>
       </li>
     </comps>
-	<tradeTags>
-		<li>Clothing</li>
-		<li>Western</li>
-	</tradeTags>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Western</li>
+    </tradeTags>
   </ThingDef>
   <!-- Rare -->
   <ThingDef Name="ApparelloRareBase" Abstract="True">
@@ -42,7 +42,7 @@
     <pathCost>0</pathCost>
     <useHitPoints>False</useHitPoints>
     <thingCategories>
-		<li>ApparelNoble</li>
+      <li>ApparelNoble</li>
     </thingCategories>
     <graphicData>
       <onGroundRandomRotateAngle>-35</onGroundRandomRotateAngle>

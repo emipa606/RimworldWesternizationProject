@@ -75,7 +75,7 @@
       <blocksVision>false</blocksVision>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
-	  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
       <bodyPartGroups>
         <li>Teeth</li>
       </bodyPartGroups>
@@ -195,10 +195,9 @@
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Leathery</li>
-	  
-	  <!-- Mod support -->
-	  <li MayRequire="sarg.rimbees">RB_Waxy</li>
-	  <li MayRequire="biomesteam.biomescore">BMT_ChitinStuff</li>
+      <!-- Mod support -->
+      <li MayRequire="sarg.rimbees">RB_Waxy</li>
+      <li MayRequire="biomesteam.biomescore">BMT_ChitinStuff</li>
       <li MayRequire="Dubwise.Rimefeller">Plastic</li>
       <li MayRequire="Dubwise.Rimefeller">Composite</li>
     </stuffCategories>
@@ -249,7 +248,7 @@
         <li>samurai</li>
         <li>HSApparel_RoyaltyClothes</li>
         <li>Samuraihead</li>
-		<li>FrogmanWear</li>
+        <li>FrogmanWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -318,8 +317,8 @@
         <li>RoyalTier3</li>
         <!-- Mod cross-compatibility -->
         <li>OniHeadWear</li>
-		<li>OniWear</li>
-		<li>OniApparel</li>
+        <li>OniWear</li>
+        <li>OniApparel</li>
         <li>CallOfCthulhu_Townsfolk</li>
       </tags>
       <defaultOutfitTags>
@@ -467,13 +466,14 @@
         <li>CallOfCthulhu_Townsfolk</li>
         <li>JeubWear</li>
         <li>OniWear</li>
-        <li>OniHeadWear</li> <!-- Onis look cute with glasses, simple as -->
+        <li>OniHeadWear</li>
+        <!-- Onis look cute with glasses, simple as -->
         <li>CallOfCthulhu_Townsfolk</li>
         <li>JeubWear</li>
         <li>FrogmanWear</li>
         <li>WeebClothes</li>
         <li>WeebHat</li>
-		<li>Usa</li>
+        <li>Usa</li>
       </tags>
       <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
     </apparel>

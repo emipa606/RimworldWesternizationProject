@@ -155,7 +155,7 @@
         </traders>
         <carriers>
           <Horse>200</Horse>
-		  <Bison>1</Bison>
+          <Bison>1</Bison>
         </carriers>
         <guards>
           <RWP_Marshal_Rifleman>4</RWP_Marshal_Rifleman>

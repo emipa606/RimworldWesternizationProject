@@ -26,7 +26,7 @@
     <canStageAttacks>true</canStageAttacks>
     <canSiege>true</canSiege>
     <maxPawnCostPerTotalPointsCurve>
-		<!-- I don't understand how this works, but my attempt is to make more of them spawn faster. -->
+      <!-- I don't understand how this works, but my attempt is to make more of them spawn faster. -->
       <points>
         <li>(0,50)</li>
         <li>(70, 100)</li>
@@ -52,17 +52,17 @@
       <li>RWP_Base_Town_Standard</li>
     </baseTraderKinds>
     <caravanTraderKinds>
-		<li>TSP_RWP_Caravan_PatentMedicine</li>
-		<li>Caravan_Outlander_PirateMerchant</li>
-		<li>Caravan_Neolithic_Slaver</li>
+      <li>TSP_RWP_Caravan_PatentMedicine</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
     </caravanTraderKinds>
     <!-- RIMWORLD COWBOY BANDITS MUH IMMERSION -->
     <!-- TurtleShroom Productions -->
     <requiredMemes>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
     </requiredMemes>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
@@ -165,13 +165,13 @@
           <Dromedary>25</Dromedary>
           <Donkey>25</Donkey>
           <Horse>25</Horse>
-		  <Bison>25</Bison>
+          <Bison>25</Bison>
         </carriers>
         <guards>
           <RWP_Bandit_Gunslinger>6</RWP_Bandit_Gunslinger>
           <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
           <RWP_Bandit_Boss>0.1</RWP_Bandit_Boss>
-		  <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">1</GoblinTinkerer>
+          <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">1</GoblinTinkerer>
         </guards>
       </li>
       <!-- Small Scale Tier 1 Attack -->
@@ -186,7 +186,7 @@
           <RWP_Bandit_Rifleman>2</RWP_Bandit_Rifleman>
           <RWP_Bandit_Gunslinger>3</RWP_Bandit_Gunslinger>
           <RWP_Bandit_Slasher>2</RWP_Bandit_Slasher>
-		  <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">0.02</GoblinTinkerer>
+          <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">0.02</GoblinTinkerer>
         </options>
       </li>
       <!-- Small Scale Tier 2 Attack -->
@@ -204,7 +204,7 @@
           <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
           <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
           <RWP_Bandit_Slasher>3</RWP_Bandit_Slasher>
-		  <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">0.02</GoblinTinkerer>
+          <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">0.02</GoblinTinkerer>
         </options>
       </li>
       <!-- Large Scale Attack -->
@@ -222,7 +222,7 @@
           <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
           <RWP_Bandit_Slasher>2</RWP_Bandit_Slasher>
           <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
-		  <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">0.02</GoblinTinkerer>
+          <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">0.02</GoblinTinkerer>
         </options>
       </li>
       <!-- Siege Scale Attack -->
@@ -242,7 +242,7 @@
           <RWP_Bandit_Slasher>3</RWP_Bandit_Slasher>
           <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
           <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
-		  <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">0.02</GoblinTinkerer>
+          <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">0.02</GoblinTinkerer>
         </options>
       </li>
       <!-- Faction Base -->
@@ -256,7 +256,7 @@
           <RWP_Bandit_Slasher>2</RWP_Bandit_Slasher>
           <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
           <TSP_RWP_Bandit_Tradesman>0.1</TSP_RWP_Bandit_Tradesman>
-		  <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">0.02</GoblinTinkerer>
+          <GoblinTinkerer MayRequire="TSP.Isengriff.Storytime">0.02</GoblinTinkerer>
         </options>
       </li>
     </pawnGroupMakers>

@@ -19,7 +19,7 @@
     <thingCategories>
       <li>BuildingsSecurity</li>
     </thingCategories>
-	<techLevel>Medieval</techLevel>
+    <techLevel>Medieval</techLevel>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <stealable>true</stealable>
@@ -88,7 +88,7 @@
     <tradeability>None</tradeability>
     <weaponTags>
       <li>Artillery</li>
-	  <li>VFEP_Artillery_Cabbin</li>
+      <li>VFEP_Artillery_Cabbin</li>
     </weaponTags>
     <comps>
       <li>
@@ -152,9 +152,10 @@
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
-		<isMortar>true</isMortar>
+        <isMortar>true</isMortar>
         <warmupTime>4.8</warmupTime>
-        <forcedMissRadius>14</forcedMissRadius> <!-- The maximum for Vanilla rendition Mortars is thirteen, and thus this cannon will never be more accurate than the Industrial level ones -->
+        <forcedMissRadius>14</forcedMissRadius>
+        <!-- The maximum for Vanilla rendition Mortars is thirteen, and thus this cannon will never be more accurate than the Industrial level ones -->
         <requireLineOfSight>true</requireLineOfSight>
         <minRange>4</minRange>
         <range>600</range>
@@ -167,7 +168,8 @@
       </li>
     </verbs>
     <researchPrerequisites>
-      <li MayRequire="george.napoleonicrim">FrenchEarlyTechnology</li> <!-- Inherits the RWP Artillery from the Base -->
+      <li MayRequire="george.napoleonicrim">FrenchEarlyTechnology</li>
+      <!-- Inherits the RWP Artillery from the Base -->
     </researchPrerequisites>
   </ThingDef>
   <!--=============== Coehorn Mortar ===============-->
@@ -190,7 +192,6 @@
       </buildingTags>
     </building>
   </ThingDef>
-  
   <ThingDef ParentName="RWPArtilleryWeapon">
     <defName>RWP_Gun_CoehornMortar</defName>
     <label>12-pound Coehorn mortar</label>
@@ -207,9 +208,10 @@
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
-		<isMortar>true</isMortar>
+        <isMortar>true</isMortar>
         <warmupTime>5.8</warmupTime>
-        <forcedMissRadius>14</forcedMissRadius> <!-- The maximum for Vanilla rendition Mortars is thirteen, and thus this cannon will never be more accurate than the Industrial level ones -->
+        <forcedMissRadius>14</forcedMissRadius>
+        <!-- The maximum for Vanilla rendition Mortars is thirteen, and thus this cannon will never be more accurate than the Industrial level ones -->
         <requireLineOfSight>false</requireLineOfSight>
         <minRange>30</minRange>
         <range>600</range>
@@ -222,7 +224,8 @@
       </li>
     </verbs>
     <researchPrerequisites>
-      <li MayRequire="george.napoleonicrim">PrussianEarlyTechnology</li> <!-- Inherits the RWP Artillery from the Base -->
+      <li MayRequire="george.napoleonicrim">PrussianEarlyTechnology</li>
+      <!-- Inherits the RWP Artillery from the Base -->
     </researchPrerequisites>
   </ThingDef>
 </Defs>

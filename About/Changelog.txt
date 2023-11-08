@@ -1,5 +1,8 @@
 # Changelog for RimworldWesternizationProject
 
+1.4.7 - Various fixes and improvements implemented by TurtleShroom
+
+
 1.4.6 - Fixed the CE-patch, thanks AvemRobin!
 
 

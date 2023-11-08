@@ -20,8 +20,8 @@
     <label>Pocketwatch</label>
     <recipeMaker>
       <researchPrerequisites>
-		<li>RWP_Watchmaking</li>
-	  </researchPrerequisites>
+        <li>RWP_Watchmaking</li>
+      </researchPrerequisites>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Accessories/Display/Pocketwatch</texPath>

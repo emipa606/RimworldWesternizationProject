@@ -91,7 +91,7 @@
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>RWP_WesternApparel</li>
-	  <li MayRequire="rimofmadness.callofcthulhu.factions">ROM_OccupationClothing</li>
+      <li MayRequire="rimofmadness.callofcthulhu.factions">ROM_OccupationClothing</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
     <researchViewY>4</researchViewY>

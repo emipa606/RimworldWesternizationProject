@@ -89,7 +89,7 @@
     <caravanTraderKinds>
       <li>RWP_Caravan_BulkGoods</li>
       <li>RWP_Caravan_Combat</li>
-	  <li>TSP_RWP_Caravan_PatentMedicine</li>
+      <li>TSP_RWP_Caravan_PatentMedicine</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
@@ -138,8 +138,8 @@
           <RWP_Town_Trader>1</RWP_Town_Trader>
         </traders>
         <carriers>
-			<Bison>10</Bison>
-			<Horse>2</Horse>
+          <Bison>10</Bison>
+          <Horse>2</Horse>
         </carriers>
         <guards>
           <RWP_Town_Guard>4</RWP_Town_Guard>

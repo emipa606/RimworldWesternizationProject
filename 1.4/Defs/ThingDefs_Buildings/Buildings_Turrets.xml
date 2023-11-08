@@ -110,8 +110,8 @@
     </statBases>
     <weaponTags>
       <li>TurretGun</li>
-	  <li>VFEP_Artillery_Cabbin</li>
-	  <li>VFEP_Artillery_FieldGun</li>
+      <li>VFEP_Artillery_Cabbin</li>
+      <li>VFEP_Artillery_FieldGun</li>
     </weaponTags>
     <verbs>
       <li>

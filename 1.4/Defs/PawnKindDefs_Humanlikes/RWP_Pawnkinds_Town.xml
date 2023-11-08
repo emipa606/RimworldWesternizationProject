@@ -94,7 +94,7 @@
     <maxGenerationAge>50</maxGenerationAge>
     <combatPower>30</combatPower>
     <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
-	<backstoryCryptosleepCommonality>0.001</backstoryCryptosleepCommonality>
+    <backstoryCryptosleepCommonality>0.001</backstoryCryptosleepCommonality>
     <itemQuality>Good</itemQuality>
     <gearHealthRange>
       <min>0.9</min>
@@ -243,7 +243,7 @@
     </weaponTags>
     <apparelTags>
       <li>RWPMarshalWear</li>
-	  <li>RWPDeputySheriffWear</li>
+      <li>RWPDeputySheriffWear</li>
       <li>Western</li>
     </apparelTags>
   </PawnKindDef>
@@ -277,10 +277,10 @@
       <li>RWPSniper</li>
     </weaponTags>
     <apparelTags>
-		<li>RWPDeputySheriffWear</li>
-		<li>BarneyFife</li>
-		<li>RWPMarshalWear</li>
-		<li>Western</li>
+      <li>RWPDeputySheriffWear</li>
+      <li>BarneyFife</li>
+      <li>RWPMarshalWear</li>
+      <li>Western</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Town Sheriff ==== -->
@@ -293,7 +293,7 @@
     <maxGenerationAge>55</maxGenerationAge>
     <combatPower>75</combatPower>
     <apparelAllowHeadgearChance>2</apparelAllowHeadgearChance>
-	<backstoryCryptosleepCommonality>0.01</backstoryCryptosleepCommonality>
+    <backstoryCryptosleepCommonality>0.01</backstoryCryptosleepCommonality>
     <itemQuality>Excellent</itemQuality>
     <gearHealthRange>
       <min>1</min>
@@ -309,15 +309,15 @@
     </weaponMoney>
     <apparelRequired>
       <li>RWP_Apparel_SheriffBadge</li>
-	  <li>CowboyHat</li>
+      <li>Apparel_CowboyHat</li>
     </apparelRequired>
     <weaponTags>
       <li>RWPRifle</li>
     </weaponTags>
     <apparelTags>
-		<li>RWPSheriff</li>
-		<li>RWPMarshalWear</li>
-		<li>RWPGentlemanWear</li>
+      <li>RWPSheriff</li>
+      <li>RWPMarshalWear</li>
+      <li>RWPGentlemanWear</li>
     </apparelTags>
   </PawnKindDef>
 </Defs>
