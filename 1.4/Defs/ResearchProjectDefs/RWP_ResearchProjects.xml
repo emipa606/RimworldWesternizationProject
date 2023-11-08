@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Firearm Tech -->
+  <!--
   <ResearchProjectDef>
     <defName>RWP_FallingBlock</defName>
     <label>falling-block mechanism</label>
@@ -27,16 +28,16 @@
     <researchViewX>0</researchViewX>
     <researchViewY>0.5</researchViewY>
   </ResearchProjectDef>
+  -->
   <ResearchProjectDef>
     <defName>RWP_Artillery</defName>
     <label>Artillery</label>
     <description>Unlocks the ability to manufacture the 12-pounder Napoleon cannon and the 12-pound Coehorn mortar.</description>
     <tab>RWP_ResearchTab</tab>
     <baseCost>1200</baseCost>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Medieval</techLevel>
     <prerequisites>
-      <li>RWP_LeverAction</li>
-      <li>RWP_FallingBlock</li>
+      <li>Gunsmithing</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
     <researchViewY>1</researchViewY>
@@ -60,7 +61,7 @@
     <label>Old West apparel</label>
     <description>Unlocks the ability to manufacture various advanced western apparel.</description>
     <tab>RWP_ResearchTab</tab>
-    <baseCost>400</baseCost>
+    <baseCost>150</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>ComplexClothing</li>
@@ -73,7 +74,7 @@
     <label>watchmaking</label>
     <description>Unlocks the ability to manufacture pocketwatches.</description>
     <tab>RWP_ResearchTab</tab>
-    <baseCost>600</baseCost>
+    <baseCost>140</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>RWP_WesternApparel</li>
@@ -86,10 +87,11 @@
     <label>law enforcement</label>
     <description>Unlocks the ability to manufacture and issue town law enforcement badges.</description>
     <tab>RWP_ResearchTab</tab>
-    <baseCost>400</baseCost>
+    <baseCost>40</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>RWP_WesternApparel</li>
+	  <li MayRequire="rimofmadness.callofcthulhu.factions">ROM_OccupationClothing</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
     <researchViewY>4</researchViewY>
@@ -100,7 +102,7 @@
     <description>Unlocks the ability to manufacture spectacles.</description>
     <tab>RWP_ResearchTab</tab>
     <baseCost>200</baseCost>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>RWP_WesternApparel</li>
     </prerequisites>

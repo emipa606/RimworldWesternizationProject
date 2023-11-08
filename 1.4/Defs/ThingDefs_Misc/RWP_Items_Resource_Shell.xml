@@ -38,7 +38,7 @@
   <!-- 12-pound Artillery Shell -->
   <ThingDef ParentName="RWPMakeableShellBase">
     <defName>RWP_Shell_ExplosiveShell</defName>
-    <label>12-pound artillery shell</label>
+    <label>twelve pound artillery shell</label>
     <description>A shell filled with high explosives. Can be fired from the Napoleon cannon or the Coehorn mortar. Explodes when damaged.</description>
     <graphicData>
       <texPath>Things/Ammo/CannonBall/CannonBullet</texPath>
@@ -64,7 +64,7 @@
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>RWP_Bullet_Shell_ExplosiveShell</defName>
-    <label>12-pound artillery shell</label>
+    <label>twelve pound artillery shell</label>
     <graphicData>
       <texPath>Things/Ammo/CannonBall/CannonBulletSmall</texPath>
       <graphicClass>Graphic_Single</graphicClass>

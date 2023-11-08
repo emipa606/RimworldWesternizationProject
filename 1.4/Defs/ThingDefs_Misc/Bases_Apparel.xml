@@ -5,7 +5,7 @@
     <thingClass>Apparel</thingClass>
     <category>Item</category>
     <selectable>True</selectable>
-    <pathCost>10</pathCost>
+    <pathCost>0</pathCost>
     <useHitPoints>True</useHitPoints>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
@@ -29,19 +29,23 @@
         <compClass>CompQuality</compClass>
       </li>
     </comps>
+	<tradeTags>
+		<li>Clothing</li>
+		<li>Western</li>
+	</tradeTags>
   </ThingDef>
   <!-- Rare -->
   <ThingDef Name="ApparelloRareBase" Abstract="True">
     <thingClass>Apparel</thingClass>
     <category>Item</category>
     <selectable>True</selectable>
-    <pathCost>10</pathCost>
+    <pathCost>0</pathCost>
     <useHitPoints>False</useHitPoints>
     <thingCategories>
-      <li>ApparelloRarities</li>
+		<li>ApparelNoble</li>
     </thingCategories>
     <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+      <onGroundRandomRotateAngle>-35</onGroundRandomRotateAngle>
     </graphicData>
     <drawGUIOverlay>true</drawGUIOverlay>
     <statBases>
@@ -68,7 +72,9 @@
       <effectWorking>Tailor</effectWorking>
       <soundWorking>Recipe_Tailor</soundWorking>
       <recipeUsers>
-        <li>ApparelloTinkerer</li>
+        <!-- <li>ApparelloTinkerer</li> -->
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
     </recipeMaker>

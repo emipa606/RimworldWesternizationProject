@@ -16,10 +16,12 @@
   <!-- Pocket Watch -->
   <ThingDef ParentName="RWPAccessoryMakeableBase">
     <defName>RWP_Apparel_Pocketwatch</defName>
-    <description>A charming little watch, useful for keeping time. Watches are difficult to make and hard to come by, so they sell for a good price.</description>
+    <description>A charming little watch, crafted entirely by hand and useful for keeping time. Artisan watches are difficult to make and hard to come by, so they sell for a good price.</description>
     <label>Pocketwatch</label>
     <recipeMaker>
-      <researchPrerequisite>RWP_Watchmaking</researchPrerequisite>
+      <researchPrerequisites>
+		<li>RWP_Watchmaking</li>
+	  </researchPrerequisites>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Accessories/Display/Pocketwatch</texPath>
@@ -82,7 +84,7 @@
         <li>CallOfCthulhu_Townsfolk</li>
         <li>CallOfCthulhu_Detective</li>
         <li>CallOfCthulhu_Infantry</li>
-        <li>RichPirateClothing</li>
+        <li>RichPirate</li>
         <li>Usa</li>
         <li>ST_GnomeClothing</li>
       </tags>
@@ -138,7 +140,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>RWPDeputySheriff</li>
+        <li>RWPDeputySheriffWear</li>
         <li>BarnieFife</li>
         <!-- Support for custom Mods -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
@@ -197,7 +199,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>RWP_Sheriff</li>
+        <li>RWPSheriffWear</li>
         <!-- Cross-compatibility Mod support -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
       </tags>
