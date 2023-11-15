@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+        <li>[RH2] Rimmu-Nation² - Clothing</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- Jeans -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RNApparel_Jeans_Generic"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						   <li>Usa</li>
+						   <li>RWPWesternWear</li>
+						   <li>RWPBanditWear</li>
+						   <li>Klan_apparel</li>
+						   <li>CallOfCthulhu_Thug</li>
+					</value>
+				</li>
+				<!-- Suede Jacket -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RNApparel_SuedeJacket_Generic"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						   <li>Usa</li>
+						   <li>RWPMarshalWear</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
