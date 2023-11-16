@@ -79,6 +79,7 @@
       <li MayRequire="SZ.TW.New.GuoHun">SZ_Structure_CultureQiYuan</li>
       <li MayRequire="Qux.factionhippie">PeaceLove</li>
       <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Corporate</li>
+	  <li MayRequire="Sarg.AlphaMemes">AM_NonViolence</li>
     </disallowedMemes>
     <disallowedPrecepts>
       <!-- Bandits love slaves -->

@@ -7,6 +7,7 @@
     <selectable>True</selectable>
     <pathCost>10</pathCost>
     <useHitPoints>True</useHitPoints>
+	<tradeability>All</tradeability>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
@@ -92,11 +93,15 @@
         <li>anarchiste</li>
         <li>Pirate</li>
         <li>PoorPirate</li>
-        <li>PoorPirate</li>
+        <li>NormalPirate</li>
         <li>mafia</li>
+		<li>anarchiste</li>
         <li>JeubWear</li>
         <li>CallOfCthulhu_Thug</li>
         <li>CartelmanWear</li>
+		<li>HarrierWear</li>
+		<li>SurvivalistWear</li>
+		<li>KebabTerrorist</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

@@ -94,8 +94,8 @@
       <EquipDelay>2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>0.05</MoveSpeed>
-      <SocialImpact>0.05</SocialImpact>
+      <MoveSpeed>0.1</MoveSpeed>
+      <SocialImpact>0.15</SocialImpact>
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Pants/Pants</wornGraphicPath>
@@ -106,6 +106,7 @@
       <layers>
         <li>OnSkin</li>
       </layers>
+	  <gender>Male</gender>
       <tags>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
@@ -120,6 +121,7 @@
         <li>CallOfCthulhu_Detective</li>
         <li>WeebClothes</li>
         <li>WeebElite</li>
+		<li>WeebKenshi</li>
         <li>AnimeProtagonist</li>
         <li>ST_GnomeClothing</li>
         <li>FrogmanWear</li>
@@ -181,6 +183,9 @@
         <li>PoorPirate</li>
         <li>SK_Khan_Apparel_Tag</li>
         <li>Klan_apparel</li>
+		<li>SurvivalistWear</li>
+		<li>SlaveRatWear</li>
+		<li>HarrierWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -256,9 +261,15 @@
         <li>Usa</li>
         <li>Klan_apparel</li>
         <li>OniWear</li>
+		<li>SurvivalistWear</li>
+		<li>HarrierWear</li>
+		<li>CaravaneerWear</li>
+		<li>SlaveRatWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
+		<li>Soldier</li>
+		<li>Slave</li>
       </defaultOutfitTags>
     </apparel>
     <generateCommonality>1</generateCommonality>
@@ -386,7 +397,8 @@
         <li>ST_BeetClothing</li>
         <li>Barbarian</li>
         <li>BarbarianNoble</li>
-        <li>Skirt</li>
+        <li>WeebGirl</li>
+		<li>Klan_apparel</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
