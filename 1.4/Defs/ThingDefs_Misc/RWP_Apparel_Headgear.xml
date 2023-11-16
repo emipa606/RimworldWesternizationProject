@@ -170,6 +170,10 @@
         <li>CallOfCthulhu_Thug</li>
         <li>JeubWear</li>
         <li>GoblinWear</li>
+		<li>SurvivalistWear</li>
+		<li>HarrierWear</li>
+		<li>CaravaneerWear</li>
+		<li>SlaveRatWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -189,7 +193,7 @@
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_PaddyHat</defName>
     <label>paddy hat</label>
-    <description>Traveling merchants and rice paddy farmers would often protect themselves from the sun with hats like these. It has very oriental feel to it.</description>
+    <description>Traveling merchants and rice paddy farmers would often protect themselves from the sun with hats like these. It has very Oriental feel to it.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -214,7 +218,7 @@
       <WorkToMake>3000</WorkToMake>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0.66</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.9</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -251,9 +255,9 @@
         <li>HSApparel_EdoClanBase</li>
         <li>Apparel_SamuraiBasic</li>
         <li>samurai</li>
-        <li>HSApparel_RoyaltyClothes</li>
         <li>Samuraihead</li>
         <li>FrogmanWear</li>
+		<li>CaravaneerWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -392,6 +396,7 @@
         <li>JeubWear</li>
         <li>FrogmanWear</li>
         <li>Usa</li>
+		<li>DixieWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

@@ -99,7 +99,6 @@
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Pants/Pants</wornGraphicPath>
-      <gender>Male</gender>
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
