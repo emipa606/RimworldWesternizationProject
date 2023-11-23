@@ -41,7 +41,7 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <Mass>0.005</Mass>
@@ -83,9 +83,11 @@
         <li>Outlander</li>
         <li>CallOfCthulhu_Townsfolk</li>
         <li>CallOfCthulhu_Detective</li>
+		<li>CallOfCthulhu_JuniorDetective</li>
         <li>CallOfCthulhu_Infantry</li>
         <li>RichPirate</li>
         <li>Usa</li>
+		<li>president</li>
         <li>ST_GnomeClothing</li>
       </tags>
     </apparel>
@@ -109,7 +111,7 @@
       <Silver>15</Silver>
     </costList>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <Mass>0.05</Mass>
@@ -168,7 +170,7 @@
       <Gold>15</Gold>
     </costList>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <Mass>0.05</Mass>
@@ -219,8 +221,9 @@
     </graphicData>
     <generateCommonality>0.01</generateCommonality>
     <tradeability>Sellable</tradeability>
+	<smeltable>true</smeltable>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <Mass>0.001</Mass>
@@ -266,8 +269,9 @@
     </graphicData>
     <generateCommonality>0.01</generateCommonality>
     <tradeability>Sellable</tradeability>
+	<smeltable>true</smeltable>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <Mass>0.001</Mass>
@@ -317,10 +321,11 @@
     </graphicData>
     <costStuffCount>30</costStuffCount>
     <stuffCategories>
-      <li>Leathery</li>
+		<li>Fabric</li>
+		<li>Leathery</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <MarketValue>12</MarketValue>
@@ -354,6 +359,9 @@
         <li>Western</li>
         <!-- Mod Support -->
         <li>JeubWear</li>
+		<li>WoodBeetWear</li>
+		<li>SurvivalistWear</li>
+		<li>HarrierWear</li>
         <!-- <li>ST_GnomeClothing</li> -->
       </tags>
       <defaultOutfitTags>
@@ -378,7 +386,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <MarketValue>12</MarketValue>
@@ -414,11 +422,13 @@
         <li>Western</li>
         <!-- Cross-compatibility Mod support -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
+		<li>SurvivalistWear</li>
+		<li>HarrierWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <generateCommonality>0.5</generateCommonality>
+    <generateCommonality>0.75</generateCommonality>
   </ThingDef>
 </Defs>

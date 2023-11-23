@@ -40,7 +40,6 @@
       </bodyPartGroups>
       <layers>
         <li>OnSkin</li>
-        <li>Middle</li>
       </layers>
       <tags>
         <li>Outlander</li>
@@ -52,15 +51,19 @@
         <li>MedievalBasic</li>
         <!-- Mod Support -->
         <li>CallOfCthulhu_Rancher</li>
+		<li>CallOfCthulhu_Farmer</li>
+		<li>CallOfCthulhu_Butcher</li>
         <li>ST_GnomeClothing</li>
         <li>JeubWear</li>
         <li>FrogmanWear</li>
         <li>SK_Khan_Apparel_Tag</li>
         <li>Usa</li>
         <li>Klan_apparel</li>
+		<li>HippieBasic</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
+		<li>Slave</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -94,23 +97,25 @@
       <EquipDelay>2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>0.1</MoveSpeed>
-      <SocialImpact>0.15</SocialImpact>
+      <MoveSpeed>0.05</MoveSpeed>
+      <SocialImpact>0.05</SocialImpact>
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Pants/Pants</wornGraphicPath>
+      <gender>Male</gender>
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
       <layers>
         <li>OnSkin</li>
       </layers>
-	  <gender>Male</gender>
       <tags>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPGentlemanWear</li>
         <li>RWPMarshalWear</li>
+		<li>RWPDeputySheriffWear</li>
+		<li>RWPMarshalWear</li>
         <li>Royal</li>
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
@@ -118,9 +123,9 @@
         <li>RoyalTier4</li>
         <!-- Mod Support -->
         <li>CallOfCthulhu_Detective</li>
+		<li>CallOfCthulhu_JuniorDetective</li>
         <li>WeebClothes</li>
         <li>WeebElite</li>
-		<li>WeebKenshi</li>
         <li>AnimeProtagonist</li>
         <li>ST_GnomeClothing</li>
         <li>FrogmanWear</li>
@@ -128,6 +133,9 @@
         <li>president</li>
         <li>Usa</li>
         <li>Gnoble</li>
+		<li>mafia</li>
+		<li>mafia_tete</li>
+		<li>Godfather</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -177,17 +185,18 @@
         <li>Scrap</li>
         <li>Pirate</li>
         <li>Outlander</li>
-        <li>RWPWesternWear</li>
+        <li>RWPBanditWear</li>
         <!-- Mod cross-compatibility -->
         <li>PoorPirate</li>
         <li>SK_Khan_Apparel_Tag</li>
         <li>Klan_apparel</li>
 		<li>SurvivalistWear</li>
-		<li>SlaveRatWear</li>
 		<li>HarrierWear</li>
+		<li>HippeBasic</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
+		<li>Slave</li>
       </defaultOutfitTags>
     </apparel>
     <generateCommonality>0.005</generateCommonality>
@@ -197,7 +206,7 @@
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_Jeans</defName>
     <label>jeans</label>
-    <description>A pair of sturdy pants reinforced with copper rivets. Originally made out of tent leather, they have long been made of fabric, particularly a form of blue cloth called denim. The initial purpose of jeans were to be worn while working in the fields or in the mine. Over the many thousands of years since their inception in the nineteenth century, they have become absolutely universal parts of the commonor's wardrobe in all human civilizations in the galaxy. A century after their invention, it became popular to deliberately tear them for...... for unknown  reasons. Some said it mocked the poor. Thankfully, that trend died off by the latter half of the twenty-first century. \n These jeans are not tight and retain their initial purposes. They are not formal; do not pretend any sort of jeans are formal.</description>
+    <description>A pair of sturdy pants reinforced with copper rivets. Originally made out of tent leather, they have long been made of fabric, particularly a form of blue cloth called denim. The initial purpose of jeans were to be worn while working in the fields or in the mine. Over the many thousands of years since their inception in the nineteenth century, they have become absolutely universal parts of the commonor's wardrobe in all human civilizations in the galaxy. A century after their invention, it became popular to deliberately tear them for... for unknown  reasons. Some said it mocked the poor. Thankfully, that trend died off by the latter half of the twenty-first century. \n These jeans are not tight and retain their initial purposes. They are not formal; do not pretend any sort of jeans are formal.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -255,19 +264,20 @@
         <li>BeetWear</li>
         <li>BeetElite</li>
         <li>FrogmanWear</li>
+		<li>HarrierWear</li>
+		<li>SurvivalistWear</li>
+		<li>CaravaneerWear</li>
+		<li>SlaveRatWear</li>
         <li>WeebClothes</li>
         <li>mafia</li>
+		<li>mafia_survetement</li>
         <li>Usa</li>
         <li>Klan_apparel</li>
         <li>OniWear</li>
-		<li>SurvivalistWear</li>
-		<li>HarrierWear</li>
-		<li>CaravaneerWear</li>
-		<li>SlaveRatWear</li>
+		<li>HippeBasic</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-		<li>Soldier</li>
 		<li>Slave</li>
       </defaultOutfitTags>
     </apparel>
@@ -325,17 +335,18 @@
         <!-- Mod Support -->
         <li>WeebClothes</li>
         <li>WeebGirl</li>
-        <li>CallOfCthulhu_TownsfolkNurse</li>
-        <!-- Only appears on female nurses -->
+        <li>CallOfCthulhu_TownsfolkNurse</li> <!-- Only appears on female nurses -->
         <li>CallOfCthulhu_Townsfolk</li>
         <li>OniWear</li>
         <li>mafia</li>
+		<li>mafia_tete</li>
         <li>ST_GnomeClothing</li>
         <li>FrogmanWear</li>
         <li>JeubWear</li>
         <li>GoblinWear</li>
         <li>Usa</li>
         <li>Klan_apparel</li>
+		<li>DixieWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -396,8 +407,11 @@
         <li>ST_BeetClothing</li>
         <li>Barbarian</li>
         <li>BarbarianNoble</li>
-        <li>WeebGirl</li>
-		<li>Klan_apparel</li>
+		<li>SurvivalistWear</li>
+		<li>HarrierWear</li>
+		<li>CaravaneerWear</li>
+		<li>mafia_survetement</li>
+		<li>HippeBasic</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -465,9 +479,11 @@
         <li>Usa</li>
         <li>Klan_apparel</li>
         <li>FrogmanWear</li>
+		<li>SurvivalistWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
+		<li>Slave</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />

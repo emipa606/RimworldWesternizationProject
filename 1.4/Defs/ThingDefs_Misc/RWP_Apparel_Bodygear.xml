@@ -20,7 +20,7 @@
     </stuffCategories>
     <costStuffCount>80</costStuffCount>
     <costList>
-      <MedicineIndustrial>3</MedicineIndustrial>
+      <MedicineIndustrial>1</MedicineIndustrial>
     </costList>
     <thingCategories>
       <li>Apparel</li>
@@ -29,16 +29,18 @@
       <Mass>0.10</Mass>
       <MarketValue>400</MarketValue>
       <EquipDelay>3</EquipDelay>
+	  <Cleanliness>3</Cleanliness>
     </statBases>
     <equippedStatOffsets>
-      <MedicalTendQuality>0.10</MedicalTendQuality>
+      <MedicalTendQuality>0.1</MedicalTendQuality>
       <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
     </equippedStatOffsets>
     <generateCommonality>1</generateCommonality>
     <apparel>
-      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>true</careIfWornByCorpse>
       <bodyPartGroups>
-        <li>Torso</li>
+        <li>Neck</li>
+		<li>Shoulders</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/ApronSurgeon/Apron</wornGraphicPath>
       <layers>
@@ -47,6 +49,7 @@
       <tags>
         <li>Doctor</li>
         <!-- Cross-compatibility with other Mods -->
+		<li>CallOfCthulhu_Doctor</li>
         <li>CallOfCthulhu_TownsfolkNurse</li>
       </tags>
       <defaultOutfitTags>
@@ -92,13 +95,14 @@
     </statBases>
     <equippedStatOffsets>
       <GeneralLaborSpeed>0.15</GeneralLaborSpeed>
-      <SmoothingSpeed>0.05</SmoothingSpeed>
+      <SmoothingSpeed>0.33</SmoothingSpeed>
     </equippedStatOffsets>
     <generateCommonality>0.5</generateCommonality>
     <apparel>
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
-        <li>Torso</li>
+        <li>Neck</li>
+		<li>Shoulders</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Apron/Apron</wornGraphicPath>
       <layers>
@@ -150,15 +154,16 @@
       <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
       <CookSpeed>0.05</CookSpeed>
       <FoodPoisonChance>-0.05</FoodPoisonChance>
-      <DrugCookingSpeed>0.05</DrugCookingSpeed>
-      <ButcheryFleshSpeed>0.10</ButcheryFleshSpeed>
-      <ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
+      <DrugCookingSpeed>0.1</DrugCookingSpeed>
+      <ButcheryFleshSpeed>0.1</ButcheryFleshSpeed>
+      <ButcheryFleshEfficiency>0.1</ButcheryFleshEfficiency>
     </equippedStatOffsets>
     <generateCommonality>0.4</generateCommonality>
     <apparel>
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
-        <li>Torso</li>
+        <li>Neck</li>
+		<li>Shoulders</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bodywear/Apron/Apron</wornGraphicPath>
       <layers>
@@ -171,6 +176,7 @@
         <!-- Mod Support -->
         <li>ST_GnomeClothing</li>
         <li>GoblinWear</li>
+		<li>GnomeChef</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -228,8 +234,11 @@
         <li>RWPWesternWear</li>
         <li>RWPGentlemanWear</li>
         <li>Scrap</li>
+		<li>MericaMerchant</li>
         <!-- Mod cross-compatibility -->
         <li>CallOfCthulhu_Townsfolk</li>
+		<li>CallOfCthulhu_Doctor</li>
+		<li>CaravaneerWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -267,6 +276,7 @@
     </statBases>
     <generateCommonality>1</generateCommonality>
     <apparel>
+		<careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
@@ -297,8 +307,14 @@
         <li>Medieval</li>
         <li>MedievalApparelBasic</li>
         <li>MedievalBasic</li>
+		<li>MedievalPeasant</li>
         <li>Tribal</li>
         <li>Neolithic</li>
+		<li>SurvivalistWear</li>
+		<li>CaravaneerWear</li>
+		<li>CallOfCthulhu_Farmer</li>
+		<li>CallOfCthulhu_Rancher</li>
+		<li>CallOfCthulhu_Lumberjack</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -353,12 +369,15 @@
         <li>IndustrialBasic</li>
         <li>IndustrialAdvanced</li>
         <li>MedievalNoble</li>
+		<li>MedievalApparelNoble</li>
         <li>MedievalDecent</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
         <li>RWPMarshalWear</li>
         <li>RWPGentlemanWear</li>
+		<li>RWPSheriffWear</li>
+		<li>RWPDeputySheriffWear</li>
         <li>Royal</li>
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
@@ -371,6 +390,8 @@
         <li>GoblinWear</li>
         <li>ST_GnomeClothing</li>
         <li>Gnoble</li>
+		<li>MericaMerchant</li>
+		<li>Usa</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -433,6 +454,7 @@
         <li>Gnoble</li>
         <li>ST_GnomeClothing</li>
       </tags>
+	  <gender>Male</gender>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>

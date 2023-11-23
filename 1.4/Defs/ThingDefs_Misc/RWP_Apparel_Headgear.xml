@@ -472,12 +472,7 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>OniWear</li>
-        <li>OniHeadWear</li>
-        <li>CallOfCthulhu_Townsfolk</li>
-        <li>JeubWear</li>
-        <li>OniWear</li>
-        <li>OniHeadWear</li>
-        <!-- Onis look cute with glasses, simple as -->
+        <li>OniHeadWear</li> <!-- Onis look cute with glasses, simple as -->
         <li>CallOfCthulhu_Townsfolk</li>
         <li>JeubWear</li>
         <li>FrogmanWear</li>

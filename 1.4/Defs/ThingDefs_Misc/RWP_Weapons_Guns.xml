@@ -4,9 +4,10 @@
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
     <equipmentType>Primary</equipmentType>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
+    <pathCost>4</pathCost>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+	<smeltable>true</smeltable>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
@@ -15,10 +16,10 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
+      <SellPriceFactor>0.85</SellPriceFactor>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
+    <alwaysHaulable>true</alwaysHaulable>
     <tickerType>Never</tickerType>
     <techLevel>Industrial</techLevel>
     <tradeTags>
@@ -50,7 +51,6 @@
     <smeltProducts>
       <Steel>20</Steel>
     </smeltProducts>
-    <smeltable>true</smeltable>
   </ThingDef>
   <ThingDef Name="RWPBaseMakeableGun" ParentName="RWPBaseGun" Abstract="True">
     <recipeMaker>
@@ -69,6 +69,7 @@
     <weaponTags>
       <li>RWPGun</li>
       <li>SimpleGun</li>
+	  <li>CallOfCthulhu_Guns</li>
     </weaponTags>
   </ThingDef>
   <ThingDef Name="RWPBaseHumanMakeableGun" ParentName="RWPBaseMakeableGun" Abstract="True">

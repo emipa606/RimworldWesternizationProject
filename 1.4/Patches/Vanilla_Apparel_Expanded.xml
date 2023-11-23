@@ -21,11 +21,12 @@
 					<xpath>/Defs/ThingDef[defName = "VAE_Apparel_Jeans"]/apparel/tags</xpath>
 					<success>Always</success>
 					<value>
-						   <li>Usa</li>
-						   <li>RWPWesternWear</li>
-						   <li>RWPBanditWear</li>
-						   <li>RWPMarshalWear</li>
-						   <li>Klan_apparel</li>
+						<li>Usa</li>
+						<li>RWPWesternWear</li>
+						<li>RWPBanditWear</li>
+						<li>RWPMarshalWear</li>
+						<li>CallOfCthulhu_Townsfolk</li>
+						<li>Klan_apparel</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
