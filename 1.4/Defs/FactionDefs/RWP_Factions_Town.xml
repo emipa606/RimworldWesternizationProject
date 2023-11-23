@@ -124,9 +124,9 @@
     <pawnGroupMakers>
       <li>
         <kindDef>Peaceful</kindDef>
-		<commonality>95</commonality>
+		<commonality>85</commonality>
         <options>
-          <RWP_Town_Townsperson>10</RWP_Town_Townsperson>
+          <RWP_Town_Townsperson>14</RWP_Town_Townsperson>
           <RWP_Town_Socialite>0.2</RWP_Town_Socialite>
 		  <RWP_Town_Socialite_Girl>0.2</RWP_Town_Socialite_Girl>
           <RWP_Town_Sniper>2</RWP_Town_Sniper>
@@ -140,7 +140,7 @@
 		<commonality>100</commonality>
         <options>
           <RWP_Town_Socialite>3</RWP_Town_Socialite>
-		  <RWP_Town_Socialite_Girl>1.25</RWP_Town_Socialite_Girl>
+		  <RWP_Town_Socialite_Girl>2</RWP_Town_Socialite_Girl>
 		  <RWP_Town_Boss>0.5</RWP_Town_Boss>
         </options>
       </li>
@@ -158,21 +158,22 @@
         <kindDef>Peaceful</kindDef>
 		<commonality>70</commonality>
         <options>
-			<TSP_RWP_Town_Farmer>3</TSP_RWP_Town_Farmer>
-			<RWP_Town_Townsperson>1</RWP_Town_Townsperson>
-			<RWP_Town_Guard>1.5</RWP_Town_Guard>
-			<CallOfCthulhu_Farmer MayRequire="rimofmadness.callofcthulhu.factions">0.4</CallOfCthulhu_Farmer>
-			<CallOfCthulhu_Rancher MayRequire="rimofmadness.callofcthulhu.factions">0.4</CallOfCthulhu_Rancher>
+			<TSP_RWP_Town_Farmer>9</TSP_RWP_Town_Farmer>
+			<RWP_Town_Townsperson>2</RWP_Town_Townsperson>
+			<RWP_Town_Guard>5</RWP_Town_Guard>
+			<ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">0.4</ROM_TownsfolkFarmer>
+			<ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">0.4</ROM_TownsfolkRancher>
         </options>
       </li>
       <li>
         <kindDef>Peaceful</kindDef>
 		<commonality>30</commonality>
         <options>
-			<RWP_Town_Sniper>4</RWP_Town_Sniper>
+			<RWP_Town_Guard>4</RWP_Town_Guard>
+			<RWP_Town_Sniper>2</RWP_Town_Sniper>
 			<RWP_Town_Boss>10</RWP_Town_Boss>
-			<CallOfCthulhu_Farmer MayRequire="rimofmadness.callofcthulhu.factions">0.04</CallOfCthulhu_Farmer>
-			<CallOfCthulhu_Rancher MayRequire="rimofmadness.callofcthulhu.factions">0.04</CallOfCthulhu_Rancher>
+			<ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">0.04</ROM_TownsfolkFarmer>
+			<ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">0.04</ROM_TownsfolkRancher>
         </options>
       </li>
       <!-- Trading Group -->
@@ -190,8 +191,8 @@
 			<RWP_Town_Gunslinger>1</RWP_Town_Gunslinger>
 			<RWP_Town_Sniper>2</RWP_Town_Sniper>
 			<RWP_Town_Rifleman>4</RWP_Town_Rifleman>
-			<CallOfCthulhu_Farmer MayRequire="rimofmadness.callofcthulhu.factions">0.4</CallOfCthulhu_Farmer>
-			<CallOfCthulhu_Rancher MayRequire="rimofmadness.callofcthulhu.factions">0.4</CallOfCthulhu_Rancher>
+			<ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">0.4</ROM_TownsfolkFarmer>
+			<ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">0.4</ROM_TownsfolkRancher>
         </guards>
       </li>
       <!-- Small Scale Tier 1 Attack -->
@@ -206,8 +207,8 @@
 			<RWP_Town_Townsperson>4</RWP_Town_Townsperson>
 			<RWP_Town_Rifleman>1</RWP_Town_Rifleman>
 			<RWP_Town_Gunslinger>1</RWP_Town_Gunslinger>
-			<CallOfCthulhu_Farmer MayRequire="rimofmadness.callofcthulhu.factions">0.24</CallOfCthulhu_Farmer>
-			<CallOfCthulhu_Rancher MayRequire="rimofmadness.callofcthulhu.factions">0.24</CallOfCthulhu_Rancher>
+			<ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">0.24</ROM_TownsfolkFarmer>
+			<ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">0.24</ROM_TownsfolkRancher>
 			<TSP_RWP_Town_Farmer>1</TSP_RWP_Town_Farmer>
         </options>
       </li>
@@ -275,8 +276,8 @@
           <RWP_Town_Rifleman>4</RWP_Town_Rifleman>
           <RWP_Town_Gunslinger>5</RWP_Town_Gunslinger>
 		  <TSP_RWP_Town_Farmer>3</TSP_RWP_Town_Farmer>
-		  <CallOfCthulhu_Farmer MayRequire="rimofmadness.callofcthulhu.factions">1</CallOfCthulhu_Farmer>
-		  <CallOfCthulhu_Rancher MayRequire="rimofmadness.callofcthulhu.factions">1</CallOfCthulhu_Rancher>
+		  <ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">1</ROM_TownsfolkFarmer>
+		  <ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">1</ROM_TownsfolkRancher>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -284,6 +285,8 @@
         <commonality>1</commonality>
         <options>
           <TSP_RWP_Town_Farmer>999</TSP_RWP_Town_Farmer>
+		  <ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">1</ROM_TownsfolkFarmer>
+		  <ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">1</ROM_TownsfolkRancher>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
