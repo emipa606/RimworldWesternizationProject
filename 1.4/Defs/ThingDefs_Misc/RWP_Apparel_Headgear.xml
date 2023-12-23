@@ -258,6 +258,17 @@
         <li>Samuraihead</li>
         <li>FrogmanWear</li>
 		<li>CaravaneerWear</li>
+		<li>MWApparel</li>
+		<li>MWApparel1</li>
+		<li>MWApparel2</li>
+		<li>MWApparel3</li>
+		<li>MWApparel4</li>
+		<li>MWApparel5</li>
+		<li>MWApparel6</li>
+		<li>MWApparel7</li>
+		<li>MWApparel8</li>
+		<li>MWApparel9</li>
+		<li>MWApparel10</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -479,6 +490,17 @@
         <li>WeebClothes</li>
         <li>WeebHat</li>
         <li>Usa</li>
+		<li>MWApparel</li>
+		<li>MWApparel1</li>
+		<li>MWApparel2</li>
+		<li>MWApparel3</li>
+		<li>MWApparel4</li>
+		<li>MWApparel5</li>
+		<li>MWApparel6</li>
+		<li>MWApparel7</li>
+		<li>MWApparel8</li>
+		<li>MWApparel9</li>
+		<li>MWApparel10</li>
       </tags>
       <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
     </apparel>

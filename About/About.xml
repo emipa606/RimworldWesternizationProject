@@ -12,6 +12,7 @@
   <modDependencies />
   <loadAfter>
     <li>CETeam.CombatExtended</li>
+	<li>weishanmaowei.gudairen</li>
   </loadAfter>
   <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Tamias and JackeryFoxs mod

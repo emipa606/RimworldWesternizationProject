@@ -115,6 +115,17 @@
         <li>IndustrialAdvanced</li>
         <li>Usa</li>
         <li>president</li>
+		<li>MWApparel</li>
+		<li>MWApparel1</li>
+		<li>MWApparel2</li>
+		<li>MWApparel3</li>
+		<li>MWApparel4</li>
+		<li>MWApparel5</li>
+		<li>MWApparel6</li>
+		<li>MWApparel7</li>
+		<li>MWApparel8</li>
+		<li>MWApparel9</li>
+		<li>MWApparel10</li>
       </value>
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
@@ -169,6 +180,17 @@
         <li>CallOfCthulhu_Townsfolk</li>
         <li>JeubWear</li>
         <li>GoblinWear</li>
+		<li>MWApparel</li>
+		<li>MWApparel1</li>
+		<li>MWApparel2</li>
+		<li>MWApparel3</li>
+		<li>MWApparel4</li>
+		<li>MWApparel5</li>
+		<li>MWApparel6</li>
+		<li>MWApparel7</li>
+		<li>MWApparel8</li>
+		<li>MWApparel9</li>
+		<li>MWApparel10</li>
       </value>
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
@@ -327,6 +349,17 @@
         <li>MedievalApparelNoble</li>
         <li>MedievalNoble</li>
 		<li>president</li>
+		<li>MWApparel</li>
+		<li>MWApparel1</li>
+		<li>MWApparel2</li>
+		<li>MWApparel3</li>
+		<li>MWApparel4</li>
+		<li>MWApparel5</li>
+		<li>MWApparel6</li>
+		<li>MWApparel7</li>
+		<li>MWApparel8</li>
+		<li>MWApparel9</li>
+		<li>MWApparel10</li>
       </value>
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
@@ -446,6 +479,17 @@
         <li>MedievalApparelNoble</li>
         <li>MedievalNoble</li>
 		<li>mafia_tete</li>
+		<li>MWApparel</li>
+		<li>MWApparel1</li>
+		<li>MWApparel2</li>
+		<li>MWApparel3</li>
+		<li>MWApparel4</li>
+		<li>MWApparel5</li>
+		<li>MWApparel6</li>
+		<li>MWApparel7</li>
+		<li>MWApparel8</li>
+		<li>MWApparel9</li>
+		<li>MWApparel10</li>
       </value>
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
@@ -623,6 +667,17 @@
 				<li>CallOfCthulhu_Detective</li>
 				<li>CallOfCthulhu_JuniorDetective</li>
 				<li>BoaterHat</li>
+				<li>MWApparel</li>
+				<li>MWApparel1</li>
+				<li>MWApparel2</li>
+				<li>MWApparel3</li>
+				<li>MWApparel4</li>
+				<li>MWApparel5</li>
+				<li>MWApparel6</li>
+				<li>MWApparel7</li>
+				<li>MWApparel8</li>
+				<li>MWApparel9</li>
+				<li>MWApparel10</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
@@ -839,6 +894,17 @@
 				<li>mafia_tete</li>
 				<li>mafia_survetement</li>
 				<li>Godfather</li>
+				<li>MWApparel</li>
+				<li>MWApparel1</li>
+				<li>MWApparel2</li>
+				<li>MWApparel3</li>
+				<li>MWApparel4</li>
+				<li>MWApparel5</li>
+				<li>MWApparel6</li>
+				<li>MWApparel7</li>
+				<li>MWApparel8</li>
+				<li>MWApparel9</li>
+				<li>MWApparel10</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
@@ -880,4 +946,27 @@
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
 	</Operation>
+	
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="yanjing"]/recipeMaker/researchPrerequisite</xpath>
+    <!-- If it does, insert this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="yanjing"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </match>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="yanjing"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+
 </Patch>
