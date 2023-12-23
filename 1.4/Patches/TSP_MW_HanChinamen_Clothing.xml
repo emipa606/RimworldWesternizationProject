@@ -41,7 +41,7 @@
 					<bodyPartGroups>
 						<li>Eyes</li>
 					</bodyPartGroups>
-					<wornGraphicPath>Things/Pawn/Humanlike/Apparel/yanjing</wornGraphicPath>
+					<wornGraphicPath>Things/Pawn/Humanlike/Apparel/yanjing/yanjing</wornGraphicPath>
 					<layers>
 						<li>EyeCover</li>
 					</layers>
