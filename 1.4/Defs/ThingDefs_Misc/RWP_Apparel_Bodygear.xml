@@ -239,6 +239,8 @@
         <li>CallOfCthulhu_Townsfolk</li>
 		<li>CallOfCthulhu_Doctor</li>
 		<li>CaravaneerWear</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -392,6 +394,8 @@
         <li>Gnoble</li>
 		<li>MericaMerchant</li>
 		<li>Usa</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -453,6 +457,8 @@
         <li>OniWear</li>
         <li>Gnoble</li>
         <li>ST_GnomeClothing</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
       </tags>
 	  <gender>Male</gender>
       <defaultOutfitTags>

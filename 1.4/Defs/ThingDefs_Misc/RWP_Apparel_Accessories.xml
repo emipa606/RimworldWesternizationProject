@@ -89,6 +89,8 @@
         <li>Usa</li>
 		<li>president</li>
         <li>ST_GnomeClothing</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />

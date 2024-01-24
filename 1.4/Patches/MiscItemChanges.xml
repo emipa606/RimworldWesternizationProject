@@ -126,6 +126,8 @@
 		<li>MWApparel8</li>
 		<li>MWApparel9</li>
 		<li>MWApparel10</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
       </value>
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
@@ -180,6 +182,8 @@
         <li>CallOfCthulhu_Townsfolk</li>
         <li>JeubWear</li>
         <li>GoblinWear</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
 		<li>MWApparel</li>
 		<li>MWApparel1</li>
 		<li>MWApparel2</li>
@@ -360,6 +364,8 @@
 		<li>MWApparel8</li>
 		<li>MWApparel9</li>
 		<li>MWApparel10</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
       </value>
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
@@ -425,6 +431,7 @@
 			<li>CallOfCthulhu_Townsfolk</li>
 			<li>IndustrialBasic</li>
 			<li>Usa</li>
+			<li>MF_CorporateTier1</li>
       </value>
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
@@ -605,6 +612,8 @@
 				<li>president</li>
 				<li>mafia</li>
 				<li>mafia_tete</li>
+				<li>MF_CorporateTier1</li>
+				<li>MF_CorporateTier2</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
@@ -678,6 +687,8 @@
 				<li>MWApparel8</li>
 				<li>MWApparel9</li>
 				<li>MWApparel10</li>
+				<li>MF_CorporateTier1</li>
+				<li>MF_CorporateTier2</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
@@ -699,6 +710,8 @@
 				<li>RoyalTier1</li>
 				<li>mafia</li>
 				<li>mafia_tete</li>
+				<li>MF_CorporateTier1</li>
+				<li>MF_CorporateTier2</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
@@ -720,6 +733,8 @@
 				<li>CallOfCthulhu_TownsfolkPolice</li>
 				<li>mafia</li>
 				<li>mafia_tete</li>
+				<li>MF_CorporateTier1</li>
+				<li>MF_CorporateTier2</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
@@ -735,6 +750,8 @@
 			<value>
 				<li>RWPGentlemanWear</li>
 				<li>mafia_tete</li>
+				<li>MF_CorporateTier1</li>
+				<li>MF_CorporateTier2</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
@@ -750,6 +767,8 @@
 			<value>
 				<li>RWPGentlemanWear</li>
 				<li>mafia_tete</li>
+				<li>MF_CorporateTier1</li>
+				<li>MF_CorporateTier2</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
@@ -777,6 +796,7 @@
 				<li>mafia</li>
 				<li>mafia_tete</li>
 				<li>HippieBasic</li>
+				<li>MF_CorporateTier1</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
@@ -905,6 +925,8 @@
 				<li>MWApparel8</li>
 				<li>MWApparel9</li>
 				<li>MWApparel10</li>
+				<li>MF_CorporateTier1</li>
+				<li>MF_CorporateTier2</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
@@ -942,6 +964,7 @@
 				<li>mafia_survetement</li>
 				<li>IndustrialMilitary</li>
 				<li>IndustrialMilitaryAdvanced</li>
+				<li>MF_CorporateTier1</li>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
@@ -968,5 +991,177 @@
     </nomatch>
     <!-- If the first XPATH does not exist, the original code stands. -->
   </Operation>
-
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="yanjing"]</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="yanjing"]/generateCommonality</xpath>
+      <value>
+        <generateCommonality>0.13</generateCommonality>
+      </value>
+    </match>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="yanjing"]</xpath>
+      <value>
+        <generateCommonality>0.13</generateCommonality>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker/researchPrerequisite</xpath>
+    <!-- If it does, insert this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </match>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker/researchPrerequisite</xpath>
+    <!-- If it does, insert this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </match>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+	<!-- Aelanna's Model No-Match Detector and Insertion Code -->
+	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]/apparel</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparel></apparel>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]/apparel/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]/apparel</xpath>
+			<success>Always</success>
+			<value>
+				<tags></tags>
+			</value>
+		</nomatch>
+	</Operation>
+  
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]/apparel/tags</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]/apparel/tags</xpath>
+      <value>
+        <li>Royal</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier4</li>
+        <li>RoyalTier3</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier1</li>
+        <li>Dame</li>
+        <li>RichPirate</li>
+        <li>Gnoble</li>
+		<li>RWPWesternWear</li>
+		<li>RWPMarshalWear</li>
+        <li>RWPGentlemanWear</li> <!-- For female socialites, that is -->
+		<li>RWPLadiesWear</li>
+		<li>mafia_tete</li>
+		<li>mafia</li>
+		<li>CallOfCthulhu_Townsfolk</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
+		<li>MWApparel</li>
+		<li>MWApparel1</li>
+		<li>MWApparel2</li>
+		<li>MWApparel3</li>
+		<li>MWApparel4</li>
+		<li>MWApparel5</li>
+		<li>MWApparel6</li>
+		<li>MWApparel7</li>
+		<li>MWApparel8</li>
+		<li>MWApparel9</li>
+		<li>MWApparel10</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+    <!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel/tags</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel</xpath>
+			<success>Always</success>
+            <value>
+                <tags></tags>
+            </value>
+        </nomatch>
+    </Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel/tags</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel/tags</xpath>
+			<value>
+				<!-- <li>WeebClothes</li> -->
+				<li>WeebElite</li>
+				<li>Royal</li>
+				<li>RoyalTier1</li>
+				<li>RoyalTier2</li>
+				<li>Medieval</li>
+				<li>MedievalApparel</li>
+				<li>MedievalApparelNoble</li>
+				<li>MedievalApparelGnoble</li>
+				<li>King</li>
+				<li>ST_GnomeClothing</li>
+				<li>JeubWear</li>
+				<li>RWPGentlemanWear</li>
+				<li>RWPLadiesWear</li>
+				<li>MF_CorporateTier1</li>
+			</value>
+		</match>
+	</Operation>
 </Patch>

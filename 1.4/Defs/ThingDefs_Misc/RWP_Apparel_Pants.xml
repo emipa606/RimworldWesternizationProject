@@ -60,6 +60,7 @@
         <li>Usa</li>
         <li>Klan_apparel</li>
 		<li>HippieBasic</li>
+		<li>MF_CorporateTier1</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -136,6 +137,8 @@
 		<li>mafia</li>
 		<li>mafia_tete</li>
 		<li>Godfather</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

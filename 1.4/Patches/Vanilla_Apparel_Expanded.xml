@@ -36,6 +36,8 @@
 						   <li>Usa</li>
 						   <li>RWPWesternWear</li>
 						   <li>presdient</li>
+							<li>MF_CorporateTier1</li>
+							<li>MF_CorporateTier2</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -47,6 +49,8 @@
 						   <li>RWPWesternWear</li>
 						   <li>RWPBanditWear</li>
 						   <li>Klan_apparel</li>
+							<li>MF_CorporateTier1</li>
+							<li>MF_CorporateTier2</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -56,6 +60,8 @@
 						   <li>presdient</li>
 						   <li>JeubWear</li>
 						   <li>RWPMarshalWear</li>
+							<li>MF_CorporateTier1</li>
+							<li>MF_CorporateTier2</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -64,6 +70,8 @@
 					<value>
 						   <li>presdient</li>
 						   <li>RWPGentlemanWear</li>
+							<li>MF_CorporateTier1</li>
+							<li>MF_CorporateTier2</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -72,6 +80,8 @@
 					<value>
 						   <li>presdient</li>
 						   <li>RWPGentlemanWear</li>
+							<li>MF_CorporateTier1</li>
+							<li>MF_CorporateTier2</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -83,6 +93,9 @@
 						<li>RWPGentlemanWear</li> <!-- For other ladies, of course -->
 						<li>Usa</li>
 						<li>Klan_apparel</li>
+						<li>MF_CorporateTier1</li>
+						<li>MF_CorporateTier2</li>
+						<li>Skirt</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -93,6 +106,8 @@
 						<li>RWPGentlemanWear</li> <!-- For other ladies using the tag, of course -->
 						<li>Usa</li>
 						<li>Klan_apparel</li>
+						<li>MF_CorporateTier1</li>
+						<li>MF_CorporateTier2</li>
 					</value>
 				</li>
 			</operations>

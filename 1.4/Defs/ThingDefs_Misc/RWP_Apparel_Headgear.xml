@@ -340,6 +340,8 @@
         <li>OniWear</li>
         <li>OniApparel</li>
         <li>CallOfCthulhu_Townsfolk</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -490,6 +492,8 @@
         <li>WeebClothes</li>
         <li>WeebHat</li>
         <li>Usa</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
 		<li>MWApparel</li>
 		<li>MWApparel1</li>
 		<li>MWApparel2</li>
