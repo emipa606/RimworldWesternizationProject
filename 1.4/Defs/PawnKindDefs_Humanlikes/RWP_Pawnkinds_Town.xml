@@ -17,6 +17,7 @@
     <invFoodDef>Pemmican</invFoodDef>
     <itemQuality>Normal</itemQuality>
     <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <gearHealthRange>
       <min>0.75</min>
       <max>1.1</max>
