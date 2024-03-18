@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Apparel Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- Tank Top -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "VAE_Apparel_TankTop"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						   <li>Usa</li>
+						   <li>RWPBanditWear</li>
+					</value>
+				</li>
+				<!-- Jeans -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "VAE_Apparel_Jeans"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						<li>Usa</li>
+						<li>RWPWesternWear</li>
+						<li>RWPBanditWear</li>
+						<li>RWPMarshalWear</li>
+						<li>CallOfCthulhu_Townsfolk</li>
+						<li>Klan_apparel</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "VAE_Footwear_Shoes"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						   <li>Usa</li>
+						   <li>RWPWesternWear</li>
+						   <li>presdient</li>
+							<li>MF_CorporateTier1</li>
+							<li>MF_CorporateTier2</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "VAE_Footwear_Boots"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						   <li>Usa</li>
+						   <li>MericaUniform</li>
+						   <li>RWPWesternWear</li>
+						   <li>RWPBanditWear</li>
+						   <li>Klan_apparel</li>
+							<li>MF_CorporateTier1</li>
+							<li>MF_CorporateTier2</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "VAE_Apparel_Trousers"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						   <li>presdient</li>
+						   <li>JeubWear</li>
+						   <li>RWPMarshalWear</li>
+							<li>MF_CorporateTier1</li>
+							<li>MF_CorporateTier2</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "VAE_Apparel_ShirtandTie"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						   <li>presdient</li>
+						   <li>RWPGentlemanWear</li>
+							<li>MF_CorporateTier1</li>
+							<li>MF_CorporateTier2</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "VAE_Apparel_SuitJacket"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						   <li>presdient</li>
+						   <li>RWPGentlemanWear</li>
+							<li>MF_CorporateTier1</li>
+							<li>MF_CorporateTier2</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "VAE_Skirt"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						<li>presdient</li>
+						<li>RWPLadiesWear</li>
+						<li>RWPGentlemanWear</li> <!-- For other ladies, of course -->
+						<li>Usa</li>
+						<li>Klan_apparel</li>
+						<li>MF_CorporateTier1</li>
+						<li>MF_CorporateTier2</li>
+						<li>Skirt</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "VAE_Blouse"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						<li>RWPLadiesWear</li>
+						<li>RWPGentlemanWear</li> <!-- For other ladies using the tag, of course -->
+						<li>Usa</li>
+						<li>Klan_apparel</li>
+						<li>MF_CorporateTier1</li>
+						<li>MF_CorporateTier2</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
