@@ -82,31 +82,31 @@
       <!-- <li>RoyalTier2</li> -->
       <!-- </value> -->
       <!-- </li> -->
+      <li Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Royalty">
+        <!-- Does this exist? -->
+        <xpath>/Defs/ThingDef[defName="Apparel_HatTop"]/apparel/tags</xpath>
+        <!-- If it does, add this. -->
+        <match Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_HatTop"]/apparel/tags</xpath>
+          <value>
+            <li>Royal</li>
+            <li>RoyalTier2</li>
+            <li>RWPGentlemanWear</li>
+          </value>
+        </match>
+        <!-- If it DOES NOT, add this instead. -->
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_HatTop"]/apparel</xpath>
+          <value>
+            <tags>
+              <li>Royal</li>
+              <li>RoyalTier2</li>
+              <li>RWPGentlemanWear</li>
+            </tags>
+          </value>
+        </nomatch>
+        <!-- If the first XPATH does not exist, the original code stands. -->
+      </li>
     </operations>
-  </Operation>
-  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Royalty">
-    <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="Apparel_HatTop"]/apparel/tags</xpath>
-    <!-- If it does, add this. -->
-    <match Class="PatchOperationAdd">
-      <xpath>/Defs/ThingDef[defName="Apparel_HatTop"]/apparel/tags</xpath>
-      <value>
-        <li>Royal</li>
-        <li>RoyalTier2</li>
-        <li>RWPGentlemanWear</li>
-      </value>
-    </match>
-    <!-- If it DOES NOT, add this instead. -->
-    <nomatch Class="PatchOperationAdd">
-      <xpath>/Defs/ThingDef[defName="Apparel_HatTop"]/apparel</xpath>
-      <value>
-        <tags>
-          <li>Royal</li>
-          <li>RoyalTier2</li>
-          <li>RWPGentlemanWear</li>
-        </tags>
-      </value>
-    </nomatch>
-    <!-- If the first XPATH does not exist, the original code stands. -->
   </Operation>
 </Patch>
