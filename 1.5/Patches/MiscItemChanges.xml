@@ -1057,6 +1057,128 @@
     <!-- If the first XPATH does not exist, the original code stands. -->
   </Operation>
   
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker/researchPrerequisite</xpath>
+    <!-- If it does, insert this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </match>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker/researchPrerequisite</xpath>
+    <!-- If it does, insert this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </match>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/apparel/renderSkipFlags</xpath>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/apparel</xpath>
+      <value>
+			<!--
+		  <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		  <forceRenderUnderHair>true</forceRenderUnderHair>
+		  -->
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+		  <blocksVision>false</blocksVision>
+		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/apparel/renderSkipFlags</xpath>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/apparel</xpath>
+      <value>
+			<!--
+		  <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		  <forceRenderUnderHair>true</forceRenderUnderHair>
+		  -->
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+		  <blocksVision>false</blocksVision>
+		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/apparel/layers</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/apparel/layers</xpath>
+      <value>
+		  <layers Inherit="False">
+			<li>EyeCover</li>
+		  </layers>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/apparel/layers</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/apparel/layers</xpath>
+      <value>
+		  <layers Inherit="False">
+			<li>EyeCover</li>
+		  </layers>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
 	<!-- Aelanna's Model No-Match Detector and Insertion Code -->
 	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
@@ -1210,8 +1332,13 @@
 		  <xpath>/Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]/apparel</xpath>
 		  <value>
 			<apparel>
+				<!--
 				<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 				<forceRenderUnderHair>true</forceRenderUnderHair>
+				-->
+				<renderSkipFlags>
+					<li>None</li>
+				</renderSkipFlags>
 				<blocksVision>false</blocksVision>
 				<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 				<countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -1257,4 +1384,100 @@
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
 	</Operation>
+	
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/recipeMaker/researchPrerequisite</xpath>
+    <!-- If it does, insert this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </match>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/generateCommonality</xpath>
+    <!-- If it does, insert this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/generateCommonality</xpath>
+      <value>
+        <generateCommonality>0.11</generateCommonality>
+      </value>
+    </match>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]</xpath>
+      <value>
+        <generateCommonality>0.11</generateCommonality>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/apparel/tags</xpath>
+      <value>
+		<tags>
+			<li>RWPDeputySheriffWear</li>
+			<li>BarneyFife</li>
+			<li>WeebClothes</li>
+			<li>OniHeadWear</li>
+			<li>JeubWear</li>
+			<li>BeetWear</li>
+			<li>Royal</li>
+			<li>RoyalTier1</li>
+			<li>Usa</li>
+			<li>president</li>
+			<li>MWApparel</li>
+			<li>MF_CorporateTier1</li>
+			<li>MF_CorporateTier2</li>
+			<li>Glasses</li>
+		</tags>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/apparel/renderSkipFlags</xpath>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/apparel</xpath>
+      <value>
+			<!--
+		  <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		  <forceRenderUnderHair>true</forceRenderUnderHair>
+		  -->
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+		  <blocksVision>false</blocksVision>
+		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
 </Patch>

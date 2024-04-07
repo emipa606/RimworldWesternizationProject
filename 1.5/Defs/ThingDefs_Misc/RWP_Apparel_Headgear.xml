@@ -71,8 +71,13 @@
     </equippedStatOffsets>
     <generateCommonality>0.05</generateCommonality>
     <apparel>
+		<!--
       <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
       <forceRenderUnderHair>true</forceRenderUnderHair>
+	  -->
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
       <blocksVision>false</blocksVision>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -457,8 +462,13 @@
       <GlobalLearningFactor>0.05</GlobalLearningFactor>
     </equippedStatOffsets>
     <apparel>
+		<!--
       <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
       <forceRenderUnderHair>true</forceRenderUnderHair>
+	  -->
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
       <blocksVision>false</blocksVision>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
