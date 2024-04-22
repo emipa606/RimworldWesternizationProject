@@ -9,7 +9,10 @@
 			<success>Always</success>
 			<xpath>/Defs/ThingDef[defName="yanjing"]/recipeMaker/researchPrerequisite</xpath>
 			<value>
-				<researchPrerequisite>RWP_Optometry</researchPrerequisite>
+				<researchPrerequisites>
+					<li MayRequire="mlie.rimworldwesternizationproject">RWP_Optometry</li>
+					<li>ComplexClothing</li>
+				</researchPrerequisites>
 			</value>
 		</match>
 		<!-- If it DOES NOT, add this instead. -->
@@ -17,7 +20,10 @@
 			<success>Always</success>
 			<xpath>/Defs/ThingDef[defName="yanjing"]/recipeMaker</xpath>
 			<value>
-				<researchPrerequisite>RWP_Optometry</researchPrerequisite>
+				<researchPrerequisites>
+					<li MayRequire="mlie.rimworldwesternizationproject">RWP_Optometry</li>
+					<li>ComplexClothing</li>
+				</researchPrerequisites>
 			</value>
 		</nomatch>
 		<!-- If the first XPATH does not exist, the original code stands. -->

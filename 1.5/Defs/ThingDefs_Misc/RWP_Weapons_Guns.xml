@@ -313,6 +313,7 @@
       <li>RWPGun</li>
       <li>RWPLowCapacity</li>
       <li>Gun</li>
+	  <li>DoubleBarreledShotgun</li>
     </weaponTags>
   </ThingDef>
   <!-- Sawed-Off Shotgun -->

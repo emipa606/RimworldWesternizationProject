@@ -16,8 +16,8 @@
   <!-- Pocket Watch -->
   <ThingDef ParentName="RWPAccessoryMakeableBase">
     <defName>RWP_Apparel_Pocketwatch</defName>
-    <description>A charming little watch, crafted entirely by hand and useful for keeping time. Artisan watches are difficult to make and hard to come by, so they sell for a good price.</description>
-    <label>Pocketwatch</label>
+	    <label>Pocketwatch</label>
+    <description>A charming little watch, crafted entirely by hand and useful for keeping time. Unlike mass-produced time pieces, artisan watches such as these are difficult to make and hard to come by, so they sell for a good price.</description>
     <recipeMaker>
       <researchPrerequisites>
         <li>RWP_Watchmaking</li>
@@ -69,6 +69,7 @@
       <defaultOutfitTags>
         <li>Worker</li>
         <li>Soldier</li>
+		<li>Nudist</li>
       </defaultOutfitTags>
       <tags>
         <li>IndustrialBasic</li>
@@ -123,7 +124,7 @@
       <EquipDelay>0.7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <AimingDelayFactor>-0.02</AimingDelayFactor>
+      <AimingDelayFactor>-0.025</AimingDelayFactor>
       <MentalBreakThreshold>-0.05</MentalBreakThreshold>
       <SocialImpact>0.05</SocialImpact>
     </equippedStatOffsets>
@@ -291,7 +292,7 @@
       <careIfWornByCorpse>true</careIfWornByCorpse>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfDamaged>false</careIfDamaged>
-      <ignoredByNonViolent>false</ignoredByNonViolent>
+      <ignoredByNonViolent>true</ignoredByNonViolent>
       <bodyPartGroups>
         <li>Shoulders</li>
       </bodyPartGroups>
@@ -304,6 +305,7 @@
         <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
+	  <tags Inherit="False"></tags>
     </apparel>
     <smeltProducts>
       <Gold>35</Gold>
