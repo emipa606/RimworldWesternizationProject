@@ -5,6 +5,7 @@
     <operations>
       <li Class="PatchOperationAdd" MayRequire="KurtusMob.BosCompendium">
         <xpath>/Defs/FactionDef[defName="PlayerColonyEnc"]/permanentEnemyToEveryoneExcept</xpath>
+		<success>Always</success>
         <value>
           <!-- <li>RWP_Faction_Marshal_Core</li> -->
           <li>RWP_Faction_Marshal</li>

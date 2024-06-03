@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<!-- Aelanna's Model No-Match Detector and Insertion Code -->
+	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparelTags></apparelTags>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelRequired</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparelRequired></apparelRequired>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelRequired</xpath>
+			<value>
+				<apparelRequired Inherit="False">
+					<li>ROM_Apparel_CallOfCthulhuBowler</li>
+					<li>RWP_Apparel_MedicalApron</li>
+					<li>RWP_Apparel_GentPants</li>
+				</apparelRequired>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelTags</xpath>
+			<value>
+				<li>Doctor</li>
+				<li>CallOfCthulhu_Doctor</li>
+				<li>RWPGentlemanApparel</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparelTags></apparelTags>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelRequired</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparelRequired></apparelRequired>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelRequired</xpath>
+			<value>
+				<apparelRequired Inherit="False">
+					<li>RWP_Apparel_StablehandTrousers</li>
+					<li>Apparel_CowboyHat</li>
+				</apparelRequired>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelTags</xpath>
+			<value>
+				<li>CallOfCthulhu_Rancher</li>
+				<li>RWPWesternApparel</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelRequired</xpath>
+			<value>
+				<apparelRequired Inherit="False">
+					<li>RWP_Apparel_StablehandTrousers</li>
+					<li>Apparel_CowboyHat</li>
+				</apparelRequired>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparelTags></apparelTags>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelRequired</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparelRequired></apparelRequired>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelTags</xpath>
+			<value>
+				<li>CallOfCthulhu_Farmer</li>
+				<!-- <li>CallOfCthulhu_Townsfolk</li> -->
+				<li>RWPWesternApparel</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelRequired</xpath>
+			<value>
+				<apparelRequired Inherit="False">
+					<li>RWP_Apparel_StablehandTrousers</li>
+					<li>ROM_Apparel_ROM_StrawHat</li>
+					<li>ROM_Apparel_NF_FSOveralls</li>
+				</apparelRequired>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparelTags></apparelTags>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelRequired</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparelRequired></apparelRequired>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelTags</xpath>
+			<value>
+				<li>CallOfCthulhu_Lumberjack</li>
+				<!-- <li>CallOfCthulhu_Townsfolk</li> -->
+				<li>RWPWesternApparel</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelRequired</xpath>
+			<value>
+				<apparelRequired Inherit="False">
+					<li>RWP_Apparel_Jeans</li>
+					<li>ROM_Apparel_CallOfCthulhuPlaidShirt</li>
+				</apparelRequired>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelRequired</xpath>
+			<value>
+				<apparelRequired Inherit="False">
+					<li>RWP_Apparel_Jeans</li>
+					<li>VAE_Apparel_FleeceShirt</li>
+				</apparelRequired>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparelTags></apparelTags>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelRequired</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparelRequired></apparelRequired>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelTags</xpath>
+			<value>
+				<li>CallOfCthulhu_Butcher</li>
+				<li>CallOfCthulhu_Townsfolk</li>
+				<li>RWPWesternApparel</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelRequired</xpath>
+			<value>
+				<apparelRequired Inherit="False">
+					<li>RWP_Apparel_ClothApron</li>
+				</apparelRequired>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+</Patch>
