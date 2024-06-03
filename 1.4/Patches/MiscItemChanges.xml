@@ -1325,4 +1325,131 @@
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
 	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]/apparel</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparel></apparel>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]/apparel/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]/apparel</xpath>
+			<success>Always</success>
+			<value>
+				<tags></tags>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]/apparel/tags</xpath>
+			<success>Always</success>
+			<value>
+				<li>MF_CorporateTier1</li>
+				<li>MF_CorporateTier2</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparel></apparel>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
+			<success>Always</success>
+			<value>
+				<tags></tags>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
+			<success>Always</success>
+			<value>
+				<li>MF_CorporateTier1</li>
+				<li>MF_CorporateTier2</li>
+				<li>RWPGentlemanWear</li>
+				<li>Royal</li>
+				<li>RoyalTier1</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
+			<success>Always</success>
+			<value>
+				<apparel></apparel>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
+			<success>Always</success>
+			<value>
+				<tags></tags>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
+			<success>Always</success>
+			<value>
+				<li>MF_CorporateTier1</li>
+				<li>MF_CorporateTier2</li>
+				<li>RWPGentlemanWear</li>
+				<li>Royal</li>
+				<li>RoyalTier1</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
 </Patch>
