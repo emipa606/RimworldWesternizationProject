@@ -32,7 +32,10 @@
     </raidCommonalityFromPointsCurve>
     <earliestRaidDays>30</earliestRaidDays>
     <allowedCultures>
-      <li>Rustican</li>
+		<li>Rustican</li>
+		<li MayRequire="TSP.qux.factionsmaster">Americaine</li>
+		<li MayRequire="qux.factionsusa">Americaine</li>
+		<li MayRequire="TSP.qux.factionsmaster">TSP_Dixie</li>
     </allowedCultures>
     <!-- RIMWORLD FRONTIERSMEN -->
     <!-- TURTLESHROOM PRODUCTIONS -->
