@@ -54,6 +54,7 @@
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>MeleeWeapon_BowieKnife</thingDef>
+		  <stuff>Steel</stuff>
         </li>
         <li Class="ScenPart_StartingAnimal">
           <def>StartingAnimal</def>
