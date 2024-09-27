@@ -517,6 +517,11 @@
 		<li>MWApparel10</li>
       </tags>
       <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
+      <forceEyesVisibleForRotations>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </forceEyesVisibleForRotations>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -660,6 +665,11 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
+      <forceEyesVisibleForRotations>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </forceEyesVisibleForRotations>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
