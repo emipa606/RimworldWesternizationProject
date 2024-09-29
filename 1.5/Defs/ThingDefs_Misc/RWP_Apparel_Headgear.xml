@@ -407,10 +407,15 @@
       <tags>
         <li>IndustrialBasic</li>
         <li>IndustrialMilitary</li>
+		<li>Medieval</li>
+		<li>MedievalMilitary</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
         <!-- Mod Support -->
+		<li>SurvivalistWear</li>
+		<li>HarrierWear</li>
+		<li>CooperativeWear</li>
         <li>JeubWear</li>
         <li>FrogmanWear</li>
         <li>Usa</li>
