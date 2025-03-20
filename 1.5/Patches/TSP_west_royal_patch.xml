@@ -7,6 +7,8 @@
         <xpath>Defs/ThingDef[defName="RWP_Apparel_Pocketwatch"]/apparel/tags</xpath>
         <value>
           <li>Royal</li>
+		  <li>RoyalTier1</li>
+		  <li>RoyalTier2</li>
         </value>
       </li>
       <li Class="PatchOperationAdd">
@@ -14,6 +16,7 @@
         <value>
           <li>Royal</li>
           <li>RoyalTier2</li>
+		  <li>RoyalTier3</li>
         </value>
       </li>
       <!--

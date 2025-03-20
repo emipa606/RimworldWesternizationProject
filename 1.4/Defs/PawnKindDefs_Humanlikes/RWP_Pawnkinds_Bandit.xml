@@ -12,6 +12,7 @@
     <backstoryCategories>
       <li>Outsider</li>
       <li>Pirate</li>
+	  <li>Raider</li>
     </backstoryCategories>
     <backstoryCryptosleepCommonality>0.01</backstoryCryptosleepCommonality>
     <chemicalAddictionChance>0.2</chemicalAddictionChance>
@@ -19,6 +20,7 @@
     <invFoodDef>Pemmican</invFoodDef>
     <itemQuality>Normal</itemQuality>
     <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <gearHealthRange>
       <min>0.75</min>
       <max>1.1</max>

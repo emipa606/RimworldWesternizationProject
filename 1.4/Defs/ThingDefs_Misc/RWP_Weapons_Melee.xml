@@ -106,6 +106,7 @@
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
+	  <li>Stony</li>
       <!-- Support for Mod Stuff -->
       <li MayRequire="sarg.alphabiomes">AB_Exotic</li>
       <li MayRequire="sarg.alphabiomes">AB_ExoticMetals</li>

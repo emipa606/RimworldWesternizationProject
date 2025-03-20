@@ -107,19 +107,6 @@
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
   </Operation>
-  <Operation Class="PatchOperationConditional">
-    <!-- Does this exist? -->
-    <xpath>/Defs/ResearchProjectDef[defName="Prosthetics"]</xpath>
-    <!-- If it does, add this. -->
-    <match Class="PatchOperationAdd">
-      <success>Always</success>
-      <xpath>/Defs/ResearchProjectDef[defName="Prosthetics"]/prerequisites</xpath>
-      <value>
-        <li>Electricity</li>
-      </value>
-    </match>
-    <!-- If the first XPATH does not exist, the original code stands. -->
-  </Operation>
   <!-- To allow for Gunsmithing to be made without Electricity -->
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
@@ -195,8 +182,8 @@
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
     <xpath>/Defs/ThingDef[defName="FrenchEarlyTechnology"]</xpath>
-    <!-- If it does, add this. -->
-    <match Class="PatchOperationAdd">
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
       <success>Always</success>
       <xpath>/Defs/ThingDef[defName = "FrenchEarlyTechnology" or defName = "BritishEarlyTechnology" or defName = "PrussianEarlyTechnology"]/tab</xpath>
       <value>

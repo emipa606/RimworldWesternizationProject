@@ -7,6 +7,7 @@
     <selectable>True</selectable>
     <pathCost>10</pathCost>
     <useHitPoints>True</useHitPoints>
+	<tradeability>All</tradeability>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
@@ -92,11 +93,15 @@
         <li>anarchiste</li>
         <li>Pirate</li>
         <li>PoorPirate</li>
-        <li>PoorPirate</li>
+        <li>NormalPirate</li>
         <li>mafia</li>
+		<li>anarchiste</li>
         <li>JeubWear</li>
         <li>CallOfCthulhu_Thug</li>
         <li>CartelmanWear</li>
+		<li>HarrierWear</li>
+		<li>SurvivalistWear</li>
+		<li>KebabTerrorist</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -165,6 +170,10 @@
         <li>CallOfCthulhu_Thug</li>
         <li>JeubWear</li>
         <li>GoblinWear</li>
+		<li>SurvivalistWear</li>
+		<li>HarrierWear</li>
+		<li>CaravaneerWear</li>
+		<li>SlaveRatWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -184,7 +193,7 @@
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_PaddyHat</defName>
     <label>paddy hat</label>
-    <description>Traveling merchants and rice paddy farmers would often protect themselves from the sun with hats like these. It has very oriental feel to it.</description>
+    <description>Traveling merchants and rice paddy farmers would often protect themselves from the sun with hats like these. It has very Oriental feel to it.</description>
     <recipeMaker>
       <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
@@ -209,7 +218,7 @@
       <WorkToMake>3000</WorkToMake>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0.66</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.9</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -246,9 +255,20 @@
         <li>HSApparel_EdoClanBase</li>
         <li>Apparel_SamuraiBasic</li>
         <li>samurai</li>
-        <li>HSApparel_RoyaltyClothes</li>
         <li>Samuraihead</li>
         <li>FrogmanWear</li>
+		<li>CaravaneerWear</li>
+		<li>MWApparel</li>
+		<li>MWApparel1</li>
+		<li>MWApparel2</li>
+		<li>MWApparel3</li>
+		<li>MWApparel4</li>
+		<li>MWApparel5</li>
+		<li>MWApparel6</li>
+		<li>MWApparel7</li>
+		<li>MWApparel8</li>
+		<li>MWApparel9</li>
+		<li>MWApparel10</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -320,6 +340,8 @@
         <li>OniWear</li>
         <li>OniApparel</li>
         <li>CallOfCthulhu_Townsfolk</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -387,6 +409,7 @@
         <li>JeubWear</li>
         <li>FrogmanWear</li>
         <li>Usa</li>
+		<li>DixieWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -462,18 +485,26 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>OniWear</li>
-        <li>OniHeadWear</li>
-        <li>CallOfCthulhu_Townsfolk</li>
-        <li>JeubWear</li>
-        <li>OniWear</li>
-        <li>OniHeadWear</li>
-        <!-- Onis look cute with glasses, simple as -->
+        <li>OniHeadWear</li> <!-- Onis look cute with glasses, simple as -->
         <li>CallOfCthulhu_Townsfolk</li>
         <li>JeubWear</li>
         <li>FrogmanWear</li>
         <li>WeebClothes</li>
         <li>WeebHat</li>
         <li>Usa</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
+		<li>MWApparel</li>
+		<li>MWApparel1</li>
+		<li>MWApparel2</li>
+		<li>MWApparel3</li>
+		<li>MWApparel4</li>
+		<li>MWApparel5</li>
+		<li>MWApparel6</li>
+		<li>MWApparel7</li>
+		<li>MWApparel8</li>
+		<li>MWApparel9</li>
+		<li>MWApparel10</li>
       </tags>
       <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
     </apparel>
