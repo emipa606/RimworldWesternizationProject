@@ -61,6 +61,7 @@
         <li>Klan_apparel</li>
 		<li>HippieBasic</li>
 		<li>MF_CorporateTier1</li>
+		<li>K4GCowboyHat</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -196,6 +197,7 @@
 		<li>SurvivalistWear</li>
 		<li>HarrierWear</li>
 		<li>HippeBasic</li>
+		<li>ShirtlessManiac</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -278,6 +280,9 @@
         <li>Klan_apparel</li>
         <li>OniWear</li>
 		<li>HippeBasic</li>
+		<li>K4GCowboyHat</li>
+		<li>K4GOveralls</li>
+		<li>ShirtlessManiac</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -350,13 +355,14 @@
         <li>Usa</li>
         <li>Klan_apparel</li>
 		<li>DixieWear</li>
+		<li>K4GCowboyHat</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
     <generateCommonality>0.8</generateCommonality>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_StandardApparel"></colorGenerator>
   </ThingDef>
   <!-- Fringe Pants -->
   <ThingDef ParentName="ApparelloVanillaBase">
@@ -415,6 +421,7 @@
 		<li>CaravaneerWear</li>
 		<li>mafia_survetement</li>
 		<li>HippeBasic</li>
+		<li>K4GCowboyHat</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -422,7 +429,7 @@
       </defaultOutfitTags>
     </apparel>
     <generateCommonality>0.5</generateCommonality>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_StandardApparel"></colorGenerator>
   </ThingDef>
   <!-- Overalls -->
   <ThingDef ParentName="ApparelloVanillaBase">
@@ -483,12 +490,14 @@
         <li>Klan_apparel</li>
         <li>FrogmanWear</li>
 		<li>SurvivalistWear</li>
+		<li>K4GCowboyHat</li>
+		<li>K4GOveralls</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
 		<li>Slave</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_StandardApparel"></colorGenerator>
   </ThingDef>
 </Defs>

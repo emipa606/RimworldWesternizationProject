@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="PatchOperationFindMod">
-		<mods>
-        <li>[RH2] Rimmu-Nation² - Clothing</li>
-		</mods>
+    <Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="RNApparel_Jeans_Generic"]</xpath>
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>

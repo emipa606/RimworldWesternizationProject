@@ -9,6 +9,7 @@
         <value>
           <!-- <li>RWP_Faction_Marshal_Core</li> -->
           <li>RWP_Faction_Marshal</li>
+		  <li MayRequire="k4g.murica">K4G_Murica</li>
         </value>
       </li>
     </operations>

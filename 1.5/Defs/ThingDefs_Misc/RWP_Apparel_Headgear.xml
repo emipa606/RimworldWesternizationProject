@@ -21,8 +21,11 @@
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
+	<apparelTags>
+		<li>RWPWesternWear</li>
+	</apparelTags>
     <comps>
-      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Forbiddable"></li>
       <li>
         <compClass>CompQuality</compClass>
       </li>
@@ -91,6 +94,7 @@
       </layers>
       <tags>
         <li>RWPBanditWear</li>
+		<li>Western</li>
         <!-- Mod cross-compatibility -->
         <li>WeebClothes</li>
         <li>WeebHat</li>
@@ -128,10 +132,7 @@
     <defName>RWP_Apparel_DesperadoHat</defName>
     <label>desperado hat</label>
     <description>A stylish and elegant hat that is soft to the touch. Especially popular amongst outlaws, card cheats, and otherwise slippery individuals.</description>
-    <recipeMaker>
-      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
+	<graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/Cardshark</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
@@ -179,6 +180,7 @@
 		<li>HarrierWear</li>
 		<li>CaravaneerWear</li>
 		<li>SlaveRatWear</li>
+		<li>K4GCowboyHat</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -199,9 +201,6 @@
     <defName>RWP_Apparel_PaddyHat</defName>
     <label>paddy hat</label>
     <description>Traveling merchants and rice paddy farmers would often protect themselves from the sun with hats like these. It has very Oriental feel to it.</description>
-    <recipeMaker>
-      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/Tradecone</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -243,10 +242,10 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <tags>
+      <tags Inherit="False">
         <li>Outlander</li>
         <li>OutlanderTrader</li>
-        <li>RWPWesternWear</li>
+        <!-- <li>RWPWesternWear</li> -->
         <!-- Mod cross-compatiblity -->
         <li>Apparel_SamuraiPeasant</li>
         <li>Apparel_SamuraiStraw</li>
@@ -295,9 +294,6 @@
     <defName>RWP_Apparel_FeatheredTopHat</defName>
     <label>feathered top hat</label>
     <description>A striking feathered hat that has an air of grandeur. Improves social impact.</description>
-    <recipeMaker>
-      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/IndFeatherTophat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -369,10 +365,7 @@
     <defName>RWP_Apparel_Kepi</defName>
     <label>kepi</label>
     <description>The most important piece of many a rebel army uniform. Designed to be worn on hot climates.</description>
-    <recipeMaker>
-      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
+	<graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/IndKepi</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
@@ -420,13 +413,14 @@
         <li>FrogmanWear</li>
         <li>Usa</li>
 		<li>DixieWear</li>
+		<li>K4GCowboyHat</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_StandardApparel"></colorGenerator>
   </ThingDef>
   <!-- Spectacles -->
   <ThingDef ParentName="HatMakeableBase">
@@ -434,7 +428,9 @@
     <label>spectacles</label>
     <description>A pair of eyeglasses that make the user look slightly more intelligent. Can also improve vision.</description>
     <recipeMaker>
-      <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+		<researchPrerequisites Inherit="False">
+			<li>RWP_Optometry</li>
+		</researchPrerequisites>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/IndSpectacles</texPath>
@@ -591,6 +587,7 @@
         <li>CallOfCthulhu_Farmer</li>
         <li>FrogmanWear</li>
         <li>ST_GnomeClothing</li>
+		<li>K4GCowboyHat</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -664,6 +661,7 @@
         <li>RoyalTier3</li>
         <li>RoyalTier4</li>
         <li>WeebClothes</li>
+		<li>K4GCowboyHat</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

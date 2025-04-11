@@ -18,6 +18,9 @@
     <itemQuality>Normal</itemQuality>
     <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
 	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	<apparelTags>
+		<li>K4GCowboyHat</li>
+	</apparelTags>
     <gearHealthRange>
       <min>0.75</min>
       <max>1.1</max>
@@ -82,6 +85,7 @@
     </weaponTags>
     <apparelTags>
       <li>RWPWesternWear</li>
+	  <li>K4GCowboyHat</li>
       <li>Western</li>
     </apparelTags>
   </PawnKindDef>
@@ -117,6 +121,7 @@
 		<li>RWPWesternWear</li>
 		<li>CallOfCthulhu_Rancher</li>
 		<li>CallOfCthulhu_Farmer</li>
+		<li>K4GCowboyHat</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Socialite ==== -->
@@ -154,6 +159,7 @@
       <li>RWPGentlemanWear</li>
     </apparelTags>
   </PawnKindDef>
+  
   <PawnKindDef ParentName="RWP_Class_Town_Socialite">
     <defName>RWP_Town_Socialite_Girl</defName>
     <label>lady</label>
@@ -221,6 +227,7 @@
     <apparelTags>
       <li>RWPWesternWear</li>
       <li>Western</li>
+	  <li>K4GCowboyHat</li>
     </apparelTags>
     <inventoryOptions>
       <skipChance>0.00</skipChance>
@@ -260,6 +267,7 @@
     <apparelTags>
       <li>RWPMarshalWear</li>
       <li>Western</li>
+	  <li>K4GCowboyHat</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Gunslinger ==== -->
@@ -289,6 +297,7 @@
     <apparelTags>
       <li>RWPMarshalWear</li>
       <li>Western</li>
+	  <li>K4GCowboyHat</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Rifleman ==== -->
@@ -320,6 +329,7 @@
       <li>RWPMarshalWear</li>
       <li>RWPDeputySheriffWear</li>
       <li>Western</li>
+	  <li>K4GCowboyHat</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Sniper ==== -->
@@ -356,6 +366,7 @@
       <li>BarneyFife</li>
       <li>RWPMarshalWear</li>
       <li>Western</li>
+	  <li>K4GCowboyHat</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Town Sheriff ==== -->
@@ -393,6 +404,7 @@
       <li>RWPSheriff</li>
       <li>RWPMarshalWear</li>
       <li>RWPGentlemanWear</li>
+	  <li>K4GCowboyHat</li>
     </apparelTags>
   </PawnKindDef>
 </Defs>

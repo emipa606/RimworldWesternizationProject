@@ -88,7 +88,9 @@
 			<success>Always</success>
 			<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/recipeMaker/researchPrerequisite</xpath>
 			<value>
-				<researchPrerequisite>RWP_LawEnforcement</researchPrerequisite>
+				<researchPrerequisites>
+					<li>RWP_LawEnforcement</li>
+				</researchPrerequisites>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->

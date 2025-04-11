@@ -308,7 +308,7 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]</xpath>
+	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelRequired</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
@@ -316,6 +316,22 @@
 			<value>
 				<apparelRequired Inherit="False">
 					<li>RWP_Apparel_ClothApron</li>
+				</apparelRequired>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+	<xpath>/Defs/PawnKindDef[defName="K4G_Murica_ShirtlessManiac"]/apparelRequired</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/PawnKindDef[defName="K4G_Murica_ShirtlessManiac"]/apparelRequired</xpath>
+			<value>
+				<apparelRequired Inherit="False">
+					<li>RWP_Apparel_PatchworkPants</li>
 				</apparelRequired>
 			</value>
 		</match>
