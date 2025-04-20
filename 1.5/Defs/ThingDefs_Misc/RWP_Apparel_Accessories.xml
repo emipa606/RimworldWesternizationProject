@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef Name="RWPAccessoryMakeableBase" ParentName="ApparelBase" Abstract="True">
     <recipeMaker>
@@ -131,7 +131,15 @@
       <bodyPartGroups>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Accessories/SilverSheriffBadge/SilverSheriffBadge</wornGraphicPath>
+      <renderNodeProperties>
+        <li>
+          <nodeClass>PawnRenderNode_Apparel</nodeClass>
+          <workerClass>PawnRenderNodeWorker_Apparel_Body</workerClass>
+          <texPath>Things/Pawn/Humanlike/Apparel/Accessories/SilverSheriffBadge/SilverSheriffBadge</texPath>
+          <parentTagDef>ApparelBody</parentTagDef>
+        </li>
+      </renderNodeProperties>
+      <!-- <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Accessories/SilverSheriffBadge/SilverSheriffBadge</wornGraphicPath> -->
       <layers>
         <li>Belt</li>
       </layers>
