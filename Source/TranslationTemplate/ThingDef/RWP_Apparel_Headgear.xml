@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bandit scarf -->
+  <RWP_Apparel_BanditScarf.label>bandit scarf</RWP_Apparel_BanditScarf.label>
+  <!-- EN: A scarf worn over the face to conceal one's identity. Due to its association with outlaws, this scarf will hinder social impact. -->
+  <RWP_Apparel_BanditScarf.description>A scarf worn over the face to conceal one's identity. Due to its association with outlaws, this scarf will hinder social impact.</RWP_Apparel_BanditScarf.description>
+  <!-- EN: desperado hat -->
+  <RWP_Apparel_DesperadoHat.label>desperado hat</RWP_Apparel_DesperadoHat.label>
+  <!-- EN: A stylish and elegant hat that is soft to the touch. Especially popular amongst outlaws, card cheats, and otherwise slippery individuals. -->
+  <RWP_Apparel_DesperadoHat.description>A stylish and elegant hat that is soft to the touch. Especially popular amongst outlaws, card cheats, and otherwise slippery individuals.</RWP_Apparel_DesperadoHat.description>
+  <!-- EN: feathered top hat -->
+  <RWP_Apparel_FeatheredTopHat.label>feathered top hat</RWP_Apparel_FeatheredTopHat.label>
+  <!-- EN: A striking feathered hat that has an air of grandeur. Improves social impact. -->
+  <RWP_Apparel_FeatheredTopHat.description>A striking feathered hat that has an air of grandeur. Improves social impact.</RWP_Apparel_FeatheredTopHat.description>
+  <!-- EN: kepi -->
+  <RWP_Apparel_Kepi.label>kepi</RWP_Apparel_Kepi.label>
+  <!-- EN: The most important piece of many a rebel army uniform. Designed to be worn on hot climates. -->
+  <RWP_Apparel_Kepi.description>The most important piece of many a rebel army uniform. Designed to be worn on hot climates.</RWP_Apparel_Kepi.description>
+  <!-- EN: paddy hat -->
+  <RWP_Apparel_PaddyHat.label>paddy hat</RWP_Apparel_PaddyHat.label>
+  <!-- EN: Traveling merchants and rice paddy farmers would often protect themselves from the sun with hats like these. It has very oriental feel to it. -->
+  <RWP_Apparel_PaddyHat.description>Traveling merchants and rice paddy farmers would often protect themselves from the sun with hats like these. It has very oriental feel to it.</RWP_Apparel_PaddyHat.description>
+  <!-- EN: sombrero -->
+  <RWP_Apparel_Sombrero.label>sombrero</RWP_Apparel_Sombrero.label>
+  <!-- EN: Keeps the sun off your eyes during siesta! Ay caramba! -->
+  <RWP_Apparel_Sombrero.description>Keeps the sun off your eyes during siesta! Ay caramba!</RWP_Apparel_Sombrero.description>
+  <!-- EN: spectacles -->
+  <RWP_Apparel_Spectacles.label>spectacles</RWP_Apparel_Spectacles.label>
+  <!-- EN: A pair of eyeglasses that make the user look slightly more intelligent. Can also improve vision. -->
+  <RWP_Apparel_Spectacles.description>A pair of eyeglasses that make the user look slightly more intelligent. Can also improve vision.</RWP_Apparel_Spectacles.description>
+  <!-- EN: wanderer's hat and mask -->
+  <RWP_Apparel_Zorro.label>wanderer's hat and mask</RWP_Apparel_Zorro.label>
+  <!-- EN: This apparel is fashioned after the famed hat used by the legendary vigilante 'The Fox' - 'En garde, noble foe! You cannot avoid justice- The vigilante justice!' -->
+  <RWP_Apparel_Zorro.description>This apparel is fashioned after the famed hat used by the legendary vigilante 'The Fox' - 'En garde, noble foe! You cannot avoid justice- The vigilante justice!'</RWP_Apparel_Zorro.description>
+</LanguageData>

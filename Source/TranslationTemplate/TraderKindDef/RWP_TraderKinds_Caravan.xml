@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: general goods trader -->
+  <RWP_Caravan_BulkGoods.label>general goods trader</RWP_Caravan_BulkGoods.label>
+  <!-- EN: gunsmith trader -->
+  <RWP_Caravan_Combat.label>gunsmith trader</RWP_Caravan_Combat.label>
+  <!-- EN: patent medicine show -->
+  <TSP_RWP_Caravan_PatentMedicine.label>patent medicine show</TSP_RWP_Caravan_PatentMedicine.label>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Model 1881 Gatling Gun bullet -->
+  <Bullet_M1881Gatling.label>Model 1881 Gatling Gun bullet</Bullet_M1881Gatling.label>
+  <!-- EN: Model 1881 Gatling Gun -->
+  <Gun_M1881Gatling.label>Model 1881 Gatling Gun</Gun_M1881Gatling.label>
+  <!-- EN: A Model 1881 Gatling gun attached to wagon-wheeled mount. -->
+  <Gun_M1881Gatling.description>A Model 1881 Gatling gun attached to wagon-wheeled mount.</Gun_M1881Gatling.description>
+  <!-- EN: Model 1881 Gatling Gun -->
+  <Gun_M1881Gatling.verbs.Verb_Shoot.label>Model 1881 Gatling Gun</Gun_M1881Gatling.verbs.Verb_Shoot.label>
+  <!-- EN: Model 1881 Gatling Gun -->
+  <TurretGun_M1881Gatling.label>Model 1881 Gatling Gun</TurretGun_M1881Gatling.label>
+  <!-- EN: The Gatling gun, designed by the American inventor Doctor Richard Gatling in 1861, was a field weapon which used multiple rotating barrels turned by a hand crank, and firing loose ammunition using a gravity feed system from a hopper. The Model 1881 Gatling gun features many improvements over its predecessors, the most notable of which is the implementation of the 'Bruce'-style ammunition feed system, allowing the gun to use brass cartridges (.45-70 Gov.) for the first time. -->
+  <TurretGun_M1881Gatling.description>The Gatling gun, designed by the American inventor Doctor Richard Gatling in 1861, was a field weapon which used multiple rotating barrels turned by a hand crank, and firing loose ammunition using a gravity feed system from a hopper. The Model 1881 Gatling gun features many improvements over its predecessors, the most notable of which is the implementation of the 'Bruce'-style ammunition feed system, allowing the gun to use brass cartridges (.45-70 Gov.) for the first time.</TurretGun_M1881Gatling.description>
+</LanguageData>

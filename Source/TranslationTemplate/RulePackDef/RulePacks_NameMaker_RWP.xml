@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN:
+    <li>name->The [badassanimal] Gang</li>
+    <li>name->The [badassperson] Gang</li>
+    <li>name->The [weapon] Gang</li>
+    <li>name->The [badasscolor] [weapon] Gang</li>
+    <li>name->The [badasscolor] [badassanimal] Gang</li>
+    <li>name->The [badassperson] Gang</li>
+    <li>name->The [badassadjective] Gang</li>
+    <li>name->The [badassconcept] Gang</li>
+  -->
+  <NamerFactionBandit.rulePack.rulesStrings>
+    <li>name->The [badassanimal] Gang</li>
+    <li>name->The [badassperson] Gang</li>
+    <li>name->The [weapon] Gang</li>
+    <li>name->The [badasscolor] [weapon] Gang</li>
+    <li>name->The [badasscolor] [badassanimal] Gang</li>
+    <li>name->The [badassperson] Gang</li>
+    <li>name->The [badassadjective] Gang</li>
+    <li>name->The [badassconcept] Gang</li>
+  </NamerFactionBandit.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->[Color] [TerrainFeature] Marshal Outpost</li>
+    <li>name->[Animal] [TerrainFeature] Marshal Outpost</li>
+    <li>name->[topicalnoun] [TerrainFeature] Marshal Outpost</li>
+    <li>name->[topicalnoun]'s [TerrainFeature] Marshal Outpost</li>
+    <li>name->[concept_positive]'s [TerrainFeature] Marshal Outpost</li>
+    <li>name->[concept_positive] [TerrainFeature] Marshal Outpost</li>
+    <li>name->[topicalnoun] [TerrainFeature] Marshal Outpost</li>
+    <li>name->[topicalnoun]'s [TerrainFeature] Marshal Outpost</li>
+    <li>name->[Color] [geography] Marshal Outpost</li>
+    <li>name->[Animal] [geography] Marshal Outpost</li>
+    <li>name->[topicalnoun] [geography] Marshal Outpost</li>
+    <li>name->[topicalnoun]'s [geography] Marshal Outpost</li>
+    <li>name->[concept_positive]'s [geography] Marshal Outpost</li>
+    <li>name->[concept_positive] [geography] Marshal Outpost</li>
+    <li>name->[topicalnoun] [geography] Marshal Outpost</li>
+    <li>name->[topicalnoun]'s [geography] Marshal Outpost</li>
+  -->
+  <NamerSettlementMarshal.rulePack.rulesStrings>
+    <li>name->[Color] [TerrainFeature] Marshal Outpost</li>
+    <li>name->[Animal] [TerrainFeature] Marshal Outpost</li>
+    <li>name->[topicalnoun] [TerrainFeature] Marshal Outpost</li>
+    <li>name->[topicalnoun]'s [TerrainFeature] Marshal Outpost</li>
+    <li>name->[concept_positive]'s [TerrainFeature] Marshal Outpost</li>
+    <li>name->[concept_positive] [TerrainFeature] Marshal Outpost</li>
+    <li>name->[topicalnoun] [TerrainFeature] Marshal Outpost</li>
+    <li>name->[topicalnoun]'s [TerrainFeature] Marshal Outpost</li>
+    <li>name->[Color] [geography] Marshal Outpost</li>
+    <li>name->[Animal] [geography] Marshal Outpost</li>
+    <li>name->[topicalnoun] [geography] Marshal Outpost</li>
+    <li>name->[topicalnoun]'s [geography] Marshal Outpost</li>
+    <li>name->[concept_positive]'s [geography] Marshal Outpost</li>
+    <li>name->[concept_positive] [geography] Marshal Outpost</li>
+    <li>name->[topicalnoun] [geography] Marshal Outpost</li>
+    <li>name->[topicalnoun]'s [geography] Marshal Outpost</li>
+  </NamerSettlementMarshal.rulePack.rulesStrings>
+</LanguageData>

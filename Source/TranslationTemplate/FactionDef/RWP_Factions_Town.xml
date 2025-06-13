@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Frontier town -->
+  <RWP_Faction_Town.label>Frontier town</RWP_Faction_Town.label>
+  <!-- EN: Frontier towns are settlements on the edge of civilization, and are under constant threat from bandit gangs and hostile native tribes. Law and order in these areas are upheld by each individual town's sheriff, though a ceremonial Planetary Chief Sheriff is elected from the lawmen to represent their commercial interests throughout the Rim. Frontier towns are mostly made up of good, honest folk who are just trying to carve out a new life in a new land. -->
+  <RWP_Faction_Town.description>Frontier towns are settlements on the edge of civilization, and are under constant threat from bandit gangs and hostile native tribes. Law and order in these areas are upheld by each individual town's sheriff, though a ceremonial Planetary Chief Sheriff is elected from the lawmen to represent their commercial interests throughout the Rim. Frontier towns are mostly made up of good, honest folk who are just trying to carve out a new life in a new land.</RWP_Faction_Town.description>
+  <!-- EN: Planetary Chief Sheriff -->
+  <RWP_Faction_Town.leaderTitle>Planetary Chief Sheriff</RWP_Faction_Town.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <RWP_Faction_Town.messageDefendersAttacking>{0} from {1} are attacking your {2}.</RWP_Faction_Town.messageDefendersAttacking>
+  <!-- EN: member -->
+  <RWP_Faction_Town.pawnSingular>member</RWP_Faction_Town.pawnSingular>
+  <!-- EN: frontiersmen -->
+  <RWP_Faction_Town.pawnsPlural>frontiersmen</RWP_Faction_Town.pawnsPlural>
+</LanguageData>

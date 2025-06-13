@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: gentleman's pants -->
+  <RWP_Apparel_GentPants.label>gentleman's pants</RWP_Apparel_GentPants.label>
+  <!-- EN: A very stylish pair of men's dress pants. Pairs perfectly with a waistcoat. -->
+  <RWP_Apparel_GentPants.description>A very stylish pair of men's dress pants. Pairs perfectly with a waistcoat.</RWP_Apparel_GentPants.description>
+  <!-- EN: jeans -->
+  <RWP_Apparel_Jeans.label>jeans</RWP_Apparel_Jeans.label>
+  <!-- EN: A pair of sturdy pants reinforced with copper rivets. Originally made out of tent leather, they have long been made of fabric, particularly a form of blue cloth called denim. The initial purpose of jeans were to be worn while working in the fields or in the mine. Over the many thousands of years since their inception in the nineteenth century, they have become absolutely universal parts of the commonor's wardrobe in all human civilizations in the galaxy. A century after their invention, it became popular to deliberately tear them for...... for unknown  reasons. Some said it mocked the poor. Thankfully, that trend died off by the latter half of the twenty-first century. \n These jeans are not tight and retain their initial purposes. They are not formal; do not pretend any sort of jeans are formal. -->
+  <RWP_Apparel_Jeans.description>A pair of sturdy pants reinforced with copper rivets. Originally made out of tent leather, they have long been made of fabric, particularly a form of blue cloth called denim. The initial purpose of jeans were to be worn while working in the fields or in the mine. Over the many thousands of years since their inception in the nineteenth century, they have become absolutely universal parts of the commonor's wardrobe in all human civilizations in the galaxy. A century after their invention, it became popular to deliberately tear them for...... for unknown  reasons. Some said it mocked the poor. Thankfully, that trend died off by the latter half of the twenty-first century. 
+ These jeans are not tight and retain their initial purposes. They are not formal; do not pretend any sort of jeans are formal.</RWP_Apparel_Jeans.description>
+  <!-- EN: fringe pants -->
+  <RWP_Apparel_LeatherPants.label>fringe pants</RWP_Apparel_LeatherPants.label>
+  <!-- EN: A pair of leather or hide pants with a fringe trim. Based on clothing worn by American Indians for over five thousand years, this style of pants was popular with frontiersmen for their warmth and durability. -->
+  <RWP_Apparel_LeatherPants.description>A pair of leather or hide pants with a fringe trim. Based on clothing worn by American Indians for over five thousand years, this style of pants was popular with frontiersmen for their warmth and durability.</RWP_Apparel_LeatherPants.description>
+  <!-- EN: overalls -->
+  <RWP_Apparel_Overalls.label>overalls</RWP_Apparel_Overalls.label>
+  <!-- EN: Plain pocketed overalls designed to make working more convenient. Not particularily stylish. -->
+  <RWP_Apparel_Overalls.description>Plain pocketed overalls designed to make working more convenient. Not particularily stylish.</RWP_Apparel_Overalls.description>
+  <!-- EN: patchwork pants -->
+  <RWP_Apparel_PatchworkPants.label>patchwork pants</RWP_Apparel_PatchworkPants.label>
+  <!-- EN: A very crude and ugly pair of pants. -->
+  <RWP_Apparel_PatchworkPants.description>A very crude and ugly pair of pants.</RWP_Apparel_PatchworkPants.description>
+  <!-- EN: ankle-length hoop skirt -->
+  <RWP_Apparel_PrairieSkirt.label>ankle-length hoop skirt</RWP_Apparel_PrairieSkirt.label>
+  <!-- EN: A long, Old Earth style of skirt first popularized by pioneer women whose families settled the western New World almost four thousand years ago. A band at the bottom of the skirt causes it to remain permanently bell-shaped and wide, increasing air flow and keeping the wearer cooler. -->
+  <RWP_Apparel_PrairieSkirt.description>A long, Old Earth style of skirt first popularized by pioneer women whose families settled the western New World almost four thousand years ago. A band at the bottom of the skirt causes it to remain permanently bell-shaped and wide, increasing air flow and keeping the wearer cooler.</RWP_Apparel_PrairieSkirt.description>
+  <!-- EN: stablehand trousers -->
+  <RWP_Apparel_StablehandTrousers.label>stablehand trousers</RWP_Apparel_StablehandTrousers.label>
+  <!-- EN: A pair of rugged trousers with suspenders. Useful for various types of farm labor. -->
+  <RWP_Apparel_StablehandTrousers.description>A pair of rugged trousers with suspenders. Useful for various types of farm labor.</RWP_Apparel_StablehandTrousers.description>
+</LanguageData>

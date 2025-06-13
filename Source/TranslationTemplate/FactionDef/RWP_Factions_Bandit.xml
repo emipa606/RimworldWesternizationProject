@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bandit gang -->
+  <RWP_Faction_Bandit.label>bandit gang</RWP_Faction_Bandit.label>
+  <!-- EN: Nearly four thousand years since the Old Earth's western hemisphere pacified its westernmost territories, the threats that plagued those ancient cowboys continue to exist, in an almost completely unaltered form, on the lawless frontiers of the Rim. Just like Old Earth's Wild West, where banditoes and outlaws roamed the colonial settlements, the lack of infrastructure and institutions that Core Worlds have make the frontiers of the Rim identical in danger and adventure. This is the largest and most powerful gang of Wild West bandits. Known for wearing their signature scarves, these outlaws are the bane of life on the frontier, and will stop at nothing to enrich themselves. Do not let their ancient kinetic weapons fool you, they are still an existential threat to all but the most advanced colonies. They nominally elect a planet-wide leader, the Planetary Desparado, but his position is ceremonial as an 'ambassador' of the plundering men in communications calls. If you value your life, either befriend them or avoid them at all costs. -->
+  <RWP_Faction_Bandit.description>Nearly four thousand years since the Old Earth's western hemisphere pacified its westernmost territories, the threats that plagued those ancient cowboys continue to exist, in an almost completely unaltered form, on the lawless frontiers of the Rim. Just like Old Earth's Wild West, where banditoes and outlaws roamed the colonial settlements, the lack of infrastructure and institutions that Core Worlds have make the frontiers of the Rim identical in danger and adventure. This is the largest and most powerful gang of Wild West bandits. Known for wearing their signature scarves, these outlaws are the bane of life on the frontier, and will stop at nothing to enrich themselves. Do not let their ancient kinetic weapons fool you, they are still an existential threat to all but the most advanced colonies. They nominally elect a planet-wide leader, the Planetary Desparado, but his position is ceremonial as an 'ambassador' of the plundering men in communications calls. If you value your life, either befriend them or avoid them at all costs.</RWP_Faction_Bandit.description>
+  <!-- EN: Planetary Desparado -->
+  <RWP_Faction_Bandit.leaderTitle>Planetary Desparado</RWP_Faction_Bandit.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <RWP_Faction_Bandit.messageDefendersAttacking>{0} from {1} are attacking your {2}.</RWP_Faction_Bandit.messageDefendersAttacking>
+  <!-- EN: member -->
+  <RWP_Faction_Bandit.pawnSingular>member</RWP_Faction_Bandit.pawnSingular>
+  <!-- EN: bandits -->
+  <RWP_Faction_Bandit.pawnsPlural>bandits</RWP_Faction_Bandit.pawnsPlural>
+</LanguageData>

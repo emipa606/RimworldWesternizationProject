@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: shotgun blast -->
+  <Bullet_CoachGun.label>shotgun blast</Bullet_CoachGun.label>
+  <!-- EN: revolver bullet -->
+  <Bullet_ColtBuntline.label>revolver bullet</Bullet_ColtBuntline.label>
+  <!-- EN: revolver bullet -->
+  <Bullet_ColtNewService.label>revolver bullet</Bullet_ColtNewService.label>
+  <!-- EN: revolver bullet -->
+  <Bullet_ColtOpenTop.label>revolver bullet</Bullet_ColtOpenTop.label>
+  <!-- EN: revolver bullet -->
+  <Bullet_ColtPeacemaker.label>revolver bullet</Bullet_ColtPeacemaker.label>
+  <!-- EN: revolver bullet -->
+  <Bullet_ColtSixShooter.label>revolver bullet</Bullet_ColtSixShooter.label>
+  <!-- EN: shotgun blast -->
+  <Bullet_CrownsGun.label>shotgun blast</Bullet_CrownsGun.label>
+  <!-- EN: henry rifle bullet -->
+  <Bullet_HenryRifle.label>henry rifle bullet</Bullet_HenryRifle.label>
+  <!-- EN: Marlin rifle bullet -->
+  <Bullet_MarlinRifle.label>Marlin rifle bullet</Bullet_MarlinRifle.label>
+  <!-- EN: musket ball -->
+  <Bullet_Musket.label>musket ball</Bullet_Musket.label>
+  <!-- EN: revolver rifle bullet -->
+  <Bullet_RevolverRifle.label>revolver rifle bullet</Bullet_RevolverRifle.label>
+  <!-- EN: shotgun blast -->
+  <Bullet_SawnOff.label>shotgun blast</Bullet_SawnOff.label>
+  <!-- EN: sharps rifle bullet -->
+  <Bullet_SharpsBullet.label>sharps rifle bullet</Bullet_SharpsBullet.label>
+  <!-- EN: sharps rifle bullet -->
+  <Bullet_SharpsCarbineBullet.label>sharps rifle bullet</Bullet_SharpsCarbineBullet.label>
+  <!-- EN: winchester rifle bullet -->
+  <Bullet_WinchesterRifle.label>winchester rifle bullet</Bullet_WinchesterRifle.label>
+  <!-- EN: winchester rifle bullet -->
+  <Bullet_WinchesterRifleTwo.label>winchester rifle bullet</Bullet_WinchesterRifleTwo.label>
+  <!-- EN: Coach Gun -->
+  <Gun_Coach.label>Coach Gun</Gun_Coach.label>
+  <!-- EN: The coach gun, or "messenger's gun", is a double-barreled shotgun, generally with barrels approximately 18" in length placed side-by-side. They were notably issued to shotgun messengers by Wells Fargo to guard stagecoach shipments in the mid-19th century. -->
+  <Gun_Coach.description>The coach gun, or "messenger's gun", is a double-barreled shotgun, generally with barrels approximately 18" in length placed side-by-side. They were notably issued to shotgun messengers by Wells Fargo to guard stagecoach shipments in the mid-19th century.</Gun_Coach.description>
+  <!-- EN: stock -->
+  <Gun_Coach.tools.stock.label>stock</Gun_Coach.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_Coach.tools.barrel.label>barrel</Gun_Coach.tools.barrel.label>
+  <!-- EN: Coach Gun -->
+  <Gun_Coach.verbs.Verb_Shoot.label>Coach Gun</Gun_Coach.verbs.Verb_Shoot.label>
+  <!-- EN: Colt Revolving Rifle -->
+  <Gun_Colt_OneEightFiveFive_Revolving_Rifle.label>Colt Revolving Rifle</Gun_Colt_OneEightFiveFive_Revolving_Rifle.label>
+  <!-- EN: The Colt Revolving Rifle was an attempt to increase the rate of fire of rifles by combining them with the revolving cylinder mechanism that had been developed earlier for revolving pistols. Chambered for the .45 Colt round, this rifle makes a great companion to the Colt Single Action Army. Comes equipped with a 4X Malcolm scope. -->
+  <Gun_Colt_OneEightFiveFive_Revolving_Rifle.description>The Colt Revolving Rifle was an attempt to increase the rate of fire of rifles by combining them with the revolving cylinder mechanism that had been developed earlier for revolving pistols. Chambered for the .45 Colt round, this rifle makes a great companion to the Colt Single Action Army. Comes equipped with a 4X Malcolm scope.</Gun_Colt_OneEightFiveFive_Revolving_Rifle.description>
+  <!-- EN: stock -->
+  <Gun_Colt_OneEightFiveFive_Revolving_Rifle.tools.stock.label>stock</Gun_Colt_OneEightFiveFive_Revolving_Rifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_Colt_OneEightFiveFive_Revolving_Rifle.tools.barrel.label>barrel</Gun_Colt_OneEightFiveFive_Revolving_Rifle.tools.barrel.label>
+  <!-- EN: Colt Revolving Rifle -->
+  <Gun_Colt_OneEightFiveFive_Revolving_Rifle.verbs.Verb_Shoot.label>Colt Revolving Rifle</Gun_Colt_OneEightFiveFive_Revolving_Rifle.verbs.Verb_Shoot.label>
+  <!-- EN: Colt Buntline -->
+  <Gun_ColtBuntline.label>Colt Buntline</Gun_ColtBuntline.label>
+  <!-- EN: The Colt Buntline Special is a long-barreled 12-inch variant of the Colt Single Action Army revolver. According to myth, this revolver was first commissioned by the novelist Ned Buntline, the gun’s namesake, and presented as a gift to the legendary lawman Wyatt Earp. -->
+  <Gun_ColtBuntline.description>The Colt Buntline Special is a long-barreled 12-inch variant of the Colt Single Action Army revolver. According to myth, this revolver was first commissioned by the novelist Ned Buntline, the gun’s namesake, and presented as a gift to the legendary lawman Wyatt Earp.</Gun_ColtBuntline.description>
+  <!-- EN: grip -->
+  <Gun_ColtBuntline.tools.grip.label>grip</Gun_ColtBuntline.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_ColtBuntline.tools.barrel.label>barrel</Gun_ColtBuntline.tools.barrel.label>
+  <!-- EN: Colt Buntline -->
+  <Gun_ColtBuntline.verbs.Verb_Shoot.label>Colt Buntline</Gun_ColtBuntline.verbs.Verb_Shoot.label>
+  <!-- EN: Colt Frontier Six-Shooter -->
+  <Gun_ColtFrontier.label>Colt Frontier Six-Shooter</Gun_ColtFrontier.label>
+  <!-- EN: The Colt Frontier Six-Shooter is a variant of the Colt Single Action Army manufactured in .44-40 Winchester caliber rather than the standard .45 Colt. Because it uses the same ammo type, it makes an excellent companion sidearm to the Winchester Model 1873. -->
+  <Gun_ColtFrontier.description>The Colt Frontier Six-Shooter is a variant of the Colt Single Action Army manufactured in .44-40 Winchester caliber rather than the standard .45 Colt. Because it uses the same ammo type, it makes an excellent companion sidearm to the Winchester Model 1873.</Gun_ColtFrontier.description>
+  <!-- EN: grip -->
+  <Gun_ColtFrontier.tools.grip.label>grip</Gun_ColtFrontier.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_ColtFrontier.tools.barrel.label>barrel</Gun_ColtFrontier.tools.barrel.label>
+  <!-- EN: Colt Frontier Six-Shooter -->
+  <Gun_ColtFrontier.verbs.Verb_Shoot.label>Colt Frontier Six-Shooter</Gun_ColtFrontier.verbs.Verb_Shoot.label>
+  <!-- EN: Colt Open Top -->
+  <Gun_ColtOpenTop.label>Colt Open Top</Gun_ColtOpenTop.label>
+  <!-- EN: The Colt Open Top, sometimes otherwise known as the Colt Model 1871-72 Open Top, is a rear-loading revolver chambered for the .44 Henry cartridge. Developed in 1871, this revolver was Colt's first attempt at creating a rear-loading revolver for metallic cartridges, and it would later serve as the prototype for the immensely successful Colt Single Action Army. -->
+  <Gun_ColtOpenTop.description>The Colt Open Top, sometimes otherwise known as the Colt Model 1871-72 Open Top, is a rear-loading revolver chambered for the .44 Henry cartridge. Developed in 1871, this revolver was Colt's first attempt at creating a rear-loading revolver for metallic cartridges, and it would later serve as the prototype for the immensely successful Colt Single Action Army.</Gun_ColtOpenTop.description>
+  <!-- EN: grip -->
+  <Gun_ColtOpenTop.tools.grip.label>grip</Gun_ColtOpenTop.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_ColtOpenTop.tools.barrel.label>barrel</Gun_ColtOpenTop.tools.barrel.label>
+  <!-- EN: Colt Open Top -->
+  <Gun_ColtOpenTop.verbs.Verb_Shoot.label>Colt Open Top</Gun_ColtOpenTop.verbs.Verb_Shoot.label>
+  <!-- EN: Colt Single Action Army -->
+  <Gun_ColtPeacemaker.label>Colt Single Action Army</Gun_ColtPeacemaker.label>
+  <!-- EN: The Colt Single Action Army, more famously known as the Colt Peacemaker, is arguably the most iconic firearm of the Old West. This fixed cylinder revolver was the favored sidearm of lawmen and outlaws alike, including the Texas Rangers, Wyatt Earp, Bat Masterson, John Selman, Wes Hardin, John Slaughter, and the Dalton Gang. -->
+  <Gun_ColtPeacemaker.description>The Colt Single Action Army, more famously known as the Colt Peacemaker, is arguably the most iconic firearm of the Old West. This fixed cylinder revolver was the favored sidearm of lawmen and outlaws alike, including the Texas Rangers, Wyatt Earp, Bat Masterson, John Selman, Wes Hardin, John Slaughter, and the Dalton Gang.</Gun_ColtPeacemaker.description>
+  <!-- EN: grip -->
+  <Gun_ColtPeacemaker.tools.grip.label>grip</Gun_ColtPeacemaker.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_ColtPeacemaker.tools.barrel.label>barrel</Gun_ColtPeacemaker.tools.barrel.label>
+  <!-- EN: Colt Single Action Army -->
+  <Gun_ColtPeacemaker.verbs.Verb_Shoot.label>Colt Single Action Army</Gun_ColtPeacemaker.verbs.Verb_Shoot.label>
+  <!-- EN: Henry Rifle -->
+  <Gun_Henry_Rifle.label>Henry Rifle</Gun_Henry_Rifle.label>
+  <!-- EN: Widely considered the first practical lever action repeating rifle, the Henry Rifle is a marvel of mid-19th century engineering. Designed by Benjamin Tyler Henry in 1860, this sixteen round capacity rifle gave a single man the firepower of a dozen marksmen armed with muzzle-loading muskets, with a Confederate officer once famously remarking that “It’s a rifle that you could load on Sunday and shoot all week long.” -->
+  <Gun_Henry_Rifle.description>Widely considered the first practical lever action repeating rifle, the Henry Rifle is a marvel of mid-19th century engineering. Designed by Benjamin Tyler Henry in 1860, this sixteen round capacity rifle gave a single man the firepower of a dozen marksmen armed with muzzle-loading muskets, with a Confederate officer once famously remarking that “It’s a rifle that you could load on Sunday and shoot all week long.”</Gun_Henry_Rifle.description>
+  <!-- EN: stock -->
+  <Gun_Henry_Rifle.tools.stock.label>stock</Gun_Henry_Rifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_Henry_Rifle.tools.barrel.label>barrel</Gun_Henry_Rifle.tools.barrel.label>
+  <!-- EN: Henry Rifle -->
+  <Gun_Henry_Rifle.verbs.Verb_Shoot.label>Henry Rifle</Gun_Henry_Rifle.verbs.Verb_Shoot.label>
+  <!-- EN: Sharps Model 1874 -->
+  <Gun_M_OneEightSevenFour_Sharps.label>Sharps Model 1874</Gun_M_OneEightSevenFour_Sharps.label>
+  <!-- EN: The Sharps Model 1874, otherwise known as the “buffalo rifle” due to its heavy use by hide hunters, is a falling-block action rifle that was so renowned for its long range accuracy and stopping power that Native American tribes referred to it as the “shoot today, kill tomorrow” gun. At the Second Battle of Adobe Walls in 1874, buffalo hunter Billy Dixon used a Sharps Model 1874 to make his legendary shot that killed a Comanche warrior 1,538-yard away, demoralizing the Comanche warband so badly that they effectively abandoned the siege. Comes equipped with an 8X Malcolm scope. -->
+  <Gun_M_OneEightSevenFour_Sharps.description>The Sharps Model 1874, otherwise known as the “buffalo rifle” due to its heavy use by hide hunters, is a falling-block action rifle that was so renowned for its long range accuracy and stopping power that Native American tribes referred to it as the “shoot today, kill tomorrow” gun. At the Second Battle of Adobe Walls in 1874, buffalo hunter Billy Dixon used a Sharps Model 1874 to make his legendary shot that killed a Comanche warrior 1,538-yard away, demoralizing the Comanche warband so badly that they effectively abandoned the siege. Comes equipped with an 8X Malcolm scope.</Gun_M_OneEightSevenFour_Sharps.description>
+  <!-- EN: stock -->
+  <Gun_M_OneEightSevenFour_Sharps.tools.stock.label>stock</Gun_M_OneEightSevenFour_Sharps.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_M_OneEightSevenFour_Sharps.tools.barrel.label>barrel</Gun_M_OneEightSevenFour_Sharps.tools.barrel.label>
+  <!-- EN: Sharps Model 1874 -->
+  <Gun_M_OneEightSevenFour_Sharps.verbs.Verb_Shoot.label>Sharps Model 1874</Gun_M_OneEightSevenFour_Sharps.verbs.Verb_Shoot.label>
+  <!-- EN: Sharps Model 1863 Carbine -->
+  <Gun_M_OneEightSixThree_Sharps_Carbine.label>Sharps Model 1863 Carbine</Gun_M_OneEightSixThree_Sharps_Carbine.label>
+  <!-- EN: The Sharps Model 1863 Carbine is a falling-block action carbine rifle that was very popular with both Confederate and Union cavalries during the American Civil War. Although it originally used a paper cartridge, the falling block mechanism of this rifle made conversion to metallic cartridges in late 1860s relatively simple, so many of them were converted to the .50-70 Government cartridge for use in the later American Indian Wars. -->
+  <Gun_M_OneEightSixThree_Sharps_Carbine.description>The Sharps Model 1863 Carbine is a falling-block action carbine rifle that was very popular with both Confederate and Union cavalries during the American Civil War. Although it originally used a paper cartridge, the falling block mechanism of this rifle made conversion to metallic cartridges in late 1860s relatively simple, so many of them were converted to the .50-70 Government cartridge for use in the later American Indian Wars.</Gun_M_OneEightSixThree_Sharps_Carbine.description>
+  <!-- EN: stock -->
+  <Gun_M_OneEightSixThree_Sharps_Carbine.tools.stock.label>stock</Gun_M_OneEightSixThree_Sharps_Carbine.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_M_OneEightSixThree_Sharps_Carbine.tools.barrel.label>barrel</Gun_M_OneEightSixThree_Sharps_Carbine.tools.barrel.label>
+  <!-- EN: Sharps Model 1863 Carbine -->
+  <Gun_M_OneEightSixThree_Sharps_Carbine.verbs.Verb_Shoot.label>Sharps Model 1863 Carbine</Gun_M_OneEightSixThree_Sharps_Carbine.verbs.Verb_Shoot.label>
+  <!-- EN: Springfield Model 1822 Musket -->
+  <Gun_M1822Musket.label>Springfield Model 1822 Musket</Gun_M1822Musket.label>
+  <!-- EN: The Springfield Model 1822 Musket was a .69 caliber flintlock musket manufactured by the Springfield Armory as a replacement for the earlier Springfield Model 1816. As one of the last smoothbore muskets used by the US military, the M1822 saw extensive use in the Mexican-American War, but was made somewhat obsolete by the advent of the Minié ball in 1849. Regardless, the M1822 was still relatively common in the early days of the American Civil War, and was still in use by some poorly equipped Confederate regiments as late as 1864. This particular example of the M1822 lacks the standard issue spike bayonet. -->
+  <Gun_M1822Musket.description>The Springfield Model 1822 Musket was a .69 caliber flintlock musket manufactured by the Springfield Armory as a replacement for the earlier Springfield Model 1816. As one of the last smoothbore muskets used by the US military, the M1822 saw extensive use in the Mexican-American War, but was made somewhat obsolete by the advent of the Minié ball in 1849. Regardless, the M1822 was still relatively common in the early days of the American Civil War, and was still in use by some poorly equipped Confederate regiments as late as 1864. This particular example of the M1822 lacks the standard issue spike bayonet.</Gun_M1822Musket.description>
+  <!-- EN: stock -->
+  <Gun_M1822Musket.tools.stock.label>stock</Gun_M1822Musket.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_M1822Musket.tools.barrel.label>barrel</Gun_M1822Musket.tools.barrel.label>
+  <!-- EN: Springfield Model 1822 Musket -->
+  <Gun_M1822Musket.verbs.Verb_Shoot.label>Springfield Model 1822 Musket</Gun_M1822Musket.verbs.Verb_Shoot.label>
+  <!-- EN: Bayoneted Springfield Model 1822 -->
+  <Gun_M1822MusketBayoneted.label>Bayoneted Springfield Model 1822</Gun_M1822MusketBayoneted.label>
+  <!-- EN: The Springfield Model 1822 Musket was a .69 caliber flintlock musket manufactured by the Springfield Armory as a replacement for the earlier Springfield Model 1816. As one of the last smoothbore muskets used by the US military, the M1822 saw extensive use in the Mexican-American War, but was made somewhat obsolete by the advent of the Minié ball in 1849. Regardless, the M1822 was still relatively common in the early days of the American Civil War, and was still in use by some poorly equipped Confederate regiments as late as 1864. This particular example of the M1822 is equipped with the standard issue spike bayonet. -->
+  <Gun_M1822MusketBayoneted.description>The Springfield Model 1822 Musket was a .69 caliber flintlock musket manufactured by the Springfield Armory as a replacement for the earlier Springfield Model 1816. As one of the last smoothbore muskets used by the US military, the M1822 saw extensive use in the Mexican-American War, but was made somewhat obsolete by the advent of the Minié ball in 1849. Regardless, the M1822 was still relatively common in the early days of the American Civil War, and was still in use by some poorly equipped Confederate regiments as late as 1864. This particular example of the M1822 is equipped with the standard issue spike bayonet.</Gun_M1822MusketBayoneted.description>
+  <!-- EN: bayonet -->
+  <Gun_M1822MusketBayoneted.tools.bayonet.label>bayonet</Gun_M1822MusketBayoneted.tools.bayonet.label>
+  <!-- EN: Bayoneted Springfield Model 1822 -->
+  <Gun_M1822MusketBayoneted.verbs.Verb_Shoot.label>Bayoneted Springfield Model 1822</Gun_M1822MusketBayoneted.verbs.Verb_Shoot.label>
+  <!-- EN: Colt M1878 Revolver -->
+  <Gun_M1878Colt.label>Colt M1878 Revolver</Gun_M1878Colt.label>
+  <!-- EN: The Colt Model 1878 was one of the first successful double-action revolvers produced, and was based heavily on the design of the Colt Single Action Army. Although it fires the smaller .32-20 caliber round, the double action gives it a faster rate of fire, and it pairs well with the Marlin Model 1894. -->
+  <Gun_M1878Colt.description>The Colt Model 1878 was one of the first successful double-action revolvers produced, and was based heavily on the design of the Colt Single Action Army. Although it fires the smaller .32-20 caliber round, the double action gives it a faster rate of fire, and it pairs well with the Marlin Model 1894.</Gun_M1878Colt.description>
+  <!-- EN: grip -->
+  <Gun_M1878Colt.tools.grip.label>grip</Gun_M1878Colt.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_M1878Colt.tools.barrel.label>barrel</Gun_M1878Colt.tools.barrel.label>
+  <!-- EN: Colt M1878 Revolver -->
+  <Gun_M1878Colt.verbs.Verb_Shoot.label>Colt M1878 Revolver</Gun_M1878Colt.verbs.Verb_Shoot.label>
+  <!-- EN: Marlin Model 1894 -->
+  <Gun_Marlin_M_OneEightNineFourC_Rifle.label>Marlin Model 1894</Gun_Marlin_M_OneEightNineFourC_Rifle.label>
+  <!-- EN: The Marlin Model 1894 is a lever-action repeating rifle that is chambered for the .30-20 Winchester cartridge, which makes it an excellent choice for small game and deer hunting. It features a 10-round capacity spring-loaded tubular magazine, and it serves as an excellent companion rifle to the Colt Model 1878 revolver due its shared ammunition type. -->
+  <Gun_Marlin_M_OneEightNineFourC_Rifle.description>The Marlin Model 1894 is a lever-action repeating rifle that is chambered for the .30-20 Winchester cartridge, which makes it an excellent choice for small game and deer hunting. It features a 10-round capacity spring-loaded tubular magazine, and it serves as an excellent companion rifle to the Colt Model 1878 revolver due its shared ammunition type.</Gun_Marlin_M_OneEightNineFourC_Rifle.description>
+  <!-- EN: stock -->
+  <Gun_Marlin_M_OneEightNineFourC_Rifle.tools.stock.label>stock</Gun_Marlin_M_OneEightNineFourC_Rifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_Marlin_M_OneEightNineFourC_Rifle.tools.barrel.label>barrel</Gun_Marlin_M_OneEightNineFourC_Rifle.tools.barrel.label>
+  <!-- EN: Marlin Model 1894 -->
+  <Gun_Marlin_M_OneEightNineFourC_Rifle.verbs.Verb_Shoot.label>Marlin Model 1894</Gun_Marlin_M_OneEightNineFourC_Rifle.verbs.Verb_Shoot.label>
+  <!-- EN: Sawed-Off Shotgun -->
+  <Gun_SawnOff.label>Sawed-Off Shotgun</Gun_SawnOff.label>
+  <!-- EN: The sawed-off shotgun is a more compact version of the coach gun. Compared to a standard shotgun, the sawed-off shotgun has a shorter effective range, due to a lower muzzle velocity and wider spread of shot. Despite these drawbacks, it's reduced size makes it easier to maneuver and conceal. -->
+  <Gun_SawnOff.description>The sawed-off shotgun is a more compact version of the coach gun. Compared to a standard shotgun, the sawed-off shotgun has a shorter effective range, due to a lower muzzle velocity and wider spread of shot. Despite these drawbacks, it's reduced size makes it easier to maneuver and conceal.</Gun_SawnOff.description>
+  <!-- EN: stock -->
+  <Gun_SawnOff.tools.stock.label>stock</Gun_SawnOff.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SawnOff.tools.barrel.label>barrel</Gun_SawnOff.tools.barrel.label>
+  <!-- EN: Sawed-Off Shotgun -->
+  <Gun_SawnOff.verbs.Verb_Shoot.label>Sawed-Off Shotgun</Gun_SawnOff.verbs.Verb_Shoot.label>
+  <!-- EN: Three Crown Coach Gun -->
+  <Gun_ThreeCrowns.label>Three Crown Coach Gun</Gun_ThreeCrowns.label>
+  <!-- EN: The Three Crown coach gun is a rare upgraded version of the coach gun featuring three barrels rather than the standard two. The product of impeccable craftsmanship, this firearm has an elegant appearance that some might even describe as knightly... -->
+  <Gun_ThreeCrowns.description>The Three Crown coach gun is a rare upgraded version of the coach gun featuring three barrels rather than the standard two. The product of impeccable craftsmanship, this firearm has an elegant appearance that some might even describe as knightly...</Gun_ThreeCrowns.description>
+  <!-- EN: stock -->
+  <Gun_ThreeCrowns.tools.stock.label>stock</Gun_ThreeCrowns.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_ThreeCrowns.tools.barrel.label>barrel</Gun_ThreeCrowns.tools.barrel.label>
+  <!-- EN: Three Crown Coach Gun -->
+  <Gun_ThreeCrowns.verbs.Verb_Shoot.label>Three Crown Coach Gun</Gun_ThreeCrowns.verbs.Verb_Shoot.label>
+  <!-- EN: Winchester Model 1886 -->
+  <Gun_Winchester_OneEightSevenSix.label>Winchester Model 1886</Gun_Winchester_OneEightSevenSix.label>
+  <!-- EN: The Winchester Model 1886 was designed for the Winchester Repeating Arms Company by the legendary John Moses Browning, who is widely considered to be the “father of modern firearms”. Chambered for the powerful .45-70 Government rifle cartridge, the Model 1886 is suitable for both military use and large game hunting. -->
+  <Gun_Winchester_OneEightSevenSix.description>The Winchester Model 1886 was designed for the Winchester Repeating Arms Company by the legendary John Moses Browning, who is widely considered to be the “father of modern firearms”. Chambered for the powerful .45-70 Government rifle cartridge, the Model 1886 is suitable for both military use and large game hunting.</Gun_Winchester_OneEightSevenSix.description>
+  <!-- EN: stock -->
+  <Gun_Winchester_OneEightSevenSix.tools.stock.label>stock</Gun_Winchester_OneEightSevenSix.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_Winchester_OneEightSevenSix.tools.barrel.label>barrel</Gun_Winchester_OneEightSevenSix.tools.barrel.label>
+  <!-- EN: Winchester Model 1886 -->
+  <Gun_Winchester_OneEightSevenSix.verbs.Verb_Shoot.label>Winchester Model 1886</Gun_Winchester_OneEightSevenSix.verbs.Verb_Shoot.label>
+  <!-- EN: Winchester Model 1873 -->
+  <Gun_Winchester_OneEightSevenThree.label>Winchester Model 1873</Gun_Winchester_OneEightSevenThree.label>
+  <!-- EN: Popularly known as "The Gun that Won the West", the Winchester Model 1873 is second only to the Colt Single Action Army in terms of iconic status in the Old West. The Model 1873 was chambered for the .44-40 cartridge, and was widely popular for on the American Frontier for its precision, reliability, and versatility. -->
+  <Gun_Winchester_OneEightSevenThree.description>Popularly known as "The Gun that Won the West", the Winchester Model 1873 is second only to the Colt Single Action Army in terms of iconic status in the Old West. The Model 1873 was chambered for the .44-40 cartridge, and was widely popular for on the American Frontier for its precision, reliability, and versatility.</Gun_Winchester_OneEightSevenThree.description>
+  <!-- EN: stock -->
+  <Gun_Winchester_OneEightSevenThree.tools.stock.label>stock</Gun_Winchester_OneEightSevenThree.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_Winchester_OneEightSevenThree.tools.barrel.label>barrel</Gun_Winchester_OneEightSevenThree.tools.barrel.label>
+  <!-- EN: Winchester Model 1873 -->
+  <Gun_Winchester_OneEightSevenThree.verbs.Verb_Shoot.label>Winchester Model 1873</Gun_Winchester_OneEightSevenThree.verbs.Verb_Shoot.label>
+</LanguageData>

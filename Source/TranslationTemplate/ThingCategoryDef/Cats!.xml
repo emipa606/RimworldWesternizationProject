@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: other -->
+  <Accessorellocategory.label>other</Accessorellocategory.label>
+  <!-- EN: construction -->
+  <ApparelloConstructionSet.label>construction</ApparelloConstructionSet.label>
+  <!-- EN: work -->
+  <ApparelloCrafterSet.label>work</ApparelloCrafterSet.label>
+  <!-- EN: eyewear -->
+  <Apparelloeyehats.label>eyewear</Apparelloeyehats.label>
+  <!-- EN: growing -->
+  <ApparelloGrowerSet.label>growing</ApparelloGrowerSet.label>
+  <!-- EN: animal handling -->
+  <ApparelloHandlingSet.label>animal handling</ApparelloHandlingSet.label>
+  <!-- EN: apparello headgear -->
+  <Apparellohats.label>apparello headgear</Apparellohats.label>
+  <!-- EN: medical -->
+  <ApparelloMedicalSet.label>medical</ApparelloMedicalSet.label>
+  <!-- EN: pants -->
+  <Apparellopanties.label>pants</Apparellopanties.label>
+  <!-- EN: rare equipment -->
+  <ApparelloRarities.label>rare equipment</ApparelloRarities.label>
+  <!-- EN: research -->
+  <ApparelloResearchSet.label>research</ApparelloResearchSet.label>
+  <!-- EN: cook -->
+  <ApparelloSetCookie.label>cook</ApparelloSetCookie.label>
+  <!-- EN: crafting -->
+  <ApparelloSetCrafterer.label>crafting</ApparelloSetCrafterer.label>
+  <!-- EN: brawler -->
+  <ApparelloSetMelodie.label>brawler</ApparelloSetMelodie.label>
+  <!-- EN: gunslinger -->
+  <ApparelloSetRachel.label>gunslinger</ApparelloSetRachel.label>
+  <!-- EN: apparello sets -->
+  <Apparellosets.label>apparello sets</Apparellosets.label>
+  <!-- EN: social -->
+  <ApparelloSocialSet.label>social</ApparelloSocialSet.label>
+  <!-- EN: Summer clothing -->
+  <ApparelloSomerset.label>Summer clothing</ApparelloSomerset.label>
+  <!-- EN: Winter clothing -->
+  <ApparelloWinterwald.label>Winter clothing</ApparelloWinterwald.label>
+  <!-- EN: combat -->
+  <ApparelloWombatSet.label>combat</ApparelloWombatSet.label>
+</LanguageData>

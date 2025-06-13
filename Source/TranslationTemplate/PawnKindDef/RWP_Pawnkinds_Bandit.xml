@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: gang leader -->
+  <RWP_Bandit_Boss.label>gang leader</RWP_Bandit_Boss.label>
+  <!-- EN: gunslinger -->
+  <RWP_Bandit_Gunslinger.label>gunslinger</RWP_Bandit_Gunslinger.label>
+  <!-- EN: recruit -->
+  <RWP_Bandit_Recruit.label>recruit</RWP_Bandit_Recruit.label>
+  <!-- EN: rifleman -->
+  <RWP_Bandit_Rifleman.label>rifleman</RWP_Bandit_Rifleman.label>
+  <!-- EN: ruffian -->
+  <RWP_Bandit_Slasher.label>ruffian</RWP_Bandit_Slasher.label>
+  <!-- EN: sniper -->
+  <RWP_Bandit_Sniper.label>sniper</RWP_Bandit_Sniper.label>
+  <!-- EN: outlaw profiteer -->
+  <TSP_RWP_Bandit_Tradesman.label>outlaw profiteer</TSP_RWP_Bandit_Tradesman.label>
+</LanguageData>

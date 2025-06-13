@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Law enforcement agency -->
+  <RWP_Faction_Marshal.label>Law enforcement agency</RWP_Faction_Marshal.label>
+  <!-- EN: This is the planet's chapter of the United States Marshals Service, a nationwide law enforcement agency of the former United States of America. For well over three thousand years, these brave lawmen have served as an organized source of law enforcement and civil authority on the desolate frontier; they are tasked with bringing all manner of outlaws to justice. \n \n Founded by the ancient United States of America on Old Earth, this millinea-old order initially existed to enforce the USA's national-level courts' orders across administrative sub-districts. Particularly, they were tasked with serving arrests and transporting the accused in state custody. At the peak of American dominance, Marshalls were dispatched on all of its planets with a human population to capture those who dishonored the planetary courts of American colonies. Then, as it is now, the Rim lacked the institutions and infrastructure that Core Worlds possessed, making them home to bandits that harrassed the nation's colonists; even after the fall of America, the Marshalls continue to drive back bandits even today. \n \n When the United States of America collapsed, the Marshalls continued their work, reorganizing into an independent, neutral paramilitary service (retaining its police hierarchy) that stop the scores of bandits and threats that endanger the good people and tribesmen of the planet. With no American courts for them to account to, the rechristened Rimworld Marshals Service owes its allegiance to the protection of the innocent, and, when the gunsmoke settles: a steak dinner, whiskey for their men, and beer for their horses at the local saloon. -->
+  <RWP_Faction_Marshal.description>This is the planet's chapter of the United States Marshals Service, a nationwide law enforcement agency of the former United States of America. For well over three thousand years, these brave lawmen have served as an organized source of law enforcement and civil authority on the desolate frontier; they are tasked with bringing all manner of outlaws to justice. 
+ 
+ Founded by the ancient United States of America on Old Earth, this millinea-old order initially existed to enforce the USA's national-level courts' orders across administrative sub-districts. Particularly, they were tasked with serving arrests and transporting the accused in state custody. At the peak of American dominance, Marshalls were dispatched on all of its planets with a human population to capture those who dishonored the planetary courts of American colonies. Then, as it is now, the Rim lacked the institutions and infrastructure that Core Worlds possessed, making them home to bandits that harrassed the nation's colonists; even after the fall of America, the Marshalls continue to drive back bandits even today. 
+ 
+ When the United States of America collapsed, the Marshalls continued their work, reorganizing into an independent, neutral paramilitary service (retaining its police hierarchy) that stop the scores of bandits and threats that endanger the good people and tribesmen of the planet. With no American courts for them to account to, the rechristened Rimworld Marshals Service owes its allegiance to the protection of the innocent, and, when the gunsmoke settles: a steak dinner, whiskey for their men, and beer for their horses at the local saloon.</RWP_Faction_Marshal.description>
+  <!-- EN: Rimworld Marshall Service -->
+  <RWP_Faction_Marshal.fixedName>Rimworld Marshall Service</RWP_Faction_Marshal.fixedName>
+  <!-- EN: Chief Planetary Marshall -->
+  <RWP_Faction_Marshal.leaderTitle>Chief Planetary Marshall</RWP_Faction_Marshal.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <RWP_Faction_Marshal.messageDefendersAttacking>{0} from {1} are attacking your {2}.</RWP_Faction_Marshal.messageDefendersAttacking>
+  <!-- EN: member -->
+  <RWP_Faction_Marshal.pawnSingular>member</RWP_Faction_Marshal.pawnSingular>
+  <!-- EN: marshals -->
+  <RWP_Faction_Marshal.pawnsPlural>marshals</RWP_Faction_Marshal.pawnsPlural>
+</LanguageData>

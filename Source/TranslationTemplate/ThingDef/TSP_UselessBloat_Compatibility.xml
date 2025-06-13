@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: worthless top hat bloat (ERROR) -->
+  <RWP_Apparel_TopHat.label>worthless top hat bloat (ERROR)</RWP_Apparel_TopHat.label>
+  <!-- EN: A leftover fragment of code from before the "Royalty" Expansion Pack. If this is ever encountered in the game as an item, inform Mlie's Github repository's Issues, because it is not meant to be seen. -->
+  <RWP_Apparel_TopHat.description>A leftover fragment of code from before the "Royalty" Expansion Pack. If this is ever encountered in the game as an item, inform Mlie's Github repository's Issues, because it is not meant to be seen.</RWP_Apparel_TopHat.description>
+</LanguageData>

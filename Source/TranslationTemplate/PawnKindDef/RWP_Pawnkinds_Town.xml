@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Sheriff -->
+  <RWP_Town_Boss.label>Sheriff</RWP_Town_Boss.label>
+  <!-- EN: caravan guardsman -->
+  <RWP_Town_Guard.label>caravan guardsman</RWP_Town_Guard.label>
+  <!-- EN: deputy sheriff -->
+  <RWP_Town_Gunslinger.label>deputy sheriff</RWP_Town_Gunslinger.label>
+  <!-- EN: deputy sheriff -->
+  <RWP_Town_Rifleman.label>deputy sheriff</RWP_Town_Rifleman.label>
+  <!-- EN: deputy sheriff -->
+  <RWP_Town_Sniper.label>deputy sheriff</RWP_Town_Sniper.label>
+  <!-- EN: socialite -->
+  <RWP_Town_Socialite.label>socialite</RWP_Town_Socialite.label>
+  <!-- EN: townsman -->
+  <RWP_Town_Townsperson.label>townsman</RWP_Town_Townsperson.label>
+  <!-- EN: caravan merchant -->
+  <RWP_Town_Trader.label>caravan merchant</RWP_Town_Trader.label>
+</LanguageData>

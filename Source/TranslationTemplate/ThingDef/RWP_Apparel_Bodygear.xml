@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: fabric apron -->
+  <RWP_Apparel_ClothApron.label>fabric apron</RWP_Apparel_ClothApron.label>
+  <!-- EN: Pocketed apron intended for kitchen or tailoring work. -->
+  <RWP_Apparel_ClothApron.description>Pocketed apron intended for kitchen or tailoring work.</RWP_Apparel_ClothApron.description>
+  <!-- EN: leather apron -->
+  <RWP_Apparel_LeatherApron.label>leather apron</RWP_Apparel_LeatherApron.label>
+  <!-- EN: These kind of hardened leather aprons are used by professionals of many trades. -->
+  <RWP_Apparel_LeatherApron.description>These kind of hardened leather aprons are used by professionals of many trades.</RWP_Apparel_LeatherApron.description>
+  <!-- EN: long coat -->
+  <RWP_Apparel_Longcoat.label>long coat</RWP_Apparel_Longcoat.label>
+  <!-- EN: A warm, stylish, and long coat for keeping the cold at bay. -->
+  <RWP_Apparel_Longcoat.description>A warm, stylish, and long coat for keeping the cold at bay.</RWP_Apparel_Longcoat.description>
+  <!-- EN: surgeon's apron -->
+  <RWP_Apparel_MedicalApron.label>surgeon's apron</RWP_Apparel_MedicalApron.label>
+  <!-- EN: Pocketed apron intended for sterile medical work. -->
+  <RWP_Apparel_MedicalApron.description>Pocketed apron intended for sterile medical work.</RWP_Apparel_MedicalApron.description>
+  <!-- EN: poncho -->
+  <RWP_Apparel_Poncho.label>poncho</RWP_Apparel_Poncho.label>
+  <!-- EN: Essentially a large sheet of fabric, the poncho is an outer garment designed to keep the body warm. Originally used by the Native American people of the Andes region, the poncho has become popular throughout South America, Mesoamerica, and the southwestern American frontier. -->
+  <RWP_Apparel_Poncho.description>Essentially a large sheet of fabric, the poncho is an outer garment designed to keep the body warm. Originally used by the Native American people of the Andes region, the poncho has become popular throughout South America, Mesoamerica, and the southwestern American frontier.</RWP_Apparel_Poncho.description>
+  <!-- EN: tradesman's coat -->
+  <RWP_Apparel_TraderCoat.label>tradesman's coat</RWP_Apparel_TraderCoat.label>
+  <!-- EN: A thick coat with various pockets and storage areas that is commonly used by travelling merchants and caravaneers. -->
+  <RWP_Apparel_TraderCoat.description>A thick coat with various pockets and storage areas that is commonly used by travelling merchants and caravaneers.</RWP_Apparel_TraderCoat.description>
+  <!-- EN: waistcoat -->
+  <RWP_Apparel_Waistcoat.label>waistcoat</RWP_Apparel_Waistcoat.label>
+  <!-- EN: A staple piece of clothing that has a stylish look to it. -->
+  <RWP_Apparel_Waistcoat.description>A staple piece of clothing that has a stylish look to it.</RWP_Apparel_Waistcoat.description>
+</LanguageData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: twelve-pounder Napoleon cannon -->
+  <RWP_Building_Cannon.label>twelve-pounder Napoleon cannon</RWP_Building_Cannon.label>
+  <!-- EN: The twelve-pounder Napoleon, also known as the "Canon de L’Empereur", was a smooth-bore cannon developed by France in 1853. Popular with both sides of the American Civil War, the Napoleon was capable of firing ball, shell, and canister shot, thus making it versatile enough to replace nearly all previous field guns of the day. Compared to more modern, industrial mortars, these vintage cannons shoot farther distances but are more inaccurate due to the absence of computers, precision weights, or modern measures. -->
+  <RWP_Building_Cannon.description>The twelve-pounder Napoleon, also known as the "Canon de L’Empereur", was a smooth-bore cannon developed by France in 1853. Popular with both sides of the American Civil War, the Napoleon was capable of firing ball, shell, and canister shot, thus making it versatile enough to replace nearly all previous field guns of the day. Compared to more modern, industrial mortars, these vintage cannons shoot farther distances but are more inaccurate due to the absence of computers, precision weights, or modern measures.</RWP_Building_Cannon.description>
+  <!-- EN: twelve-pound Coehorn mortar -->
+  <RWP_Building_CoehornMortar.label>twelve-pound Coehorn mortar</RWP_Building_CoehornMortar.label>
+  <!-- EN: The Coehorn mortar, named for its Dutch inventor, Baron Menno van Coehorn, was a small muzzle-loading mortar mounted on a block or platform with handles. This particular variant is the twelve-pound Coehorn mortar, which was popular with the Confederacy during the American Civil War, and was capable of firing a twelve pound, one hundred twenty-one millimeter projectile over one thousand two hundred yards. Compared to more modern, industrial mortars, these vintage cannons shoot farther distances but are more inaccurate due to the absence of computers, precision weights, or modern measures. -->
+  <RWP_Building_CoehornMortar.description>The Coehorn mortar, named for its Dutch inventor, Baron Menno van Coehorn, was a small muzzle-loading mortar mounted on a block or platform with handles. This particular variant is the twelve-pound Coehorn mortar, which was popular with the Confederacy during the American Civil War, and was capable of firing a twelve pound, one hundred twenty-one millimeter projectile over one thousand two hundred yards. Compared to more modern, industrial mortars, these vintage cannons shoot farther distances but are more inaccurate due to the absence of computers, precision weights, or modern measures.</RWP_Building_CoehornMortar.description>
+  <!-- EN: twelve-pounder Napoleon cannon -->
+  <RWP_Gun_Cannon.label>twelve-pounder Napoleon cannon</RWP_Gun_Cannon.label>
+  <!-- EN: A twelve-pounder Napoleon cannon attached to wagon-wheeled mount. -->
+  <RWP_Gun_Cannon.description>A twelve-pounder Napoleon cannon attached to wagon-wheeled mount.</RWP_Gun_Cannon.description>
+  <!-- EN: twelve-pounder Napoleon cannon -->
+  <RWP_Gun_Cannon.verbs.Verb_Shoot.label>twelve-pounder Napoleon cannon</RWP_Gun_Cannon.verbs.Verb_Shoot.label>
+  <!-- EN: 12-pound Coehorn mortar -->
+  <RWP_Gun_CoehornMortar.label>12-pound Coehorn mortar</RWP_Gun_CoehornMortar.label>
+  <!-- EN: A 12-pound Coehorn mortar mounted on a four-handled mortar bed. -->
+  <RWP_Gun_CoehornMortar.description>A 12-pound Coehorn mortar mounted on a four-handled mortar bed.</RWP_Gun_CoehornMortar.description>
+  <!-- EN: 12-pound Coehorn mortar -->
+  <RWP_Gun_CoehornMortar.verbs.Verb_Shoot.label>12-pound Coehorn mortar</RWP_Gun_CoehornMortar.verbs.Verb_Shoot.label>
+</LanguageData>

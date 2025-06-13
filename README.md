@@ -1,9 +1,12 @@
-# [Rimworld Westernization Project (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2237100861)
+# [Rimworld Westernization Project (Continued)]()
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Tamias and JackeryFoxs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1119081000
+
+**The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md)**.
+To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2237100861).
 
 - Added the CE patch to the mod, will load if CE is active
 - Works well with [Steam World (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2238859064)
@@ -103,6 +106,4 @@ Links
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
- 
-
-[![Image](https://img.shields.io/github/v/release/emipa606/RimworldWesternizationProject?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2237100861) | tags:  wild west,  historical
+  | tags:  wild west,  historical
