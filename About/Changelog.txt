@@ -1,5 +1,8 @@
 # Changelog for RimworldWesternizationProject
 
+1.5.2 - Last update of the legacy version of the mod
+
+
 1.5.1 - Fixed missing ce-folder for 1.5
 
 

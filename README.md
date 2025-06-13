@@ -1,9 +1,13 @@
-# [Rimworld Westernization Project (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2237100861)
+# [[Legacy] Rimworld Westernization Project (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2237100861)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Tamias and JackeryFoxs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1119081000
+
+**The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md).**
+To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the new version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3498164561).
+This version will not receive any further updates.
 
 - Added the CE patch to the mod, will load if CE is active
 - Works well with [Steam World (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2238859064)
