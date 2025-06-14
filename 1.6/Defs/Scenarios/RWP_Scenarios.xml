@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ScenarioDef>
+  <ScenarioDef ParentName="ScenarioBase">
     <defName>Homesteaders</defName>
     <label>The Homesteaders</label>
     <description>After finally approving your homestead application, the local government grants the three of you a small parcel of land deep in an unsettled frontier territory. It isn't much, but it's yours, and it's your opportunity to forge a new life yourselves in a new land.</description>
@@ -86,7 +86,7 @@
       </parts>
     </scenario>
   </ScenarioDef>
-  <ScenarioDef>
+  <ScenarioDef ParentName="ScenarioBase">
     <defName>TheLoneDeputy</defName>
     <label>The Lone Deputy</label>
     <description>As a sworn deputy sheriff, you rode along with a posse deep into unknown territory to bring a gang of outlaw bandits to justice. A shootout ensued, and when the gunsmoke settled, only you were left alive. Far from home, and without a horse to travel back, you must gather supplies from the fallen and simply attempt to survive.\n\nNote: Since your starting character will lack some skills, this is an especially difficult scenario in the early game.</description>

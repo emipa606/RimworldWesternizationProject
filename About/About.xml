@@ -124,6 +124,8 @@ Links
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]  | tags:  wild west,  historical</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[/list]  | tags:  wild west,  historical 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3498164561][img]https://img.shields.io/github/v/release/emipa606/RimworldWesternizationProject?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  wild west,  historical</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>
