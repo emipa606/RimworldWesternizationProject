@@ -41,7 +41,7 @@
 					<renderSkipFlags>
 						<li>None</li>
 					</renderSkipFlags>
-					<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+					<!-- <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace> -->
 					<!-- <forceRenderUnderHair>true</forceRenderUnderHair> -->
 					<blocksVision>false</blocksVision>
 					<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
