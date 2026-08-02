@@ -45,7 +45,7 @@
 					<!-- <forceRenderUnderHair>true</forceRenderUnderHair> -->
 					<blocksVision>false</blocksVision>
 					<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-					<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+					<!-- <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace> -->
 					<blocksVision>false</blocksVision>
 					<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 					<countsAsClothingForNudity>false</countsAsClothingForNudity>
