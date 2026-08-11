@@ -36,7 +36,7 @@
 			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelRequired</xpath>
 			<value>
 				<apparelRequired Inherit="False">
-					<li>ROM_Apparel_CallOfCthulhuBowler</li>
+					<li>Apparel_BowlerHat</li>
 					<li>RWP_Apparel_MedicalApron</li>
 					<li>RWP_Apparel_GentPants</li>
 				</apparelRequired>

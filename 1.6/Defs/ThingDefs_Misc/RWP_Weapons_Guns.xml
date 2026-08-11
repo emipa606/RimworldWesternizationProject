@@ -83,6 +83,7 @@
     <weaponTags>
       <li>RWPGun</li>
       <li>SimpleGun</li>
+	  <li>CallOfCthulhu_Guns</li>
     </weaponTags>
   </ThingDef>
   <!-- ==================== Muskets ================================ -->

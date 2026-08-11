@@ -229,6 +229,7 @@
       <li>RWPWesternWear</li>
       <li>Western</li>
 	  <li>K4GCowboyHat</li>
+	  <li>CowboyHat</li>
     </apparelTags>
     <inventoryOptions>
       <skipChance>0.00</skipChance>
@@ -296,9 +297,11 @@
       <li>RWPRevolver</li>
     </weaponTags>
     <apparelTags>
-      <li>RWPMarshalWear</li>
+      <!-- <li>RWPMarshalWear</li> -->
       <li>Western</li>
 	  <li>K4GCowboyHat</li>
+      <li>RWPDeputySheriffWear</li>
+      <li>BarneyFife</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Rifleman ==== -->
