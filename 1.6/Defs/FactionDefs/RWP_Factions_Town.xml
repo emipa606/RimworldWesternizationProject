@@ -6,7 +6,9 @@
     <pawnsPlural>townsmen</pawnsPlural>
     <techLevel>Industrial</techLevel>
     <backstoryCategories>
-      <li>Outlander</li>
+		<li>Outlander</li>
+		<li>Farmer</li>
+		<li>TribalFarmer</li>
     </backstoryCategories>
     <canMakeRandomly>true</canMakeRandomly>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
@@ -30,7 +32,10 @@
     </raidCommonalityFromPointsCurve>
     <earliestRaidDays>30</earliestRaidDays>
     <allowedCultures>
-      <li>Rustican</li>
+		<li>Rustican</li>
+		<li MayRequire="TSP.qux.factionsmaster">Americaine</li>
+		<li MayRequire="qux.factionsusa">Americaine</li>
+		<li MayRequire="TSP.qux.factionsmaster">TSP_Dixie</li>
     </allowedCultures>
     <!-- RIMWORLD FRONTIERSMEN -->
     <!-- TURTLESHROOM PRODUCTIONS -->
@@ -47,10 +52,9 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
       <!-- Prohibited if you have the Mod -->
-      <li MayRequire="qux.factionhippie">PeaceLove</li>
-      <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Corporate</li>
-      <li MayRequire="VanillaExpanded.VMemesE">VME_Pacifist</li>
       <li MayRequire="VanillaExpanded.VMemesE">VME_Vegan</li>
+      <li MayRequire="Qux.factionhippie">PeaceLove</li>
+	  <li MayRequire="Sarg.AlphaMemes">AM_NonViolence</li>
     </disallowedMemes>
     <disallowedPrecepts>
       <!-- Obvious -->
@@ -123,12 +127,56 @@
     <pawnGroupMakers>
       <li>
         <kindDef>Peaceful</kindDef>
+		<commonality>85</commonality>
         <options>
-          <RWP_Town_Townsperson>6</RWP_Town_Townsperson>
-          <RWP_Town_Socialite>2</RWP_Town_Socialite>
+          <RWP_Town_Townsperson>14</RWP_Town_Townsperson>
+          <RWP_Town_Socialite>0.2</RWP_Town_Socialite>
+		  <RWP_Town_Socialite_Girl>0.2</RWP_Town_Socialite_Girl>
           <RWP_Town_Sniper>2</RWP_Town_Sniper>
           <RWP_Town_Rifleman>4</RWP_Town_Rifleman>
           <RWP_Town_Gunslinger>4</RWP_Town_Gunslinger>
+		  <RWP_Town_Boss>0.1</RWP_Town_Boss>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+		<commonality>100</commonality>
+        <options>
+          <RWP_Town_Socialite>3</RWP_Town_Socialite>
+		  <RWP_Town_Socialite_Girl>2</RWP_Town_Socialite_Girl>
+		  <RWP_Town_Boss>0.5</RWP_Town_Boss>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+		<commonality>70</commonality>
+        <options>
+          <RWP_Town_Sniper>2</RWP_Town_Sniper>
+          <RWP_Town_Rifleman>3</RWP_Town_Rifleman>
+          <RWP_Town_Gunslinger>4</RWP_Town_Gunslinger>
+		  <RWP_Town_Boss>0.1</RWP_Town_Boss>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+		<commonality>70</commonality>
+        <options>
+			<TSP_RWP_Town_Farmer>9</TSP_RWP_Town_Farmer>
+			<RWP_Town_Townsperson>2</RWP_Town_Townsperson>
+			<RWP_Town_Guard>5</RWP_Town_Guard>
+			<ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">0.4</ROM_TownsfolkFarmer>
+			<ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">0.4</ROM_TownsfolkRancher>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+		<commonality>30</commonality>
+        <options>
+			<RWP_Town_Guard>4</RWP_Town_Guard>
+			<RWP_Town_Sniper>2</RWP_Town_Sniper>
+			<RWP_Town_Boss>10</RWP_Town_Boss>
+			<ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">0.04</ROM_TownsfolkFarmer>
+			<ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">0.04</ROM_TownsfolkRancher>
         </options>
       </li>
       <!-- Trading Group -->
@@ -142,8 +190,12 @@
           <Horse>2</Horse>
         </carriers>
         <guards>
-          <RWP_Town_Guard>4</RWP_Town_Guard>
-          <RWP_Town_Gunslinger>1</RWP_Town_Gunslinger>
+			<RWP_Town_Guard>8</RWP_Town_Guard>
+			<RWP_Town_Gunslinger>1</RWP_Town_Gunslinger>
+			<RWP_Town_Sniper>2</RWP_Town_Sniper>
+			<RWP_Town_Rifleman>4</RWP_Town_Rifleman>
+			<ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">0.4</ROM_TownsfolkFarmer>
+			<ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">0.4</ROM_TownsfolkRancher>
         </guards>
       </li>
       <!-- Small Scale Tier 1 Attack -->
@@ -153,12 +205,14 @@
         <disallowedStrategies>
           <li>StageThenAttack</li>
           <li>ImmediateAttackSappers</li>
-          <li>Siege</li>
         </disallowedStrategies>
         <options>
-          <RWP_Town_Townsperson>4</RWP_Town_Townsperson>
-          <RWP_Town_Rifleman>1</RWP_Town_Rifleman>
-          <RWP_Town_Gunslinger>1</RWP_Town_Gunslinger>
+			<RWP_Town_Townsperson>4</RWP_Town_Townsperson>
+			<RWP_Town_Rifleman>1</RWP_Town_Rifleman>
+			<RWP_Town_Gunslinger>1</RWP_Town_Gunslinger>
+			<ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">0.24</ROM_TownsfolkFarmer>
+			<ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">0.24</ROM_TownsfolkRancher>
+			<TSP_RWP_Town_Farmer>1</TSP_RWP_Town_Farmer>
         </options>
       </li>
       <!-- Small Scale Tier 2 Attack -->
@@ -187,9 +241,9 @@
           <li>Siege</li>
         </disallowedStrategies>
         <options>
-          <RWP_Town_Townsperson>6</RWP_Town_Townsperson>
-          <RWP_Town_Socialite>2</RWP_Town_Socialite>
-          <RWP_Town_Sniper>2</RWP_Town_Sniper>
+          <RWP_Town_Townsperson>1</RWP_Town_Townsperson>
+          <RWP_Town_Socialite>0.2</RWP_Town_Socialite>
+          <RWP_Town_Sniper>4</RWP_Town_Sniper>
           <RWP_Town_Rifleman>4</RWP_Town_Rifleman>
           <RWP_Town_Gunslinger>4</RWP_Town_Gunslinger>
         </options>
@@ -207,7 +261,7 @@
         <options>
           <RWP_Town_Boss>1</RWP_Town_Boss>
           <RWP_Town_Townsperson>4</RWP_Town_Townsperson>
-          <RWP_Town_Socialite>2</RWP_Town_Socialite>
+          <RWP_Town_Socialite>0.1</RWP_Town_Socialite>
           <RWP_Town_Sniper>2</RWP_Town_Sniper>
           <RWP_Town_Rifleman>5</RWP_Town_Rifleman>
           <RWP_Town_Gunslinger>6</RWP_Town_Gunslinger>
@@ -217,12 +271,53 @@
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <RWP_Town_Townsperson>6</RWP_Town_Townsperson>
-          <RWP_Town_Socialite>2</RWP_Town_Socialite>
+          <RWP_Town_Townsperson>8</RWP_Town_Townsperson>
+          <RWP_Town_Socialite>3</RWP_Town_Socialite>
+		  <RWP_Town_Socialite_Girl>3</RWP_Town_Socialite_Girl>
           <RWP_Town_Boss>1</RWP_Town_Boss>
-          <RWP_Town_Sniper>1</RWP_Town_Sniper>
+          <RWP_Town_Sniper>2</RWP_Town_Sniper>
           <RWP_Town_Rifleman>4</RWP_Town_Rifleman>
-          <RWP_Town_Gunslinger>4</RWP_Town_Gunslinger>
+          <RWP_Town_Gunslinger>5</RWP_Town_Gunslinger>
+		  <TSP_RWP_Town_Farmer>3</TSP_RWP_Town_Farmer>
+		  <ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">1</ROM_TownsfolkFarmer>
+		  <ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">1</ROM_TownsfolkRancher>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <TSP_RWP_Town_Farmer>999</TSP_RWP_Town_Farmer>
+		  <ROM_TownsfolkFarmer MayRequire="rimofmadness.callofcthulhu.factions">1</ROM_TownsfolkFarmer>
+		  <ROM_TownsfolkRancher MayRequire="rimofmadness.callofcthulhu.factions">1</ROM_TownsfolkRancher>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <RWP_Town_Sniper>100</RWP_Town_Sniper>
+		  <RWP_Town_Gunslinger>19</RWP_Town_Gunslinger>
+		  <Horse>1</Horse>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <RWP_Town_Townsperson>100</RWP_Town_Townsperson>
+		  <RWP_Town_Gunslinger>19</RWP_Town_Gunslinger>
+		  <Horse>1</Horse>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <TSP_RWP_Town_Farmer>100</TSP_RWP_Town_Farmer>
+		  <RWP_Town_Townsperson>25</RWP_Town_Townsperson>
+		  <RWP_Town_Gunslinger>4</RWP_Town_Gunslinger>
+		  <Horse>1</Horse>
         </options>
       </li>
     </pawnGroupMakers>

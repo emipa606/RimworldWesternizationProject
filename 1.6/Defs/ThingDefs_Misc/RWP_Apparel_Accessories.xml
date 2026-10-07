@@ -16,8 +16,8 @@
   <!-- Pocket Watch -->
   <ThingDef ParentName="RWPAccessoryMakeableBase">
     <defName>RWP_Apparel_Pocketwatch</defName>
-    <description>A charming little watch, crafted entirely by hand and useful for keeping time. Artisan watches are difficult to make and hard to come by, so they sell for a good price.</description>
-    <label>Pocketwatch</label>
+	    <label>Pocketwatch</label>
+    <description>A charming little watch, crafted entirely by hand and useful for keeping time. Unlike mass-produced time pieces, artisan watches such as these are difficult to make and hard to come by, so they sell for a good price.</description>
     <recipeMaker>
       <researchPrerequisites>
         <li>RWP_Watchmaking</li>
@@ -41,7 +41,7 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <Mass>0.005</Mass>
@@ -69,6 +69,7 @@
       <defaultOutfitTags>
         <li>Worker</li>
         <li>Soldier</li>
+		<li>Nudist</li>
       </defaultOutfitTags>
       <tags>
         <li>IndustrialBasic</li>
@@ -83,10 +84,14 @@
         <li>Outlander</li>
         <li>CallOfCthulhu_Townsfolk</li>
         <li>CallOfCthulhu_Detective</li>
+		<li>CallOfCthulhu_JuniorDetective</li>
         <li>CallOfCthulhu_Infantry</li>
         <li>RichPirate</li>
         <li>Usa</li>
+		<li>president</li>
         <li>ST_GnomeClothing</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -97,7 +102,7 @@
     <label>Deputy Sheriff badge</label>
     <description>A town deputy sheriff's badge. This law enforcement badge gives the wearer an air of authority, as well as more confidence during gun fights.</description>
     <recipeMaker>
-      <researchPrerequisite>RWP_LawEnforcement</researchPrerequisite>
+      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Accessories/Display/SilverSheriffBadge</texPath>
@@ -109,7 +114,7 @@
       <Silver>15</Silver>
     </costList>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <Mass>0.05</Mass>
@@ -119,7 +124,7 @@
       <EquipDelay>0.7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <AimingDelayFactor>-0.02</AimingDelayFactor>
+      <AimingDelayFactor>-0.025</AimingDelayFactor>
       <MentalBreakThreshold>-0.05</MentalBreakThreshold>
       <SocialImpact>0.05</SocialImpact>
     </equippedStatOffsets>
@@ -164,7 +169,7 @@
     <label>Sheriff badge</label>
     <description>A town sheriff's badge. This law enforcement badge gives the wearer an air of authority, as well as more confidence during gunfights.</description>
     <recipeMaker>
-      <researchPrerequisite>RWP_LawEnforcement</researchPrerequisite>
+      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Accessories/Display/GoldSheriffBadge</texPath>
@@ -176,7 +181,7 @@
       <Gold>15</Gold>
     </costList>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <Mass>0.05</Mass>
@@ -227,8 +232,9 @@
     </graphicData>
     <generateCommonality>0.01</generateCommonality>
     <tradeability>Sellable</tradeability>
+	<smeltable>true</smeltable>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <Mass>0.001</Mass>
@@ -274,8 +280,9 @@
     </graphicData>
     <generateCommonality>0.01</generateCommonality>
     <tradeability>Sellable</tradeability>
+	<smeltable>true</smeltable>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <Mass>0.001</Mass>
@@ -293,7 +300,7 @@
       <careIfWornByCorpse>true</careIfWornByCorpse>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfDamaged>false</careIfDamaged>
-      <ignoredByNonViolent>false</ignoredByNonViolent>
+      <ignoredByNonViolent>true</ignoredByNonViolent>
       <bodyPartGroups>
         <li>Shoulders</li>
       </bodyPartGroups>
@@ -306,6 +313,7 @@
         <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
+	  <tags Inherit="False"></tags>
     </apparel>
     <smeltProducts>
       <Gold>35</Gold>
@@ -325,10 +333,11 @@
     </graphicData>
     <costStuffCount>30</costStuffCount>
     <stuffCategories>
-      <li>Leathery</li>
+		<li>Fabric</li>
+		<li>Leathery</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <MarketValue>12</MarketValue>
@@ -362,6 +371,9 @@
         <li>Western</li>
         <!-- Mod Support -->
         <li>JeubWear</li>
+		<li>WoodBeetWear</li>
+		<li>SurvivalistWear</li>
+		<li>HarrierWear</li>
         <!-- <li>ST_GnomeClothing</li> -->
       </tags>
       <defaultOutfitTags>
@@ -386,7 +398,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <statBases>
       <MarketValue>12</MarketValue>
@@ -422,11 +434,13 @@
         <li>Western</li>
         <!-- Cross-compatibility Mod support -->
         <li>CallOfCthulhu_TownsfolkPolice</li>
+		<li>SurvivalistWear</li>
+		<li>HarrierWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <generateCommonality>0.5</generateCommonality>
+    <generateCommonality>0.75</generateCommonality>
   </ThingDef>
 </Defs>

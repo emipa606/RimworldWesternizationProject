@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="RNApparel_Jeans_Generic"]</xpath>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- Jeans -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RNApparel_Jeans_Generic"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						<li>Usa</li>
+						<li>RWPWesternWear</li>
+						<li>RWPBanditWear</li>
+						<li>Klan_apparel</li>
+						<li>CallOfCthulhu_Thug</li>
+						<li>IndustrialBasic</li>
+						<li>IndustrialAdvanced</li>
+						<li>RWPSheriffWear</li>
+						<li>RWPDeputySheriffWear</li>
+						<li>CallOfCthulhu_Detective</li>
+						<li>CallOfCthulhu_JuniorDetective</li>
+						<li>CallOfCthulhu_Townsfolk</li>
+						<li>SurvivalistWear</li>
+						<li>HarrierWear</li>
+						<li>CaravaneerWear</li>
+					</value>
+				</li>
+				<!-- Suede Jacket -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RNApparel_SuedeJacket_Generic"]/apparel/tags</xpath>
+					<success>Always</success>
+					<value>
+						<li>Usa</li>
+						<li>RWPMarshalWear</li>
+						<li>RWPSheriffWear</li>
+						<li>RWPDeputySheriffWear</li>
+						<li>CallOfCthulhu_Detective</li>
+						<li>CallOfCthulhu_JuniorDetective</li>
+						<li>CallOfCthulhu_Townsfolk</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

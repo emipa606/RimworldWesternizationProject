@@ -1,22 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationSequence" MayRequire="KurtusMob.BosCompendium">
     <operations>
       <li Class="PatchOperationAdd" MayRequire="KurtusMob.BosCompendium">
         <!-- If you are not American, the Enclave hates you. Marshalls are American. -->
         <xpath MayRequire="KurtusMob.BosCompendium">/Defs/FactionDef[defName="DRK_Enclave"]/permanentEnemyToEveryoneExcept</xpath>
+		<success>Always</success>
         <value MayRequire="KurtusMob.BosCompendium">
           <!-- <li>RWP_Faction_Marshal_Core</li> -->
           <li>RWP_Faction_Marshal</li>
           <li>PlayerColonyEnc</li>
+		  <li MayRequire="k4g.murica">K4G_Murica</li>
         </value>
       </li>
       <li Class="PatchOperationAdd" MayRequire="KurtusMob.BosCompendium">
         <!-- If you are not American, the Enclave hates you. Marshalls are American. -->
         <xpath MayRequire="KurtusMob.BosCompendium">/Defs/FactionDef[defName="PlayerColonyEnc"]/permanentEnemyToEveryoneExcept</xpath>
+		<success>Always</success>
         <value MayRequire="KurtusMob.BosCompendium">
           <!-- <li>RWP_Faction_Marshal_Core</li> -->
           <li>RWP_Faction_Marshal</li>
+		  <li MayRequire="k4g.murica">K4G_Murica</li>
         </value>
       </li>
     </operations>

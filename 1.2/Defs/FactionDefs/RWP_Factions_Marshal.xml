@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== RWP Marshal Base Class ================= -->
+  <FactionDef Name="RWP_MarshalFactionBase" Abstract="True">
+    <defName>RWP_Faction_Marshal_Core</defName>
+    <pawnsPlural>marshals</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <canMakeRandomly>true</canMakeRandomly>
+    <rescueesCanJoin>true</rescueesCanJoin>
+    <canStageAttacks>true</canStageAttacks>
+    <canSiege>true</canSiege>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <earliestRaidDays>30</earliestRaidDays>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <allowedArrivalTemperatureRange>
+      <min>-50</min>
+      <max>50</max>
+    </allowedArrivalTemperatureRange>
+    <goodwillDailyGain>0.20</goodwillDailyGain>
+    <goodwillDailyFall>0.40</goodwillDailyFall>
+    <settlementNameMaker>NamerSettlementMarshal</settlementNameMaker>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+  <!-- ==================== RWP Marshal Faction ================= -->
+  <FactionDef ParentName="RWP_MarshalFactionBase">
+    <defName>RWP_Faction_Marshal</defName>
+    <label>Law enforcement agency</label>
+    <description>The U.S. Marshal Service. These brave lawmen serve as the primary source of law enforcement on the desolate frontier, and are tasked with bringing all manner of outlaws to justice.</description>
+    <pawnsPlural>marshals</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <startingGoodwill>
+      <min>0</min>
+      <max>20</max>
+    </startingGoodwill>
+    <mustStartOneEnemy>false</mustStartOneEnemy>
+    <fixedName>U.S. Marshal Service</fixedName>
+    <leaderTitle>Chief Marshal</leaderTitle>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <naturalColonyGoodwill>
+      <min>-10</min>
+      <max>10</max>
+    </naturalColonyGoodwill>
+    <!-- ====== Faction Groups ====== -->
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <RWP_Marshal_Sniper>2</RWP_Marshal_Sniper>
+          <RWP_Marshal_Rifleman>5</RWP_Marshal_Rifleman>
+          <RWP_Marshal_Gunslinger>8</RWP_Marshal_Gunslinger>
+        </options>
+      </li>
+      <!-- Small Scale Tier 1 Attack -->
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <disallowedStrategies>
+          <li>StageThenAttack</li>
+          <li>ImmediateAttackSappers</li>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <RWP_Marshal_Rifleman>4</RWP_Marshal_Rifleman>
+          <RWP_Marshal_Gunslinger>4</RWP_Marshal_Gunslinger>
+        </options>
+      </li>
+      <!-- Small Scale Tier 2 Attack -->
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>50</commonality>
+        <disallowedStrategies>
+          <li>ImmediateAttack</li>
+          <li>ImmediateAttackSappers</li>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <RWP_Marshal_Sniper>1</RWP_Marshal_Sniper>
+          <RWP_Marshal_Rifleman>5</RWP_Marshal_Rifleman>
+          <RWP_Marshal_Gunslinger>5</RWP_Marshal_Gunslinger>
+        </options>
+      </li>
+      <!-- Large Scale Attack -->
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>25</commonality>
+        <disallowedStrategies>
+          <li>ImmediateAttack</li>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <RWP_Marshal_Sniper>2</RWP_Marshal_Sniper>
+          <RWP_Marshal_Rifleman>5</RWP_Marshal_Rifleman>
+          <RWP_Marshal_Gunslinger>8</RWP_Marshal_Gunslinger>
+        </options>
+      </li>
+      <!-- Siege Scale Attack -->
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>15</commonality>
+        <disallowedStrategies>
+          <li>ImmediateAttackSmart</li>
+          <li>ImmediateAttack</li>
+          <li>ImmediateAttackSappers</li>
+          <li>StageThenAttack</li>
+        </disallowedStrategies>
+        <options>
+          <RWP_Marshal_Boss>1</RWP_Marshal_Boss>
+          <RWP_Marshal_Sniper>2</RWP_Marshal_Sniper>
+          <RWP_Marshal_Rifleman>6</RWP_Marshal_Rifleman>
+          <RWP_Marshal_Gunslinger>6</RWP_Marshal_Gunslinger>
+        </options>
+      </li>
+      <!-- Faction Base -->
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <RWP_Marshal_Boss>1</RWP_Marshal_Boss>
+          <RWP_Marshal_Sniper>2</RWP_Marshal_Sniper>
+          <RWP_Marshal_Rifleman>7</RWP_Marshal_Rifleman>
+          <RWP_Marshal_Gunslinger>5</RWP_Marshal_Gunslinger>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <factionIconPath>World/WorldObjects/Factions/RWP_Marshal</factionIconPath>
+  </FactionDef>
+</Defs>

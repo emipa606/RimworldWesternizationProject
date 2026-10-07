@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== RWP Bandit Base Class ================= -->
+  <FactionDef Name="RWP_BanditFactionBase" Abstract="True">
+    <defName>RWP_Faction_Bandit_Core</defName>
+    <pawnsPlural>bandits</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <canMakeRandomly>true</canMakeRandomly>
+    <rescueesCanJoin>true</rescueesCanJoin>
+    <canStageAttacks>true</canStageAttacks>
+    <canSiege>true</canSiege>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <earliestRaidDays>30</earliestRaidDays>
+    <hairTags>
+      <li>Rural</li>
+      <li>Tribal</li>
+    </hairTags>
+    <allowedArrivalTemperatureRange>
+      <min>-50</min>
+      <max>50</max>
+    </allowedArrivalTemperatureRange>
+    <goodwillDailyGain>0.20</goodwillDailyGain>
+    <goodwillDailyFall>0.40</goodwillDailyFall>
+    <settlementNameMaker>NamerFactionPirate</settlementNameMaker>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+  <!-- ==================== RWP Bandit Faction ================= -->
+  <FactionDef ParentName="RWP_BanditFactionBase">
+    <defName>RWP_Faction_Bandit</defName>
+    <label>bandit gang</label>
+    <description>A gang of Wild West bandits. Known for wearing their signature scarves, these outlaws are the bane of life on the frontier, and will stop at nothing to enrich themselves. Avoid them at all cost if you value your life.</description>
+    <pawnsPlural>bandits</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <startingGoodwill>
+      <min>-100</min>
+      <max>-50</max>
+    </startingGoodwill>
+    <mustStartOneEnemy>true</mustStartOneEnemy>
+    <factionNameMaker>NamerFactionBandit</factionNameMaker>
+    <leaderTitle>Gang Leader</leaderTitle>
+    <hairTags>
+      <li>Rural</li>
+      <li>Punk</li>
+    </hairTags>
+    <naturalColonyGoodwill>
+      <min>-50</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <!-- ====== Faction Groups ====== -->
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <RWP_Bandit_Recruit>5</RWP_Bandit_Recruit>
+          <RWP_Bandit_Sniper>2</RWP_Bandit_Sniper>
+          <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
+          <RWP_Bandit_Slasher>3</RWP_Bandit_Slasher>
+          <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
+        </options>
+      </li>
+      <!-- Small Scale Tier 1 Attack -->
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <disallowedStrategies>
+          <li>StageThenAttack</li>
+          <li>ImmediateAttackSappers</li>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <RWP_Bandit_Recruit>3</RWP_Bandit_Recruit>
+          <RWP_Bandit_Rifleman>2</RWP_Bandit_Rifleman>
+          <RWP_Bandit_Gunslinger>3</RWP_Bandit_Gunslinger>
+          <RWP_Bandit_Slasher>2</RWP_Bandit_Slasher>
+        </options>
+      </li>
+      <!-- Small Scale Tier 2 Attack -->
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>50</commonality>
+        <disallowedStrategies>
+          <li>ImmediateAttack</li>
+          <li>ImmediateAttackSappers</li>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <RWP_Bandit_Recruit>2</RWP_Bandit_Recruit>
+          <RWP_Bandit_Sniper>1</RWP_Bandit_Sniper>
+          <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
+          <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
+          <RWP_Bandit_Slasher>3</RWP_Bandit_Slasher>
+        </options>
+      </li>
+      <!-- Large Scale Attack -->
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>25</commonality>
+        <disallowedStrategies>
+          <li>ImmediateAttack</li>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <RWP_Bandit_Recruit>5</RWP_Bandit_Recruit>
+          <RWP_Bandit_Sniper>2</RWP_Bandit_Sniper>
+          <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
+          <RWP_Bandit_Slasher>3</RWP_Bandit_Slasher>
+          <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
+        </options>
+      </li>
+      <!-- Siege Scale Attack -->
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>15</commonality>
+        <disallowedStrategies>
+          <li>ImmediateAttackSmart</li>
+          <li>ImmediateAttack</li>
+          <li>ImmediateAttackSappers</li>
+          <li>StageThenAttack</li>
+        </disallowedStrategies>
+        <options>
+          <RWP_Bandit_Boss>1</RWP_Bandit_Boss>
+          <RWP_Bandit_Recruit>4</RWP_Bandit_Recruit>
+          <RWP_Bandit_Sniper>2</RWP_Bandit_Sniper>
+          <RWP_Bandit_Slasher>3</RWP_Bandit_Slasher>
+          <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
+          <RWP_Bandit_Gunslinger>4</RWP_Bandit_Gunslinger>
+        </options>
+      </li>
+      <!-- Faction Base -->
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <RWP_Bandit_Recruit>4</RWP_Bandit_Recruit>
+          <RWP_Bandit_Boss>1</RWP_Bandit_Boss>
+          <RWP_Bandit_Sniper>1</RWP_Bandit_Sniper>
+          <RWP_Bandit_Rifleman>3</RWP_Bandit_Rifleman>
+          <RWP_Bandit_Slasher>2</RWP_Bandit_Slasher>
+          <RWP_Bandit_Gunslinger>3</RWP_Bandit_Gunslinger>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <factionIconPath>World/WorldObjects/Factions/RWP_Bandit</factionIconPath>
+    <colorSpectrum>
+      <li>(1, 0.5, 0)</li>
+      <li>(0.75, 0.38, 0)</li>
+      <li>(0.5, 0.25, 0)</li>
+    </colorSpectrum>
+  </FactionDef>
+</Defs>

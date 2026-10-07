@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="yanjing"]/recipeMaker/researchPrerequisite</xpath>
+		<!-- If it does, insert this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="yanjing"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisites>
+					<li MayRequire="mlie.rimworldwesternizationproject">RWP_Optometry</li>
+					<li>ComplexClothing</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="yanjing"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisites>
+					<li MayRequire="mlie.rimworldwesternizationproject">RWP_Optometry</li>
+					<li>ComplexClothing</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="yanjing"]</xpath>
+		<!-- If it does, insert this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="yanjing"]/apparel</xpath>
+			<value>
+				<apparel>
+					<renderSkipFlags>
+						<li>None</li>
+					</renderSkipFlags>
+					<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+					<!-- <forceRenderUnderHair>true</forceRenderUnderHair> -->
+					<blocksVision>false</blocksVision>
+					<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+					<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+					<blocksVision>false</blocksVision>
+					<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+					<countsAsClothingForNudity>false</countsAsClothingForNudity>
+					<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+					<bodyPartGroups>
+						<li>Eyes</li>
+					</bodyPartGroups>
+					<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headwear/MW_YanjingGlassesPatch</wornGraphicPath>
+					<layers>
+						<li>EyeCover</li>
+					</layers>
+					<tags>
+						<li>Outlander</li>
+						<li>IndustrialBasic</li>
+						<li>IndustrialAdvanced</li>
+						<li>RWPWesternWear</li>
+						<li>RWPGentlemanWear</li>
+						<li>Royal</li>
+						<li>RoyalTier1</li>
+						<li>RoyalTier2</li>
+						<li>RoyalTier6</li>
+						<!-- Mod cross-compatibility -->
+						<li>Glasses</li>
+						<li>OniWear</li>
+						<li>OniHeadWear</li> <!-- Onis look cute with glasses, simple as -->
+						<li>CallOfCthulhu_Townsfolk</li>
+						<li>JeubWear</li>
+						<li>FrogmanWear</li>
+						<li>WeebClothes</li>
+						<li>WeebHat</li>
+						<li>Usa</li>
+						<li>MWApparel</li>
+						<li>MWApparel1</li>
+						<li>MWApparel2</li>
+						<li>MWApparel3</li>
+						<li>MWApparel4</li>
+						<li>MWApparel5</li>
+						<li>MWApparel6</li>
+						<li>MWApparel7</li>
+						<li>MWApparel8</li>
+						<li>MWApparel9</li>
+						<li>MWApparel10</li>
+					</tags>
+					<defaultOutfitTags>
+						<li>Worker</li>
+						<li>Soldier</li>
+					</defaultOutfitTags>
+				</apparel>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+</Patch>

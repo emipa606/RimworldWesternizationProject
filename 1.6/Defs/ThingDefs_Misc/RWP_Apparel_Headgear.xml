@@ -7,6 +7,7 @@
     <selectable>True</selectable>
     <pathCost>10</pathCost>
     <useHitPoints>True</useHitPoints>
+	<tradeability>All</tradeability>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
@@ -20,8 +21,11 @@
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
+	<apparelTags>
+		<li>RWPWesternWear</li>
+	</apparelTags>
     <comps>
-      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Forbiddable"></li>
       <li>
         <compClass>CompQuality</compClass>
       </li>
@@ -70,6 +74,10 @@
     </equippedStatOffsets>
     <generateCommonality>0.05</generateCommonality>
     <apparel>
+		<!--
+      <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+      <forceRenderUnderHair>true</forceRenderUnderHair>
+	  -->
       <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -86,6 +94,7 @@
       </layers>
       <tags>
         <li>RWPBanditWear</li>
+		<li>Western</li>
         <!-- Mod cross-compatibility -->
         <li>WeebClothes</li>
         <li>WeebHat</li>
@@ -93,11 +102,16 @@
         <li>anarchiste</li>
         <li>Pirate</li>
         <li>PoorPirate</li>
-        <li>PoorPirate</li>
+        <li>NormalPirate</li>
         <li>mafia</li>
+		<li>anarchiste</li>
         <li>JeubWear</li>
         <li>CallOfCthulhu_Thug</li>
         <li>CartelmanWear</li>
+		<li>HarrierWear</li>
+		<li>SurvivalistWear</li>
+		<li>KebabTerrorist</li>
+		<li>K4GRevolutionLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -119,10 +133,7 @@
     <defName>RWP_Apparel_DesperadoHat</defName>
     <label>desperado hat</label>
     <description>A stylish and elegant hat that is soft to the touch. Especially popular amongst outlaws, card cheats, and otherwise slippery individuals.</description>
-    <recipeMaker>
-      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
+	<graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/Cardshark</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
@@ -166,6 +177,14 @@
         <li>CallOfCthulhu_Thug</li>
         <li>JeubWear</li>
         <li>GoblinWear</li>
+		<li>SurvivalistWear</li>
+		<li>HarrierWear</li>
+		<li>CaravaneerWear</li>
+		<li>SlaveRatWear</li>
+		<li>K4GCowboyHat</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GRevolutionCorpo</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -185,10 +204,7 @@
   <ThingDef ParentName="ApparelloVanillaBase">
     <defName>RWP_Apparel_PaddyHat</defName>
     <label>paddy hat</label>
-    <description>Traveling merchants and rice paddy farmers would often protect themselves from the sun with hats like these. It has very oriental feel to it.</description>
-    <recipeMaker>
-      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
-    </recipeMaker>
+    <description>Traveling merchants and rice paddy farmers would often protect themselves from the sun with hats like these. It has very Oriental feel to it.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/Tradecone</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -210,7 +226,7 @@
       <WorkToMake>3000</WorkToMake>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0.66</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.9</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -230,10 +246,10 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <tags>
+      <tags Inherit="False">
         <li>Outlander</li>
         <li>OutlanderTrader</li>
-        <li>RWPWesternWear</li>
+        <!-- <li>RWPWesternWear</li> -->
         <!-- Mod cross-compatiblity -->
         <li>Apparel_SamuraiPeasant</li>
         <li>Apparel_SamuraiStraw</li>
@@ -247,9 +263,21 @@
         <li>HSApparel_EdoClanBase</li>
         <li>Apparel_SamuraiBasic</li>
         <li>samurai</li>
-        <li>HSApparel_RoyaltyClothes</li>
         <li>Samuraihead</li>
         <li>FrogmanWear</li>
+		<li>CaravaneerWear</li>
+		<li>MWApparel</li>
+		<li>MWApparel1</li>
+		<li>MWApparel2</li>
+		<li>MWApparel3</li>
+		<li>MWApparel4</li>
+		<li>MWApparel5</li>
+		<li>MWApparel6</li>
+		<li>MWApparel7</li>
+		<li>MWApparel8</li>
+		<li>MWApparel9</li>
+		<li>MWApparel10</li>
+		<li>K4GGovernmentLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -271,9 +299,6 @@
     <defName>RWP_Apparel_FeatheredTopHat</defName>
     <label>feathered top hat</label>
     <description>A striking feathered hat that has an air of grandeur. Improves social impact.</description>
-    <recipeMaker>
-      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/IndFeatherTophat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -321,6 +346,9 @@
         <li>OniWear</li>
         <li>OniApparel</li>
         <li>CallOfCthulhu_Townsfolk</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
+		<li>K4GRevolutionCorpo</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -343,10 +371,7 @@
     <defName>RWP_Apparel_Kepi</defName>
     <label>kepi</label>
     <description>The most important piece of many a rebel army uniform. Designed to be worn on hot climates.</description>
-    <recipeMaker>
-      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
+	<graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/IndKepi</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
@@ -381,20 +406,30 @@
       <tags>
         <li>IndustrialBasic</li>
         <li>IndustrialMilitary</li>
+		<li>Medieval</li>
+		<li>MedievalMilitary</li>
         <li>Outlander</li>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
         <!-- Mod Support -->
+		<li>SurvivalistWear</li>
+		<li>HarrierWear</li>
+		<li>CooperativeWear</li>
         <li>JeubWear</li>
         <li>FrogmanWear</li>
         <li>Usa</li>
+		<li>DixieWear</li>
+		<li>K4GCowboyHat</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GGovernmentLaborer</li>
+		<li>K4GRevolutionLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_StandardApparel"></colorGenerator>
   </ThingDef>
   <!-- Spectacles -->
   <ThingDef ParentName="HatMakeableBase">
@@ -402,7 +437,9 @@
     <label>spectacles</label>
     <description>A pair of eyeglasses that make the user look slightly more intelligent. Can also improve vision.</description>
     <recipeMaker>
-      <researchPrerequisite>RWP_Optometry</researchPrerequisite>
+		<researchPrerequisites Inherit="False">
+			<li>RWP_Optometry</li>
+		</researchPrerequisites>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Headwear/Display/IndSpectacles</texPath>
@@ -435,6 +472,10 @@
       <GlobalLearningFactor>0.05</GlobalLearningFactor>
     </equippedStatOffsets>
     <apparel>
+		<!--
+      <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+      <forceRenderUnderHair>true</forceRenderUnderHair>
+	  -->
       <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -464,20 +505,39 @@
         <li>RoyalTier1</li>
         <li>RoyalTier2</li>
         <li>OniWear</li>
-        <li>OniHeadWear</li>
-        <li>CallOfCthulhu_Townsfolk</li>
-        <li>JeubWear</li>
-        <li>OniWear</li>
-        <li>OniHeadWear</li>
-        <!-- Onis look cute with glasses, simple as -->
+        <li>OniHeadWear</li> <!-- Onis look cute with glasses, simple as -->
         <li>CallOfCthulhu_Townsfolk</li>
         <li>JeubWear</li>
         <li>FrogmanWear</li>
         <li>WeebClothes</li>
         <li>WeebHat</li>
         <li>Usa</li>
+		<li>MF_CorporateTier1</li>
+		<li>MF_CorporateTier2</li>
+		<li>MWApparel</li>
+		<li>MWApparel1</li>
+		<li>MWApparel2</li>
+		<li>MWApparel3</li>
+		<li>MWApparel4</li>
+		<li>MWApparel5</li>
+		<li>MWApparel6</li>
+		<li>MWApparel7</li>
+		<li>MWApparel8</li>
+		<li>MWApparel9</li>
+		<li>MWApparel10</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GGovernmentLaborer</li>
+		<li>K4GRevolutionLaborer</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GRevolutionCorpo</li>
       </tags>
       <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
+      <forceEyesVisibleForRotations>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </forceEyesVisibleForRotations>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -542,6 +602,11 @@
         <li>CallOfCthulhu_Farmer</li>
         <li>FrogmanWear</li>
         <li>ST_GnomeClothing</li>
+		<li>K4GCowboyHat</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GGovernmentLaborer</li>
+		<li>K4GRevolutionLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -615,12 +680,18 @@
         <li>RoyalTier3</li>
         <li>RoyalTier4</li>
         <li>WeebClothes</li>
+		<li>K4GCowboyHat</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
       <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
+      <forceEyesVisibleForRotations>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </forceEyesVisibleForRotations>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>

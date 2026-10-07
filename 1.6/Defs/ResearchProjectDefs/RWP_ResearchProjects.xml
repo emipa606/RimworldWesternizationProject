@@ -38,6 +38,8 @@
     <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>Gunsmithing</li>
+	  <li MayRequire="oskarpotocki.vfe.medieval2">VFEM2_Matchlocks</li>
+	  <li MayRequire="dankpyon.medieval.overhaul">DankPyon_Trebuchet</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
     <researchViewY>1</researchViewY>
@@ -82,6 +84,7 @@
     <researchViewX>1</researchViewX>
     <researchViewY>3</researchViewY>
   </ResearchProjectDef>
+  <!--
   <ResearchProjectDef>
     <defName>RWP_LawEnforcement</defName>
     <label>law enforcement</label>
@@ -96,6 +99,7 @@
     <researchViewX>1</researchViewX>
     <researchViewY>4</researchViewY>
   </ResearchProjectDef>
+  -->
   <ResearchProjectDef>
     <defName>RWP_Optometry</defName>
     <label>Basic optometry</label>

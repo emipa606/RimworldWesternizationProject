@@ -38,11 +38,11 @@
         <explosiveDamageType>Bomb</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0.95</chanceNeverExplodeFromDamage>
       </li>
-      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Forbiddable"></li>
       <li Class="CompProperties_Mannable">
         <manWorkType>Violent</manWorkType>
       </li>
-      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Breakdownable"></li>
     </comps>
     <description>The Gatling gun, designed by the American inventor Doctor Richard Gatling in 1861, was a field weapon which used multiple rotating barrels turned by a hand crank, and firing loose ammunition using a gravity feed system from a hopper. The Model 1881 Gatling gun features many improvements over its predecessors, the most notable of which is the implementation of the 'Bruce'-style ammunition feed system, allowing the gun to use brass cartridges (.45-70 Gov.) for the first time.</description>
     <passability>PassThroughOnly</passability>

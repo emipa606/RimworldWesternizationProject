@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<!-- Aelanna's Model No-Match Detector and Insertion Code -->
+	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]</xpath>
+			<success>Always</success>
+			<value>
+				<researchPrerequisites></researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="ZCL_AlarmClock"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="ZCL_AlarmClock"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="ZCL_CuckooClock"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="ZCL_CuckooClock"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="ZCL_GrandfatherClock"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="ZCL_GrandfatherClock"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+	
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
+      <value>
+		<li>ComplexFurniture</li>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+</Patch>

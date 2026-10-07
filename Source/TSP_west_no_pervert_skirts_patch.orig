@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Patch>
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="RWP_Apparel_PrairieSkirt"]/apparel</xpath>
-        <value>
-            <gender>Female</gender>
-        </value>
-	</Operation>
-</Patch>

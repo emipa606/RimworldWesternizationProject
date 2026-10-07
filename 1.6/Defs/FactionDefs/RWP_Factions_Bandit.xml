@@ -11,13 +11,13 @@
         <categories>
           <li>Outlander</li>
         </categories>
-        <commonality>0.331</commonality>
+        <commonality>0.2331</commonality>
       </li>
       <li>
         <categories>
           <li>Pirate</li>
         </categories>
-        <commonality>0.669</commonality>
+        <commonality>0.67</commonality>
       </li>
     </backstoryFilters>
     <canMakeRandomly>true</canMakeRandomly>
@@ -28,10 +28,11 @@
     <maxPawnCostPerTotalPointsCurve>
       <!-- I don't understand how this works, but my attempt is to make more of them spawn faster. -->
       <points>
-        <li>(0,50)</li>
-        <li>(70, 100)</li>
-        <li>(700, 200)</li>
-        <li>(1070, 300)</li>
+        <li>(0,150)</li>
+        <li>(70, 200)</li>
+        <li>(700, 300)</li>
+        <li>(1070, 400)</li>
+		<li>(1770, 500)</li>
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
@@ -43,7 +44,10 @@
     </raidCommonalityFromPointsCurve>
     <earliestRaidDays>1</earliestRaidDays>
     <allowedCultures>
-      <li>Kriminul</li>
+		<li>Kriminul</li>
+		<li MayRequire="TSP.qux.factionsmaster">Americaine</li>
+		<li MayRequire="qux.factionsusa">Americaine</li>
+		<li MayRequire="TSP.qux.factionsmaster">TSP_Dixie</li>
     </allowedCultures>
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
@@ -79,6 +83,7 @@
       <li MayRequire="SZ.TW.New.GuoHun">SZ_Structure_CultureQiYuan</li>
       <li MayRequire="Qux.factionhippie">PeaceLove</li>
       <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Corporate</li>
+	  <li MayRequire="Sarg.AlphaMemes">AM_NonViolence</li>
     </disallowedMemes>
     <disallowedPrecepts>
       <!-- Bandits love slaves -->
@@ -133,7 +138,7 @@
   <FactionDef ParentName="RWP_BanditFactionBase">
     <defName>RWP_Faction_Bandit</defName>
     <label>bandit gang</label>
-    <description>Nearly four thousand years since the Old Earth's western hemisphere pacified its westernmost territories, the threats that plagued those ancient cowboys continue to exist, in an almost completely unaltered form, on the lawless frontiers of the Rim. Just like Old Earth's Wild West, where banditoes and outlaws roamed the colonial settlements, the lack of infrastructure and institutions that Core Worlds have make the frontiers of the Rim identical in danger and adventure. This is the largest and most powerful gang of Wild West bandits. Known for wearing their signature scarves, these outlaws are the bane of life on the frontier, and will stop at nothing to enrich themselves. Do not let their ancient kinetic weapons fool you, they are still an existential threat to all but the most advanced colonies. They nominally elect a planet-wide leader, the Planetary Desparado, but his position is ceremonial as an 'ambassador' of the plundering men in communications calls. If you value your life, either befriend them or avoid them at all costs.</description>
+    <description>Nearly four thousand years since the Old Earth's western hemisphere pacified its westernmost territories, the threats that plagued those ancient cowboys continue to exist, in an almost completely unaltered form, on the lawless frontiers of the Rim. Just like Old Earth's Wild West, where banditos and outlaws roamed the colonial settlements, the lack of infrastructure and institutions that Core and Urb-Worlds have make the frontiers of the Rim identical in danger and adventure. This is the largest and most powerful gang of Wild West bandits. Known for wearing their signature scarves, these outlaws are the bane of life on the frontier, and will stop at nothing to enrich themselves. Do not let their ancient kinetic weapons fool you, their immense numbers still pose an existential threat to all but the most advanced colonies. They nominally elect a planet-wide leader, the Planetary Desparado, but his position is ceremonial as an 'ambassador' of the plundering men in communications calls. If you value your life, either befriend them or avoid them at all costs.</description>
     <pawnsPlural>bandits</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <settlementGenerationWeight>1</settlementGenerationWeight>

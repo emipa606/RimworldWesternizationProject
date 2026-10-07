@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<!-- Aelanna's Model No-Match Detector and Insertion Code -->
+	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]</xpath>
+			<success>Always</success>
+			<value>
+				<researchPrerequisites></researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
+      <value>
+		<researchPrerequisites>
+			<li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+		</researchPrerequisites>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+	
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
+    <!-- If it does, add this. -->
+    <match Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
+      <value>
+		<li>ComplexFurniture</li>
+        <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="BAWall_Clock"]/researchPrerequisites</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]</xpath>
+			<success>Always</success>
+			<value>
+				<researchPrerequisites></researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="BAWall_Clock"]/building</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]</xpath>
+			<success>Always</success>
+			<value>
+				<building></building>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="BAWall_Clock"]/researchPrerequisites</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+  
+  
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="BAWall_Clock"]/building/isEdifice</xpath>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]/building</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</nomatch>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]/building/isEdifice</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="BAWall_Clock"]/clearBuildingArea</xpath>
+		<!-- If it DOES NOT, do this replacement. -->
+		<nomatch Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]/clearBuildingArea</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</nomatch>
+		<!-- If it does, add. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="BAWall_Clock"]/pathCost</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]/pathCost</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="BAWall_Clock"]/passability</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]/passability</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="BAWall_Clock"]/canOverlapZones</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]/canOverlapZones</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="BAWall_Clock"]</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/building</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]</xpath>
+			<success>Always</success>
+			<value>
+				<building></building>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/building/isEdifice</xpath>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/building</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</nomatch>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/building/isEdifice</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/clearBuildingArea</xpath>
+		<!-- If it DOES NOT, do this replacement. -->
+		<nomatch Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/clearBuildingArea</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</nomatch>
+		<!-- If it does, add. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/pathCost</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/pathCost</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/passability</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/passability</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/canOverlapZones</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/canOverlapZones</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>	
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/building</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]</xpath>
+			<success>Always</success>
+			<value>
+				<building></building>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/building/isEdifice</xpath>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/building</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</nomatch>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/building/isEdifice</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/clearBuildingArea</xpath>
+		<!-- If it DOES NOT, do this replacement. -->
+		<nomatch Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/clearBuildingArea</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</nomatch>
+		<!-- If it does, add. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/pathCost</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/pathCost</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/passability</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/passability</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/canOverlapZones</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/canOverlapZones</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/building</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]</xpath>
+			<success>Always</success>
+			<value>
+				<building></building>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/building/isEdifice</xpath>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/building</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</nomatch>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/building/isEdifice</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/clearBuildingArea</xpath>
+		<!-- If it DOES NOT, do this replacement. -->
+		<nomatch Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/clearBuildingArea</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</nomatch>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/pathCost</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/pathCost</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/passability</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/passability</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/canOverlapZones</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/canOverlapZones</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/building</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]</xpath>
+			<success>Always</success>
+			<value>
+				<building></building>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/building/isEdifice</xpath>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/building</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</nomatch>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/building/isEdifice</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/clearBuildingArea</xpath>
+		<!-- If it DOES NOT, do this replacement. -->
+		<nomatch Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/clearBuildingArea</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</nomatch>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/pathCost</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/pathCost</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/passability</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/passability</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/canOverlapZones</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/canOverlapZones</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/building</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]</xpath>
+			<success>Always</success>
+			<value>
+				<building></building>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/building/isEdifice</xpath>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/building</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</nomatch>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/building/isEdifice</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/clearBuildingArea</xpath>
+		<!-- If it DOES NOT, do this replacement. -->
+		<nomatch Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/clearBuildingArea</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</nomatch>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/pathCost</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/pathCost</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/passability</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/passability</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/canOverlapZones</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/canOverlapZones</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/building</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]</xpath>
+			<success>Always</success>
+			<value>
+				<building></building>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/building/isEdifice</xpath>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/building</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</nomatch>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/building/isEdifice</xpath>
+			<value>
+				<isEdifice>false</isEdifice>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/clearBuildingArea</xpath>
+		<!-- If it DOES NOT, do this replacement. -->
+		<nomatch Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/clearBuildingArea</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</nomatch>
+		<!-- If it does, add this. -->
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]</xpath>
+			<value>
+				<clearBuildingArea>false</clearBuildingArea>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/pathCost</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/pathCost</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]</xpath>
+			<value>
+				<pathCost>0</pathCost>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/passability</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/passability</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this instead. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]</xpath>
+			<value>
+				<passability>Standable</passability>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/canOverlapZones</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/canOverlapZones</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</match>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]</xpath>
+			<value>
+				<canOverlapZones>true</canOverlapZones>
+			</value>
+		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+</Patch>

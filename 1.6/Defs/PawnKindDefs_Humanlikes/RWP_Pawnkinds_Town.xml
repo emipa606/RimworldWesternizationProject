@@ -17,6 +17,10 @@
     <invFoodDef>Pemmican</invFoodDef>
     <itemQuality>Normal</itemQuality>
     <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	<apparelTags>
+		<li>K4GCowboyHat</li>
+	</apparelTags>
     <gearHealthRange>
       <min>0.75</min>
       <max>1.1</max>
@@ -81,13 +85,50 @@
     </weaponTags>
     <apparelTags>
       <li>RWPWesternWear</li>
+	  <li>K4GCowboyHat</li>
       <li>Western</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="RWP_Class_Town_Townsperson">
+    <defName>TSP_RWP_Town_Farmer</defName>
+    <label>townsman</label>
+    <!-- <labelPlural>townsmen</labelPlural> -->
+    <initialWillRange>2~3</initialWillRange>
+    <initialResistanceRange>3~7</initialResistanceRange>
+    <combatPower>40</combatPower>
+		<backstoryCategories>
+			<li>Farmer</li>
+			<li>TribalFarmer</li>
+		</backstoryCategories>
+    <apparelMoney>
+      <min>700</min>
+      <max>1000</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>600</min>
+      <max>800</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Toolagri</li>
+	  <li>RWPSimpleMelee</li>
+	  <li>RWPLowCapacity</li>
+	  <li>RWPRevolver</li>
+    </weaponTags>
+	<apparelRequired Inherit="False">
+		<li>RWP_Apparel_Overalls</li>
+	</apparelRequired>
+    <apparelTags>
+		<li>RWPWesternWear</li>
+		<li>CallOfCthulhu_Rancher</li>
+		<li>CallOfCthulhu_Farmer</li>
+		<li>K4GCowboyHat</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Socialite ==== -->
   <PawnKindDef Name="RWP_Class_Town_Socialite" ParentName="RWP_Class_TownCore">
     <defName>RWP_Town_Socialite</defName>
     <label>socialite</label>
+	<fixedGender Inherit="False">Male</fixedGender>
     <initialWillRange>0.5~1</initialWillRange>
     <initialResistanceRange>9~12</initialResistanceRange>
     <minGenerationAge>21</minGenerationAge>
@@ -118,6 +159,47 @@
       <li>RWPGentlemanWear</li>
     </apparelTags>
   </PawnKindDef>
+  
+  <PawnKindDef ParentName="RWP_Class_Town_Socialite">
+    <defName>RWP_Town_Socialite_Girl</defName>
+    <label>lady</label>
+	<fixedGender Inherit="False">Female</fixedGender>
+    <initialWillRange>0.5~1</initialWillRange>
+    <initialResistanceRange>9~12</initialResistanceRange>
+    <minGenerationAge>21</minGenerationAge>
+    <maxGenerationAge>50</maxGenerationAge>
+    <combatPower>30</combatPower>
+    <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+    <backstoryCryptosleepCommonality>0.001</backstoryCryptosleepCommonality>
+    <itemQuality>Good</itemQuality>
+    <gearHealthRange>
+      <min>0.9</min>
+      <max>1.1</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>3500</min>
+      <max>5000</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>2500</min>
+      <max>4000</max>
+    </weaponMoney>
+    <apparelRequired>
+      <li MayRequire="ludeon.rimworld.royalty">Apparel_Corset</li>
+	  <li MayRequire="ludeon.rimworld.royalty">Apparel_HatLadies</li>
+    </apparelRequired>
+    <weaponTags>
+      <li>RWPRevolver</li>
+    </weaponTags>
+    <apparelTags>
+      <li>RWPLadiesWear</li>
+	  <li>Skirt</li>
+	  <li>RoyalTier1</li>
+	  <li>RoyalTier2</li>
+	  <li>Dame</li>
+	  <li>Aristocrat</li>
+    </apparelTags>
+  </PawnKindDef>
   <!-- ==== (Town) Trader ==== -->
   <PawnKindDef Name="RWP_Class_Town_Trader" ParentName="RWP_Class_TownCore">
     <defName>RWP_Town_Trader</defName>
@@ -146,6 +228,8 @@
     <apparelTags>
       <li>RWPWesternWear</li>
       <li>Western</li>
+	  <li>K4GCowboyHat</li>
+	  <li>CowboyHat</li>
     </apparelTags>
     <inventoryOptions>
       <skipChance>0.00</skipChance>
@@ -185,6 +269,7 @@
     <apparelTags>
       <li>RWPMarshalWear</li>
       <li>Western</li>
+	  <li>K4GCowboyHat</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Gunslinger ==== -->
@@ -212,8 +297,11 @@
       <li>RWPRevolver</li>
     </weaponTags>
     <apparelTags>
-      <li>RWPMarshalWear</li>
+      <!-- <li>RWPMarshalWear</li> -->
       <li>Western</li>
+	  <li>K4GCowboyHat</li>
+      <li>RWPDeputySheriffWear</li>
+      <li>BarneyFife</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Rifleman ==== -->
@@ -245,6 +333,7 @@
       <li>RWPMarshalWear</li>
       <li>RWPDeputySheriffWear</li>
       <li>Western</li>
+	  <li>K4GCowboyHat</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Sniper ==== -->
@@ -281,6 +370,7 @@
       <li>BarneyFife</li>
       <li>RWPMarshalWear</li>
       <li>Western</li>
+	  <li>K4GCowboyHat</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Town Sheriff ==== -->
@@ -318,6 +408,7 @@
       <li>RWPSheriff</li>
       <li>RWPMarshalWear</li>
       <li>RWPGentlemanWear</li>
+	  <li>K4GCowboyHat</li>
     </apparelTags>
   </PawnKindDef>
 </Defs>

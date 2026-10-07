@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <Defs>
   <ThingDef Name="RWPBaseGun" Abstract="True">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
     <equipmentType>Primary</equipmentType>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
+    <pathCost>4</pathCost>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+	<smeltable>true</smeltable>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
@@ -15,14 +17,17 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
+      <SellPriceFactor>0.85</SellPriceFactor>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
+    <alwaysHaulable>true</alwaysHaulable>
     <tickerType>Never</tickerType>
     <techLevel>Industrial</techLevel>
     <tradeTags>
       <li>RWP_Gear</li>
+	  <li>Gun</li>
+	  <li>Weapon</li>
+	  <li>WeaponRanged</li>
     </tradeTags>
     <thingCategories>
       <li>WeaponsRanged</li>
@@ -31,7 +36,7 @@
       <li>ITab_Art</li>
     </inspectorTabs>
     <comps>
-      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Forbiddable"></li>
       <li>
         <compClass>CompEquippable</compClass>
       </li>
@@ -45,12 +50,14 @@
       </li>
     </comps>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+		<researchPrerequisites>
+			<li>Gunsmithing</li>
+			<li MayRequire="oskarpotocki.vfe.medieval2">VFEM2_Matchlocks</li>
+		</researchPrerequisites>
     </recipeMaker>
     <smeltProducts>
       <Steel>20</Steel>
     </smeltProducts>
-    <smeltable>true</smeltable>
   </ThingDef>
   <ThingDef Name="RWPBaseMakeableGun" ParentName="RWPBaseGun" Abstract="True">
     <recipeMaker>
@@ -69,12 +76,14 @@
     <weaponTags>
       <li>RWPGun</li>
       <li>SimpleGun</li>
+	  <li>CallOfCthulhu_Guns</li>
     </weaponTags>
   </ThingDef>
   <ThingDef Name="RWPBaseHumanMakeableGun" ParentName="RWPBaseMakeableGun" Abstract="True">
     <weaponTags>
       <li>RWPGun</li>
       <li>SimpleGun</li>
+	  <li>CallOfCthulhu_Guns</li>
     </weaponTags>
   </ThingDef>
   <!-- ==================== Muskets ================================ -->
@@ -235,6 +244,7 @@
       <!-- Mod support -->
       <li>PoorPirate</li>
       <li>GoblinBow</li>
+	  <li>SurvivalistRanged</li>
     </weaponTags>
   </ThingDef>
   <!-- ==================== Shotguns ================================ -->
@@ -275,7 +285,9 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites Inherit="False">
+		<li>Gunsmithing</li>
+	  </researchPrerequisites>
     </recipeMaker>
     <verbs>
       <li>
@@ -312,6 +324,10 @@
       <li>RWPGun</li>
       <li>RWPLowCapacity</li>
       <li>Gun</li>
+	  <li>DoubleBarreledShotgun</li>
+	  <li>Shotgun</li>
+	  <li>PumpShotgun</li>
+	  <li>BeanManRanged</li>
     </weaponTags>
   </ThingDef>
   <!-- Sawed-Off Shotgun -->
@@ -351,7 +367,9 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites Inherit="False">
+		<li>Gunsmithing</li>
+	  </researchPrerequisites>
     </recipeMaker>
     <verbs>
       <li>
@@ -385,14 +403,24 @@
       </li>
     </tools>
     <weaponTags>
-      <li>RWPGun</li>
-      <li>RWPLowCapacity</li>
-      <li>Gun</li>
-      <li>SimpleGun</li>
-      <!-- Mod support -->
-      <li>PoorPirate</li>
-      <li>NormalPirate</li>
-      <li>GoblinTech</li>
+		<li>RWPGun</li>
+		<li>RWPLowCapacity</li>
+		<li>Gun</li>
+		<li>SimpleGun</li>
+		<li>PumpShotgun</li>
+		<li>Shotgun</li>
+		<!-- Mod support -->
+		<li>PoorPirate</li>
+		<li>NormalPirate</li>
+		<li>GoblinBow</li>
+		<li>GoblinRanged</li>
+		<li>BeanManRanged</li>
+		<li>GnomeRanged</li>
+		<li>RF_PocketGun</li>
+		<li>Mafia_Gun</li>
+		<li>Mafia_Pompe</li>
+		<li>mafia_pompe</li>
+		<li>Mafia_fusil</li>
     </weaponTags>
   </ThingDef>
   <!-- Three Crown Coach Gun -->
@@ -432,7 +460,7 @@
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites></researchPrerequisites> <!-- Inherits from the Base -->
     </recipeMaker>
     <verbs>
       <li>
@@ -466,9 +494,15 @@
       </li>
     </tools>
     <weaponTags>
-      <li>RWPGun</li>
-      <li>RWPLowCapacity</li>
-      <li>Gun</li>
+		<li>RWPGun</li>
+		<li>RWPLowCapacity</li>
+		<li>Gun</li>
+		<li>Mafia_Pompe</li>
+		<li>mafia_pompe</li>
+		<li>GoblinTech</li>
+		<li>BeanManRanged</li>
+		<li>CaravaneerRanged</li>
+		<li>K4GHeavyShotgun</li>
     </weaponTags>
   </ThingDef>
   <!-- ==================== Revolvers and Pistols ================================ -->
@@ -490,7 +524,7 @@
   <ThingDef ParentName="RWPBaseHumanMakeableGun">
     <defName>Gun_ColtPeacemaker</defName>
     <label>Colt Single Action Army</label>
-    <description>The Colt Single Action Army, more famously known as the Colt Peacemaker, is arguably the most iconic firearm of the Old West. This fixed cylinder revolver was the favored sidearm of lawmen and outlaws alike, including the Texas Rangers, Wyatt Earp, Bat Masterson, John Selman, Wes Hardin, John Slaughter, and the Dalton Gang.</description>
+    <description>The Colt Single Action Army, more famously known as the Colt Peacemaker, is arguably the most iconic firearm of the Old West. This fixed cylinder revolver was the favored sidearm of lawmen and outlaws alike, including  Chuck Norris, the Texas Rangers, Wyatt Earp, Bat Masterson, John Selman, Wes Hardin, John Slaughter, and the Dalton Gang.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponsRanged/ColtPeacemaker</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -510,7 +544,7 @@
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites></researchPrerequisites> <!-- Inherits from the Base -->
     </recipeMaker>
     <verbs>
       <li>
@@ -548,6 +582,7 @@
       <li>RWPRevolver</li>
       <li>Revolver</li>
       <li>SimpleGun</li>
+	  <li>RN_ColtCobra</li>
     </weaponTags>
   </ThingDef>
   <!-- Colt Buntline Special -->
@@ -588,7 +623,7 @@
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites></researchPrerequisites> <!-- Inherits from the Base -->
     </recipeMaker>
     <verbs>
       <li>
@@ -626,6 +661,7 @@
       <li>RWPRevolver</li>
       <li>SimpleGun</li>
       <li>Revolver</li>
+	  <li>RN_ColtCobra</li>
     </weaponTags>
   </ThingDef>
   <!-- Colt Frontier Six-Shooter -->
@@ -666,7 +702,7 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites></researchPrerequisites> <!-- Inherits from the Base -->
     </recipeMaker>
     <verbs>
       <li>
@@ -704,6 +740,7 @@
       <li>RWPRevolver</li>
       <li>SimpleGun</li>
       <li>Revolver</li>
+	  <li>RN_ColtCobra</li>
     </weaponTags>
   </ThingDef>
   <!-- Colt Open Top -->
@@ -723,7 +760,7 @@
   </ThingDef>
   <ThingDef ParentName="RWPBaseHumanMakeableGun">
     <defName>Gun_ColtOpenTop</defName>
-    <label>Colt Open Top</label>
+    <label>Colt Open Top revolver</label>
     <description>The Colt Open Top, sometimes otherwise known as the Colt Model 1871-72 Open Top, is a rear-loading revolver chambered for the .44 Henry cartridge. Developed in 1871, this revolver was Colt's first attempt at creating a rear-loading revolver for metallic cartridges, and it would later serve as the prototype for the immensely successful Colt Single Action Army.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponsRanged/ColtOpenTop</texPath>
@@ -744,7 +781,7 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites></researchPrerequisites> <!-- Inherits from the Base -->
     </recipeMaker>
     <verbs>
       <li>
@@ -782,6 +819,7 @@
       <li>RWPRevolver</li>
       <li>SimpleGun</li>
       <li>Revolver</li>
+	  <li>RN_ColtCobra</li>
     </weaponTags>
   </ThingDef>
   <!-- Colt M1878 Revolver -->
@@ -822,7 +860,7 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites></researchPrerequisites> <!-- Inherits from the Base -->
     </recipeMaker>
     <verbs>
       <li>
@@ -860,6 +898,7 @@
       <li>RWPRevolver</li>
       <li>Revolver</li>
       <li>SimpleGun</li>
+	  <li>RN_ColtCobra</li>
     </weaponTags>
   </ThingDef>
   <!-- ==================== Rifles ================================ -->
@@ -900,7 +939,9 @@
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites Inherit="False">
+		<li>Gunsmithing</li>
+	  </researchPrerequisites>
     </recipeMaker>
     <verbs>
       <li>
@@ -938,6 +979,7 @@
       <li>RWPRifle</li>
       <li>Gun</li>
       <li>SimpleGun</li>
+	  <li>RN_ColtCobra</li>
     </weaponTags>
   </ThingDef>
   <!-- Henry Rifle -->
@@ -977,7 +1019,9 @@
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites Inherit="False">
+		<li>Gunsmithing</li>
+	  </researchPrerequisites>
     </recipeMaker>
     <verbs>
       <li>
@@ -1016,7 +1060,10 @@
       <li>SimpleGun</li>
       <li>Gun</li>
       <!-- Mod support -->
-      <li>GoblinTech</li>
+      <li>GoblinBow</li>
+	  <li>GoblinRanged</li>
+	  <li>RN_ColtCobra</li>
+	  <li>Mafia_Gun</li>
     </weaponTags>
   </ThingDef>
   <!-- Winchester 1873 -->
@@ -1056,7 +1103,9 @@
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites Inherit="False">
+		<li>Gunsmithing</li>
+	  </researchPrerequisites>
     </recipeMaker>
     <verbs>
       <li>
@@ -1135,7 +1184,9 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites Inherit="False">
+		<li>Gunsmithing</li>
+	  </researchPrerequisites>
     </recipeMaker>
     <verbs>
       <li>
@@ -1173,6 +1224,7 @@
       <li>RWPRifle</li>
       <li>Gun</li>
       <li>SimpleGun</li>
+	  <li>Mafia_Gun</li>
     </weaponTags>
   </ThingDef>
   <!-- Marlin Model 1894 -->
@@ -1212,7 +1264,9 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites Inherit="False">
+		<li>Gunsmithing</li>
+	  </researchPrerequisites>
     </recipeMaker>
     <verbs>
       <li>
@@ -1289,7 +1343,9 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites Inherit="False">
+		<li>Gunsmithing</li>
+	  </researchPrerequisites>
     </recipeMaker>
     <verbs>
       <li>
@@ -1326,6 +1382,7 @@
       <li>RWPGun</li>
       <li>RWPSniper</li>
       <li>Gun</li>
+	  <li>Mafia_Gun</li>
     </weaponTags>
   </ThingDef>
   <!-- Sharps Model 1874 -->
@@ -1345,7 +1402,7 @@
   <ThingDef ParentName="RWPBaseHumanMakeableGun">
     <defName>Gun_M_OneEightSevenFour_Sharps</defName>
     <label>Sharps Model 1874</label>
-    <description>The Sharps Model 1874, otherwise known as the “buffalo rifle” due to its heavy use by hide hunters, is a falling-block action rifle that was so renowned for its long range accuracy and stopping power that Native American tribes referred to it as the “shoot today, kill tomorrow” gun. At the Second Battle of Adobe Walls in 1874, buffalo hunter Billy Dixon used a Sharps Model 1874 to make his legendary shot that killed a Comanche warrior 1,538-yard away, demoralizing the Comanche warband so badly that they effectively abandoned the siege. Comes equipped with an 8X Malcolm scope.</description>
+    <description>The Sharps Model 1874, otherwise known as the “buffalo rifle” due to its heavy use by hide hunters, is a falling-block action rifle that was so renowned for its long range accuracy and stopping power that Native American tribes referred to it as the “shoot today, kill tomorrow” gun. At the Second Battle of Adobe Walls in 1874, bison hunter Billy Dixon used a Sharps Model 1874 to make his legendary shot that killed a Comanche warrior 1,538-yard away, demoralizing the Comanche warband so badly that they effectively abandoned the siege. Comes equipped with an 8X Malcolm scope.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponsRanged/Sharps1874</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1365,7 +1422,9 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisites Inherit="False">
+		<li>Gunsmithing</li>
+	  </researchPrerequisites>
     </recipeMaker>
     <verbs>
       <li>
@@ -1404,6 +1463,13 @@
       <li>Gun</li>
       <!-- Mod support -->
       <li>GoblinTech</li>
+	  <li>BeanManRanged</li>
+	  <li>HarrierRanged</li>
+	  <li>SurvivalistRanged</li>
+	  <li>GnomeRanged</li>
+	  <li>Mafia_Gun</li>
+	  <li>K4GHeavyShotgun</li>
+	  <li>Mafia_fusil</li>
     </weaponTags>
   </ThingDef>
 </Defs>

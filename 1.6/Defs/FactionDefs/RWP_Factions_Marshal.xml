@@ -31,7 +31,10 @@
     </raidCommonalityFromPointsCurve>
     <earliestRaidDays>120</earliestRaidDays>
     <allowedCultures>
-      <li>Rustican</li>
+		<li>Rustican</li>
+		<li MayRequire="TSP.qux.factionsmaster">Americaine</li>
+		<li MayRequire="qux.factionsusa">Americaine</li>
+		<li MayRequire="TSP.qux.factionsmaster">TSP_Dixie</li>
     </allowedCultures>
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
