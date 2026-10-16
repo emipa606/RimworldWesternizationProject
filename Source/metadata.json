@@ -8,5 +8,11 @@
   "SearchTags": [
     " wild west",
     " historical"
-  ]
+  ],
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 307880,
+  "CodeBaseSize": 86
 }
