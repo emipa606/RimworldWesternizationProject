@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Rimworld Westernization Project (Continued)</name>
+  <name>[1.6] Rimworld Westernization Project (Continued)</name>
   <packageId>Mlie.RimworldWesternizationProject</packageId>
   <author>Tamias and JackeryFox</author>
   <url>https://github.com/emipa606/RimworldWesternizationProject</url>
@@ -15,8 +15,9 @@
 Update of Tamias and JackeryFoxs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1119081000
 
-[b]The release of RimWorld 1.6 added improved support for [url=https://github.com/emipa606/AssetBuilder/blob/main/README.md]Asset Bundles[/url][/b].
-To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2237100861]here[/url].
+[b]The release of RimWorld 1.7 added a system where assets like textures and sounds can be cached to improve performance[/b].
+To avoid doubling the size of the mod, it was re-released with only this cache included, you can find the new version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820988377]here[/url].
+This version will not receive any further updates.
 
 - Added the CE patch to the mod, will load if CE is active
 - Works well with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2238859064]Steam World (Continued)[/url]
@@ -28,7 +29,7 @@ Load order: Just use the auto-sort and it should be fine
 [table]
 	[tr]
 		[td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
-		[td][url=https://github.com/emipa606/RimworldWesternizationProject][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/RimworldWesternizationProject/tree/assetbundles][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
         [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
@@ -126,7 +127,6 @@ Links
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list]  | tags:  wild west,  historical 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3498164561][img]https://img.shields.io/github/v/release/emipa606/RimworldWesternizationProject?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  wild west,  historical
-</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3498164561][img]https://img.shields.io/github/v/release/emipa606/RimworldWesternizationProject?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | wild west, historical</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.2</modVersion>
 </ModMetaData>

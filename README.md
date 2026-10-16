@@ -1,21 +1,22 @@
-# [Rimworld Westernization Project (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3498164561)
+# [[1.6] Rimworld Westernization Project (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3498164561)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Tamias and JackeryFoxs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1119081000
 
-**The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md)**.
-To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2237100861).
+**The release of RimWorld 1.7 added a system where assets like textures and sounds can be cached to improve performance**.
+To avoid doubling the size of the mod, it was re-released with only this cache included, you can find the new version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3820988377).
+This version will not receive any further updates.
 
 - Added the CE patch to the mod, will load if CE is active
 - Works well with [Steam World (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2238859064)
 
 Load order: Just use the auto-sort and it should be fine
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 Howdy partner! The Rimworld Westernization Project (RWP) is a mod designed to bring a historically accurate taste of the American Old West to the denizens of Rimworld. The mod currently adds:
 
@@ -94,13 +95,13 @@ Links
 [ModDB](https://www.moddb.com/games/rimworld/downloads/rimworld-westernization-project)
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -108,4 +109,4 @@ Links
 
   | tags:  wild west,  historical 
 
-[![Image](https://img.shields.io/github/v/release/emipa606/RimworldWesternizationProject?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3498164561) | tags:  wild west,  historical
+[![Image](https://img.shields.io/github/v/release/emipa606/RimworldWesternizationProject?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3498164561) | wild west, historical
