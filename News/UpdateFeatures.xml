@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="RimworldWesternizationProject_UpdateFeatureBase">
+		<modNameReadable>RimworldWesternizationProject</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3820988377</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="RimworldWesternizationProject_UpdateFeatureBase">
+		<defName>RimworldWesternizationProject_1_7_0</defName>
+		<assemblyVersion>1.7.0</assemblyVersion>
+		<content>This mod will not be further updated, please use Rimworld Westernization Project (Continued) (TSP) by TurtleShroom instead.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+
